@@ -266,7 +266,7 @@ function renderCause() {
     `<a href="${esc(x.url)}" target="_blank" rel="noopener noreferrer">${esc(x.label)}</a>`).join(" · ");
   $("ctxCause").innerHTML = `
     <div class="cause">
-      <div class="cause-stat"><span class="cause-num">+50%</span><span class="cause-co2">CO₂</span></div>
+      <div class="cause-stat"><div class="cause-num">+50%</div><div class="cause-sub">CO₂</div></div>
       <div class="cause-body">
         <h3>${esc(t("cause_title"))}</h3>
         <p>${esc(t("cause_body"))}</p>

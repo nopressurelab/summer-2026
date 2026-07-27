@@ -168,14 +168,15 @@ header.site p.tag { margin: 0; color: var(--text-secondary); max-width: 60ch; }
 
 /* "what drives it" cause callout */
 .cause {
-  display: flex; gap: 18px; align-items: center; margin: 4px 0 18px;
+  display: flex; gap: 20px; align-items: center; margin: 4px 0 18px;
   padding: 16px 18px; border-radius: 10px; flex-wrap: wrap;
-  background: color-mix(in srgb, var(--series-political) 8%, transparent);
-  border: 1px solid var(--border); border-left: 3px solid var(--series-political);
+  background: color-mix(in srgb, #d03b3b 7%, transparent);
+  border: 1px solid var(--border); border-left: 3px solid #d03b3b;
 }
-.cause-stat { flex: 0 0 auto; text-align: center; line-height: 1; }
-.cause-num { display: block; font-size: 2.4rem; font-weight: 700; letter-spacing: -0.02em; color: var(--series-political); }
-.cause-co2 { display: block; font-size: .95rem; font-weight: 600; color: var(--text-secondary); margin-top: 2px; }
+/* mirror the warming hero (.warming-num / .warming-sub) exactly */
+.cause-stat { flex: 0 0 auto; text-align: center; padding: 8px 20px 8px 4px; }
+.cause-num { font-size: 3.2rem; font-weight: 700; line-height: 1; letter-spacing: -0.02em; color: #d03b3b; }
+.cause-sub { color: var(--muted); font-size: .8rem; margin-top: 4px; }
 .cause-body { flex: 1 1 320px; }
 .cause-body h3 { margin: 0 0 6px; font-size: 1.02rem; }
 .cause-body p { margin: 0 0 8px; color: var(--text-secondary); font-size: .92rem; }
