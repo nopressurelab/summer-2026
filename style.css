@@ -130,7 +130,8 @@ header.site p.tag { margin: 0; color: var(--text-secondary); max-width: 60ch; }
 
 /* climate-context module */
 .context { border-left: 3px solid var(--series-climate); }
-.ctx-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; margin-top: 8px; }
+.ctx-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-top: 8px; }
+@media (max-width: 560px) { .ctx-grid { grid-template-columns: 1fr; } }
 .ctx-item { background: color-mix(in srgb, var(--series-climate) 6%, transparent); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; scroll-margin-top: 16px; }
 .ctx-item h3 { margin: 0 0 6px; font-size: .98rem; }
 .ctx-item p { margin: 0 0 10px; color: var(--text-secondary); font-size: .9rem; }
