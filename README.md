@@ -82,7 +82,8 @@ For higher-quality extraction locally, `pip install -r requirements.txt` first.
 | `--source rss\|gdelt` | discovery method (default `rss`) |
 | `--backfill` | GDELT: process oldest unprocessed days first (stateful) |
 | `--backfill-days N` | days to process per backfill run (default 5) |
-| `--window-days N` | rolling window; older articles are pruned (default 90) |
+| `--window-days N` | how far back the GDELT backfill walks (default 90; GDELT only serves ~3 months) |
+| `--no-prune` | keep every article forever (the daily Action uses this) |
 | `--languages en,fr` | subset of `en,fr,es,de,it` |
 | `--topics wildfire` | subset of `heatwave,excess_deaths,wildfire` |
 | `--no-accumulate` | overwrite the dataset instead of merging |
@@ -128,9 +129,11 @@ After editing, re-run and spot-check a few flagged articles against the source.
   you can check each call; treat aggregates as indicative, not authoritative.
 - **Paywalls / fetch failures** leave an article without full text; these are
   marked **low-confidence** and classified from the headline + RSS summary only.
-- **Rolling window.** The dataset keeps the last `--window-days` (90) and prunes
-  older items; GDELT itself only serves ~3 months, which bounds how far the
-  backfill can reach.
+- **Cumulative archive.** The daily job runs with `--no-prune`, so nothing already
+  collected is ever deleted — the dataset grows over time. GDELT itself only serves
+  ~3 months, which bounds how far *back* the backfill can newly reach, but RSS keeps
+  extending coverage forward. (Over a long period `data/articles.json` will get
+  large; if that becomes an issue, split it per year or re-enable pruning.)
 - **Publisher ≠ event location.** `source_country` is where the outlet is based,
   not where the heat wave or fire happened.
 - **Upgrade path.** The classifier is deliberately isolated in `classify.py`; it

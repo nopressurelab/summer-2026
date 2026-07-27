@@ -11,9 +11,10 @@ Two discovery sources, both feeding one accumulated dataset:
     # one-shot GDELT over a relative window (no state)
     python -m pipeline.build --source gdelt --timespan 3m
 
-Each run MERGES into data/articles.json (dedupe by URL) and prunes anything
-older than --window-days, so RSS grows coverage going forward while the backfill
-fills history going backward.
+Each run MERGES into data/articles.json (dedupe by URL). By default old items
+outside --window-days are pruned; pass --no-prune (as the daily Action does) to
+keep everything forever. RSS grows coverage forward while the backfill fills
+history backward.
 
 Output (served at the site root by GitHub Pages):
     data/articles.json         - one record per article (excerpt only)
