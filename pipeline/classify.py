@@ -117,7 +117,7 @@ def classify_all(rows_by_url, matchers):
 
 _LANG_TO_CODE = {
     "English": "en", "French": "fr", "Spanish": "es",
-    "German": "de", "Italian": "it",
+    "German": "de", "Italian": "it", "Portuguese": "pt",
 }
 
 
