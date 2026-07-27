@@ -41,15 +41,21 @@ def build_query(topic_terms, sourcelang, domains=None):
     return query
 
 
-def _request(query, maxrecords, timespan):
+def _request(query, maxrecords, timespan=None, start=None, end=None):
     params = {
         "query": query,
         "mode": "ArtList",
         "format": "json",
         "maxrecords": str(maxrecords),
-        "timespan": timespan,
         "sort": "datedesc",
     }
+    # A date window (start/end, GDELT format YYYYMMDDHHMMSS) takes precedence
+    # over a relative timespan; used by the retroactive backfill.
+    if start and end:
+        params["startdatetime"] = start
+        params["enddatetime"] = end
+    else:
+        params["timespan"] = timespan or "3m"
     url = API + "?" + urllib.parse.urlencode(params)
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     with urllib.request.urlopen(req, timeout=60) as resp:
@@ -65,12 +71,12 @@ def _request(query, maxrecords, timespan):
 
 
 def fetch_topic(topic, topic_terms, sourcelang, language, maxrecords,
-                timespan, pause, retries, domains=None):
+                timespan, pause, retries, domains=None, start=None, end=None):
     query = build_query(topic_terms, sourcelang, domains)
     attempt = 0
     while True:
         try:
-            articles = _request(query, maxrecords, timespan)
+            articles = _request(query, maxrecords, timespan, start, end)
             break
         except urllib.error.HTTPError as exc:
             if exc.code == 429 and attempt < retries:
@@ -108,7 +114,7 @@ def fetch_topic(topic, topic_terms, sourcelang, language, maxrecords,
 
 
 def fetch_all(keyword_sets, sources_by_code=None, maxrecords=250,
-              timespan="3m", pause=5.0, retries=3):
+              timespan="3m", pause=5.0, retries=3, start=None, end=None):
     """Query every language x topic. `keyword_sets` maps lang-code -> config dict.
 
     `sources_by_code` optionally maps lang-code -> list of allowlisted domains;
@@ -134,7 +140,7 @@ def fetch_all(keyword_sets, sources_by_code=None, maxrecords=250,
             for batch in batches:
                 rows = fetch_topic(topic, terms, sourcelang, language,
                                    maxrecords, timespan, pause, retries,
-                                   domains=batch)
+                                   domains=batch, start=start, end=end)
                 got += len(rows)
                 for row in rows:
                     existing = by_url.get(row["url"])
