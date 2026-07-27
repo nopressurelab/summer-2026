@@ -40,10 +40,11 @@
 
   <script src="i18n.js"></script>
   <script>
-    (function () {
+    (async function () {
       const $ = (id) => document.getElementById(id);
       const saved = localStorage.getItem("theme");
       if (saved) document.documentElement.setAttribute("data-theme", saved);
+      try { await loadI18n(); } catch (e) { /* fall back to defaults */ }
 
       function apply() {
         document.documentElement.lang = getLocale();

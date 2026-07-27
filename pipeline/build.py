@@ -30,6 +30,7 @@ from . import fetch as fetch_mod
 from . import fetch_rss as fetch_rss_mod
 from . import extract as extract_mod
 from . import classify as classify_mod
+from . import warming as warming_mod
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 KEYWORDS_DIR = os.path.join(HERE, "keywords")
@@ -311,7 +312,12 @@ def main():
                     help="GDELT: ignore allowlist; sweep every outlet")
     ap.add_argument("--no-accumulate", action="store_true",
                     help="overwrite the dataset instead of merging with prior runs")
+    ap.add_argument("--no-warming", action="store_true",
+                    help="skip refreshing data/warming.json from NASA GISTEMP")
     args = ap.parse_args()
+
+    if not args.no_warming:
+        warming_mod.update(DATA_DIR)
 
     langs = [c.strip() for c in args.languages.split(",") if c.strip()]
     only_topics = {t.strip() for t in args.topics.split(",") if t.strip()}

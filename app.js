@@ -219,35 +219,111 @@ function divergeColor(tn) {
   const blue = [42, 120, 214], mid = [233, 230, 223], red = [208, 59, 59];
   return tn < 0.5 ? _mix(blue, mid, tn * 2) : _mix(mid, red, (tn - 0.5) * 2);
 }
-function renderWarming() {
-  const s = WARMING;
-  const vals = s.series.map((d) => d.a);
+function stripesHtml(series, keyY, keyA, span) {
+  const vals = series.map((d) => d[keyA]);
   const min = Math.min(...vals), max = Math.max(...vals);
-  const stripes = s.series.map((d) => {
-    const tn = (d.a - min) / ((max - min) || 1);
-    return `<span class="stripe" style="background:${divergeColor(tn)}" title="${d.y}–${d.y + 4}: +${d.a.toFixed(2)}°C"></span>`;
+  return series.map((d) => {
+    const tn = (d[keyA] - min) / ((max - min) || 1);
+    const range = span > 1 ? `${d[keyY]}–${d[keyY] + span - 1}` : `${d[keyY]}`;
+    const sign = d[keyA] >= 0 ? "+" : "";
+    return `<span class="stripe" style="background:${divergeColor(tn)}" title="${range}: ${sign}${d[keyA].toFixed(2)}°C"></span>`;
   }).join("");
-  const first = s.series[0].y, last = s.series[s.series.length - 1].y;
-  const srcs = s.sources.map((x) =>
+}
+function renderWarming() {
+  const s = state.warming || WARMING;   // live data/warming.json wins
+  const span = s.span || 1;
+  const first = s.series[0].y;
+  const lastd = s.series[s.series.length - 1];
+  const y1 = span > 1 ? lastd.y + span - 1 : lastd.y;
+  const lastLabel = span > 1 ? `${lastd.y}–${y1}` : `${lastd.y}`;
+  const srcs = (s.sources || []).map((x) =>
     `<a href="${esc(x.url)}" target="_blank" rel="noopener noreferrer">${esc(x.label)}</a>`).join(" · ");
   $("ctxWarming").innerHTML = `
     <div class="warming">
       <div class="warming-hero">
         <div class="warming-num">+${s.hero_c}<span class="warming-unit">°C</span></div>
-        <div class="warming-sub">${esc(t("warming_hero_sub"))}</div>
+        <div class="warming-sub">${esc(t("warming_hero_sub", { year: s.hero_year || "" }))}</div>
       </div>
       <div class="warming-body">
         <h3>${esc(t("warming_title"))}</h3>
         <p>${esc(t("warming_lead", { c: s.hero_c }))}</p>
-        <div class="stripes" role="img" aria-label="${esc(t("warming_title"))}">${stripes}</div>
-        <div class="stripe-labels"><span>${first}</span><span>${last}–${last + 4}</span></div>
-        <div class="warming-cap">${esc(t("warming_caption"))} · ${esc(t("ctx_sources"))}: ${srcs}</div>
+        <div class="stripes" role="img" aria-label="${esc(t("warming_title"))}">${stripesHtml(s.series, "y", "a", span)}</div>
+        <div class="stripe-labels"><span>${first}</span><span>${lastLabel}</span></div>
+        <div class="warming-cap">${esc(t("warming_caption", { y0: first, y1: y1 }))} · ${esc(t("ctx_sources"))}: ${srcs}</div>
         <div class="avg-note">
           <strong>${esc(t("warming_avg_title"))}</strong>
           <span>${esc(t("warming_avg"))}</span>
         </div>
       </div>
     </div>`;
+}
+
+/* ---------- local "how has it changed where you live?" lookup ---------- */
+function renderLocal() {
+  const saved = state.localCity || localStorage.getItem("localcity") || "";
+  $("ctxLocal").innerHTML = `
+    <div class="local-box">
+      <label class="local-q" for="cityInput">${esc(t("local_title"))}</label>
+      <div class="local-input">
+        <input type="text" id="cityInput" placeholder="${esc(t("local_prompt"))}" value="${esc(saved)}">
+        <button id="cityBtn" type="button">${esc(t("local_button"))}</button>
+      </div>
+      <div id="localResult"></div>
+    </div>`;
+  $("cityBtn").addEventListener("click", runLocal);
+  $("cityInput").addEventListener("keydown", (e) => { if (e.key === "Enter") runLocal(); });
+  if (state.localResult) renderLocalResult(state.localResult);
+}
+async function runLocal() {
+  const q = $("cityInput").value.trim();
+  if (!q) return;
+  const box = $("localResult");
+  box.innerHTML = `<div class="local-loading">${esc(t("local_loading"))}</div>`;
+  try {
+    const geo = await fetch(`https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(q)}&count=1&language=${getLocale()}`).then((r) => r.json());
+    if (!geo.results || !geo.results.length) {
+      box.innerHTML = `<div class="local-err">${esc(t("local_notfound"))}</div>`; return;
+    }
+    const g = geo.results[0];
+    const lastYear = new Date().getUTCFullYear() - 1;
+    const url = `https://archive-api.open-meteo.com/v1/archive?latitude=${g.latitude}&longitude=${g.longitude}&start_date=1960-01-01&end_date=${lastYear}-12-31&daily=temperature_2m_mean&timezone=auto`;
+    const arch = await fetch(url).then((r) => r.json());
+    const res = computeLocal(g, arch);
+    if (!res) { box.innerHTML = `<div class="local-err">${esc(t("local_error"))}</div>`; return; }
+    state.localCity = q; state.localResult = res; localStorage.setItem("localcity", q);
+    renderLocalResult(res);
+  } catch (e) {
+    box.innerHTML = `<div class="local-err">${esc(t("local_error"))}</div>`;
+  }
+}
+function _mean(a) { return a.reduce((x, y) => x + y, 0) / a.length; }
+function computeLocal(g, arch) {
+  const times = arch && arch.daily && arch.daily.time;
+  const temps = arch && arch.daily && arch.daily.temperature_2m_mean;
+  if (!times || !temps) return null;
+  const byYear = {};
+  for (let i = 0; i < times.length; i++) {
+    const v = temps[i]; if (v == null) continue;
+    const y = +times[i].slice(0, 4);
+    (byYear[y] = byYear[y] || []).push(v);
+  }
+  const years = Object.keys(byYear).map(Number).sort((a, b) => a - b);
+  const annual = years.map((y) => ({ y, m: _mean(byYear[y]) }));
+  if (annual.length < 20) return null;
+  const base = _mean(annual.slice(0, Math.min(30, Math.floor(annual.length / 2))).map((d) => d.m));
+  const recent = _mean(annual.slice(-10).map((d) => d.m));
+  const anoms = annual.map((d) => ({ y: d.y, a: d.m - base }));
+  const name = [g.name, g.admin1, g.country].filter(Boolean).join(", ");
+  return { name, y0: annual[0].y, y1: annual[annual.length - 1].y,
+    delta: Math.round((recent - base) * 10) / 10, anoms };
+}
+function renderLocalResult(res) {
+  const d = (res.delta >= 0 ? "+" : "") + res.delta.toFixed(1);
+  $("localResult").innerHTML = `
+    <div class="local-head">${esc(t("local_result", { city: res.name, d: d, y0: res.y0 }))}</div>
+    <div class="stripes" role="img" aria-label="${esc(res.name)}">${stripesHtml(res.anoms, "y", "a", 1)}</div>
+    <div class="stripe-labels"><span>${res.y0}</span><span>${res.y1}</span></div>
+    <div class="warming-cap">${esc(t("local_caption", { y0: res.y0, y1: res.y1 }))} · ${esc(t("ctx_sources"))}: <a href="https://open-meteo.com/" target="_blank" rel="noopener noreferrer">Open-Meteo (ERA5)</a></div>`;
 }
 function renderStats() {
   $("ctxStats").innerHTML = KEYSTATS.map((st) => {
@@ -264,6 +340,7 @@ function renderStats() {
 /* ---------- climate-context module ---------- */
 function renderContext() {
   renderWarming();
+  renderLocal();
   renderStats();
   const topics = ["heatwave", "excess_deaths", "wildfire"];
   $("ctxGrid").innerHTML = topics.map((tp) => {
@@ -348,6 +425,7 @@ function renderAll() {
 
 /* ---------- boot ---------- */
 async function boot() {
+  try { await loadI18n(); } catch (e) { /* fall back to built-in defaults */ }
   initTheme();
   initUiLang();
   applyStaticI18n();
@@ -361,8 +439,8 @@ async function boot() {
   ["q", "fLang", "fTopic", "fSource", "fFlag", "sort"].forEach((id) =>
     $(id).addEventListener("input", applyFilters));
 
+  const bust = "?v=" + Date.now();
   try {
-    const bust = "?v=" + Date.now();
     const [articles, meta] = await Promise.all([
       fetch("data/articles.json" + bust, { cache: "no-store" }).then((r) => r.json()),
       fetch("data/meta.json" + bust, { cache: "no-store" }).then((r) => r.json()),
@@ -373,6 +451,9 @@ async function boot() {
     $("updated").textContent = "Could not load data. Run the pipeline to generate data/*.json.";
     return;
   }
+  // Live global-warming series (optional; falls back to the table in strings.json).
+  state.warming = await fetch("data/warming.json" + bust, { cache: "no-store" })
+    .then((r) => (r.ok ? r.json() : null)).catch(() => null);
   renderAll();
 }
 
