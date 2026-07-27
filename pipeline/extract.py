@@ -21,6 +21,26 @@ except Exception:
 
 _SKIP_TAGS = {"script", "style", "noscript", "template", "svg", "head"}
 
+# Consent walls / JS-required / error interstitials sometimes come back instead
+# of the article. Treating them as real text would fabricate "omission" flags
+# from articles we never actually read, so we reject them (-> low-confidence,
+# classified from title + RSS summary instead).
+_NON_ARTICLE_MARKERS = (
+    "a required part of this site couldn't load",
+    "a required part of this site couldn’t load",
+    "please enable javascript", "enable javascript to",
+    "javascript is disabled", "javascript est désactivé",
+    "veuillez activer javascript", "aktivieren sie javascript",
+    "por favor, activa javascript", "abilita javascript",
+    "subscribe to continue reading", "subscribe to read",
+    "this content is not available in your region",
+)
+
+
+def _looks_like_non_article(text):
+    head = text[:600].casefold()
+    return any(m in head for m in _NON_ARTICLE_MARKERS)
+
 
 class _TextExtractor(HTMLParser):
     def __init__(self):
@@ -71,12 +91,13 @@ def extract(url, timeout=20):
             if downloaded:
                 text = trafilatura.extract(
                     downloaded, include_comments=False, include_tables=False)
-                if text and len(text) > 200:
+                if text and len(text) > 200 and not _looks_like_non_article(text):
                     return text, True
             # Fall through to stdlib on trafilatura miss.
         html = _download(url, timeout)
         text = _stdlib_extract(html)
-        return (text, len(text) > 200)
+        ok = len(text) > 200 and not _looks_like_non_article(text)
+        return (text if ok else "", ok)
     except Exception as exc:
         return ("", False)
 
