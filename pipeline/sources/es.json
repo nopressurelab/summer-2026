@@ -1,0 +1,22 @@
+{
+  "language": "Spanish",
+  "_comment": "Curated major Spanish-language outlets (Spain + Latin America). Add {name, domain} entries to grow the list. When non-empty, GDELT results are restricted to these domains; empty (or --no-sources) sweeps every Spanish outlet.",
+  "sources": [
+    { "name": "El País", "domain": "elpais.com" },
+    { "name": "El Mundo", "domain": "elmundo.es" },
+    { "name": "ABC", "domain": "abc.es" },
+    { "name": "La Vanguardia", "domain": "lavanguardia.com" },
+    { "name": "El Confidencial", "domain": "elconfidencial.com" },
+    { "name": "elDiario.es", "domain": "eldiario.es" },
+    { "name": "El Periódico", "domain": "elperiodico.com" },
+    { "name": "La Razón", "domain": "larazon.es" },
+    { "name": "Público", "domain": "publico.es" },
+    { "name": "20minutos", "domain": "20minutos.es" },
+    { "name": "Clarín (AR)", "domain": "clarin.com" },
+    { "name": "La Nación (AR)", "domain": "lanacion.com.ar" },
+    { "name": "El Universal (MX)", "domain": "eluniversal.com.mx" },
+    { "name": "Milenio (MX)", "domain": "milenio.com" },
+    { "name": "El Tiempo (CO)", "domain": "eltiempo.com" },
+    { "name": "Emol (CL)", "domain": "emol.com" }
+  ]
+}

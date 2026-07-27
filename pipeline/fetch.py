@@ -18,16 +18,27 @@ USER_AGENT = "climate-silent-coverage-dashboard/1.0 (+github pages media-watch)"
 # Max terms per topic to put into a single GDELT query (keeps the query short
 # and precise; the full keyword lists are still used later for classification).
 MAX_QUERY_TERMS = 6
+# How many allowlisted domains to OR into a single GDELT query (keeps the query
+# length sane; more domains than this are fetched across several queries).
+CHUNK_DOMAINS = 10
 
 
 def _quote_term(term):
     return '"%s"' % term if " " in term else term
 
 
-def build_query(topic_terms, sourcelang):
+def _chunk(seq, n):
+    for i in range(0, len(seq), n):
+        yield seq[i:i + n]
+
+
+def build_query(topic_terms, sourcelang, domains=None):
     terms = topic_terms[:MAX_QUERY_TERMS]
     ors = " OR ".join(_quote_term(t) for t in terms)
-    return "(%s) sourcelang:%s" % (ors, sourcelang)
+    query = "(%s) sourcelang:%s" % (ors, sourcelang)
+    if domains:
+        query += " (%s)" % " OR ".join("domain:%s" % d for d in domains)
+    return query
 
 
 def _request(query, maxrecords, timespan):
@@ -54,8 +65,8 @@ def _request(query, maxrecords, timespan):
 
 
 def fetch_topic(topic, topic_terms, sourcelang, language, maxrecords,
-                timespan, pause, retries):
-    query = build_query(topic_terms, sourcelang)
+                timespan, pause, retries, domains=None):
+    query = build_query(topic_terms, sourcelang, domains)
     attempt = 0
     while True:
         try:

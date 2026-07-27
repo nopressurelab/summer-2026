@@ -1,0 +1,23 @@
+{
+  "language": "English",
+  "_comment": "Curated major English-language outlets. Add {name, domain} entries to grow the list. When this list is non-empty, GDELT results are restricted to these domains; delete all entries (or run with --no-sources) to sweep every English outlet instead.",
+  "sources": [
+    { "name": "The Guardian", "domain": "theguardian.com" },
+    { "name": "BBC News", "domain": "bbc.com" },
+    { "name": "BBC News (UK)", "domain": "bbc.co.uk" },
+    { "name": "The New York Times", "domain": "nytimes.com" },
+    { "name": "The Washington Post", "domain": "washingtonpost.com" },
+    { "name": "The Times", "domain": "thetimes.co.uk" },
+    { "name": "The Daily Telegraph", "domain": "telegraph.co.uk" },
+    { "name": "The Independent", "domain": "independent.co.uk" },
+    { "name": "Financial Times", "domain": "ft.com" },
+    { "name": "Reuters", "domain": "reuters.com" },
+    { "name": "Associated Press", "domain": "apnews.com" },
+    { "name": "CNN", "domain": "cnn.com" },
+    { "name": "The Wall Street Journal", "domain": "wsj.com" },
+    { "name": "Los Angeles Times", "domain": "latimes.com" },
+    { "name": "The Sydney Morning Herald", "domain": "smh.com.au" },
+    { "name": "The Irish Times", "domain": "irishtimes.com" },
+    { "name": "Sky News", "domain": "news.sky.com" }
+  ]
+}

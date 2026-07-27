@@ -1,0 +1,21 @@
+{
+  "language": "Italian",
+  "_comment": "Curated major Italian-language outlets. Add {name, domain} entries to grow the list. When non-empty, GDELT results are restricted to these domains; empty (or --no-sources) sweeps every Italian outlet.",
+  "sources": [
+    { "name": "Corriere della Sera", "domain": "corriere.it" },
+    { "name": "la Repubblica", "domain": "repubblica.it" },
+    { "name": "La Stampa", "domain": "lastampa.it" },
+    { "name": "Il Sole 24 Ore", "domain": "ilsole24ore.com" },
+    { "name": "Il Fatto Quotidiano", "domain": "ilfattoquotidiano.it" },
+    { "name": "Il Messaggero", "domain": "ilmessaggero.it" },
+    { "name": "Il Giornale", "domain": "ilgiornale.it" },
+    { "name": "Avvenire", "domain": "avvenire.it" },
+    { "name": "ANSA", "domain": "ansa.it" },
+    { "name": "Il Post", "domain": "ilpost.it" },
+    { "name": "Domani", "domain": "editorialedomani.it" },
+    { "name": "Rai News", "domain": "rainews.it" },
+    { "name": "Il Manifesto", "domain": "ilmanifesto.it" },
+    { "name": "Corriere / Open", "domain": "open.online" },
+    { "name": "La Nazione", "domain": "lanazione.it" }
+  ]
+}

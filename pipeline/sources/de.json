@@ -1,0 +1,21 @@
+{
+  "language": "German",
+  "_comment": "Curated major German-language outlets (DE + AT + CH). Add {name, domain} entries to grow the list. When non-empty, GDELT results are restricted to these domains; empty (or --no-sources) sweeps every German outlet.",
+  "sources": [
+    { "name": "Süddeutsche Zeitung", "domain": "sueddeutsche.de" },
+    { "name": "Frankfurter Allgemeine", "domain": "faz.net" },
+    { "name": "Die Zeit", "domain": "zeit.de" },
+    { "name": "Der Spiegel", "domain": "spiegel.de" },
+    { "name": "Die Welt", "domain": "welt.de" },
+    { "name": "Bild", "domain": "bild.de" },
+    { "name": "Tagesschau (ARD)", "domain": "tagesschau.de" },
+    { "name": "Frankfurter Rundschau", "domain": "fr.de" },
+    { "name": "taz", "domain": "taz.de" },
+    { "name": "Handelsblatt", "domain": "handelsblatt.com" },
+    { "name": "Focus", "domain": "focus.de" },
+    { "name": "n-tv", "domain": "n-tv.de" },
+    { "name": "Der Standard (AT)", "domain": "derstandard.at" },
+    { "name": "Die Presse (AT)", "domain": "diepresse.com" },
+    { "name": "Neue Zürcher Zeitung (CH)", "domain": "nzz.ch" }
+  ]
+}
