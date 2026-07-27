@@ -165,6 +165,20 @@ header.site p.tag { margin: 0; color: var(--text-secondary); max-width: 60ch; }
 }
 .avg-note strong { color: var(--text-primary); display: block; margin-bottom: 2px; }
 
+/* "what drives it" cause callout */
+.cause {
+  display: flex; gap: 18px; align-items: center; margin: 4px 0 18px;
+  padding: 16px 18px; border-radius: 10px; flex-wrap: wrap;
+  background: color-mix(in srgb, var(--series-political) 8%, transparent);
+  border: 1px solid var(--border); border-left: 3px solid var(--series-political);
+}
+.cause-stat { flex: 0 0 auto; text-align: center; line-height: 1; }
+.cause-num { display: block; font-size: 2.4rem; font-weight: 700; letter-spacing: -0.02em; color: var(--series-political); }
+.cause-co2 { display: block; font-size: .95rem; font-weight: 600; color: var(--text-secondary); margin-top: 2px; }
+.cause-body { flex: 1 1 320px; }
+.cause-body h3 { margin: 0 0 6px; font-size: 1.02rem; }
+.cause-body p { margin: 0 0 8px; color: var(--text-secondary); font-size: .92rem; }
+
 /* local "where you live" lookup */
 .local-box { margin: 4px 0 18px; padding: 14px 16px; border: 1px solid var(--border); border-radius: 10px; background: var(--surface-1); }
 .local-q { display: block; font-size: .92rem; font-weight: 600; margin-bottom: 8px; }

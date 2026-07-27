@@ -260,6 +260,21 @@ function renderWarming() {
     </div>`;
 }
 
+/* ---------- what drives climate change (fossil carbon, not natural cycles) ---------- */
+function renderCause() {
+  const srcs = (CONTEXT_SOURCES.cause || []).map((x) =>
+    `<a href="${esc(x.url)}" target="_blank" rel="noopener noreferrer">${esc(x.label)}</a>`).join(" · ");
+  $("ctxCause").innerHTML = `
+    <div class="cause">
+      <div class="cause-stat"><span class="cause-num">+50%</span><span class="cause-co2">CO₂</span></div>
+      <div class="cause-body">
+        <h3>${esc(t("cause_title"))}</h3>
+        <p>${esc(t("cause_body"))}</p>
+        <div class="warming-cap">${esc(t("cause_co2_label"))} · ${esc(t("ctx_sources"))}: ${srcs}</div>
+      </div>
+    </div>`;
+}
+
 /* ---------- local "how has it changed where you live?" lookup ---------- */
 function renderLocal() {
   const saved = state.localCity || localStorage.getItem("localcity") || "";
@@ -342,9 +357,10 @@ function renderStats() {
 /* ---------- climate-context module ---------- */
 function renderContext() {
   renderWarming();
+  renderCause();
   renderLocal();
   renderStats();
-  const topics = ["heatwave", "excess_deaths", "wildfire"];
+  const topics = ["heatwave", "excess_deaths", "wildfire", "floods"];
   $("ctxGrid").innerHTML = topics.map((tp) => {
     const srcs = (CONTEXT_SOURCES[tp] || []).map((s) =>
       `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.label)}</a>`).join(" · ");

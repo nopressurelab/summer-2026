@@ -11,7 +11,7 @@ on:
     inputs:
       backfill_days:
         description: "GDELT backfill: days to process this run"
-        default: "5"
+        default: "3"
       window_days:
         description: "Rolling window in days (older articles are pruned)"
         default: "90"
@@ -37,6 +37,11 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
       # 1) Forward: current items from each source's own RSS feeds (no rate limit).
       - name: Ingest RSS feeds
         run: |
@@ -44,24 +49,32 @@ jobs:
             --window-days "${{ github.event.inputs.window_days || '90' }}" \
             --pause 1
 
+      # Commit the (fast) RSS refresh immediately, so the slow backfill below can
+      # never block or lose it.
+      - name: Commit RSS data
+        run: |
+          git add data
+          if git diff --cached --quiet; then
+            echo "No RSS changes to commit."
+          else
+            git commit -m "chore: refresh RSS data ($(date -u +%Y-%m-%d))" && git push
+          fi
+
       # 2) Retroactive: fill history backward, oldest unprocessed day first.
       #    Bounded per run to stay friendly with GDELT's rate limits; state in
       #    data/backfill_state.json lets it resume next day.
       - name: Backfill from GDELT
         run: |
           python -m pipeline.build --source gdelt --backfill --no-prune \
-            --backfill-days "${{ github.event.inputs.backfill_days || '5' }}" \
+            --backfill-days "${{ github.event.inputs.backfill_days || '3' }}" \
             --window-days "${{ github.event.inputs.window_days || '90' }}" \
-            --pause 6
+            --pause 4
 
-      - name: Commit refreshed data
+      - name: Commit backfill data
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data
           if git diff --cached --quiet; then
-            echo "No data changes to commit."
+            echo "No backfill changes to commit."
           else
-            git commit -m "chore: refresh dashboard data ($(date -u +%Y-%m-%d))"
-            git push
+            git commit -m "chore: refresh backfill data ($(date -u +%Y-%m-%d))" && git push
           fi

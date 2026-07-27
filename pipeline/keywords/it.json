@@ -4,7 +4,8 @@
   "topics": {
     "heatwave": ["ondata di calore", "ondate di calore", "cupola di calore", "caldo estremo", "caldo record", "allerta caldo"],
     "excess_deaths": ["eccesso di mortalità", "morti per il caldo", "decessi legati al caldo", "sovramortalità", "vittime del caldo", "morti per il gran caldo"],
-    "wildfire": ["incendio boschivo", "incendi boschivi", "incendio", "incendi", "rogo", "roghi"]
+    "wildfire": ["incendio boschivo", "incendi boschivi", "incendio", "incendi", "rogo", "roghi"],
+    "floods": ["alluvione", "alluvioni", "inondazione", "inondazioni", "allagamento", "allagamenti", "piogge torrenziali", "nubifragio", "nubifragi"]
   },
   "climate": ["cambiamento climatico", "riscaldamento globale", "crisi climatica", "emergenza climatica", "gas serra", "emissioni di carbonio", "combustibili fossili"],
   "political": ["governo", "ministro", "presidente", "politica", "legge", "parlamento", "autorità", "finanziamento", "inazione", "negligenza", "responsabilità", "estrema destra", "destra"]

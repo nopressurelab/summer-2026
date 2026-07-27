@@ -89,6 +89,14 @@
    "de": "Waldbrand",
    "it": "Incendio",
    "pt": "Incêndio florestal"
+  },
+  "floods": {
+   "en": "Floods",
+   "es": "Inundaciones",
+   "fr": "Inondations",
+   "de": "Überschwemmungen",
+   "it": "Alluvioni",
+   "pt": "Inundações"
   }
  },
  "context_sources": {
@@ -124,6 +132,30 @@
    {
     "label": "World Weather Attribution",
     "url": "https://www.worldweatherattribution.org/"
+   }
+  ],
+  "floods": [
+   {
+    "label": "World Weather Attribution",
+    "url": "https://www.worldweatherattribution.org/"
+   },
+   {
+    "label": "IPCC AR6 WG1",
+    "url": "https://www.ipcc.ch/report/ar6/wg1/"
+   }
+  ],
+  "cause": [
+   {
+    "label": "NASA — Causes",
+    "url": "https://science.nasa.gov/climate-change/causes/"
+   },
+   {
+    "label": "NOAA CO₂ trends",
+    "url": "https://gml.noaa.gov/ccgg/trends/"
+   },
+   {
+    "label": "IPCC AR6",
+    "url": "https://www.ipcc.ch/report/ar6/wg1/"
    }
   ]
  },
@@ -242,7 +274,7 @@
  },
  "ui": {
   "en": {
-   "tagline": "Coverage of <strong>heat waves</strong>, <strong>excess deaths</strong> and <strong>wildfires</strong> in major English, French, Spanish, German, Italian and Portuguese outlets — flagged when it omits <strong>climate change</strong> or any <strong>government / policy accountability</strong>.",
+   "tagline": "Coverage of <strong>heat waves</strong>, <strong>excess deaths</strong>, <strong>wildfires</strong> and <strong>floods</strong> in major English, French, Spanish, German, Italian and Portuguese outlets — flagged when it omits <strong>climate change</strong> or any <strong>government / policy accountability</strong>.",
    "about_link": "About &amp; method",
    "theme": "Theme",
    "ui_language": "Interface language",
@@ -293,7 +325,7 @@
    "footer": "Data from each source's RSS feeds and the free GDELT DOC 2.0 API. Rebuilt automatically once a day. Open source.",
    "about_title": "About &amp; method",
    "back": "← Back to the dashboard",
-   "about_intro": "This dashboard tracks how major newspapers in six languages cover heat waves, excess deaths and wildfires — and highlights the articles that report on these events without ever mentioning climate change or any government or policy responsibility. The aim is media-watch transparency, not accusation: every flag is shown with its evidence so you can judge it yourself.",
+   "about_intro": "This dashboard tracks how major newspapers in six languages cover heat waves, excess deaths, wildfires and floods — and highlights the articles that report on these events without ever mentioning climate change or any government or policy responsibility. The aim is media-watch transparency, not accusation: every flag is shown with its evidence so you can judge it yourself.",
    "h_how": "How it works",
    "p_how": "Once a day an automated job collects recent articles from each source's own RSS feeds and, going backwards in time, from the free GDELT news index. It downloads each article, checks its text against curated keyword lists, and rebuilds the data this page reads. Nothing is generated in your browser — the page just displays a pre-built dataset.",
    "h_flags": "How articles are flagged",
@@ -329,10 +361,14 @@
    "local_error": "Couldn't load data for that location. Try again later.",
    "local_result": "{city} has warmed about {d} °C since {y0}.",
    "local_caption": "Annual average temperature, {y0}–{y1}.",
-   "tile_tracked_sub_all": "{langs} languages · since {since}"
+   "tile_tracked_sub_all": "{langs} languages · since {since}",
+   "ctx_floods": "A warmer atmosphere holds more moisture — roughly 7% more for every degree of warming — so storms dump heavier rain and flash floods hit harder. Attribution studies increasingly tie specific extreme-rainfall and flood disasters to human-caused warming.",
+   "cause_title": "What's driving this — and what isn't",
+   "cause_body": "This warming is caused by humans burning fossil fuels. Coal, oil and gas release carbon dioxide (CO₂) that traps heat; atmospheric CO₂ is now about 50% higher than before the industrial era — around 420 ppm, higher than at any time in at least 800,000 years. It is not a natural cycle: the sun, volcanoes and Earth's orbit are measured and cannot explain the rise, and the chemical fingerprint of the extra CO₂ shows it comes from fossil fuels. The IPCC calls human responsibility “unequivocal.”",
+   "cause_co2_label": "more CO₂ than the pre-industrial era, from burning coal, oil & gas"
   },
   "es": {
-   "tagline": "Cobertura de <strong>olas de calor</strong>, <strong>exceso de muertes</strong> e <strong>incendios forestales</strong> en grandes medios en inglés, francés, español, alemán, italiano y portugués, marcada cuando omite el <strong>cambio climático</strong> o cualquier <strong>responsabilidad política</strong>.",
+   "tagline": "Cobertura de <strong>olas de calor</strong>, <strong>exceso de muertes</strong>, <strong>incendios forestales</strong> e <strong>inundaciones</strong> en grandes medios en inglés, francés, español, alemán, italiano y portugués, marcada cuando omite el <strong>cambio climático</strong> o cualquier <strong>responsabilidad política</strong>.",
    "about_link": "Acerca de &amp; método",
    "theme": "Tema",
    "ui_language": "Idioma de la interfaz",
@@ -383,7 +419,7 @@
    "footer": "Datos de los RSS de cada fuente y de la API gratuita GDELT DOC 2.0. Reconstruido automáticamente una vez al día. Código abierto.",
    "about_title": "Acerca de &amp; método",
    "back": "← Volver al panel",
-   "about_intro": "Este panel rastrea cómo los grandes periódicos en seis idiomas cubren las olas de calor, el exceso de muertes y los incendios forestales, y destaca los artículos que informan sobre estos hechos sin mencionar nunca el cambio climático ni ninguna responsabilidad política o de gobierno. El objetivo es la transparencia de observación de medios, no la acusación: cada etiqueta se muestra con su evidencia para que tú mismo la juzgues.",
+   "about_intro": "Este panel rastrea cómo los grandes periódicos en seis idiomas cubren las olas de calor, el exceso de muertes, los incendios forestales y las inundaciones, y destaca los artículos que informan sobre estos hechos sin mencionar nunca el cambio climático ni ninguna responsabilidad política o de gobierno. El objetivo es la transparencia de observación de medios, no la acusación: cada etiqueta se muestra con su evidencia para que tú mismo la juzgues.",
    "h_how": "Cómo funciona",
    "p_how": "Una vez al día, un proceso automatizado recopila artículos recientes de los RSS de cada fuente y, hacia atrás en el tiempo, del índice gratuito de noticias GDELT. Descarga cada artículo, compara su texto con listas de palabras clave y reconstruye los datos que lee esta página. Nada se genera en tu navegador: la página solo muestra un conjunto de datos ya preparado.",
    "h_flags": "Cómo se marcan los artículos",
@@ -419,10 +455,14 @@
    "local_error": "No se pudieron cargar los datos de esa ubicación. Inténtalo más tarde.",
    "local_result": "{city} se ha calentado unos {d} °C desde {y0}.",
    "local_caption": "Temperatura media anual, {y0}–{y1}.",
-   "tile_tracked_sub_all": "{langs} idiomas · desde {since}"
+   "tile_tracked_sub_all": "{langs} idiomas · desde {since}",
+   "ctx_floods": "Una atmósfera más cálida retiene más humedad —alrededor de un 7% más por cada grado de calentamiento—, por lo que las tormentas descargan lluvias más intensas y las inundaciones repentinas golpean con más fuerza. Los estudios de atribución vinculan cada vez más lluvias extremas e inundaciones concretas con el calentamiento de origen humano.",
+   "cause_title": "Qué lo provoca — y qué no",
+   "cause_body": "Este calentamiento lo causan los seres humanos al quemar combustibles fósiles. El carbón, el petróleo y el gas liberan dióxido de carbono (CO₂) que atrapa el calor; el CO₂ atmosférico es ahora un 50% más alto que antes de la era industrial —unas 420 ppm, más que en al menos los últimos 800 000 años—. No es un ciclo natural: el sol, los volcanes y la órbita de la Tierra están medidos y no explican el aumento, y la huella química del CO₂ adicional demuestra que procede de los combustibles fósiles. El IPCC califica la responsabilidad humana de «inequívoca».",
+   "cause_co2_label": "más CO₂ que en la era preindustrial, por quemar carbón, petróleo y gas"
   },
   "fr": {
-   "tagline": "Couverture des <strong>canicules</strong>, de la <strong>surmortalité</strong> et des <strong>incendies</strong> dans les grands médias anglais, français, espagnols, allemands, italiens et portugais — signalée lorsqu'elle omet le <strong>changement climatique</strong> ou toute <strong>responsabilité politique</strong>.",
+   "tagline": "Couverture des <strong>canicules</strong>, de la <strong>surmortalité</strong>, des <strong>incendies</strong> et des <strong>inondations</strong> dans les grands médias anglais, français, espagnols, allemands, italiens et portugais — signalée lorsqu'elle omet le <strong>changement climatique</strong> ou toute <strong>responsabilité politique</strong>.",
    "about_link": "À propos &amp; méthode",
    "theme": "Thème",
    "ui_language": "Langue de l'interface",
@@ -473,7 +513,7 @@
    "footer": "Données issues des flux RSS de chaque source et de l'API gratuite GDELT DOC 2.0. Reconstruit automatiquement une fois par jour. Open source.",
    "about_title": "À propos &amp; méthode",
    "back": "← Retour au tableau de bord",
-   "about_intro": "Ce tableau de bord suit la manière dont les grands journaux de six langues couvrent les canicules, la surmortalité et les incendies — et met en évidence les articles qui traitent ces événements sans jamais mentionner le changement climatique ni aucune responsabilité politique ou gouvernementale. L'objectif est la transparence d'observation des médias, pas l'accusation : chaque marqueur est présenté avec ses preuves pour que vous jugiez vous-même.",
+   "about_intro": "Ce tableau de bord suit la manière dont les grands journaux de six langues couvrent les canicules, la surmortalité, les incendies et les inondations — et met en évidence les articles qui traitent ces événements sans jamais mentionner le changement climatique ni aucune responsabilité politique ou gouvernementale. L'objectif est la transparence d'observation des médias, pas l'accusation : chaque marqueur est présenté avec ses preuves pour que vous jugiez vous-même.",
    "h_how": "Fonctionnement",
    "p_how": "Une fois par jour, un traitement automatisé collecte les articles récents depuis les flux RSS de chaque source et, en remontant dans le temps, depuis l'index d'actualités gratuit GDELT. Il télécharge chaque article, compare son texte à des listes de mots-clés et reconstruit les données que lit cette page. Rien n'est généré dans votre navigateur : la page affiche seulement un jeu de données pré-calculé.",
    "h_flags": "Comment les articles sont signalés",
@@ -509,10 +549,14 @@
    "local_error": "Impossible de charger les données pour ce lieu. Réessayez plus tard.",
    "local_result": "{city} s'est réchauffée d'environ {d} °C depuis {y0}.",
    "local_caption": "Température moyenne annuelle, {y0}–{y1}.",
-   "tile_tracked_sub_all": "{langs} langues · depuis {since}"
+   "tile_tracked_sub_all": "{langs} langues · depuis {since}",
+   "ctx_floods": "Une atmosphère plus chaude retient plus d'humidité — environ 7% de plus par degré de réchauffement — si bien que les tempêtes déversent des pluies plus intenses et que les crues éclair frappent plus fort. Les études d'attribution relient de plus en plus des pluies extrêmes et des inondations précises au réchauffement d'origine humaine.",
+   "cause_title": "Ce qui le provoque — et ce qui ne le provoque pas",
+   "cause_body": "Ce réchauffement est causé par la combustion humaine d'énergies fossiles. Le charbon, le pétrole et le gaz libèrent du dioxyde de carbone (CO₂) qui piège la chaleur ; le CO₂ atmosphérique est aujourd'hui environ 50% plus élevé qu'avant l'ère industrielle — près de 420 ppm, plus qu'à aucun moment depuis au moins 800 000 ans. Ce n'est pas un cycle naturel : le soleil, les volcans et l'orbite terrestre sont mesurés et ne peuvent expliquer la hausse, et la signature chimique du CO₂ supplémentaire montre qu'il provient des énergies fossiles. Le GIEC qualifie la responsabilité humaine d'« sans équivoque ».",
+   "cause_co2_label": "de CO₂ de plus qu'à l'ère préindustrielle, dû au charbon, au pétrole et au gaz"
   },
   "de": {
-   "tagline": "Berichterstattung über <strong>Hitzewellen</strong>, <strong>Übersterblichkeit</strong> und <strong>Waldbrände</strong> in großen englischen, französischen, spanischen, deutschen, italienischen und portugiesischen Medien — markiert, wenn sie den <strong>Klimawandel</strong> oder jede <strong>politische Verantwortung</strong> auslässt.",
+   "tagline": "Berichterstattung über <strong>Hitzewellen</strong>, <strong>Übersterblichkeit</strong>, <strong>Waldbrände</strong> und <strong>Überschwemmungen</strong> in großen englischen, französischen, spanischen, deutschen, italienischen und portugiesischen Medien — markiert, wenn sie den <strong>Klimawandel</strong> oder jede <strong>politische Verantwortung</strong> auslässt.",
    "about_link": "Über &amp; Methode",
    "theme": "Design",
    "ui_language": "Sprache der Oberfläche",
@@ -563,7 +607,7 @@
    "footer": "Daten aus den RSS-Feeds jeder Quelle und der kostenlosen GDELT DOC 2.0 API. Einmal täglich automatisch neu erstellt. Open Source.",
    "about_title": "Über &amp; Methode",
    "back": "← Zurück zum Dashboard",
-   "about_intro": "Dieses Dashboard verfolgt, wie große Zeitungen in sechs Sprachen über Hitzewellen, Übersterblichkeit und Waldbrände berichten — und hebt die Artikel hervor, die über diese Ereignisse berichten, ohne den Klimawandel oder eine politische bzw. staatliche Verantwortung zu erwähnen. Ziel ist Medienbeobachtungs-Transparenz, keine Anklage: Jede Markierung wird mit ihren Belegen gezeigt, damit Sie selbst urteilen können.",
+   "about_intro": "Dieses Dashboard verfolgt, wie große Zeitungen in sechs Sprachen über Hitzewellen, Übersterblichkeit, Waldbrände und Überschwemmungen berichten — und hebt die Artikel hervor, die über diese Ereignisse berichten, ohne den Klimawandel oder eine politische bzw. staatliche Verantwortung zu erwähnen. Ziel ist Medienbeobachtungs-Transparenz, keine Anklage: Jede Markierung wird mit ihren Belegen gezeigt, damit Sie selbst urteilen können.",
    "h_how": "Funktionsweise",
    "p_how": "Einmal täglich sammelt ein automatisierter Job aktuelle Artikel aus den RSS-Feeds jeder Quelle und, rückwärts in der Zeit, aus dem kostenlosen GDELT-Nachrichtenindex. Er lädt jeden Artikel herunter, gleicht seinen Text mit kuratierten Schlagwortlisten ab und baut die Daten neu auf, die diese Seite liest. Nichts wird in Ihrem Browser erzeugt — die Seite zeigt nur einen vorbereiteten Datensatz.",
    "h_flags": "Wie Artikel markiert werden",
@@ -599,10 +643,14 @@
    "local_error": "Daten für diesen Ort konnten nicht geladen werden. Später erneut versuchen.",
    "local_result": "{city} hat sich seit {y0} um etwa {d} °C erwärmt.",
    "local_caption": "Jahresmitteltemperatur, {y0}–{y1}.",
-   "tile_tracked_sub_all": "{langs} Sprachen · seit {since}"
+   "tile_tracked_sub_all": "{langs} Sprachen · seit {since}",
+   "ctx_floods": "Eine wärmere Atmosphäre hält mehr Feuchtigkeit — etwa 7% mehr pro Grad Erwärmung —, sodass Stürme heftigere Regenfälle bringen und Sturzfluten härter treffen. Attributionsstudien führen immer mehr konkrete Extremregen- und Hochwasserkatastrophen auf die menschengemachte Erwärmung zurück.",
+   "cause_title": "Was es antreibt — und was nicht",
+   "cause_body": "Diese Erwärmung wird dadurch verursacht, dass Menschen fossile Brennstoffe verbrennen. Kohle, Öl und Gas setzen Kohlendioxid (CO₂) frei, das Wärme speichert; das CO₂ in der Atmosphäre ist heute rund 50% höher als vor der Industrialisierung — etwa 420 ppm, höher als zu irgendeinem Zeitpunkt in mindestens 800.000 Jahren. Es ist kein natürlicher Zyklus: Sonne, Vulkane und die Erdumlaufbahn sind gemessen und können den Anstieg nicht erklären, und der chemische Fingerabdruck des zusätzlichen CO₂ zeigt, dass es aus fossilen Brennstoffen stammt. Der IPCC nennt die menschliche Verantwortung „eindeutig“.",
+   "cause_co2_label": "mehr CO₂ als in der vorindustriellen Zeit, durch Kohle, Öl und Gas"
   },
   "it": {
-   "tagline": "Copertura di <strong>ondate di calore</strong>, <strong>eccesso di morti</strong> e <strong>incendi</strong> nei grandi media inglesi, francesi, spagnoli, tedeschi, italiani e portoghesi — segnalata quando omette il <strong>cambiamento climatico</strong> o qualsiasi <strong>responsabilità politica</strong>.",
+   "tagline": "Copertura di <strong>ondate di calore</strong>, <strong>eccesso di morti</strong>, <strong>incendi</strong> e <strong>alluvioni</strong> nei grandi media inglesi, francesi, spagnoli, tedeschi, italiani e portoghesi — segnalata quando omette il <strong>cambiamento climatico</strong> o qualsiasi <strong>responsabilità politica</strong>.",
    "about_link": "Informazioni &amp; metodo",
    "theme": "Tema",
    "ui_language": "Lingua dell'interfaccia",
@@ -653,7 +701,7 @@
    "footer": "Dati dai feed RSS di ciascuna fonte e dalla API gratuita GDELT DOC 2.0. Ricostruito automaticamente una volta al giorno. Open source.",
    "about_title": "Informazioni &amp; metodo",
    "back": "← Torna al cruscotto",
-   "about_intro": "Questo cruscotto monitora come i grandi giornali in sei lingue trattano ondate di calore, eccesso di morti e incendi — ed evidenzia gli articoli che riferiscono di questi eventi senza mai menzionare il cambiamento climatico né alcuna responsabilità politica o di governo. L'obiettivo è la trasparenza dell'osservazione dei media, non l'accusa: ogni contrassegno è mostrato con le sue prove così puoi giudicare tu stesso.",
+   "about_intro": "Questo cruscotto monitora come i grandi giornali in sei lingue trattano ondate di calore, eccesso di morti, incendi e alluvioni — ed evidenzia gli articoli che riferiscono di questi eventi senza mai menzionare il cambiamento climatico né alcuna responsabilità politica o di governo. L'obiettivo è la trasparenza dell'osservazione dei media, non l'accusa: ogni contrassegno è mostrato con le sue prove così puoi giudicare tu stesso.",
    "h_how": "Come funziona",
    "p_how": "Una volta al giorno un processo automatico raccoglie gli articoli recenti dai feed RSS di ciascuna fonte e, andando indietro nel tempo, dall'indice di notizie gratuito GDELT. Scarica ogni articolo, confronta il testo con elenchi di parole chiave e ricostruisce i dati letti da questa pagina. Nulla è generato nel tuo browser: la pagina mostra solo un set di dati già pronto.",
    "h_flags": "Come vengono contrassegnati gli articoli",
@@ -689,10 +737,14 @@
    "local_error": "Impossibile caricare i dati per questa località. Riprova più tardi.",
    "local_result": "{city} si è riscaldata di circa {d} °C dal {y0}.",
    "local_caption": "Temperatura media annua, {y0}–{y1}.",
-   "tile_tracked_sub_all": "{langs} lingue · dal {since}"
+   "tile_tracked_sub_all": "{langs} lingue · dal {since}",
+   "ctx_floods": "Un'atmosfera più calda trattiene più umidità — circa il 7% in più per ogni grado di riscaldamento — così le tempeste scaricano piogge più intense e le alluvioni lampo colpiscono più duramente. Gli studi di attribuzione collegano sempre più piogge estreme e alluvioni specifiche al riscaldamento di origine umana.",
+   "cause_title": "Cosa lo provoca — e cosa no",
+   "cause_body": "Questo riscaldamento è causato dagli esseri umani che bruciano combustibili fossili. Carbone, petrolio e gas rilasciano anidride carbonica (CO₂) che intrappola il calore; la CO₂ atmosferica è oggi circa il 50% più alta rispetto a prima dell'era industriale — circa 420 ppm, più che in qualsiasi momento degli ultimi 800.000 anni. Non è un ciclo naturale: il sole, i vulcani e l'orbita terrestre sono misurati e non possono spiegare l'aumento, e l'impronta chimica della CO₂ in più mostra che proviene dai combustibili fossili. L'IPCC definisce la responsabilità umana “inequivocabile”.",
+   "cause_co2_label": "di CO₂ in più rispetto all'era preindustriale, per carbone, petrolio e gas"
   },
   "pt": {
-   "tagline": "Cobertura de <strong>ondas de calor</strong>, <strong>excesso de mortes</strong> e <strong>incêndios</strong> em grandes meios em inglês, francês, espanhol, alemão, italiano e português — sinalizada quando omite as <strong>alterações climáticas</strong> ou qualquer <strong>responsabilidade política</strong>.",
+   "tagline": "Cobertura de <strong>ondas de calor</strong>, <strong>excesso de mortes</strong>, <strong>incêndios</strong> e <strong>inundações</strong> em grandes meios em inglês, francês, espanhol, alemão, italiano e português — sinalizada quando omite as <strong>alterações climáticas</strong> ou qualquer <strong>responsabilidade política</strong>.",
    "about_link": "Sobre &amp; método",
    "theme": "Tema",
    "ui_language": "Idioma da interface",
@@ -743,7 +795,7 @@
    "footer": "Dados dos feeds RSS de cada fonte e da API gratuita GDELT DOC 2.0. Reconstruído automaticamente uma vez por dia. Código aberto.",
    "about_title": "Sobre &amp; método",
    "back": "← Voltar ao painel",
-   "about_intro": "Este painel acompanha como os grandes jornais em seis idiomas cobrem ondas de calor, excesso de mortes e incêndios — e destaca os artigos que noticiam estes acontecimentos sem nunca mencionar as alterações climáticas nem qualquer responsabilidade política ou do governo. O objetivo é a transparência de observação dos media, não a acusação: cada sinalizador é mostrado com as suas evidências para que julgue por si.",
+   "about_intro": "Este painel acompanha como os grandes jornais em seis idiomas cobrem ondas de calor, excesso de mortes, incêndios e inundações — e destaca os artigos que noticiam estes acontecimentos sem nunca mencionar as alterações climáticas nem qualquer responsabilidade política ou do governo. O objetivo é a transparência de observação dos media, não a acusação: cada sinalizador é mostrado com as suas evidências para que julgue por si.",
    "h_how": "Como funciona",
    "p_how": "Uma vez por dia, um processo automatizado recolhe artigos recentes dos feeds RSS de cada fonte e, recuando no tempo, do índice de notícias gratuito GDELT. Descarrega cada artigo, compara o seu texto com listas de palavras-chave e reconstrói os dados que esta página lê. Nada é gerado no seu navegador — a página apenas mostra um conjunto de dados já preparado.",
    "h_flags": "Como os artigos são sinalizados",
@@ -779,7 +831,11 @@
    "local_error": "Não foi possível carregar os dados desse local. Tenta mais tarde.",
    "local_result": "{city} aqueceu cerca de {d} °C desde {y0}.",
    "local_caption": "Temperatura média anual, {y0}–{y1}.",
-   "tile_tracked_sub_all": "{langs} idiomas · desde {since}"
+   "tile_tracked_sub_all": "{langs} idiomas · desde {since}",
+   "ctx_floods": "Uma atmosfera mais quente retém mais humidade — cerca de 7% mais por cada grau de aquecimento — por isso as tempestades despejam chuvas mais intensas e as cheias repentinas atingem com mais força. Os estudos de atribuição associam cada vez mais chuvas extremas e cheias específicas ao aquecimento de origem humana.",
+   "cause_title": "O que o provoca — e o que não",
+   "cause_body": "Este aquecimento é causado pelos seres humanos ao queimar combustíveis fósseis. O carvão, o petróleo e o gás libertam dióxido de carbono (CO₂) que retém o calor; o CO₂ atmosférico é agora cerca de 50% mais alto do que antes da era industrial — cerca de 420 ppm, mais do que em qualquer momento dos últimos 800 000 anos. Não é um ciclo natural: o sol, os vulcões e a órbita da Terra estão medidos e não explicam o aumento, e a assinatura química do CO₂ adicional mostra que vem dos combustíveis fósseis. O IPCC considera a responsabilidade humana “inequívoca”.",
+   "cause_co2_label": "mais CO₂ do que na era pré-industrial, por queimar carvão, petróleo e gás"
   }
  }
 }

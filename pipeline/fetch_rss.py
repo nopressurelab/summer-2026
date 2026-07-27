@@ -14,6 +14,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from xml.etree import ElementTree as ET
 
@@ -118,12 +119,18 @@ def _build_topic_matchers(cfg):
 
 
 def fetch_all_rss(keyword_sets, source_configs_by_code, pause=1.0,
-                  timeout=25):
+                  timeout=25, max_age_days=548):
     """Read every source feed and keep topic-matching items.
 
     `source_configs_by_code` maps lang-code -> [{name, domain, feeds}, ...].
-    Returns a dict keyed by URL (same shape as fetch.fetch_all).
+    Items with a publish date older than `max_age_days` (default ~18 months)
+    are dropped: RSS should carry recent items, so a very old date signals an
+    evergreen/mis-dated entry rather than real coverage. Items with no parseable
+    date are kept. Returns a dict keyed by URL (same shape as fetch.fetch_all).
     """
+    cutoff = None
+    if max_age_days:
+        cutoff = (datetime.now(timezone.utc) - timedelta(days=max_age_days)).strftime("%Y%m%d")
     by_url = {}
     for code, cfg in keyword_sets.items():
         language = cfg["language"]
@@ -133,14 +140,15 @@ def fetch_all_rss(keyword_sets, source_configs_by_code, pause=1.0,
             feeds = source.get("feeds") or []
             for feed_url in feeds:
                 kept = _ingest_feed(feed_url, source, language, topic_matchers,
-                                    by_url, timeout)
+                                    by_url, timeout, cutoff)
                 print("  %-40s +%d  (%s)" % (
                     feed_url[:40], kept, source.get("name", "")))
                 time.sleep(pause)
     return by_url
 
 
-def _ingest_feed(feed_url, source, language, topic_matchers, by_url, timeout):
+def _ingest_feed(feed_url, source, language, topic_matchers, by_url, timeout,
+                 cutoff=None):
     try:
         xml_bytes = fetch_feed(feed_url, timeout)
     except (urllib.error.URLError, urllib.error.HTTPError, Exception) as exc:
@@ -152,10 +160,13 @@ def _ingest_feed(feed_url, source, language, topic_matchers, by_url, timeout):
         title = item.get("title", "")
         if not url or not title:
             continue
+        seendate = _to_seendate(item.get("published", ""))
+        if cutoff and seendate and seendate[:8] < cutoff:
+            continue  # evergreen / mis-dated old item
         haystack = normalize(title + " . " + item.get("summary", ""))
         topics = [t for t, ts in topic_matchers.items() if ts.any(haystack)]
         if not topics:
-            continue  # not about heat / wildfire / excess deaths
+            continue  # not about heat / wildfire / excess deaths / floods
         existing = by_url.get(url)
         if existing:
             for t in topics:
@@ -171,7 +182,7 @@ def _ingest_feed(feed_url, source, language, topic_matchers, by_url, timeout):
             "language": language,
             "topic": topics[0],
             "topics": topics,
-            "seendate": _to_seendate(item.get("published", "")),
+            "seendate": seendate,
             "socialimage": "",
             "rss_summary": item.get("summary", ""),
         }
