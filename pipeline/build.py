@@ -19,6 +19,7 @@ from . import classify as classify_mod
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 KEYWORDS_DIR = os.path.join(HERE, "keywords")
+SOURCES_DIR = os.path.join(HERE, "sources")
 DATA_DIR = os.path.abspath(os.path.join(HERE, "..", "docs", "data"))
 ARTICLES_PATH = os.path.join(DATA_DIR, "articles.json")
 META_PATH = os.path.join(DATA_DIR, "meta.json")
@@ -36,6 +37,27 @@ OUTPUT_FIELDS = [
 
 def _article_id(url):
     return hashlib.sha1(url.encode("utf-8")).hexdigest()[:12]
+
+
+def load_sources(langs):
+    """Return lang-code -> [domain, ...] for every sources/<code>.json present."""
+    out = {}
+    if not os.path.isdir(SOURCES_DIR):
+        return out
+    for code in langs:
+        path = os.path.join(SOURCES_DIR, code + ".json")
+        if not os.path.exists(path):
+            continue
+        try:
+            with open(path, encoding="utf-8") as fh:
+                cfg = json.load(fh)
+        except Exception:
+            continue
+        domains = [s["domain"].strip() for s in cfg.get("sources", [])
+                   if s.get("domain")]
+        if domains:
+            out[code] = domains
+    return out
 
 
 def load_cache():
@@ -119,6 +141,8 @@ def main():
                     help="seconds between GDELT requests (rate-limit friendly)")
     ap.add_argument("--no-extract", action="store_true",
                     help="skip full-text fetch; classify on titles only")
+    ap.add_argument("--no-sources", action="store_true",
+                    help="ignore the sources/ allowlist; sweep every outlet")
     args = ap.parse_args()
 
     langs = [c.strip() for c in args.languages.split(",") if c.strip()]
@@ -130,10 +154,16 @@ def main():
             cfg["topics"] = {t: v for t, v in cfg["topics"].items()
                              if t in only_topics}
 
+    sources_by_code = {} if args.no_sources else load_sources(list(keyword_sets))
     print("Languages: %s" % ", ".join(keyword_sets))
+    if sources_by_code:
+        print("Source allowlist: " + ", ".join(
+            "%s=%d" % (c, len(d)) for c, d in sources_by_code.items()))
+    else:
+        print("Source allowlist: none (sweeping all outlets)")
     by_url = fetch_mod.fetch_all(
-        keyword_sets, maxrecords=args.maxrecords, timespan=args.timespan,
-        pause=args.pause)
+        keyword_sets, sources_by_code=sources_by_code,
+        maxrecords=args.maxrecords, timespan=args.timespan, pause=args.pause)
     print("Discovered %d unique articles" % len(by_url))
 
     rows = list(by_url.values())

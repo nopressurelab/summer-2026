@@ -107,28 +107,43 @@ def fetch_topic(topic, topic_terms, sourcelang, language, maxrecords,
     return out
 
 
-def fetch_all(keyword_sets, maxrecords=250, timespan="3m", pause=5.0, retries=3):
+def fetch_all(keyword_sets, sources_by_code=None, maxrecords=250,
+              timespan="3m", pause=5.0, retries=3):
     """Query every language x topic. `keyword_sets` maps lang-code -> config dict.
+
+    `sources_by_code` optionally maps lang-code -> list of allowlisted domains;
+    when present for a language, results are restricted to those outlets (fetched
+    across several queries if the list is long). When absent/empty, that language
+    is swept across every outlet GDELT indexes.
 
     Returns a dict keyed by URL (dedup); if the same URL appears under multiple
     topics we keep the first and record the extra topics in `topics`.
     """
+    sources_by_code = sources_by_code or {}
     by_url = {}
     for code, cfg in keyword_sets.items():
         language = cfg["language"]
         sourcelang = cfg["sourcelang"]
+        domains = sources_by_code.get(code) or None
+        # One "batch" is None (broad sweep) or a chunk of allowlisted domains.
+        batches = list(_chunk(domains, CHUNK_DOMAINS)) if domains else [None]
         for topic, terms in cfg["topics"].items():
-            print("Fetching %s / %s ..." % (language, topic))
-            rows = fetch_topic(topic, terms, sourcelang, language,
-                               maxrecords, timespan, pause, retries)
-            print("  got %d" % len(rows))
-            for row in rows:
-                existing = by_url.get(row["url"])
-                if existing:
-                    if row["topic"] not in existing["topics"]:
-                        existing["topics"].append(row["topic"])
-                else:
-                    row["topics"] = [row["topic"]]
-                    by_url[row["url"]] = row
-            time.sleep(pause)  # be polite between queries
+            scope = ("%d sources" % len(domains)) if domains else "all sources"
+            print("Fetching %s / %s (%s) ..." % (language, topic, scope))
+            got = 0
+            for batch in batches:
+                rows = fetch_topic(topic, terms, sourcelang, language,
+                                   maxrecords, timespan, pause, retries,
+                                   domains=batch)
+                got += len(rows)
+                for row in rows:
+                    existing = by_url.get(row["url"])
+                    if existing:
+                        if row["topic"] not in existing["topics"]:
+                            existing["topics"].append(row["topic"])
+                    else:
+                        row["topics"] = [row["topic"]]
+                        by_url[row["url"]] = row
+                time.sleep(pause)  # be polite between queries
+            print("  got %d" % got)
     return by_url
