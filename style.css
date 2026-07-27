@@ -46,6 +46,7 @@
 
 * { box-sizing: border-box; }
 html, body { margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
 body {
   font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
   background: var(--page);
@@ -126,6 +127,20 @@ header.site p.tag { margin: 0; color: var(--text-secondary); max-width: 60ch; }
   position: absolute; top: 0; left: calc(var(--w) + 6px);
   height: 16px; line-height: 16px; color: var(--text-secondary);
 }
+
+/* climate-context module */
+.context { border-left: 3px solid var(--series-climate); }
+.ctx-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; margin-top: 8px; }
+.ctx-item { background: color-mix(in srgb, var(--series-climate) 6%, transparent); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; scroll-margin-top: 16px; }
+.ctx-item h3 { margin: 0 0 6px; font-size: .98rem; }
+.ctx-item p { margin: 0 0 10px; color: var(--text-secondary); font-size: .9rem; }
+.ctx-src { font-size: .78rem; color: var(--muted); }
+.ctx-src a { color: var(--series-climate); text-decoration: none; }
+.ctx-src a:hover { text-decoration: underline; }
+.ctx-item:target { outline: 2px solid var(--series-climate); outline-offset: 2px; }
+.ctx-jump { display: inline-block; margin-top: 8px; font-size: .8rem; color: var(--series-climate); text-decoration: none; }
+.ctx-jump:hover { text-decoration: underline; }
+#trend svg { display: block; max-width: 100%; }
 
 .table-toggle { background: none; border: none; color: var(--series-climate); cursor: pointer; font-size: .82rem; margin-top: 14px; padding: 0; }
 table.data { width: 100%; border-collapse: collapse; margin-top: 12px; font-size: .85rem; }

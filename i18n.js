@@ -294,3 +294,85 @@ const ABOUT = {
   },
 };
 for (const _l of LOCALES) Object.assign(STR[_l], ABOUT[_l] || {});
+
+/* ---------- Climate-context module ("flip the narrative") + trend chart ---------- */
+/* Primary sources per topic (URLs are the same across locales). */
+const CONTEXT_SOURCES = {
+  heatwave: [
+    { label: "World Weather Attribution", url: "https://www.worldweatherattribution.org/" },
+    { label: "IPCC AR6 WG1", url: "https://www.ipcc.ch/report/ar6/wg1/" },
+  ],
+  wildfire: [
+    { label: "IPCC AR6", url: "https://www.ipcc.ch/report/ar6/wg1/" },
+    { label: "UNEP — Spreading like Wildfire", url: "https://www.unep.org/resources/report/spreading-wildfire-rising-threat-extraordinary-landscape-fires" },
+    { label: "WMO", url: "https://wmo.int/" },
+  ],
+  excess_deaths: [
+    { label: "Lancet Countdown", url: "https://www.lancetcountdown.org/" },
+    { label: "World Weather Attribution", url: "https://www.worldweatherattribution.org/" },
+  ],
+};
+
+const CTX = {
+  en: {
+    ctx_title: "The context these articles leave out",
+    ctx_intro: "The science these events are connected to — the framing the flagged coverage omits.",
+    ctx_sources: "Sources", ctx_link: "The science this leaves out →",
+    ctx_heatwave: "Human-caused climate change has made heatwaves more frequent, longer and more intense across almost every region. Rapid attribution studies find that many recent extreme-heat events would have been virtually impossible without global warming.",
+    ctx_wildfire: "A hotter, drier atmosphere driven by climate change lengthens fire seasons and intensifies the extreme fire-weather conditions that feed the largest blazes.",
+    ctx_excess_deaths: "Heat is one of the deadliest weather hazards, and heat-related mortality rises as the planet warms. Attribution research links a growing share of summer heat deaths to human-caused warming.",
+    trend_title: "Climate-omission rate over time", trend_hint: "Weekly share of matched articles that omit each kind of context.",
+    trend_nodata: "Not enough dated articles yet — the trend fills in as the daily backfill runs.",
+  },
+  es: {
+    ctx_title: "El contexto que estos artículos omiten",
+    ctx_intro: "La ciencia con la que estos fenómenos están conectados: el marco que la cobertura señalada omite.",
+    ctx_sources: "Fuentes", ctx_link: "La ciencia que esto omite →",
+    ctx_heatwave: "El cambio climático de origen humano ha hecho que las olas de calor sean más frecuentes, largas e intensas en casi todas las regiones. Estudios de atribución rápida concluyen que muchos episodios recientes de calor extremo habrían sido prácticamente imposibles sin el calentamiento global.",
+    ctx_wildfire: "Una atmósfera más cálida y seca por el cambio climático alarga las temporadas de incendios e intensifica las condiciones meteorológicas extremas que alimentan los grandes fuegos.",
+    ctx_excess_deaths: "El calor es uno de los riesgos meteorológicos más mortales y la mortalidad por calor aumenta a medida que el planeta se calienta. La investigación de atribución vincula una parte creciente de las muertes estivales por calor con el calentamiento de origen humano.",
+    trend_title: "Tasa de omisión del clima en el tiempo", trend_hint: "Proporción semanal de artículos que omiten cada tipo de contexto.",
+    trend_nodata: "Aún no hay suficientes artículos con fecha; la tendencia se completará a medida que se ejecute el llenado diario.",
+  },
+  fr: {
+    ctx_title: "Le contexte que ces articles passent sous silence",
+    ctx_intro: "La science à laquelle ces événements sont liés — le cadrage que la couverture signalée omet.",
+    ctx_sources: "Sources", ctx_link: "La science que cela omet →",
+    ctx_heatwave: "Le changement climatique d'origine humaine a rendu les canicules plus fréquentes, plus longues et plus intenses dans presque toutes les régions. Les études d'attribution rapide montrent que de nombreux épisodes récents de chaleur extrême auraient été quasiment impossibles sans le réchauffement.",
+    ctx_wildfire: "Une atmosphère plus chaude et plus sèche, sous l'effet du changement climatique, allonge les saisons des incendies et intensifie les conditions météo extrêmes qui alimentent les plus grands feux.",
+    ctx_excess_deaths: "La chaleur est l'un des aléas météorologiques les plus meurtriers, et la mortalité liée à la chaleur augmente avec le réchauffement. Les recherches d'attribution relient une part croissante des décès estivaux dus à la chaleur au réchauffement d'origine humaine.",
+    trend_title: "Taux d'omission du climat dans le temps", trend_hint: "Part hebdomadaire des articles qui omettent chaque type de contexte.",
+    trend_nodata: "Pas encore assez d'articles datés — la tendance se remplira au fil du remplissage quotidien.",
+  },
+  de: {
+    ctx_title: "Der Kontext, den diese Artikel weglassen",
+    ctx_intro: "Die Wissenschaft, mit der diese Ereignisse verbunden sind — der Rahmen, den die markierte Berichterstattung auslässt.",
+    ctx_sources: "Quellen", ctx_link: "Die ausgelassene Wissenschaft →",
+    ctx_heatwave: "Der menschengemachte Klimawandel hat Hitzewellen in fast allen Regionen häufiger, länger und intensiver gemacht. Schnelle Attributionsstudien zeigen, dass viele jüngste Extremhitze-Ereignisse ohne die globale Erwärmung praktisch unmöglich gewesen wären.",
+    ctx_wildfire: "Eine durch den Klimawandel heißere und trockenere Atmosphäre verlängert die Brandsaisons und verstärkt die extremen Feuerwetterlagen, die die größten Brände befeuern.",
+    ctx_excess_deaths: "Hitze zählt zu den tödlichsten Wettergefahren, und die hitzebedingte Sterblichkeit steigt mit der Erderwärmung. Attributionsforschung führt einen wachsenden Anteil der sommerlichen Hitzetoten auf die menschengemachte Erwärmung zurück.",
+    trend_title: "Klima-Auslassungsrate im Zeitverlauf", trend_hint: "Wöchentlicher Anteil der Artikel, die den jeweiligen Kontext auslassen.",
+    trend_nodata: "Noch nicht genügend datierte Artikel — der Trend füllt sich mit dem täglichen Backfill.",
+  },
+  it: {
+    ctx_title: "Il contesto che questi articoli omettono",
+    ctx_intro: "La scienza a cui questi eventi sono collegati: l'inquadramento che la copertura segnalata omette.",
+    ctx_sources: "Fonti", ctx_link: "La scienza qui omessa →",
+    ctx_heatwave: "Il cambiamento climatico di origine umana ha reso le ondate di calore più frequenti, lunghe e intense in quasi tutte le regioni. Studi di attribuzione rapida rilevano che molti recenti eventi di caldo estremo sarebbero stati praticamente impossibili senza il riscaldamento globale.",
+    ctx_wildfire: "Un'atmosfera più calda e secca a causa del cambiamento climatico allunga le stagioni degli incendi e intensifica le condizioni meteo estreme che alimentano i roghi più grandi.",
+    ctx_excess_deaths: "Il caldo è uno dei rischi meteorologici più letali e la mortalità legata al caldo aumenta con il riscaldamento del pianeta. La ricerca di attribuzione collega una quota crescente delle morti estive per il caldo al riscaldamento di origine umana.",
+    trend_title: "Tasso di omissione del clima nel tempo", trend_hint: "Quota settimanale di articoli che omettono ciascun tipo di contesto.",
+    trend_nodata: "Non ci sono ancora abbastanza articoli datati — la tendenza si riempirà con il backfill quotidiano.",
+  },
+  pt: {
+    ctx_title: "O contexto que estes artigos omitem",
+    ctx_intro: "A ciência a que estes eventos estão ligados — o enquadramento que a cobertura sinalizada omite.",
+    ctx_sources: "Fontes", ctx_link: "A ciência que isto omite →",
+    ctx_heatwave: "As alterações climáticas de origem humana tornaram as ondas de calor mais frequentes, longas e intensas em quase todas as regiões. Estudos de atribuição rápida concluem que muitos episódios recentes de calor extremo teriam sido praticamente impossíveis sem o aquecimento global.",
+    ctx_wildfire: "Uma atmosfera mais quente e seca devido às alterações climáticas prolonga as épocas de incêndios e intensifica as condições meteorológicas extremas que alimentam os maiores fogos.",
+    ctx_excess_deaths: "O calor é um dos riscos meteorológicos mais mortais e a mortalidade relacionada com o calor aumenta à medida que o planeta aquece. A investigação de atribuição associa uma parte crescente das mortes estivais por calor ao aquecimento de origem humana.",
+    trend_title: "Taxa de omissão do clima ao longo do tempo", trend_hint: "Proporção semanal de artigos que omitem cada tipo de contexto.",
+    trend_nodata: "Ainda não há artigos datados suficientes — a tendência preenche-se à medida que o preenchimento diário decorre.",
+  },
+};
+for (const _l of LOCALES) Object.assign(STR[_l], CTX[_l] || {});

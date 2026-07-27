@@ -187,6 +187,7 @@ function articleHtml(a) {
       ${date ? `<span class="dot">·</span><span>${esc(date)}</span>` : ""}
     </div>
     <div class="badges">${badges.join("")}</div>
+    ${a.omits_climate ? `<a class="ctx-jump" href="#ctx-${esc(a.topic)}">${esc(t("ctx_link"))}</a>` : ""}
     <details class="why">
       <summary>${esc(t("why_flagged"))}</summary>
       <div class="evidence">
@@ -208,6 +209,74 @@ function evLine(which, terms) {
   return `<b>${esc(t(noneKey))}:</b> <span class="absent">${esc(t("ev_none"))}</span>`;
 }
 
+/* ---------- climate-context module ---------- */
+function renderContext() {
+  const topics = ["heatwave", "excess_deaths", "wildfire"];
+  $("ctxGrid").innerHTML = topics.map((tp) => {
+    const srcs = (CONTEXT_SOURCES[tp] || []).map((s) =>
+      `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.label)}</a>`).join(" · ");
+    return `<div class="ctx-item" id="ctx-${tp}">
+      <h3>${esc(tTopic(tp))}</h3>
+      <p>${esc(t("ctx_" + tp))}</p>
+      <div class="ctx-src">${esc(t("ctx_sources"))}: ${srcs}</div>
+    </div>`;
+  }).join("");
+}
+
+/* ---------- omission trend over time ---------- */
+function weekStartISO(seen) {
+  const d = new Date(Date.UTC(+seen.slice(0, 4), +seen.slice(4, 6) - 1, +seen.slice(6, 8)));
+  const monOffset = (d.getUTCDay() + 6) % 7; // Monday = 0
+  d.setUTCDate(d.getUTCDate() - monOffset);
+  return d.toISOString().slice(0, 10);
+}
+function renderTrend() {
+  const buckets = {};
+  for (const a of state.articles) {
+    const s = a.seendate || "";
+    if (s.length < 8) continue;
+    const k = weekStartISO(s);
+    const b = buckets[k] || (buckets[k] = { total: 0, oc: 0, op: 0 });
+    b.total += 1; b.oc += a.omits_climate ? 1 : 0; b.op += a.omits_political ? 1 : 0;
+  }
+  const keys = Object.keys(buckets).sort();
+  const el = $("trend");
+  if (keys.length < 2) { el.innerHTML = `<div class="empty">${esc(t("trend_nodata"))}</div>`; return; }
+  const pts = keys.map((k) => ({
+    k, cp: pct(buckets[k].oc, buckets[k].total),
+    pp: pct(buckets[k].op, buckets[k].total), n: buckets[k].total,
+  }));
+  el.innerHTML = trendSvg(pts);
+}
+function trendSvg(pts) {
+  const W = 720, H = 210, L = 34, R = 12, T = 10, B = 30;
+  const pw = W - L - R, ph = H - T - B;
+  const x = (i) => L + (pts.length === 1 ? pw / 2 : (i / (pts.length - 1)) * pw);
+  const y = (v) => T + ((100 - v) / 100) * ph;
+  const grid = [0, 25, 50, 75, 100].map((v) =>
+    `<line x1="${L}" y1="${y(v)}" x2="${W - R}" y2="${y(v)}" stroke="var(--grid)" stroke-width="1"/>
+     <text x="${L - 6}" y="${y(v) + 3}" text-anchor="end" font-size="10" fill="var(--muted)">${v}%</text>`).join("");
+  const line = (key, color) => {
+    const d = pts.map((p, i) => `${x(i).toFixed(1)},${y(p[key]).toFixed(1)}`).join(" ");
+    const dots = pts.map((p, i) => {
+      const dt = new Date(p.k).toLocaleDateString(getLocale(), { day: "numeric", month: "short" });
+      const which = key === "cp" ? t("legend_climate") : t("legend_political");
+      return `<circle cx="${x(i).toFixed(1)}" cy="${y(p[key]).toFixed(1)}" r="3.5" fill="${color}"><title>${esc(dt)} — ${p[key]}% ${esc(which)} (n=${p.n})</title></circle>`;
+    }).join("");
+    return `<polyline points="${d}" fill="none" stroke="${color}" stroke-width="2" stroke-linejoin="round"/>${dots}`;
+  };
+  const nlab = Math.min(pts.length, 6);
+  const xlabels = pts.map((p, i) => {
+    const step = Math.max(1, Math.round((pts.length - 1) / (nlab - 1 || 1)));
+    if (i % step !== 0 && i !== pts.length - 1) return "";
+    const dt = new Date(p.k).toLocaleDateString(getLocale(), { day: "numeric", month: "short" });
+    return `<text x="${x(i).toFixed(1)}" y="${H - 8}" text-anchor="middle" font-size="10" fill="var(--muted)">${esc(dt)}</text>`;
+  }).join("");
+  return `<svg viewBox="0 0 ${W} ${H}" width="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="${esc(t("trend_title"))}">
+    ${grid}${line("cp", "var(--series-climate)")}${line("pp", "var(--series-political)")}${xlabels}
+  </svg>`;
+}
+
 /* ---------- render orchestration ---------- */
 function renderAll() {
   applyStaticI18n();
@@ -216,7 +285,9 @@ function renderAll() {
   $("updated").textContent = u
     ? t("last_updated", { date: u.replace("T", " ").replace("Z", " UTC") }) : "";
   renderTiles();
+  renderContext();
   renderChart();
+  renderTrend();
   populateFilters();
   applyFilters();
 }

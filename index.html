@@ -27,6 +27,12 @@
 
     <section class="tiles" id="tiles"></section>
 
+    <section class="card context" id="contextCard">
+      <h2 data-i18n="ctx_title"></h2>
+      <p class="hint" data-i18n="ctx_intro"></p>
+      <div class="ctx-grid" id="ctxGrid"></div>
+    </section>
+
     <section class="card" id="chartCard">
       <h2 data-i18n="chart_title"></h2>
       <p class="hint" data-i18n="chart_hint"></p>
@@ -37,6 +43,16 @@
       <div class="bars" id="bars"></div>
       <button class="table-toggle" id="tableToggle" type="button"></button>
       <div id="tableWrap" hidden></div>
+    </section>
+
+    <section class="card" id="trendCard">
+      <h2 data-i18n="trend_title"></h2>
+      <p class="hint" data-i18n="trend_hint"></p>
+      <div class="legend">
+        <span><i class="swatch sw-climate"></i> <span data-i18n="legend_climate"></span></span>
+        <span><i class="swatch sw-political"></i> <span data-i18n="legend_political"></span></span>
+      </div>
+      <div id="trend"></div>
     </section>
 
     <div class="filters">
