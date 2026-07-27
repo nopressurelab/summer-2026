@@ -365,7 +365,11 @@
    "ctx_floods": "A warmer atmosphere holds more moisture — roughly 7% more for every degree of warming — so storms dump heavier rain and flash floods hit harder. Attribution studies increasingly tie specific extreme-rainfall and flood disasters to human-caused warming.",
    "cause_title": "What's driving this — and what isn't",
    "cause_body": "This warming is caused by humans burning fossil fuels. Coal, oil and gas release carbon dioxide (CO₂) that traps heat; atmospheric CO₂ is now about 50% higher than before the industrial era — around 420 ppm, higher than at any time in at least 800,000 years. It is not a natural cycle: the sun, volcanoes and Earth's orbit are measured and cannot explain the rise, and the chemical fingerprint of the extra CO₂ shows it comes from fossil fuels. The IPCC calls human responsibility “unequivocal.”",
-   "cause_co2_label": "more CO₂ than the pre-industrial era, from burning coal, oil & gas"
+   "cause_co2_label": "more CO₂ than the pre-industrial era, from burning coal, oil & gas",
+   "per_page": "{n} / page",
+   "pager_prev": "Previous",
+   "pager_next": "Next",
+   "pager_page": "Page {p} of {n}"
   },
   "es": {
    "tagline": "Cobertura de <strong>olas de calor</strong>, <strong>exceso de muertes</strong>, <strong>incendios forestales</strong> e <strong>inundaciones</strong> en grandes medios en inglés, francés, español, alemán, italiano y portugués, marcada cuando omite el <strong>cambio climático</strong> o cualquier <strong>responsabilidad política</strong>.",
@@ -459,7 +463,11 @@
    "ctx_floods": "Una atmósfera más cálida retiene más humedad —alrededor de un 7% más por cada grado de calentamiento—, por lo que las tormentas descargan lluvias más intensas y las inundaciones repentinas golpean con más fuerza. Los estudios de atribución vinculan cada vez más lluvias extremas e inundaciones concretas con el calentamiento de origen humano.",
    "cause_title": "Qué lo provoca — y qué no",
    "cause_body": "Este calentamiento lo causan los seres humanos al quemar combustibles fósiles. El carbón, el petróleo y el gas liberan dióxido de carbono (CO₂) que atrapa el calor; el CO₂ atmosférico es ahora un 50% más alto que antes de la era industrial —unas 420 ppm, más que en al menos los últimos 800 000 años—. No es un ciclo natural: el sol, los volcanes y la órbita de la Tierra están medidos y no explican el aumento, y la huella química del CO₂ adicional demuestra que procede de los combustibles fósiles. El IPCC califica la responsabilidad humana de «inequívoca».",
-   "cause_co2_label": "más CO₂ que en la era preindustrial, por quemar carbón, petróleo y gas"
+   "cause_co2_label": "más CO₂ que en la era preindustrial, por quemar carbón, petróleo y gas",
+   "per_page": "{n} / página",
+   "pager_prev": "Anterior",
+   "pager_next": "Siguiente",
+   "pager_page": "Página {p} de {n}"
   },
   "fr": {
    "tagline": "Couverture des <strong>canicules</strong>, de la <strong>surmortalité</strong>, des <strong>incendies</strong> et des <strong>inondations</strong> dans les grands médias anglais, français, espagnols, allemands, italiens et portugais — signalée lorsqu'elle omet le <strong>changement climatique</strong> ou toute <strong>responsabilité politique</strong>.",
@@ -553,7 +561,11 @@
    "ctx_floods": "Une atmosphère plus chaude retient plus d'humidité — environ 7% de plus par degré de réchauffement — si bien que les tempêtes déversent des pluies plus intenses et que les crues éclair frappent plus fort. Les études d'attribution relient de plus en plus des pluies extrêmes et des inondations précises au réchauffement d'origine humaine.",
    "cause_title": "Ce qui le provoque — et ce qui ne le provoque pas",
    "cause_body": "Ce réchauffement est causé par la combustion humaine d'énergies fossiles. Le charbon, le pétrole et le gaz libèrent du dioxyde de carbone (CO₂) qui piège la chaleur ; le CO₂ atmosphérique est aujourd'hui environ 50% plus élevé qu'avant l'ère industrielle — près de 420 ppm, plus qu'à aucun moment depuis au moins 800 000 ans. Ce n'est pas un cycle naturel : le soleil, les volcans et l'orbite terrestre sont mesurés et ne peuvent expliquer la hausse, et la signature chimique du CO₂ supplémentaire montre qu'il provient des énergies fossiles. Le GIEC qualifie la responsabilité humaine d'« sans équivoque ».",
-   "cause_co2_label": "de CO₂ de plus qu'à l'ère préindustrielle, dû au charbon, au pétrole et au gaz"
+   "cause_co2_label": "de CO₂ de plus qu'à l'ère préindustrielle, dû au charbon, au pétrole et au gaz",
+   "per_page": "{n} / page",
+   "pager_prev": "Précédent",
+   "pager_next": "Suivant",
+   "pager_page": "Page {p} sur {n}"
   },
   "de": {
    "tagline": "Berichterstattung über <strong>Hitzewellen</strong>, <strong>Übersterblichkeit</strong>, <strong>Waldbrände</strong> und <strong>Überschwemmungen</strong> in großen englischen, französischen, spanischen, deutschen, italienischen und portugiesischen Medien — markiert, wenn sie den <strong>Klimawandel</strong> oder jede <strong>politische Verantwortung</strong> auslässt.",
@@ -647,7 +659,11 @@
    "ctx_floods": "Eine wärmere Atmosphäre hält mehr Feuchtigkeit — etwa 7% mehr pro Grad Erwärmung —, sodass Stürme heftigere Regenfälle bringen und Sturzfluten härter treffen. Attributionsstudien führen immer mehr konkrete Extremregen- und Hochwasserkatastrophen auf die menschengemachte Erwärmung zurück.",
    "cause_title": "Was es antreibt — und was nicht",
    "cause_body": "Diese Erwärmung wird dadurch verursacht, dass Menschen fossile Brennstoffe verbrennen. Kohle, Öl und Gas setzen Kohlendioxid (CO₂) frei, das Wärme speichert; das CO₂ in der Atmosphäre ist heute rund 50% höher als vor der Industrialisierung — etwa 420 ppm, höher als zu irgendeinem Zeitpunkt in mindestens 800.000 Jahren. Es ist kein natürlicher Zyklus: Sonne, Vulkane und die Erdumlaufbahn sind gemessen und können den Anstieg nicht erklären, und der chemische Fingerabdruck des zusätzlichen CO₂ zeigt, dass es aus fossilen Brennstoffen stammt. Der IPCC nennt die menschliche Verantwortung „eindeutig“.",
-   "cause_co2_label": "mehr CO₂ als in der vorindustriellen Zeit, durch Kohle, Öl und Gas"
+   "cause_co2_label": "mehr CO₂ als in der vorindustriellen Zeit, durch Kohle, Öl und Gas",
+   "per_page": "{n} / Seite",
+   "pager_prev": "Zurück",
+   "pager_next": "Weiter",
+   "pager_page": "Seite {p} von {n}"
   },
   "it": {
    "tagline": "Copertura di <strong>ondate di calore</strong>, <strong>eccesso di morti</strong>, <strong>incendi</strong> e <strong>alluvioni</strong> nei grandi media inglesi, francesi, spagnoli, tedeschi, italiani e portoghesi — segnalata quando omette il <strong>cambiamento climatico</strong> o qualsiasi <strong>responsabilità politica</strong>.",
@@ -741,7 +757,11 @@
    "ctx_floods": "Un'atmosfera più calda trattiene più umidità — circa il 7% in più per ogni grado di riscaldamento — così le tempeste scaricano piogge più intense e le alluvioni lampo colpiscono più duramente. Gli studi di attribuzione collegano sempre più piogge estreme e alluvioni specifiche al riscaldamento di origine umana.",
    "cause_title": "Cosa lo provoca — e cosa no",
    "cause_body": "Questo riscaldamento è causato dagli esseri umani che bruciano combustibili fossili. Carbone, petrolio e gas rilasciano anidride carbonica (CO₂) che intrappola il calore; la CO₂ atmosferica è oggi circa il 50% più alta rispetto a prima dell'era industriale — circa 420 ppm, più che in qualsiasi momento degli ultimi 800.000 anni. Non è un ciclo naturale: il sole, i vulcani e l'orbita terrestre sono misurati e non possono spiegare l'aumento, e l'impronta chimica della CO₂ in più mostra che proviene dai combustibili fossili. L'IPCC definisce la responsabilità umana “inequivocabile”.",
-   "cause_co2_label": "di CO₂ in più rispetto all'era preindustriale, per carbone, petrolio e gas"
+   "cause_co2_label": "di CO₂ in più rispetto all'era preindustriale, per carbone, petrolio e gas",
+   "per_page": "{n} / pagina",
+   "pager_prev": "Precedente",
+   "pager_next": "Successivo",
+   "pager_page": "Pagina {p} di {n}"
   },
   "pt": {
    "tagline": "Cobertura de <strong>ondas de calor</strong>, <strong>excesso de mortes</strong>, <strong>incêndios</strong> e <strong>inundações</strong> em grandes meios em inglês, francês, espanhol, alemão, italiano e português — sinalizada quando omite as <strong>alterações climáticas</strong> ou qualquer <strong>responsabilidade política</strong>.",
@@ -835,7 +855,11 @@
    "ctx_floods": "Uma atmosfera mais quente retém mais humidade — cerca de 7% mais por cada grau de aquecimento — por isso as tempestades despejam chuvas mais intensas e as cheias repentinas atingem com mais força. Os estudos de atribuição associam cada vez mais chuvas extremas e cheias específicas ao aquecimento de origem humana.",
    "cause_title": "O que o provoca — e o que não",
    "cause_body": "Este aquecimento é causado pelos seres humanos ao queimar combustíveis fósseis. O carvão, o petróleo e o gás libertam dióxido de carbono (CO₂) que retém o calor; o CO₂ atmosférico é agora cerca de 50% mais alto do que antes da era industrial — cerca de 420 ppm, mais do que em qualquer momento dos últimos 800 000 anos. Não é um ciclo natural: o sol, os vulcões e a órbita da Terra estão medidos e não explicam o aumento, e a assinatura química do CO₂ adicional mostra que vem dos combustíveis fósseis. O IPCC considera a responsabilidade humana “inequívoca”.",
-   "cause_co2_label": "mais CO₂ do que na era pré-industrial, por queimar carvão, petróleo e gás"
+   "cause_co2_label": "mais CO₂ do que na era pré-industrial, por queimar carvão, petróleo e gás",
+   "per_page": "{n} / página",
+   "pager_prev": "Anterior",
+   "pager_next": "Seguinte",
+   "pager_page": "Página {p} de {n}"
   }
  }
 }

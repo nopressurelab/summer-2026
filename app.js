@@ -1,6 +1,7 @@
 "use strict";
 
-const state = { articles: [], meta: null };
+const state = { articles: [], meta: null, filtered: [], page: 1, pageSize: 25 };
+const PAGE_SIZES = [10, 25, 50];
 const $ = (id) => document.getElementById(id);
 
 function esc(s) {
@@ -44,6 +45,7 @@ function applyStaticI18n() {
   $("themeToggle").textContent = "◐ " + t("theme");
   $("tableToggle").textContent = t($("tableWrap").hidden ? "show_table" : "hide_table");
   $("uiLang").setAttribute("aria-label", t("ui_language"));
+  fillPageSize();
 }
 
 /* ---------- tiles ---------- */
@@ -157,17 +159,58 @@ function applyFilters() {
   } else {
     list.sort((a, b) => (b.seendate || "").localeCompare(a.seendate || ""));
   }
-  renderArticles(list);
+  state.filtered = list;
+  state.page = 1;            // new filter/sort resets to the first page
+  renderPage();
 }
 
-/* ---------- articles ---------- */
-function renderArticles(list) {
-  $("countLine").textContent = t("count_line", {
-    n: list.length.toLocaleString(), t: state.articles.length.toLocaleString(),
+/* ---------- articles + pagination ---------- */
+function fillPageSize() {
+  const sel = $("pageSize");
+  if (!sel) return;
+  sel.innerHTML = PAGE_SIZES.map((n) => `<option value="${n}">${esc(t("per_page", { n }))}</option>`).join("");
+  sel.value = String(state.pageSize);
+}
+function initPager() {
+  const saved = parseInt(localStorage.getItem("pagesize"), 10);
+  if (PAGE_SIZES.includes(saved)) state.pageSize = saved;
+  fillPageSize();
+  $("pageSize").addEventListener("change", (e) => {
+    state.pageSize = parseInt(e.target.value, 10) || 25;
+    localStorage.setItem("pagesize", state.pageSize);
+    state.page = 1;
+    renderPage();
   });
-  $("articles").innerHTML = list.length
-    ? list.map(articleHtml).join("")
+}
+function renderPage() {
+  const list = state.filtered;
+  const total = list.length;
+  const pages = Math.max(1, Math.ceil(total / state.pageSize));
+  state.page = Math.min(Math.max(1, state.page), pages);
+  const start = (state.page - 1) * state.pageSize;
+  const slice = list.slice(start, start + state.pageSize);
+
+  $("countLine").textContent = t("count_line", {
+    n: total.toLocaleString(), t: state.articles.length.toLocaleString(),
+  });
+  $("articles").innerHTML = slice.length
+    ? slice.map(articleHtml).join("")
     : `<div class="empty">${esc(t("empty"))}</div>`;
+  renderPager(pages);
+}
+function renderPager(pages) {
+  const el = $("pager");
+  if (pages <= 1) { el.innerHTML = ""; return; }
+  el.innerHTML = `
+    <button class="pg-btn" id="pgPrev" type="button"${state.page <= 1 ? " disabled" : ""}>‹ ${esc(t("pager_prev"))}</button>
+    <span class="pg-info">${esc(t("pager_page", { p: state.page, n: pages }))}</span>
+    <button class="pg-btn" id="pgNext" type="button"${state.page >= pages ? " disabled" : ""}>${esc(t("pager_next"))} ›</button>`;
+  $("pgPrev").onclick = () => { if (state.page > 1) { state.page--; renderPage(); scrollToArticles(); } };
+  $("pgNext").onclick = () => { if (state.page < pages) { state.page++; renderPage(); scrollToArticles(); } };
+}
+function scrollToArticles() {
+  const y = $("articles").getBoundingClientRect().top + window.scrollY - 12;
+  window.scrollTo({ top: y, behavior: "smooth" });
 }
 
 function articleHtml(a) {
@@ -446,6 +489,7 @@ async function boot() {
   try { await loadI18n(); } catch (e) { /* fall back to built-in defaults */ }
   initTheme();
   initUiLang();
+  initPager();
   applyStaticI18n();
   $("updated").textContent = t("loading");
 

@@ -64,6 +64,8 @@ jobs:
       #    Bounded per run to stay friendly with GDELT's rate limits; state in
       #    data/backfill_state.json lets it resume next day.
       - name: Backfill from GDELT
+        continue-on-error: true   # GDELT often blocks datacenter IPs — never fail the job over it
+        timeout-minutes: 25       # hard cap so a block can't stall the run
         run: |
           python -m pipeline.build --source gdelt --backfill --no-prune \
             --backfill-days "${{ github.event.inputs.backfill_days || '3' }}" \

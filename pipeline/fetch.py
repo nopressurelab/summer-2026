@@ -15,6 +15,12 @@ import urllib.request
 API = "https://api.gdeltproject.org/api/v2/doc/doc"
 USER_AGENT = "climate-silent-coverage-dashboard/1.0 (+github pages media-watch)"
 
+
+class GdeltBlocked(Exception):
+    """Raised when GDELT keeps returning 429 — typically because the caller's IP
+    (e.g. a GitHub Actions / datacenter runner) is being rate-limited or blocked.
+    Lets the backfill abort early instead of grinding for the whole job timeout."""
+
 # Max terms per topic to put into a single GDELT query (keeps the query short
 # and precise; the full keyword lists are still used later for classification).
 MAX_QUERY_TERMS = 6
@@ -79,12 +85,15 @@ def fetch_topic(topic, topic_terms, sourcelang, language, maxrecords,
             articles = _request(query, maxrecords, timespan, start, end)
             break
         except urllib.error.HTTPError as exc:
-            if exc.code == 429 and attempt < retries:
-                backoff = pause * (2 ** attempt)
-                print("  429 rate-limited, backing off %.1fs" % backoff)
-                time.sleep(backoff)
-                attempt += 1
-                continue
+            if exc.code == 429:
+                if attempt < retries:
+                    backoff = pause * (2 ** attempt)
+                    print("  429 rate-limited, backing off %.1fs" % backoff)
+                    time.sleep(backoff)
+                    attempt += 1
+                    continue
+                raise GdeltBlocked("429 after %d retries (%s/%s)"
+                                   % (retries, language, topic))
             print("  HTTP error %s for %s/%s" % (exc.code, language, topic))
             return []
         except Exception as exc:  # network hiccup, timeout, etc.
@@ -114,7 +123,8 @@ def fetch_topic(topic, topic_terms, sourcelang, language, maxrecords,
 
 
 def fetch_all(keyword_sets, sources_by_code=None, maxrecords=250,
-              timespan="3m", pause=5.0, retries=3, start=None, end=None):
+              timespan="3m", pause=5.0, retries=3, start=None, end=None,
+              max_blocked=5):
     """Query every language x topic. `keyword_sets` maps lang-code -> config dict.
 
     `sources_by_code` optionally maps lang-code -> list of allowlisted domains;
@@ -127,6 +137,7 @@ def fetch_all(keyword_sets, sources_by_code=None, maxrecords=250,
     """
     sources_by_code = sources_by_code or {}
     by_url = {}
+    blocked = 0
     for code, cfg in keyword_sets.items():
         language = cfg["language"]
         sourcelang = cfg["sourcelang"]
@@ -138,9 +149,19 @@ def fetch_all(keyword_sets, sources_by_code=None, maxrecords=250,
             print("Fetching %s / %s (%s) ..." % (language, topic, scope))
             got = 0
             for batch in batches:
-                rows = fetch_topic(topic, terms, sourcelang, language,
-                                   maxrecords, timespan, pause, retries,
-                                   domains=batch, start=start, end=end)
+                try:
+                    rows = fetch_topic(topic, terms, sourcelang, language,
+                                       maxrecords, timespan, pause, retries,
+                                       domains=batch, start=start, end=end)
+                except GdeltBlocked:
+                    blocked += 1
+                    if blocked >= max_blocked:
+                        print("  GDELT rate-limited %d times in a row — likely "
+                              "blocking this IP. Aborting run early." % blocked)
+                        raise
+                    time.sleep(pause)
+                    continue
+                blocked = 0  # a success clears the streak
                 got += len(rows)
                 for row in rows:
                     existing = by_url.get(row["url"])

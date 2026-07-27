@@ -174,9 +174,13 @@ def discover(args, keyword_sets):
 
     if not args.backfill:
         print("Source: GDELT one-shot, timespan=%s" % args.timespan)
-        return fetch_mod.fetch_all(
-            keyword_sets, sources_by_code=domains, maxrecords=args.maxrecords,
-            timespan=args.timespan, pause=args.pause)
+        try:
+            return fetch_mod.fetch_all(
+                keyword_sets, sources_by_code=domains, maxrecords=args.maxrecords,
+                timespan=args.timespan, pause=args.pause)
+        except fetch_mod.GdeltBlocked:
+            print("GDELT is blocking this IP; no GDELT results this run.")
+            return {}
 
     # Retroactive backfill: process the oldest unprocessed days first.
     state = load_state()
@@ -187,20 +191,28 @@ def discover(args, keyword_sets):
     print("Backfill: processing %d day(s): %s .. %s"
           % (len(days), days[0], days[-1]))
     by_url = {}
+    processed_ok = []
     for day in days:
         start = day.replace("-", "") + "000000"
         end = day.replace("-", "") + "235959"
         print("  --- %s ---" % day)
-        day_rows = fetch_mod.fetch_all(
-            keyword_sets, sources_by_code=domains, maxrecords=args.maxrecords,
-            pause=args.pause, start=start, end=end)
+        try:
+            day_rows = fetch_mod.fetch_all(
+                keyword_sets, sources_by_code=domains, maxrecords=args.maxrecords,
+                pause=args.pause, start=start, end=end)
+        except fetch_mod.GdeltBlocked:
+            print("  Backfill aborted — GDELT is blocking this IP. RSS data is "
+                  "unaffected; these days will be retried next run.")
+            break
         by_url.update({u: r for u, r in day_rows.items() if u not in by_url})
-    # Record progress + prune old days out of the window.
-    win_start = (_today() - timedelta(days=args.window_days)).isoformat()
-    processed = set(state.get("processed_days", [])) | set(days)
-    state["processed_days"] = sorted(d for d in processed if d >= win_start)
-    state["window_days"] = args.window_days
-    save_state(state)
+        processed_ok.append(day)
+    # Record only the days we fully processed; prune old days out of the window.
+    if processed_ok:
+        win_start = (_today() - timedelta(days=args.window_days)).isoformat()
+        processed = set(state.get("processed_days", [])) | set(processed_ok)
+        state["processed_days"] = sorted(d for d in processed if d >= win_start)
+        state["window_days"] = args.window_days
+        save_state(state)
     return by_url
 
 
