@@ -376,3 +376,117 @@ const CTX = {
   },
 };
 for (const _l of LOCALES) Object.assign(STR[_l], CTX[_l] || {});
+
+/* ---------- Global-warming element inside the context module ---------- */
+/* 5-year mean global surface-temperature anomaly vs the 1850–1900 pre-industrial
+   baseline (°C), rounded. Consistent with NASA GISS / Berkeley Earth / Copernicus;
+   the hero figure is the ~1.5 °C reached in 2024 (WMO / Copernicus). */
+const WARMING = {
+  hero_c: 1.5,
+  series: [
+    { y: 1950, a: 0.25 }, { y: 1955, a: 0.25 }, { y: 1960, a: 0.20 },
+    { y: 1965, a: 0.25 }, { y: 1970, a: 0.20 }, { y: 1975, a: 0.25 },
+    { y: 1980, a: 0.40 }, { y: 1985, a: 0.45 }, { y: 1990, a: 0.55 },
+    { y: 1995, a: 0.60 }, { y: 2000, a: 0.75 }, { y: 2005, a: 0.85 },
+    { y: 2010, a: 0.95 }, { y: 2015, a: 1.15 }, { y: 2020, a: 1.35 },
+  ],
+  sources: [
+    { label: "WMO", url: "https://wmo.int/" },
+    { label: "Copernicus C3S", url: "https://climate.copernicus.eu/" },
+    { label: "NASA GISS", url: "https://data.giss.nasa.gov/gistemp/" },
+  ],
+};
+
+const WARM = {
+  en: {
+    warming_title: "Global temperatures are rising",
+    warming_hero_sub: "2024 vs. the pre-industrial era",
+    warming_lead: "About {c} °C of warming above pre-industrial levels — and the ten warmest years on record have all occurred in the last decade. This is the driver the flagged coverage leaves out.",
+    warming_caption: "Each stripe = a 5-year average of global temperature, 1950–2024.",
+  },
+  es: {
+    warming_title: "Las temperaturas globales están subiendo",
+    warming_hero_sub: "2024 frente a la era preindustrial",
+    warming_lead: "Cerca de {c} °C de calentamiento sobre los niveles preindustriales, y los diez años más cálidos registrados son los diez últimos. Este es el motor que la cobertura señalada omite.",
+    warming_caption: "Cada franja = promedio de 5 años de la temperatura global, 1950–2024.",
+  },
+  fr: {
+    warming_title: "Les températures mondiales augmentent",
+    warming_hero_sub: "2024 par rapport à l'ère préindustrielle",
+    warming_lead: "Environ {c} °C de réchauffement au-dessus des niveaux préindustriels — et les dix années les plus chaudes jamais enregistrées sont les dix dernières. C'est le moteur que la couverture signalée passe sous silence.",
+    warming_caption: "Chaque bande = moyenne sur 5 ans de la température mondiale, 1950–2024.",
+  },
+  de: {
+    warming_title: "Die globalen Temperaturen steigen",
+    warming_hero_sub: "2024 gegenüber der vorindustriellen Zeit",
+    warming_lead: "Rund {c} °C Erwärmung über dem vorindustriellen Niveau — und die zehn wärmsten je gemessenen Jahre sind die letzten zehn. Das ist der Treiber, den die markierte Berichterstattung weglässt.",
+    warming_caption: "Jeder Streifen = 5-Jahres-Mittel der globalen Temperatur, 1950–2024.",
+  },
+  it: {
+    warming_title: "Le temperature globali stanno aumentando",
+    warming_hero_sub: "2024 rispetto all'era preindustriale",
+    warming_lead: "Circa {c} °C di riscaldamento sopra i livelli preindustriali — e i dieci anni più caldi mai registrati sono gli ultimi dieci. È il motore che la copertura segnalata omette.",
+    warming_caption: "Ogni striscia = media quinquennale della temperatura globale, 1950–2024.",
+  },
+  pt: {
+    warming_title: "As temperaturas globais estão a subir",
+    warming_hero_sub: "2024 face à era pré-industrial",
+    warming_lead: "Cerca de {c} °C de aquecimento acima dos níveis pré-industriais — e os dez anos mais quentes registados são os últimos dez. Este é o motor que a cobertura sinalizada omite.",
+    warming_caption: "Cada faixa = média de 5 anos da temperatura global, 1950–2024.",
+  },
+};
+for (const _l of LOCALES) Object.assign(STR[_l], WARM[_l] || {});
+
+/* ---------- "what average means" explainer + key stats (fires, heat records) ---------- */
+const KEYSTATS = [
+  { key: "fire", value: "≈2×", labelKey: "fire_stat_label",
+    sources: [
+      { label: "Nature Ecology & Evolution (2024)", url: "https://doi.org/10.1038/s41559-024-02452-2" },
+      { label: "Copernicus EFFIS", url: "https://forest-fire.emergency.copernicus.eu/" },
+    ] },
+  { key: "heat", value: "10 / 10", labelKey: "heat_stat_label",
+    sources: [
+      { label: "WMO", url: "https://wmo.int/" },
+      { label: "Copernicus C3S", url: "https://climate.copernicus.eu/" },
+    ] },
+];
+
+const WARM2 = {
+  en: {
+    warming_avg_title: "What “average” really means",
+    warming_avg: "This is a global, year-round average — not how much hotter a single afternoon feels. Nudging that average up by ~1.5 °C shifts the entire range of weather, turning once-in-a-lifetime heat into a regular event. For scale: the last ice age was only about 5 °C colder on average, yet it buried much of the northern hemisphere under ice.",
+    fire_stat_label: "The frequency and intensity of Earth's most extreme wildfires roughly doubled over the past 20 years — bigger, hotter, more destructive blazes.",
+    heat_stat_label: "The ten warmest years ever recorded are the last ten.",
+  },
+  es: {
+    warming_avg_title: "Qué significa realmente «media»",
+    warming_avg: "Es una media global y de todo el año, no cuánto más calor hace una tarde concreta. Subir esa media ~1,5 °C desplaza todo el rango del clima y convierte un calor irrepetible en algo habitual. Para hacerse una idea: la última glaciación fue solo unos 5 °C más fría de media, y cubrió de hielo gran parte del hemisferio norte.",
+    fire_stat_label: "La frecuencia e intensidad de los incendios más extremos del planeta se ha duplicado en los últimos 20 años: fuegos más grandes, más calientes y más destructivos.",
+    heat_stat_label: "Los diez años más cálidos jamás registrados son los diez últimos.",
+  },
+  fr: {
+    warming_avg_title: "Ce que « moyenne » veut vraiment dire",
+    warming_avg: "C'est une moyenne mondiale et annuelle — pas la chaleur ressentie un après-midi. Relever cette moyenne d'environ 1,5 °C décale toute la gamme du climat et transforme une chaleur exceptionnelle en événement banal. Pour l'échelle : la dernière période glaciaire n'était que d'environ 5 °C plus froide en moyenne, et elle recouvrait de glace une grande partie de l'hémisphère nord.",
+    fire_stat_label: "La fréquence et l'intensité des incendies les plus extrêmes de la planète ont environ doublé en 20 ans — des feux plus grands, plus chauds, plus destructeurs.",
+    heat_stat_label: "Les dix années les plus chaudes jamais mesurées sont les dix dernières.",
+  },
+  de: {
+    warming_avg_title: "Was „Durchschnitt“ wirklich bedeutet",
+    warming_avg: "Das ist ein globaler Jahresdurchschnitt — nicht, wie viel heißer sich ein einzelner Nachmittag anfühlt. Diesen Durchschnitt um ~1,5 °C anzuheben verschiebt die gesamte Bandbreite des Wetters und macht aus einer Jahrhundert-Hitze ein Alltagsereignis. Zur Einordnung: Die letzte Eiszeit war im Mittel nur etwa 5 °C kälter — und begrub weite Teile der Nordhalbkugel unter Eis.",
+    fire_stat_label: "Häufigkeit und Intensität der extremsten Waldbrände der Erde haben sich in 20 Jahren etwa verdoppelt — größere, heißere, zerstörerischere Brände.",
+    heat_stat_label: "Die zehn wärmsten je gemessenen Jahre sind die letzten zehn.",
+  },
+  it: {
+    warming_avg_title: "Cosa significa davvero «media»",
+    warming_avg: "È una media globale e su tutto l'anno, non quanto fa più caldo un singolo pomeriggio. Alzare quella media di ~1,5 °C sposta l'intera gamma del clima e trasforma un caldo irripetibile in un evento abituale. Per avere un'idea: l'ultima era glaciale era in media solo circa 5 °C più fredda, eppure ricoprì di ghiaccio gran parte dell'emisfero nord.",
+    fire_stat_label: "La frequenza e l'intensità degli incendi più estremi del pianeta sono all'incirca raddoppiate negli ultimi 20 anni: roghi più grandi, più caldi e più distruttivi.",
+    heat_stat_label: "I dieci anni più caldi mai registrati sono gli ultimi dieci.",
+  },
+  pt: {
+    warming_avg_title: "O que «média» significa realmente",
+    warming_avg: "É uma média global e de todo o ano — não o calor que se sente numa tarde. Subir essa média ~1,5 °C desloca toda a gama do clima e transforma um calor irrepetível num evento habitual. Para ter noção: a última era glacial foi em média apenas cerca de 5 °C mais fria, e cobriu de gelo grande parte do hemisfério norte.",
+    fire_stat_label: "A frequência e a intensidade dos incêndios mais extremos do planeta cerca de duplicaram nos últimos 20 anos — fogos maiores, mais quentes e mais destrutivos.",
+    heat_stat_label: "Os dez anos mais quentes alguma vez registados são os últimos dez.",
+  },
+};
+for (const _l of LOCALES) Object.assign(STR[_l], WARM2[_l] || {});

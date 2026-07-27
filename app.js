@@ -209,8 +209,62 @@ function evLine(which, terms) {
   return `<b>${esc(t(noneKey))}:</b> <span class="absent">${esc(t("ev_none"))}</span>`;
 }
 
+/* ---------- warming stripes + "what average means" ---------- */
+function _mix(c1, c2, t) {
+  const l = (a, b) => Math.round(a + (b - a) * t);
+  const h = (n) => n.toString(16).padStart(2, "0");
+  return `#${h(l(c1[0], c2[0]))}${h(l(c1[1], c2[1]))}${h(l(c1[2], c2[2]))}`;
+}
+function divergeColor(tn) {
+  const blue = [42, 120, 214], mid = [233, 230, 223], red = [208, 59, 59];
+  return tn < 0.5 ? _mix(blue, mid, tn * 2) : _mix(mid, red, (tn - 0.5) * 2);
+}
+function renderWarming() {
+  const s = WARMING;
+  const vals = s.series.map((d) => d.a);
+  const min = Math.min(...vals), max = Math.max(...vals);
+  const stripes = s.series.map((d) => {
+    const tn = (d.a - min) / ((max - min) || 1);
+    return `<span class="stripe" style="background:${divergeColor(tn)}" title="${d.y}–${d.y + 4}: +${d.a.toFixed(2)}°C"></span>`;
+  }).join("");
+  const first = s.series[0].y, last = s.series[s.series.length - 1].y;
+  const srcs = s.sources.map((x) =>
+    `<a href="${esc(x.url)}" target="_blank" rel="noopener noreferrer">${esc(x.label)}</a>`).join(" · ");
+  $("ctxWarming").innerHTML = `
+    <div class="warming">
+      <div class="warming-hero">
+        <div class="warming-num">+${s.hero_c}<span class="warming-unit">°C</span></div>
+        <div class="warming-sub">${esc(t("warming_hero_sub"))}</div>
+      </div>
+      <div class="warming-body">
+        <h3>${esc(t("warming_title"))}</h3>
+        <p>${esc(t("warming_lead", { c: s.hero_c }))}</p>
+        <div class="stripes" role="img" aria-label="${esc(t("warming_title"))}">${stripes}</div>
+        <div class="stripe-labels"><span>${first}</span><span>${last}–${last + 4}</span></div>
+        <div class="warming-cap">${esc(t("warming_caption"))} · ${esc(t("ctx_sources"))}: ${srcs}</div>
+        <div class="avg-note">
+          <strong>${esc(t("warming_avg_title"))}</strong>
+          <span>${esc(t("warming_avg"))}</span>
+        </div>
+      </div>
+    </div>`;
+}
+function renderStats() {
+  $("ctxStats").innerHTML = KEYSTATS.map((st) => {
+    const srcs = st.sources.map((x) =>
+      `<a href="${esc(x.url)}" target="_blank" rel="noopener noreferrer">${esc(x.label)}</a>`).join(" · ");
+    return `<div class="stat-card">
+      <div class="stat-value">${esc(st.value)}</div>
+      <div class="stat-label">${esc(t(st.labelKey))}</div>
+      <div class="ctx-src">${esc(t("ctx_sources"))}: ${srcs}</div>
+    </div>`;
+  }).join("");
+}
+
 /* ---------- climate-context module ---------- */
 function renderContext() {
+  renderWarming();
+  renderStats();
   const topics = ["heatwave", "excess_deaths", "wildfire"];
   $("ctxGrid").innerHTML = topics.map((tp) => {
     const srcs = (CONTEXT_SOURCES[tp] || []).map((s) =>

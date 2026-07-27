@@ -142,6 +142,35 @@ header.site p.tag { margin: 0; color: var(--text-secondary); max-width: 60ch; }
 .ctx-jump:hover { text-decoration: underline; }
 #trend svg { display: block; max-width: 100%; }
 
+/* warming banner + stripes */
+.warming { display: flex; gap: 20px; align-items: flex-start; margin: 6px 0 18px; flex-wrap: wrap; }
+.warming-hero { flex: 0 0 auto; text-align: center; padding: 8px 20px 8px 4px; }
+.warming-num { font-size: 3.2rem; font-weight: 700; line-height: 1; letter-spacing: -0.02em; color: #d03b3b; }
+.warming-unit { font-size: 1.4rem; font-weight: 600; margin-left: 2px; }
+.warming-sub { color: var(--muted); font-size: .8rem; margin-top: 4px; max-width: 12ch; margin-inline: auto; }
+.warming-body { flex: 1 1 320px; }
+.warming-body h3 { margin: 0 0 6px; font-size: 1.02rem; }
+.warming-body > p { margin: 0 0 12px; color: var(--text-secondary); font-size: .92rem; }
+.stripes { display: flex; height: 46px; border-radius: 6px; overflow: hidden; border: 1px solid var(--border); }
+.stripe { flex: 1 1 0; }
+.stripe-labels { display: flex; justify-content: space-between; color: var(--muted); font-size: .72rem; margin-top: 4px; font-variant-numeric: tabular-nums; }
+.warming-cap { color: var(--muted); font-size: .76rem; margin-top: 8px; }
+.warming-cap a { color: var(--series-climate); text-decoration: none; }
+.warming-cap a:hover { text-decoration: underline; }
+.avg-note {
+  margin-top: 12px; padding: 10px 14px; border-radius: 8px;
+  background: color-mix(in srgb, var(--series-political) 8%, transparent);
+  border: 1px solid var(--border); border-left: 3px solid var(--series-political);
+  font-size: .88rem; color: var(--text-secondary);
+}
+.avg-note strong { color: var(--text-primary); display: block; margin-bottom: 2px; }
+
+/* key-stat cards (fires, heat records) */
+.ctx-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; margin: 0 0 18px; }
+.stat-card { background: var(--surface-1); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; }
+.stat-value { font-size: 1.9rem; font-weight: 650; letter-spacing: -0.02em; color: var(--series-political); }
+.stat-label { color: var(--text-secondary); font-size: .88rem; margin: 4px 0 8px; }
+
 .table-toggle { background: none; border: none; color: var(--series-climate); cursor: pointer; font-size: .82rem; margin-top: 14px; padding: 0; }
 table.data { width: 100%; border-collapse: collapse; margin-top: 12px; font-size: .85rem; }
 table.data th, table.data td { text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--grid); font-variant-numeric: tabular-nums; }
