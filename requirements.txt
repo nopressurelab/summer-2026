@@ -1,0 +1,5 @@
+# The pipeline runs on the Python standard library alone. trafilatura is an
+# optional but recommended upgrade for cleaner full-text extraction; when it is
+# installed (as in CI) it is used automatically, otherwise a stdlib fallback
+# extractor takes over.
+trafilatura>=1.8

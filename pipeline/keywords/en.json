@@ -1,0 +1,11 @@
+{
+  "language": "English",
+  "sourcelang": "English",
+  "topics": {
+    "heatwave": ["heat wave", "heatwave", "heat dome", "extreme heat", "record heat", "heat warning", "heat alert", "scorching"],
+    "excess_deaths": ["excess deaths", "excess mortality", "heat deaths", "heat-related deaths", "heat-related mortality", "died from the heat", "died of heat", "deaths from heat"],
+    "wildfire": ["wildfire", "wildfires", "forest fire", "forest fires", "bushfire", "wildland fire", "blaze"]
+  },
+  "climate": ["climate change", "global warming", "climate crisis", "climate emergency", "climate breakdown", "greenhouse gas", "greenhouse gases", "carbon emissions", "warming planet", "warming climate", "human-caused warming", "fossil fuel"],
+  "political": ["government", "minister", "prime minister", "president", "policy", "legislation", "parliament", "congress", "senate", "authorities", "funding", "budget cut", "budget cuts", "inaction", "negligence", "accountability", "far-right", "right-wing", "conservative government"]
+}

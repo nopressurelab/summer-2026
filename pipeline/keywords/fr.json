@@ -1,0 +1,11 @@
+{
+  "language": "French",
+  "sourcelang": "French",
+  "topics": {
+    "heatwave": ["canicule", "vague de chaleur", "dôme de chaleur", "chaleur extrême", "record de chaleur", "alerte canicule", "fortes chaleurs"],
+    "excess_deaths": ["surmortalité", "morts liées à la chaleur", "décès liés à la chaleur", "morts de la chaleur", "excès de mortalité", "décès dus à la chaleur"],
+    "wildfire": ["incendie", "incendies", "feu de forêt", "feux de forêt", "incendie de forêt", "mégafeu", "mégafeux"]
+  },
+  "climate": ["changement climatique", "réchauffement climatique", "crise climatique", "urgence climatique", "dérèglement climatique", "gaz à effet de serre", "émissions de carbone", "énergies fossiles"],
+  "political": ["gouvernement", "ministre", "président", "politique", "loi", "parlement", "assemblée nationale", "autorités", "financement", "inaction", "négligence", "responsabilité", "extrême droite", "droite"]
+}

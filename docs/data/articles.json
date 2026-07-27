@@ -1,0 +1,136 @@
+[
+ {
+  "id": "0aa6ddacb178",
+  "url": "https://www.krcu.org/2026-07-25/france-and-spain-fires-force-more-than-300-000-to-flee-homes",
+  "title": "France and Spain fires force more than 300 , 000 to flee homes",
+  "domain": "krcu.org",
+  "source_country": "United States",
+  "language": "English",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20260727T073000Z",
+  "socialimage": "http://npr-brightspot.s3.amazonaws.com/56/56/859d072449599d0ba00bcd5bb020/ap26206645272115.jpg",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "wildfires"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "government",
+    "minister",
+    "prime minister",
+    "president"
+   ],
+   "excerpt": "…ance, Saturday, July 25, 2026. Updated July 26, 2026 at 9:56 PM CDT Devastating wildfires in Spain and France have forced more than 300,000 people to evacuate their homes. In France, around 50,000 people were evacuated overnight into Sunday, bringing the total to over 250,000, according to the country's interior minist…"
+  }
+ },
+ {
+  "id": "64a3bbafbcfb",
+  "url": "https://www.manilatimes.net/2026/07/27/world/macron-calls-crisis-meeting-as-monster-wildfires-drive-250000-from-their-homes/2391833",
+  "title": "Macron calls crisis meeting as monster wildfires drive 250 , 000 from their homes",
+  "domain": "manilatimes.net",
+  "source_country": "Philippines",
+  "language": "English",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20260727T073000Z",
+  "socialimage": "https://manilatimes.net/manilatimes/uploads/images/2026/07/27/1151893.jpg",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "blaze",
+    "wildfires"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "government",
+    "president",
+    "policy",
+    "authorities"
+   ],
+   "excerpt": "…o flee their homes, amid a first glimmer of hope that the spread of the largest blaze may have slowed. In the Gironde region of southwest France, where flames have burned an area four times the size of Paris, the prefecture said the situation overnight had remained “globally stable\" — a change from successive days wher…"
+  }
+ },
+ {
+  "id": "6c19d759cdfa",
+  "url": "https://www.falmouthpacket.co.uk/news/national/uk-today/26411004.will-next-heatwave-hit-uk-met-office-forecast/",
+  "title": "When will the next heatwave hit the united kingdom ? Met Office forecast",
+  "domain": "falmouthpacket.co.uk",
+  "source_country": "United Kingdom",
+  "language": "English",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20260727T073000Z",
+  "socialimage": "https://www.falmouthpacket.co.uk/resources/images/21236241.jpg?type=og-image",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "wildfire",
+    "wildfires"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "…ures are set to rise again. The prolonged hot weather is raising fresh fears of wildfires across the country and placing further strain on emergency services and public health. A yellow heat alert has been issued by the UK Health Security Agency covering the East and West Midlands, the south-east, south-west, and east…"
+  }
+ },
+ {
+  "id": "2bce17f65845",
+  "url": "https://www.euronews.com/my-europe/2026/07/27/thousands-evacuated-as-fires-creep-towards-bordeaux-while-authorities-scramble-to-fight-fl",
+  "title": "Thousands evacuated as fires creep towards Bordeaux while authorities scramble to fight flames near Madrid",
+  "domain": "euronews.com",
+  "source_country": "United States",
+  "language": "English",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20260727T073000Z",
+  "socialimage": "https://images.euronews.com/articles/stories/09/85/14/73/1200x675_cmsv2_d2e3b352-1800-57bb-b86c-60de4f27d37f-9851473.jpg",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": true,
+  "mentions_political_responsibility": true,
+  "omits_climate": false,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "blaze",
+    "wildfire",
+    "wildfires"
+   ],
+   "climate_terms": [
+    "climate change"
+   ],
+   "political_terms": [
+    "government",
+    "minister",
+    "prime minister",
+    "policy",
+    "authorities"
+   ],
+   "excerpt": "…well as arid conditions, complicated massive efforts to limit the spread of the blaze burning out of control since midweek in France's Gironde region, where Bordeaux is located. Authorities issued several evacuation orders overnight for at least five localities southwest of the historic city. A woman caresses her dog a…"
+  }
+ }
+]

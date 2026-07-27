@@ -1,0 +1,11 @@
+{
+  "language": "German",
+  "sourcelang": "German",
+  "topics": {
+    "heatwave": ["Hitzewelle", "Hitzewellen", "Hitzekuppel", "extreme Hitze", "Hitzerekord", "Rekordhitze", "Hitzewarnung"],
+    "excess_deaths": ["Übersterblichkeit", "Hitzetote", "hitzebedingte Todesfälle", "Hitzeopfer", "Todesfälle durch Hitze", "Hitzetoten"],
+    "wildfire": ["Waldbrand", "Waldbrände", "Buschbrand", "Flächenbrand", "Vegetationsbrand", "Waldbränden"]
+  },
+  "climate": ["Klimawandel", "Klimakrise", "globale Erwärmung", "Erderwärmung", "Klimanotstand", "Treibhausgas", "Treibhausgase", "CO2-Emissionen", "fossile Brennstoffe"],
+  "political": ["Regierung", "Minister", "Kanzler", "Präsident", "Politik", "Gesetz", "Parlament", "Bundestag", "Behörden", "Finanzierung", "Untätigkeit", "Fahrlässigkeit", "Verantwortung", "rechtsextrem", "rechtspopulistisch"]
+}

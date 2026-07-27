@@ -1,0 +1,11 @@
+{
+  "language": "Spanish",
+  "sourcelang": "Spanish",
+  "topics": {
+    "heatwave": ["ola de calor", "cúpula de calor", "calor extremo", "récord de calor", "alerta por calor", "olas de calor"],
+    "excess_deaths": ["exceso de mortalidad", "muertes por calor", "muertes relacionadas con el calor", "sobremortalidad", "fallecidos por calor", "muertos por calor"],
+    "wildfire": ["incendio forestal", "incendios forestales", "incendio", "incendios", "fuego forestal"]
+  },
+  "climate": ["cambio climático", "calentamiento global", "crisis climática", "emergencia climática", "gases de efecto invernadero", "emisiones de carbono", "combustibles fósiles"],
+  "political": ["gobierno", "ministro", "presidente", "política", "ley", "parlamento", "congreso", "autoridades", "financiación", "inacción", "negligencia", "responsabilidad", "ultraderecha", "extrema derecha", "derecha"]
+}

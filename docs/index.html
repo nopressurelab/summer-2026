@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Climate-Silent Coverage — heat, wildfire & excess-death reporting watch</title>
+  <meta name="description" content="Tracking English, French, Spanish, German and Italian news coverage of heat waves, excess deaths and wildfires that omits climate change or government accountability.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="site">
+      <div>
+        <h1>Climate-Silent Coverage</h1>
+        <p class="tag">Coverage of <strong>heat waves</strong>, <strong>excess deaths</strong> and
+          <strong>wildfires</strong> in major English, French, Spanish, German and Italian outlets —
+          flagged when it omits <strong>climate change</strong> or any <strong>government / policy accountability</strong>.</p>
+        <div class="updated" id="updated">Loading…</div>
+      </div>
+      <button class="theme-toggle" id="themeToggle" type="button">◐ Theme</button>
+    </header>
+
+    <div class="disclaimer">
+      <strong>How flags work &amp; their limits.</strong> Flags come from transparent keyword rules over each
+      article's own text, not editorial judgement. “Omits” means none of a curated list of climate or
+      accountability terms was found — expand <em>“Why flagged”</em> on any card to see the exact evidence and
+      verify it yourself. Keyword matching is blunt (paywalled articles are marked <em>low-confidence</em>),
+      and this is a rolling ~3-month window from GDELT, not a complete archive.
+    </div>
+
+    <section class="tiles" id="tiles"></section>
+
+    <section class="card" id="chartCard">
+      <h2>Omissions by language</h2>
+      <p class="hint">Share of matched articles in each language that omit each kind of context.</p>
+      <div class="legend">
+        <span><i class="swatch sw-climate"></i> Omits climate change</span>
+        <span><i class="swatch sw-political"></i> Omits gov / policy accountability</span>
+      </div>
+      <div class="bars" id="bars"></div>
+      <button class="table-toggle" id="tableToggle" type="button">Show data table</button>
+      <div id="tableWrap" hidden></div>
+    </section>
+
+    <div class="filters">
+      <input type="search" id="q" placeholder="Search headlines and excerpts…" aria-label="Search articles">
+      <select id="fLang" aria-label="Language"><option value="">All languages</option></select>
+      <select id="fTopic" aria-label="Topic"><option value="">All topics</option></select>
+      <select id="fSource" aria-label="Source"><option value="">All sources</option></select>
+      <select id="fFlag" aria-label="Flag">
+        <option value="">Any coverage</option>
+        <option value="omits_climate">Omits climate</option>
+        <option value="omits_political">Omits accountability</option>
+        <option value="omits_both">Omits both</option>
+        <option value="mentions_both">Mentions both</option>
+      </select>
+      <select id="sort" aria-label="Sort">
+        <option value="date">Newest first</option>
+        <option value="source">By source</option>
+      </select>
+    </div>
+    <div class="count-line" id="countLine"></div>
+
+    <section class="articles" id="articles"></section>
+
+    <footer class="site">
+      Data via the free <a href="https://blog.gdeltproject.org/gdelt-doc-2-0-api-debuts/">GDELT DOC 2.0 API</a>.
+      Rebuilt automatically on a schedule. Open source — see the repository README for method and limitations.
+    </footer>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

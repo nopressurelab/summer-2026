@@ -1,0 +1,50 @@
+{
+ "last_updated": "2026-07-27T08:03:52Z",
+ "timespan": "7d",
+ "languages": [
+  "en"
+ ],
+ "total_articles": 4,
+ "total_omits_climate": 3,
+ "total_omits_political": 1,
+ "by_language": {
+  "English": {
+   "total": 4,
+   "omits_climate": 3,
+   "omits_political": 1
+  }
+ },
+ "by_topic": {
+  "wildfire": {
+   "total": 4,
+   "omits_climate": 3,
+   "omits_political": 1
+  }
+ },
+ "top_sources": [
+  {
+   "domain": "krcu.org",
+   "total": 1,
+   "omits_climate": 1,
+   "omits_political": 0
+  },
+  {
+   "domain": "manilatimes.net",
+   "total": 1,
+   "omits_climate": 1,
+   "omits_political": 0
+  },
+  {
+   "domain": "falmouthpacket.co.uk",
+   "total": 1,
+   "omits_climate": 1,
+   "omits_political": 1
+  },
+  {
+   "domain": "euronews.com",
+   "total": 1,
+   "omits_climate": 0,
+   "omits_political": 0
+  }
+ ]
+}

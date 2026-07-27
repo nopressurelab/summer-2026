@@ -1,0 +1,51 @@
+name: Update dashboard data
+
+on:
+  schedule:
+    - cron: "17 5 * * *"   # daily at 05:17 UTC
+  workflow_dispatch:
+    inputs:
+      timespan:
+        description: "GDELT timespan (e.g. 3m, 1w)"
+        default: "3m"
+      languages:
+        description: "Comma-separated language codes"
+        default: "en,fr,es,de,it"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run pipeline
+        run: |
+          python -m pipeline.build \
+            --languages "${{ github.event.inputs.languages || 'en,fr,es,de,it' }}" \
+            --timespan "${{ github.event.inputs.timespan || '3m' }}"
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data/articles.json docs/data/meta.json
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "chore: refresh dashboard data ($(date -u +%Y-%m-%d))"
+            git push
+          fi
