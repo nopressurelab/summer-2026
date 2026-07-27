@@ -11,7 +11,7 @@ derived from transparent keyword rules and shown **with its evidence**, so
 readers can verify each call themselves.
 
 - **Live dashboard:** enable GitHub Pages (see below) → `https://<user>.github.io/<repo>/`
-- **Data source:** the free [GDELT DOC 2.0 API](https://blog.gdeltproject.org/gdelt-doc-2-0-api-debuts/) (no API key, ~3-month rolling window)
+- **Data sources:** each newspaper's own **RSS feeds** (primary, no rate limit) plus the free [GDELT DOC 2.0 API](https://blog.gdeltproject.org/gdelt-doc-2-0-api-debuts/) for **retroactive backfill** (no API key)
 - **Cost:** $0 — static site on GitHub Pages, refreshed by a scheduled GitHub Action
 
 ## How it works

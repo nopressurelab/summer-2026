@@ -74,7 +74,8 @@ def classify_row(row, matcher_for_lang):
     m = matcher_for_lang
     title = row.get("title", "")
     text = row.get("text", "")
-    combined = normalize(title + " . " + text)
+    summary = row.get("rss_summary", "")
+    combined = normalize(" . ".join([title, text, summary]))
 
     topic_terms = []
     for tset in m["topics"].values():
@@ -96,7 +97,7 @@ def classify_row(row, matcher_for_lang):
         "topic_terms": topic_terms,
         "climate_terms": climate_terms,
         "political_terms": political_terms,
-        "excerpt": _excerpt(text, title, topic_terms),
+        "excerpt": _excerpt(text or summary, title, topic_terms),
     }
     return row
 

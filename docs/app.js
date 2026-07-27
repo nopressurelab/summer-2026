@@ -45,7 +45,7 @@ function renderTiles() {
   const total = m.total_articles;
   const tiles = [
     { value: total.toLocaleString(), label: "Articles tracked",
-      sub: `${(m.languages || []).length} languages · rolling ${m.timespan}` },
+      sub: `${(m.languages || []).length} languages · rolling ${m.window_days || 90} days` },
     { value: `${pct(m.total_omits_climate, total)}%`, label: "Omit climate change",
       sub: `${m.total_omits_climate.toLocaleString()} of ${total.toLocaleString()} articles` },
     { value: `${pct(m.total_omits_political, total)}%`, label: "Omit gov / policy accountability",
@@ -186,7 +186,7 @@ function articleHtml(a) {
   <article class="article">
     <h3><a href="${esc(a.url)}" target="_blank" rel="noopener noreferrer">${esc(a.title || a.url)}</a></h3>
     <div class="meta">
-      <span>${esc(a.domain || "")}</span>
+      <span>${esc(a.source_name || a.domain || "")}</span>
       ${a.source_country ? `<span class="dot">·</span><span>${esc(a.source_country)}</span>` : ""}
       ${date ? `<span class="dot">·</span><span>${esc(date)}</span>` : ""}
     </div>

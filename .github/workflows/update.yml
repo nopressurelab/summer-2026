@@ -1,16 +1,20 @@
 name: Update dashboard data
 
+# Runs once a day on GitHub's cron. Note: scheduled runs only fire from the
+# repository's DEFAULT branch, timing is best-effort (can be delayed), and
+# GitHub disables the schedule after 60 days with no repo activity (the daily
+# data commit keeps it active).
 on:
   schedule:
     - cron: "17 5 * * *"   # daily at 05:17 UTC
   workflow_dispatch:
     inputs:
-      timespan:
-        description: "GDELT timespan (e.g. 3m, 1w)"
-        default: "3m"
-      languages:
-        description: "Comma-separated language codes"
-        default: "en,fr,es,de,it"
+      backfill_days:
+        description: "GDELT backfill: days to process this run"
+        default: "5"
+      window_days:
+        description: "Rolling window in days (older articles are pruned)"
+        default: "90"
 
 permissions:
   contents: write
@@ -22,6 +26,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
 
@@ -32,17 +37,28 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run pipeline
+      # 1) Forward: current items from each source's own RSS feeds (no rate limit).
+      - name: Ingest RSS feeds
         run: |
-          python -m pipeline.build \
-            --languages "${{ github.event.inputs.languages || 'en,fr,es,de,it' }}" \
-            --timespan "${{ github.event.inputs.timespan || '3m' }}"
+          python -m pipeline.build --source rss \
+            --window-days "${{ github.event.inputs.window_days || '90' }}" \
+            --pause 1
+
+      # 2) Retroactive: fill history backward, oldest unprocessed day first.
+      #    Bounded per run to stay friendly with GDELT's rate limits; state in
+      #    docs/data/backfill_state.json lets it resume next day.
+      - name: Backfill from GDELT
+        run: |
+          python -m pipeline.build --source gdelt --backfill \
+            --backfill-days "${{ github.event.inputs.backfill_days || '5' }}" \
+            --window-days "${{ github.event.inputs.window_days || '90' }}" \
+            --pause 6
 
       - name: Commit refreshed data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/data/articles.json docs/data/meta.json
+          git add docs/data/articles.json docs/data/meta.json docs/data/backfill_state.json
           if git diff --cached --quiet; then
             echo "No data changes to commit."
           else
