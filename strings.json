@@ -328,7 +328,8 @@
    "local_notfound": "City not found — try another spelling or add the country.",
    "local_error": "Couldn't load data for that location. Try again later.",
    "local_result": "{city} has warmed about {d} °C since {y0}.",
-   "local_caption": "Annual average temperature, {y0}–{y1}."
+   "local_caption": "Annual average temperature, {y0}–{y1}.",
+   "tile_tracked_sub_all": "{langs} languages · since {since}"
   },
   "es": {
    "tagline": "Cobertura de <strong>olas de calor</strong>, <strong>exceso de muertes</strong> e <strong>incendios forestales</strong> en grandes medios en inglés, francés, español, alemán, italiano y portugués, marcada cuando omite el <strong>cambio climático</strong> o cualquier <strong>responsabilidad política</strong>.",
@@ -417,7 +418,8 @@
    "local_notfound": "Ciudad no encontrada: prueba otra grafía o añade el país.",
    "local_error": "No se pudieron cargar los datos de esa ubicación. Inténtalo más tarde.",
    "local_result": "{city} se ha calentado unos {d} °C desde {y0}.",
-   "local_caption": "Temperatura media anual, {y0}–{y1}."
+   "local_caption": "Temperatura media anual, {y0}–{y1}.",
+   "tile_tracked_sub_all": "{langs} idiomas · desde {since}"
   },
   "fr": {
    "tagline": "Couverture des <strong>canicules</strong>, de la <strong>surmortalité</strong> et des <strong>incendies</strong> dans les grands médias anglais, français, espagnols, allemands, italiens et portugais — signalée lorsqu'elle omet le <strong>changement climatique</strong> ou toute <strong>responsabilité politique</strong>.",
@@ -506,7 +508,8 @@
    "local_notfound": "Ville introuvable — essayez une autre orthographe ou ajoutez le pays.",
    "local_error": "Impossible de charger les données pour ce lieu. Réessayez plus tard.",
    "local_result": "{city} s'est réchauffée d'environ {d} °C depuis {y0}.",
-   "local_caption": "Température moyenne annuelle, {y0}–{y1}."
+   "local_caption": "Température moyenne annuelle, {y0}–{y1}.",
+   "tile_tracked_sub_all": "{langs} langues · depuis {since}"
   },
   "de": {
    "tagline": "Berichterstattung über <strong>Hitzewellen</strong>, <strong>Übersterblichkeit</strong> und <strong>Waldbrände</strong> in großen englischen, französischen, spanischen, deutschen, italienischen und portugiesischen Medien — markiert, wenn sie den <strong>Klimawandel</strong> oder jede <strong>politische Verantwortung</strong> auslässt.",
@@ -595,7 +598,8 @@
    "local_notfound": "Stadt nicht gefunden — andere Schreibweise versuchen oder Land ergänzen.",
    "local_error": "Daten für diesen Ort konnten nicht geladen werden. Später erneut versuchen.",
    "local_result": "{city} hat sich seit {y0} um etwa {d} °C erwärmt.",
-   "local_caption": "Jahresmitteltemperatur, {y0}–{y1}."
+   "local_caption": "Jahresmitteltemperatur, {y0}–{y1}.",
+   "tile_tracked_sub_all": "{langs} Sprachen · seit {since}"
   },
   "it": {
    "tagline": "Copertura di <strong>ondate di calore</strong>, <strong>eccesso di morti</strong> e <strong>incendi</strong> nei grandi media inglesi, francesi, spagnoli, tedeschi, italiani e portoghesi — segnalata quando omette il <strong>cambiamento climatico</strong> o qualsiasi <strong>responsabilità politica</strong>.",
@@ -684,7 +688,8 @@
    "local_notfound": "Città non trovata — prova un'altra grafia o aggiungi il paese.",
    "local_error": "Impossibile caricare i dati per questa località. Riprova più tardi.",
    "local_result": "{city} si è riscaldata di circa {d} °C dal {y0}.",
-   "local_caption": "Temperatura media annua, {y0}–{y1}."
+   "local_caption": "Temperatura media annua, {y0}–{y1}.",
+   "tile_tracked_sub_all": "{langs} lingue · dal {since}"
   },
   "pt": {
    "tagline": "Cobertura de <strong>ondas de calor</strong>, <strong>excesso de mortes</strong> e <strong>incêndios</strong> em grandes meios em inglês, francês, espanhol, alemão, italiano e português — sinalizada quando omite as <strong>alterações climáticas</strong> ou qualquer <strong>responsabilidade política</strong>.",
@@ -773,7 +778,8 @@
    "local_notfound": "Cidade não encontrada — tenta outra grafia ou acrescenta o país.",
    "local_error": "Não foi possível carregar os dados desse local. Tenta mais tarde.",
    "local_result": "{city} aqueceu cerca de {d} °C desde {y0}.",
-   "local_caption": "Temperatura média anual, {y0}–{y1}."
+   "local_caption": "Temperatura média anual, {y0}–{y1}.",
+   "tile_tracked_sub_all": "{langs} idiomas · desde {since}"
   }
  }
 }

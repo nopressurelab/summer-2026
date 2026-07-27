@@ -58,6 +58,16 @@ def _today():
     return datetime.now(timezone.utc).date()
 
 
+def _since(articles):
+    """Earliest article date (YYYY-MM-DD) in the dataset, for the meta summary."""
+    dates = [(a.get("seendate") or "")[:8] for a in articles if a.get("seendate")]
+    dates = [d for d in dates if len(d) == 8]
+    if not dates:
+        return ""
+    d = min(dates)
+    return "%s-%s-%s" % (d[:4], d[4:6], d[6:8])
+
+
 # ---------- source loading ----------
 
 def _load_source_files(langs):
@@ -232,7 +242,7 @@ def load_existing_articles():
         return []
 
 
-def merge_and_prune(existing, fresh, window_days):
+def merge_and_prune(existing, fresh, window_days, prune=True):
     by_id = {a["id"]: a for a in existing}
     for a in fresh:
         by_id[a["id"]] = a  # newest wins
@@ -240,7 +250,7 @@ def merge_and_prune(existing, fresh, window_days):
     kept = []
     for a in by_id.values():
         seen = (a.get("seendate") or "")[:8]
-        if seen and seen < cutoff:
+        if prune and seen and seen < cutoff:
             continue  # older than the rolling window
         kept.append(a)
     kept.sort(key=lambda a: a.get("seendate", ""), reverse=True)
@@ -249,7 +259,7 @@ def merge_and_prune(existing, fresh, window_days):
 
 # ---------- meta ----------
 
-def build_meta(articles, langs, window_days, source):
+def build_meta(articles, langs, window_days, source, pruned=True):
     by_language, by_topic, source_counts = {}, {}, {}
     for a in articles:
         L = by_language.setdefault(a["language"],
@@ -275,6 +285,8 @@ def build_meta(articles, langs, window_days, source):
     return {
         "last_updated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "window_days": window_days,
+        "pruned": pruned,
+        "since": _since(articles),
         "last_source": source,
         "languages": langs,
         "total_articles": len(articles),
@@ -312,6 +324,8 @@ def main():
                     help="GDELT: ignore allowlist; sweep every outlet")
     ap.add_argument("--no-accumulate", action="store_true",
                     help="overwrite the dataset instead of merging with prior runs")
+    ap.add_argument("--no-prune", action="store_true",
+                    help="keep all articles forever (never drop old ones)")
     ap.add_argument("--no-warming", action="store_true",
                     help="skip refreshing data/warming.json from NASA GISTEMP")
     args = ap.parse_args()
@@ -336,13 +350,15 @@ def main():
         rows = rows[:args.limit]
     fresh = process_rows(rows, keyword_sets, args.no_extract)
 
+    prune = not args.no_prune
     existing = [] if args.no_accumulate else load_existing_articles()
-    articles = merge_and_prune(existing, fresh, args.window_days)
+    articles = merge_and_prune(existing, fresh, args.window_days, prune=prune)
 
     os.makedirs(DATA_DIR, exist_ok=True)
     with open(ARTICLES_PATH, "w", encoding="utf-8") as fh:
         json.dump(articles, fh, ensure_ascii=False, indent=1)
-    meta = build_meta(articles, list(keyword_sets), args.window_days, args.source)
+    meta = build_meta(articles, list(keyword_sets), args.window_days,
+                      args.source, pruned=prune)
     with open(META_PATH, "w", encoding="utf-8") as fh:
         json.dump(meta, fh, ensure_ascii=False, indent=1)
 

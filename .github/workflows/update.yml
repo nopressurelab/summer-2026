@@ -40,7 +40,7 @@ jobs:
       # 1) Forward: current items from each source's own RSS feeds (no rate limit).
       - name: Ingest RSS feeds
         run: |
-          python -m pipeline.build --source rss \
+          python -m pipeline.build --source rss --no-prune \
             --window-days "${{ github.event.inputs.window_days || '90' }}" \
             --pause 1
 
@@ -49,7 +49,7 @@ jobs:
       #    data/backfill_state.json lets it resume next day.
       - name: Backfill from GDELT
         run: |
-          python -m pipeline.build --source gdelt --backfill \
+          python -m pipeline.build --source gdelt --backfill --no-prune \
             --backfill-days "${{ github.event.inputs.backfill_days || '5' }}" \
             --window-days "${{ github.event.inputs.window_days || '90' }}" \
             --pause 6

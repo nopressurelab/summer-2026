@@ -52,7 +52,9 @@ function renderTiles() {
   const top = m.top_sources[0];
   const tiles = [
     { value: total.toLocaleString(), label: t("tile_tracked"),
-      sub: t("tile_tracked_sub", { langs: (m.languages || []).length, days: m.window_days || 90 }) },
+      sub: (m.pruned === false && m.since)
+        ? t("tile_tracked_sub_all", { langs: (m.languages || []).length, since: m.since })
+        : t("tile_tracked_sub", { langs: (m.languages || []).length, days: m.window_days || 90 }) },
     { value: `${pct(m.total_omits_climate, total)}%`, label: t("tile_omit_climate"),
       sub: t("tile_omit_climate_sub", { n: m.total_omits_climate.toLocaleString(), t: total.toLocaleString() }) },
     { value: `${pct(m.total_omits_political, total)}%`, label: t("tile_omit_political"),

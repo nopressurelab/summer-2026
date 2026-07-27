@@ -1,12 +1,14 @@
 {
- "last_updated": "2026-07-27T12:06:07Z",
+ "last_updated": "2026-07-27T12:40:57Z",
  "window_days": 90,
+ "pruned": false,
+ "since": "2026-05-30",
  "last_source": "rss",
  "languages": [
-  "de",
   "en",
-  "es",
   "fr",
+  "es",
+  "de",
   "it",
   "pt"
  ],
