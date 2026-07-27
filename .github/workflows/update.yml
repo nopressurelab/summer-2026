@@ -46,7 +46,7 @@ jobs:
 
       # 2) Retroactive: fill history backward, oldest unprocessed day first.
       #    Bounded per run to stay friendly with GDELT's rate limits; state in
-      #    docs/data/backfill_state.json lets it resume next day.
+      #    data/backfill_state.json lets it resume next day.
       - name: Backfill from GDELT
         run: |
           python -m pipeline.build --source gdelt --backfill \
@@ -58,7 +58,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/data
+          git add data
           if git diff --cached --quiet; then
             echo "No data changes to commit."
           else

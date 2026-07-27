@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Climate-Silent Coverage</title>
+  <meta name="description" content="Tracking coverage of heat waves, excess deaths and wildfires in six languages that omits climate change or government accountability.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="site">
+      <div>
+        <h1>Climate-Silent Coverage</h1>
+        <p class="tag" data-i18n="tagline"></p>
+        <div class="updated" id="updated"></div>
+      </div>
+      <div class="header-actions">
+        <select id="uiLang" class="ui-lang" aria-label="Interface language"></select>
+        <a class="about-link" href="about.html" data-i18n="about_link"></a>
+        <button class="theme-toggle" id="themeToggle" type="button"></button>
+      </div>
+    </header>
+
+    <div class="disclaimer" data-i18n="disclaimer"></div>
+
+    <section class="tiles" id="tiles"></section>
+
+    <section class="card" id="chartCard">
+      <h2 data-i18n="chart_title"></h2>
+      <p class="hint" data-i18n="chart_hint"></p>
+      <div class="legend">
+        <span><i class="swatch sw-climate"></i> <span data-i18n="legend_climate"></span></span>
+        <span><i class="swatch sw-political"></i> <span data-i18n="legend_political"></span></span>
+      </div>
+      <div class="bars" id="bars"></div>
+      <button class="table-toggle" id="tableToggle" type="button"></button>
+      <div id="tableWrap" hidden></div>
+    </section>
+
+    <div class="filters">
+      <input type="search" id="q" data-i18n-ph="search_placeholder">
+      <select id="fLang"></select>
+      <select id="fTopic"></select>
+      <select id="fSource"></select>
+      <select id="fFlag">
+        <option value="" data-i18n-opt="flag_any"></option>
+        <option value="omits_climate" data-i18n-opt="flag_omits_climate"></option>
+        <option value="omits_political" data-i18n-opt="flag_omits_political"></option>
+        <option value="omits_both" data-i18n-opt="flag_omits_both"></option>
+        <option value="mentions_both" data-i18n-opt="flag_mentions_both"></option>
+      </select>
+      <select id="sort">
+        <option value="date" data-i18n-opt="sort_date"></option>
+        <option value="source" data-i18n-opt="sort_source"></option>
+      </select>
+    </div>
+    <div class="count-line" id="countLine"></div>
+
+    <section class="articles" id="articles"></section>
+
+    <footer class="site" data-i18n="footer"></footer>
+  </div>
+  <script src="i18n.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

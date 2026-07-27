@@ -1,0 +1,20 @@
+{
+  "language": "Portuguese",
+  "_comment": "Curated major Portuguese-language outlets (Portugal + Brazil). `feeds` are read directly via RSS; `domain` doubles as the GDELT allowlist filter. Sources with feeds:[] are skipped by RSS but still used by GDELT.",
+  "sources": [
+    { "name": "Público (PT)", "domain": "publico.pt", "feeds": ["https://feeds.feedburner.com/PublicoRSS"] },
+    { "name": "RTP (PT)", "domain": "rtp.pt", "feeds": ["https://www.rtp.pt/noticias/rss", "https://www.rtp.pt/noticias/rss/mundo"] },
+    { "name": "Observador (PT)", "domain": "observador.pt", "feeds": ["https://observador.pt/feed/"] },
+    { "name": "Expresso (PT)", "domain": "expresso.pt", "feeds": ["https://feeds.feedburner.com/expresso-geral"] },
+    { "name": "G1 (BR)", "domain": "g1.globo.com", "feeds": ["https://g1.globo.com/rss/g1/", "https://g1.globo.com/rss/g1/natureza/"] },
+    { "name": "Folha de S.Paulo (BR)", "domain": "folha.uol.com.br", "feeds": ["https://feeds.folha.uol.com.br/emcimadahora/rss091.xml", "https://feeds.folha.uol.com.br/ambiente/rss091.xml"] },
+    { "name": "O Globo (BR)", "domain": "oglobo.globo.com", "feeds": ["https://oglobo.globo.com/rss/oglobo"] },
+    { "name": "Veja (BR)", "domain": "veja.abril.com.br", "feeds": ["https://veja.abril.com.br/feed/"] },
+    { "name": "Diário de Notícias (PT)", "domain": "dn.pt", "feeds": [] },
+    { "name": "Jornal de Notícias (PT)", "domain": "jn.pt", "feeds": [] },
+    { "name": "SIC Notícias (PT)", "domain": "sicnoticias.pt", "feeds": [] },
+    { "name": "Estadão (BR)", "domain": "estadao.com.br", "feeds": [] },
+    { "name": "UOL (BR)", "domain": "uol.com.br", "feeds": [] },
+    { "name": "Correio Braziliense (BR)", "domain": "correiobraziliense.com.br", "feeds": [] }
+  ]
+}

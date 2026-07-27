@@ -11,14 +11,14 @@ Two discovery sources, both feeding one accumulated dataset:
     # one-shot GDELT over a relative window (no state)
     python -m pipeline.build --source gdelt --timespan 3m
 
-Each run MERGES into docs/data/articles.json (dedupe by URL) and prunes anything
+Each run MERGES into data/articles.json (dedupe by URL) and prunes anything
 older than --window-days, so RSS grows coverage going forward while the backfill
 fills history going backward.
 
-Output:
-    docs/data/articles.json         - one record per article (excerpt only)
-    docs/data/meta.json             - counts + last_updated for the dashboard
-    docs/data/backfill_state.json   - which days GDELT has already processed
+Output (served at the site root by GitHub Pages):
+    data/articles.json         - one record per article (excerpt only)
+    data/meta.json             - counts + last_updated for the dashboard
+    data/backfill_state.json   - which days GDELT has already processed
 """
 import argparse
 import hashlib
@@ -34,7 +34,7 @@ from . import classify as classify_mod
 HERE = os.path.dirname(os.path.abspath(__file__))
 KEYWORDS_DIR = os.path.join(HERE, "keywords")
 SOURCES_DIR = os.path.join(HERE, "sources")
-DATA_DIR = os.path.abspath(os.path.join(HERE, "..", "docs", "data"))
+DATA_DIR = os.path.abspath(os.path.join(HERE, "..", "data"))
 ARTICLES_PATH = os.path.join(DATA_DIR, "articles.json")
 META_PATH = os.path.join(DATA_DIR, "meta.json")
 STATE_PATH = os.path.join(DATA_DIR, "backfill_state.json")
@@ -292,7 +292,7 @@ def main():
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--source", choices=["rss", "gdelt"], default="rss",
                     help="discovery method (default: rss)")
-    ap.add_argument("--languages", default="en,fr,es,de,it")
+    ap.add_argument("--languages", default="en,fr,es,de,it,pt")
     ap.add_argument("--topics", default="", help="subset of topics (default: all)")
     ap.add_argument("--limit", type=int, default=0, help="cap articles processed")
     ap.add_argument("--window-days", type=int, default=90,
