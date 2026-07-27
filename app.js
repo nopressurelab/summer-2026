@@ -2,6 +2,21 @@
 
 const state = { articles: [], meta: null, filtered: [], page: 1, pageSize: 25 };
 const PAGE_SIZES = [10, 25, 50];
+const REPO = "nopressurelab/summer-2026";
+
+function issueUrl(a) {
+  const title = `[off-topic] ${a.title || a.url}`.slice(0, 120);
+  const body = [
+    "This article looks unrelated to the topic(s) it was tagged with.",
+    "", `- Article: ${a.title || ""}`, `- URL: ${a.url}`,
+    `- Language: ${a.language}`,
+    `- Tagged topic(s): ${(a.topics || [a.topic]).join(", ")}`,
+    `- Source: ${a.domain || ""}`, `- ID: ${a.id}`,
+    "", "Why it's off-topic (optional):", "",
+  ].join("\n");
+  return `https://github.com/${REPO}/issues/new?labels=off-topic`
+    + `&title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
+}
 const $ = (id) => document.getElementById(id);
 
 function esc(s) {
@@ -242,6 +257,7 @@ function articleHtml(a) {
         <div class="terms">${evLine("political", ev.political_terms)}</div>
       </div>
     </details>
+    <a class="report-issue" href="${issueUrl(a)}" target="_blank" rel="noopener noreferrer">⚑ ${esc(t("report_issue"))}</a>
   </article>`;
 }
 function termList(terms) {
