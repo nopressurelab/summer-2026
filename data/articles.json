@@ -123,10 +123,8 @@
   "evidence": {
    "topic_terms": [
     "feux de forêt",
-    "fortes chaleurs",
     "incendie",
-    "incendies",
-    "vague de chaleur"
+    "incendies"
    ],
    "climate_terms": [],
    "political_terms": [],
@@ -191,8 +189,6 @@
    "topic_terms": [
     "chaleur extrême",
     "fortes chaleurs",
-    "incendie",
-    "incendies",
     "vague de chaleur"
    ],
    "climate_terms": [],
@@ -299,8 +295,7 @@
     "incendio",
     "incendio forestal",
     "incendios",
-    "incendios forestales",
-    "ola de calor"
+    "incendios forestales"
    ],
    "climate_terms": [
     "cambio climático",
@@ -475,10 +470,8 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "canicule",
     "feu de forêt",
     "feux de forêt",
-    "fortes chaleurs",
     "incendie",
     "incendies",
     "mégafeu"
@@ -548,11 +541,9 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "canicule",
     "incendie",
     "incendies",
-    "mégafeu",
-    "vague de chaleur"
+    "mégafeu"
    ],
    "climate_terms": [
     "changement climatique",
@@ -723,8 +714,6 @@
   "omits_political": true,
   "evidence": {
    "topic_terms": [
-    "Hitzewelle",
-    "Hitzewellen",
     "Waldbrand",
     "Waldbrände",
     "Waldbränden"
@@ -792,9 +781,7 @@
   "evidence": {
    "topic_terms": [
     "blaze",
-    "flooding",
     "heatwave",
-    "torrential rain",
     "wildfire",
     "wildfires"
    ],
@@ -831,7 +818,6 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "canicule",
     "feux de forêt",
     "incendie",
     "incendies"
@@ -870,10 +856,8 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "fogos",
     "incêndio",
-    "incêndios",
-    "onda de calor"
+    "incêndios"
    ],
    "climate_terms": [],
    "political_terms": [
@@ -909,11 +893,9 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "canicule",
     "incendie",
     "incendies",
-    "mégafeu",
-    "vague de chaleur"
+    "mégafeu"
    ],
    "climate_terms": [
     "changement climatique"
@@ -1078,10 +1060,6 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "incendio",
-    "incendio forestal",
-    "incendios",
-    "incendios forestales",
     "ola de calor",
     "olas de calor"
    ],
@@ -1216,11 +1194,9 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "fogos",
     "incêndio",
     "incêndio florestal",
-    "incêndios",
-    "ondas de calor"
+    "incêndios"
    ],
    "climate_terms": [
     "emergência climática"
@@ -1289,8 +1265,7 @@
    "topic_terms": [
     "incendio",
     "incendios",
-    "incendios forestales",
-    "ola de calor"
+    "incendios forestales"
    ],
    "climate_terms": [],
    "political_terms": [
@@ -1449,9 +1424,7 @@
   "omits_political": true,
   "evidence": {
    "topic_terms": [
-    "canicule",
-    "incendie",
-    "incendies"
+    "canicule"
    ],
    "climate_terms": [],
    "political_terms": [],
@@ -1577,9 +1550,6 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "flooding",
-    "heatwave",
-    "torrential rain",
     "wildfire",
     "wildfires"
    ],
@@ -1648,12 +1618,10 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "cúpula de calor",
     "incendio",
     "incendio forestal",
     "incendios",
-    "incendios forestales",
-    "ola de calor"
+    "incendios forestales"
    ],
    "climate_terms": [],
    "political_terms": [
@@ -1688,7 +1656,6 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "fogos",
     "incêndio",
     "vaga de calor"
    ],
@@ -1753,8 +1720,6 @@
   "omits_political": true,
   "evidence": {
    "topic_terms": [
-    "Hitzewelle",
-    "Hitzewellen",
     "Waldbrand",
     "Waldbrände"
    ],
@@ -1885,12 +1850,10 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "fogos",
     "incêndio",
     "incêndio florestal",
     "incêndios",
-    "incêndios florestais",
-    "vaga de calor"
+    "incêndios florestais"
    ],
    "climate_terms": [],
    "political_terms": [
@@ -1969,36 +1932,6 @@
   "fetched_at": "20260728T075514Z"
  },
  {
-  "id": "fa4fc5b6cd24",
-  "url": "https://www.20minutos.es/deportes/decepcion-ufc-con-situacion-conor-mcgregor-dana-white-confirma-que-estara-fuera-un-ano-por-su-lesion-rodilla_7019320_0.html",
-  "title": "Decepción en la UFC con la situación de McGregor: Dana White confirma que estará fuera un año por su lesión",
-  "domain": "20minutos.es",
-  "source_country": "",
-  "source_name": "20minutos",
-  "language": "Spanish",
-  "topic": "floods",
-  "topics": [
-   "floods"
-  ],
-  "seendate": "20260728T052200Z",
-  "socialimage": "",
-  "text_available": true,
-  "low_confidence": false,
-  "mentions_climate": false,
-  "mentions_political_responsibility": false,
-  "omits_climate": true,
-  "omits_political": true,
-  "evidence": {
-   "topic_terms": [
-    "DANA"
-   ],
-   "climate_terms": [],
-   "political_terms": [],
-   "excerpt": "Decepción en la UFC con la situación de Conor McGregor: Dana White confirma que estará fuera un año por su lesión de rodilla Basado en hechos observados y verificados directamente por nuestros periodistas o por fuentes informadas. La gran estrella de la UFC se lesionó en los primeros segundos de su pelea contra Max Hol…"
-  },
-  "fetched_at": "20260728T075514Z"
- },
- {
   "id": "ae6d69df1d15",
   "url": "https://www.eldiario.es/sociedad/ultima-hora-incendios-madrid-avila-jornada-decisiva-controlar-fuego-ola-calor_133_13411040.html",
   "title": "Última hora sobre los incendios en Madrid y Ávila: una noche de avances contra el fuego da paso a las horas cruciales antes del calor",
@@ -2057,8 +1990,6 @@
    "topic_terms": [
     "caldo estremo",
     "caldo record",
-    "incendi",
-    "incendi boschivi",
     "ondata di calore",
     "ondate di calore"
    ],
@@ -2092,7 +2023,6 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "fogos",
     "incêndio",
     "incêndios"
    ],
@@ -2130,7 +2060,6 @@
   "omits_political": true,
   "evidence": {
    "topic_terms": [
-    "fogos",
     "incêndio",
     "incêndio florestal"
    ],
@@ -2365,7 +2294,6 @@
   "evidence": {
    "topic_terms": [
     "blaze",
-    "heatwave",
     "wildfires"
    ],
    "climate_terms": [],
@@ -2498,8 +2426,7 @@
    "topic_terms": [
     "incendie",
     "incendies",
-    "mégafeu",
-    "vague de chaleur"
+    "mégafeu"
    ],
    "climate_terms": [
     "réchauffement climatique"
@@ -2567,7 +2494,6 @@
   "omits_political": true,
   "evidence": {
    "topic_terms": [
-    "canicule",
     "incendie",
     "incendies"
    ],
@@ -2727,10 +2653,8 @@
     "flood",
     "flooding",
     "floods",
-    "heatwave",
     "torrential rain",
-    "torrential rains",
-    "wildfires"
+    "torrential rains"
    ],
    "climate_terms": [
     "climate change",
@@ -2922,9 +2846,6 @@
   "omits_political": true,
   "evidence": {
    "topic_terms": [
-    "incendio",
-    "incendios",
-    "incendios forestales",
     "ola de calor",
     "olas de calor"
    ],
@@ -3053,12 +2974,9 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "canicule",
-    "fortes chaleurs",
     "incendie",
     "incendies",
-    "mégafeu",
-    "vague de chaleur"
+    "mégafeu"
    ],
    "climate_terms": [],
    "political_terms": [
@@ -3343,10 +3261,8 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "fogos",
     "incêndio",
-    "incêndios",
-    "onda de calor"
+    "incêndios"
    ],
    "climate_terms": [],
    "political_terms": [
@@ -3612,8 +3528,7 @@
    "topic_terms": [
     "incendio",
     "incendios",
-    "incendios forestales",
-    "inundaciones"
+    "incendios forestales"
    ],
    "climate_terms": [],
    "political_terms": [
@@ -3648,8 +3563,7 @@
     "incendio",
     "incendio forestal",
     "incendios",
-    "incendios forestales",
-    "olas de calor"
+    "incendios forestales"
    ],
    "climate_terms": [
     "cambio climático"
@@ -3684,7 +3598,6 @@
   "evidence": {
    "topic_terms": [
     "calor extremo",
-    "incendios",
     "olas de calor"
    ],
    "climate_terms": [],
@@ -3788,10 +3701,8 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "fogos",
     "incêndio",
-    "incêndios",
-    "onda de calor"
+    "incêndios"
    ],
    "climate_terms": [],
    "political_terms": [
@@ -3828,7 +3739,6 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "Hitzewelle",
     "Waldbrände",
     "Waldbränden"
    ],
@@ -3865,9 +3775,7 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "Hitzewelle",
-    "Waldbrände",
-    "Waldbränden"
+    "Hitzewelle"
    ],
    "climate_terms": [],
    "political_terms": [
@@ -3939,10 +3847,8 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "fogos",
     "incêndio",
-    "incêndios",
-    "onda de calor"
+    "incêndios"
    ],
    "climate_terms": [],
    "political_terms": [
@@ -3954,44 +3860,6 @@
     "autoridades"
    ],
    "excerpt": "…dos por 30 viaturas. Ainda nos incêndios, sete operacionais ficaram feridos nos fogos da Guarda e de Vila Verde. Na Guarda, cinco elementos sofreram ferimentos ligeiros no combate às chamas. O incêndio continua ativo, com duas frentes, e mobiliza quase 280 operacionais e mais de 80 viaturas. Em Vila Verde, Braga, há do…"
-  },
-  "fetched_at": "20260728T075514Z"
- },
- {
-  "id": "2de14d4aa231",
-  "url": "https://g1.globo.com/jornal-nacional/noticia/2026/07/27/resumao-diario-do-jn-itamaraty-defende-cautela-e-dialogo-na-crise-com-argentina-incendios-florestais-na-europa-tiram-300-mil-pessoas-de-casa.ghtml",
-  "title": "Resumão diário do JN: Itamaraty defende cautela e diálogo na crise com Argentina; incêndios florestais na Europa tiram 300 mil pessoas de casa",
-  "domain": "g1.globo.com",
-  "source_country": "",
-  "source_name": "G1 (BR)",
-  "language": "Portuguese",
-  "topic": "heatwave",
-  "topics": [
-   "heatwave",
-   "wildfire",
-   "floods"
-  ],
-  "seendate": "20260728T003314Z",
-  "socialimage": "",
-  "text_available": true,
-  "low_confidence": false,
-  "mentions_climate": false,
-  "mentions_political_responsibility": true,
-  "omits_climate": true,
-  "omits_political": false,
-  "evidence": {
-   "topic_terms": [
-    "calor extremo",
-    "incêndios",
-    "incêndios florestais",
-    "inundações"
-   ],
-   "climate_terms": [],
-   "political_terms": [
-    "ministro",
-    "presidente"
-   ],
-   "excerpt": "…a 300 mil pessoas na Europa. A previsão para os próximos dias é de tempo seco e calor extremo. O Rio Grande do Sul tem alerta de novas inundações e tempestades. Uma série especial de reportagens discute temas urgentes da agenda climática brasileira. Nesta segunda-feira, os desafios para a exploração de terras raras. Re…"
   },
   "fetched_at": "20260728T075514Z"
  },
@@ -4048,7 +3916,6 @@
   "evidence": {
    "topic_terms": [
     "blaze",
-    "heatwave",
     "wildfire",
     "wildfires"
    ],
@@ -4157,45 +4024,12 @@
   "omits_political": true,
   "evidence": {
    "topic_terms": [
-    "fogos",
     "incêndio",
     "incêndio florestal"
    ],
    "climate_terms": [],
    "political_terms": [],
    "excerpt": "Cinco operacionais sofreram ferimentos leves no incêndio que continua ativo na Guarda, enquanto dois operacionais ficaram feridos e um foi assistido no fogo de Vila Verde (Braga), adiantou na segunda-feira à noite à Lusa fonte da Proteção Civil. Num balanço pelas 23h30 de segunda-feira, fonte da Autoridade Nacional de…"
-  },
-  "fetched_at": "20260728T075514Z"
- },
- {
-  "id": "68fdcfef76ff",
-  "url": "https://www.abc.es/sociedad/jose-luis-restan-fuego-tesoro-20260727012421-nt.html",
-  "title": "El fuego y el tesoro de la fe",
-  "domain": "abc.es",
-  "source_country": "",
-  "source_name": "ABC",
-  "language": "Spanish",
-  "topic": "wildfire",
-  "topics": [
-   "wildfire",
-   "floods"
-  ],
-  "seendate": "20260727T232421Z",
-  "socialimage": "",
-  "text_available": true,
-  "low_confidence": false,
-  "mentions_climate": false,
-  "mentions_political_responsibility": false,
-  "omits_climate": true,
-  "omits_political": true,
-  "evidence": {
-   "topic_terms": [
-    "incendios",
-    "inundaciones"
-   ],
-   "climate_terms": [],
-   "political_terms": [],
-   "excerpt": "…a proclamando el domingo en todas nuestras iglesias, y el drama tremendo de los incendios que estamos viviendo estos días. Afrontar el miedo, la pérdida, el desalojo, la pena inmensa, las tremendas dificultades para reemprender la vida (ojalá que sea cuanto antes) requiere un punto firme, una certeza de Bien imbatible,…"
   },
   "fetched_at": "20260728T075514Z"
  },
@@ -4339,7 +4173,6 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "calor extremo",
     "incêndio",
     "incêndio florestal",
     "incêndios",
@@ -4377,7 +4210,6 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "calor extremo",
     "incêndio",
     "incêndio florestal",
     "incêndios",
@@ -4599,10 +4431,8 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "DANA",
     "incendio",
-    "incendios",
-    "ola de calor"
+    "incendios"
    ],
    "climate_terms": [
     "cambio climático"
@@ -5342,7 +5172,6 @@
   "omits_political": true,
   "evidence": {
    "topic_terms": [
-    "Hitzewellen",
     "Waldbrände",
     "Waldbränden"
    ],
@@ -6038,8 +5867,6 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "heatwave",
-    "scorching",
     "wildfire",
     "wildfires"
    ],
@@ -6246,8 +6073,7 @@
    "topic_terms": [
     "incêndio",
     "incêndios",
-    "incêndios florestais",
-    "ondas de calor"
+    "incêndios florestais"
    ],
    "climate_terms": [
     "emergência climática"
@@ -6468,7 +6294,6 @@
   "evidence": {
    "topic_terms": [
     "blaze",
-    "excess deaths",
     "extreme heat",
     "forest fire",
     "heatwave",
@@ -6605,7 +6430,6 @@
   "omits_political": true,
   "evidence": {
    "topic_terms": [
-    "fogos",
     "incêndio",
     "incêndios"
    ],
@@ -6673,7 +6497,6 @@
     "feux de forêt",
     "incendie",
     "incendies",
-    "inondations",
     "vague de chaleur"
    ],
    "climate_terms": [
@@ -6690,39 +6513,6 @@
     "droite"
    ],
    "excerpt": "…te à cinq kilomètres des incendies, à Villamanta, si l'Espagne est habituée aux feux de forêts, ce qui se passe en ce moment est inédit : « C'est de la folie. Personne n'est préparé à quelque chose comme ça, parce que c'est quelque chose que personne ne peut imaginer. Ce qu'il s'est passé est un désastre. Une autre cat…"
-  },
-  "fetched_at": "20260728T075514Z"
- },
- {
-  "id": "c3392535d105",
-  "url": "https://www.abc.es/sociedad/exmonjas-belorado-defienden-ante-juez-venta-obras-20260727182055-nt.html",
-  "title": "Las exmonjas de Belorado se defienden ante la juez por la venta de obras de arte en 2023 pero evitan explicar las posteriores al cisma",
-  "domain": "abc.es",
-  "source_country": "",
-  "source_name": "ABC",
-  "language": "Spanish",
-  "topic": "floods",
-  "topics": [
-   "floods"
-  ],
-  "seendate": "20260727T162056Z",
-  "socialimage": "",
-  "text_available": true,
-  "low_confidence": false,
-  "mentions_climate": false,
-  "mentions_political_responsibility": true,
-  "omits_climate": true,
-  "omits_political": false,
-  "evidence": {
-   "topic_terms": [
-    "DANA",
-    "inundaciones"
-   ],
-   "climate_terms": [],
-   "political_terms": [
-    "gobierno"
-   ],
-   "excerpt": "…a explicación a las puertas del juzgado. Venta de casullas y donaciones para la dana A esta causa se ha unido también una investigación por apropiación indebida por la venta de cuatro casullas, a través de Wallapop, en 2024, por un valor de «menos de mil euros», según ha reconocido sor Paloma, quien también ha asegurad…"
   },
   "fetched_at": "20260728T075514Z"
  },
@@ -6749,7 +6539,6 @@
   "evidence": {
    "topic_terms": [
     "blaze",
-    "heatwave",
     "wildfire",
     "wildfires"
    ],
@@ -6910,7 +6699,6 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "Hitzewelle",
     "Waldbrand",
     "Waldbrände",
     "Waldbränden"
@@ -6922,41 +6710,6 @@
     "Behörden"
    ],
    "excerpt": "…ch habe sich die Lage nicht beruhigt. Sorge bereite den Behörden eine erneute Hitzewelle, die ab Dienstag die Region treffen soll. \"Ich möchte niemanden beruhigen\", sagte Nunez. Für die Brandbekämpfung sei auch die weitere Wetterentwicklung mit dem Aufkommen von Wind und Hitze wichtig, hieß es von den Behörden. Der Gro…"
-  },
-  "fetched_at": "20260728T075514Z"
- },
- {
-  "id": "b83fe6dbec21",
-  "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-drug-boat-strikes-cocaine-b3022340.html",
-  "title": "Hegseth’s 67 deadly drug boat strikes have not stopped cocaine from flooding into the US. Trump’s own DEA says so",
-  "domain": "independent.co.uk",
-  "source_country": "",
-  "source_name": "The Independent",
-  "language": "English",
-  "topic": "floods",
-  "topics": [
-   "floods"
-  ],
-  "seendate": "20260727T155958Z",
-  "socialimage": "",
-  "text_available": true,
-  "low_confidence": false,
-  "mentions_climate": false,
-  "mentions_political_responsibility": true,
-  "omits_climate": true,
-  "omits_political": false,
-  "evidence": {
-   "topic_terms": [
-    "flooding"
-   ],
-   "climate_terms": [],
-   "political_terms": [
-    "government",
-    "president",
-    "congress",
-    "senate"
-   ],
-   "excerpt": "Hegseth’s 67 deadly drug boat strikes have not stopped cocaine from flooding into the US. Trump’s own DEA says so Traffickers are using planes, larger boats and sailing close to coastlines as cocaine production in South America ramps up - Bookmark - CommentsGo to comments Despite killing at least 221 people in dozens o…"
   },
   "fetched_at": "20260728T075514Z"
  },
@@ -7112,8 +6865,7 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "heatwave",
-    "wildfire"
+    "heatwave"
    ],
    "climate_terms": [
     "climate crisis"
@@ -7274,8 +7026,7 @@
   "omits_political": true,
   "evidence": {
    "topic_terms": [
-    "incendies",
-    "vague de chaleur"
+    "incendies"
    ],
    "climate_terms": [],
    "political_terms": [],
@@ -7379,9 +7130,7 @@
    "topic_terms": [
     "feux de forêt",
     "incendie",
-    "incendies",
-    "inondations",
-    "vague de chaleur"
+    "incendies"
    ],
    "climate_terms": [],
    "political_terms": [
@@ -7476,8 +7225,7 @@
   "evidence": {
    "topic_terms": [
     "incendie",
-    "incendies",
-    "vague de chaleur"
+    "incendies"
    ],
    "climate_terms": [
     "réchauffement climatique"
@@ -7517,7 +7265,6 @@
     "blaze",
     "extreme heat",
     "forest fires",
-    "heat-related deaths",
     "heatwave",
     "wildfire",
     "wildfires"
@@ -7594,36 +7341,6 @@
    "excerpt": "Incendies : En Gironde, l'aide de l’UE passe à neuf avions et deux hélicoptères solidarité européenne•« C’est une course contre la montre que nos équipes sont en train de mener sur place avec évidemment les Français », indique la commissaire européenne Hadja Lahbib20 Minutes avec AFP L'Europe montre sa solidarité. Pour…"
   },
   "fetched_at": "20260728T075514Z"
- },
- {
-  "id": "17e201b8b415",
-  "url": "https://g1.globo.com/pa/santarem-regiao/noticia/2026/07/27/festividade-de-santana-encerra-com-emocao-e-anuncio-do-bicentenario-da-catedral-diocesana-de-obidos-no-para.ghtml",
-  "title": "Festividade de Sant’Ana encerra com emoção e anúncio do bicentenário da catedral diocesana de Óbidos, no Pará",
-  "domain": "g1.globo.com",
-  "source_country": "",
-  "source_name": "G1 (BR)",
-  "language": "Portuguese",
-  "topic": "wildfire",
-  "topics": [
-   "wildfire"
-  ],
-  "seendate": "20260727T145401Z",
-  "socialimage": "",
-  "text_available": true,
-  "low_confidence": false,
-  "mentions_climate": false,
-  "mentions_political_responsibility": false,
-  "omits_climate": true,
-  "omits_political": true,
-  "evidence": {
-   "topic_terms": [
-    "fogos"
-   ],
-   "climate_terms": [],
-   "political_terms": [],
-   "excerpt": "… Exatamente à meia-noite, ao badalar dos sinos, houve uma espetacular queima de fogos, que encheram os corações de todos com o sentimento de esperança e fé, marcando assim, o encerramento da Festividade 2026, em uma noite memorável dedicada a Senhora Sant'Ana. — Foto: Divulgação Secom — Foto: Divulgação Secom — Foto: D…"
-  },
-  "fetched_at": "20260727T152151Z"
  },
  {
   "id": "a2cd51a57d39",
@@ -7781,11 +7498,9 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "canicule",
     "feux de forêt",
     "incendie",
-    "incendies",
-    "inondations"
+    "incendies"
    ],
    "climate_terms": [],
    "political_terms": [
@@ -7878,43 +7593,6 @@
   "fetched_at": "20260727T152151Z"
  },
  {
-  "id": "35c514d9bc9d",
-  "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/07/27/zema-se-afastou-de-empresas-da-familia-para-governar-mg-e-se-lanca-como-opcao-ao-bolsonarismo-que-apoiou-em-2018-e-2022.ghtml",
-  "title": "Zema se afastou de empresas da família para governar MG e se lança como opção ao bolsonarismo que apoiou em 2018 e 2022",
-  "domain": "g1.globo.com",
-  "source_country": "",
-  "source_name": "G1 (BR)",
-  "language": "Portuguese",
-  "topic": "wildfire",
-  "topics": [
-   "wildfire"
-  ],
-  "seendate": "20260727T143912Z",
-  "socialimage": "",
-  "text_available": true,
-  "low_confidence": false,
-  "mentions_climate": false,
-  "mentions_political_responsibility": true,
-  "omits_climate": true,
-  "omits_political": false,
-  "evidence": {
-   "topic_terms": [
-    "fogos"
-   ],
-   "climate_terms": [],
-   "political_terms": [
-    "governo",
-    "ministro",
-    "presidente",
-    "política",
-    "lei",
-    "direita"
-   ],
-   "excerpt": "…uidosos. O governo mineiro precisou esclarecer posteriormente que o barulho dos fogos havia sido incluído digitalmente na pós-produção do vídeo para não infringir a norma. Neste ano, já como pré-candidato, durante um evento da Confederação Nacional da Indústria (CNI), Zema defendeu exigir a conclusão de estudos apenas…"
-  },
-  "fetched_at": "20260727T152151Z"
- },
- {
   "id": "b42a2cdceafe",
   "url": "https://www.repubblica.it/esteri/2026/07/27/news/spagna_incendi_madrid_avila_ondata_calore_sanchez-425496005/",
   "title": "Spagna ancora in fiamme: allerta per la nuova ondata di calore. Sánchez: “Ore difficili”",
@@ -7973,10 +7651,7 @@
     "incendio",
     "incendio forestal",
     "incendios",
-    "incendios forestales",
-    "ola de calor",
-    "olas de calor",
-    "riadas"
+    "incendios forestales"
    ],
    "climate_terms": [
     "cambio climático",
@@ -8223,7 +7898,6 @@
   "omits_political": true,
   "evidence": {
    "topic_terms": [
-    "fogos",
     "incêndio"
    ],
    "climate_terms": [],
@@ -8255,8 +7929,7 @@
   "evidence": {
    "topic_terms": [
     "incêndio",
-    "incêndios",
-    "vaga de calor"
+    "incêndios"
    ],
    "climate_terms": [],
    "political_terms": [
@@ -8324,7 +7997,6 @@
   "omits_political": true,
   "evidence": {
    "topic_terms": [
-    "fogos",
     "incêndio",
     "incêndios"
    ],
@@ -8560,14 +8232,10 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "canicule",
     "feu de forêt",
     "feux de forêt",
-    "fortes chaleurs",
     "incendie",
-    "incendies",
-    "inondations",
-    "vague de chaleur"
+    "incendies"
    ],
    "climate_terms": [
     "réchauffement climatique"
@@ -8638,9 +8306,7 @@
   "omits_political": true,
   "evidence": {
    "topic_terms": [
-    "canicule",
     "feux de forêt",
-    "fortes chaleurs",
     "incendies"
    ],
    "climate_terms": [],
@@ -8781,10 +8447,8 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "DANA",
     "incendio",
-    "incendios",
-    "ola de calor"
+    "incendios"
    ],
    "climate_terms": [
     "cambio climático",
@@ -9860,9 +9524,7 @@
   "evidence": {
    "topic_terms": [
     "incendios",
-    "incendios forestales",
-    "lluvias torrenciales",
-    "olas de calor"
+    "incendios forestales"
    ],
    "climate_terms": [
     "cambio climático",
@@ -9900,7 +9562,6 @@
   "evidence": {
    "topic_terms": [
     "blaze",
-    "scorching",
     "wildfire",
     "wildfires"
    ],
@@ -10010,7 +9671,6 @@
   "omits_political": true,
   "evidence": {
    "topic_terms": [
-    "canicule",
     "incendie",
     "incendies"
    ],
@@ -10148,7 +9808,6 @@
   "omits_political": true,
   "evidence": {
    "topic_terms": [
-    "Hitzewelle",
     "Waldbrand",
     "Waldbrände"
    ],
@@ -10884,7 +10543,6 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "DANA",
     "incendio"
    ],
    "climate_terms": [],
@@ -10957,7 +10615,6 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "DANA",
     "incendios"
    ],
    "climate_terms": [],
@@ -11150,7 +10807,6 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "DANA",
     "incendios"
    ],
    "climate_terms": [],
@@ -11159,38 +10815,6 @@
     "ley"
    ],
    "excerpt": "…enta de forma recurrente a ellas, como se ha podido ver en los últimos años con DANA de Valencia o los continuos incendios. “Hay que ampliar cobertura de protección a personas que hayan perdido vivienda en incendios que están asolando Madrid, Ávila y Toledo”, a asegura Patricia Ruiz, secretaria de Salud Laboral de UGT.…"
-  },
-  "fetched_at": "20260727T152151Z"
- },
- {
-  "id": "0f3d7dc0c5b5",
-  "url": "https://oglobo.globo.com/mundo/epoca/noticia/2026/07/27/mergulhador-filma-ataque-de-tubarao-e-quase-perde-a-perna-em-fiji-veja-o-video.ghtml",
-  "title": "Mergulhador filma ataque de tubarão e quase perde a perna em Fiji; veja o vídeo",
-  "domain": "oglobo.globo.com",
-  "source_country": "",
-  "source_name": "O Globo (BR)",
-  "language": "Portuguese",
-  "topic": "wildfire",
-  "topics": [
-   "wildfire"
-  ],
-  "seendate": "20260727T115131Z",
-  "socialimage": "",
-  "text_available": true,
-  "low_confidence": false,
-  "mentions_climate": false,
-  "mentions_political_responsibility": true,
-  "omits_climate": true,
-  "omits_political": false,
-  "evidence": {
-   "topic_terms": [
-    "fogos"
-   ],
-   "climate_terms": [],
-   "political_terms": [
-    "direita"
-   ],
-   "excerpt": "…a o criador de conteúdo. - Cadela desaparecida há mais de 10 dias após fugir de fogos de artifício é resgatada no mar nos EUA - Após risco de perder a visão, jovem passa a viajar o mundo sozinha e fica presa em caverna por três dias Nas imagens, o tubarão se aproxima rapidamente antes de morder a perna direita de Henry…"
   },
   "fetched_at": "20260727T152151Z"
  },
@@ -11234,8 +10858,7 @@
   "language": "Spanish",
   "topic": "wildfire",
   "topics": [
-   "wildfire",
-   "floods"
+   "wildfire"
   ],
   "seendate": "20260727T114102Z",
   "socialimage": "",
@@ -11247,7 +10870,6 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "DANA",
     "incendio",
     "incendios"
    ],
@@ -11609,7 +11231,6 @@
   "evidence": {
    "topic_terms": [
     "fortes chaleurs",
-    "incendies",
     "vague de chaleur"
    ],
    "climate_terms": [],
@@ -11641,7 +11262,6 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "DANA",
     "incendio",
     "incendios",
     "inundaciones"
@@ -11676,7 +11296,6 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "fogos",
     "incêndio"
    ],
    "climate_terms": [],
@@ -11687,38 +11306,6 @@
    "excerpt": "Pular para o conteúdo Bahia Fogos de chá revelação causam incêndio em rancho na Bahia Acidente aconteceu em Vitória da Conquista e ninguém ficou ferido. Corpo de Bombeiros precisou ser acionado. Por g1 BA e TV Sudoeste 27/07/2026 08h16 Atualizado 27/07/2026 Os fogos de um chá revelação causaram um incêndio em um rancho…"
   },
   "fetched_at": "20260727T130524Z"
- },
- {
-  "id": "cb0c8ebc4038",
-  "url": "https://oglobo.globo.com/mundo/epoca/noticia/2026/07/27/menina-de-12-anos-e-resgatada-em-aeroporto-de-lisboa-apos-ser-prometida-em-casamento-para-quitar-divida.ghtml",
-  "title": "Menina de 12 anos é resgatada em aeroporto de Lisboa após ser prometida em casamento para quitar dívida",
-  "domain": "oglobo.globo.com",
-  "source_country": "",
-  "source_name": "O Globo (BR)",
-  "language": "Portuguese",
-  "topic": "wildfire",
-  "topics": [
-   "wildfire"
-  ],
-  "seendate": "20260727T111329Z",
-  "socialimage": "",
-  "text_available": true,
-  "low_confidence": false,
-  "mentions_climate": false,
-  "mentions_political_responsibility": true,
-  "omits_climate": true,
-  "omits_political": false,
-  "evidence": {
-   "topic_terms": [
-    "fogos"
-   ],
-   "climate_terms": [],
-   "political_terms": [
-    "autoridades"
-   ],
-   "excerpt": "Menina de 12 anos é resgatada em aeroporto de Lisboa após ser prometida em casamento para quitar dívida Criança da República Democrática do Congo viajava com uma francesa de 45 anos, que foi presa preventivamente após suspeita de tráfico de pessoas Por O Globo — Lisboa Atualizado RESUMO Sem tempo? Ferramenta de IA resu…"
-  },
-  "fetched_at": "20260727T152151Z"
  },
  {
   "id": "1d54ea4f6d84",
@@ -11757,36 +11344,6 @@
     "autoridades"
    ],
    "excerpt": "…orreção digital das provas. A Polícia Judiciária está a investigar as causas do incêndio que deflagrou esta madrugada num prédio em Lisboa. Um fogo que já está extinto desde as 6h provocou cinco feridos ligeiros, que estão nesta altura distribuídos pelo Hospital São Francisco Xavier e pelo Hospital de São José. O fogo…"
-  },
-  "fetched_at": "20260727T152151Z"
- },
- {
-  "id": "faf6af2ddc8b",
-  "url": "https://oglobo.globo.com/mundo/epoca/noticia/2026/07/27/cachorro-desaparecido-reaparece-apos-cinco-anos-a-mais-de-mil-quilometros-de-casa-nos-eua-video.ghtml",
-  "title": "Cachorro desaparecido reaparece após cinco anos a mais de mil quilômetros de casa nos EUA; vídeo",
-  "domain": "oglobo.globo.com",
-  "source_country": "",
-  "source_name": "O Globo (BR)",
-  "language": "Portuguese",
-  "topic": "wildfire",
-  "topics": [
-   "wildfire"
-  ],
-  "seendate": "20260727T111323Z",
-  "socialimage": "",
-  "text_available": true,
-  "low_confidence": false,
-  "mentions_climate": false,
-  "mentions_political_responsibility": false,
-  "omits_climate": true,
-  "omits_political": true,
-  "evidence": {
-   "topic_terms": [
-    "fogos"
-   ],
-   "climate_terms": [],
-   "political_terms": [],
-   "excerpt": "… surpresa e pela emoção. - Cadela desaparecida há mais de 10 dias após fugir de fogos de artifício é resgatada no mar nos EUA - Dois corpos em decomposição são encontrados em trilha turística dos EUA; casal é acusado de assassinatos A tutora do animal, Inmaculada Jackman, contou à emissora americana WKRC que nunca deix…"
   },
   "fetched_at": "20260727T152151Z"
  },
@@ -11853,7 +11410,6 @@
   "evidence": {
    "topic_terms": [
     "blaze",
-    "heatwave",
     "wildfire",
     "wildfires"
    ],
@@ -11926,7 +11482,6 @@
   "evidence": {
    "topic_terms": [
     "blaze",
-    "heatwave",
     "wildfires"
    ],
    "climate_terms": [],
@@ -12093,7 +11648,6 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "extreme heat",
     "wildfires"
    ],
    "climate_terms": [
@@ -12133,8 +11687,6 @@
   "omits_political": true,
   "evidence": {
    "topic_terms": [
-    "incendios",
-    "incendios forestales",
     "ola de calor"
    ],
    "climate_terms": [],
@@ -12206,8 +11758,6 @@
    "topic_terms": [
     "chaleur extrême",
     "fortes chaleurs",
-    "incendie",
-    "incendies",
     "vague de chaleur"
    ],
    "climate_terms": [],
@@ -12405,7 +11955,6 @@
   "evidence": {
    "topic_terms": [
     "fortes chaleurs",
-    "incendie",
     "vague de chaleur"
    ],
    "climate_terms": [],
@@ -12662,7 +12211,6 @@
   "omits_political": true,
   "evidence": {
    "topic_terms": [
-    "fogos",
     "incêndios"
    ],
    "climate_terms": [],
@@ -12695,9 +12243,7 @@
    "topic_terms": [
     "canicule",
     "chaleur extrême",
-    "dôme de chaleur",
-    "incendies",
-    "inondations"
+    "dôme de chaleur"
    ],
    "climate_terms": [],
    "political_terms": [],
@@ -12935,8 +12481,7 @@
     "incendio",
     "incendio forestal",
     "incendios",
-    "incendios forestales",
-    "olas de calor"
+    "incendios forestales"
    ],
    "climate_terms": [
     "cambio climático",
@@ -13206,11 +12751,9 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "canicule",
     "feux de forêt",
     "incendie",
-    "incendies",
-    "inondations"
+    "incendies"
    ],
    "climate_terms": [
     "réchauffement climatique",
@@ -13585,8 +13128,7 @@
   "evidence": {
    "topic_terms": [
     "incendio",
-    "incendios",
-    "ola de calor"
+    "incendios"
    ],
    "climate_terms": [
     "cambio climático",
@@ -13601,40 +13143,6 @@
    "excerpt": "Hoy hablamos de... Incendios Madrid Mapa incendios Begoña Gómez Nueva ola de calor Castellón Alquiler TMB Alcaldesa Marbella Regularización Ceuta Policía Palma Ribeira Sacra Audiencias TV Veterinaria Seguro Niño Benidorm Huevos María Casado Montañero Eclipse Pájaros Crucigrama Pasatiempos Trivial actualidad Palabra del…"
   },
   "fetched_at": "20260727T130524Z"
- },
- {
-  "id": "77fcbbd75828",
-  "url": "https://www.rfi.fr/fr/afrique/20260727-tunisie-l-inscription-au-patrimoine-mondial-de-l-unesco-de-sidi-bou-sa%C3%AFd-doit-faire-bouger-les-choses",
-  "title": "Tunisie: l’inscription au patrimoine mondial de l’Unesco de Sidi Bou Saïd «doit faire bouger les choses»",
-  "domain": "rfi.fr",
-  "source_country": "",
-  "source_name": "RFI",
-  "language": "French",
-  "topic": "floods",
-  "topics": [
-   "floods"
-  ],
-  "seendate": "20260727T090948Z",
-  "socialimage": "",
-  "text_available": true,
-  "low_confidence": false,
-  "mentions_climate": false,
-  "mentions_political_responsibility": true,
-  "omits_climate": true,
-  "omits_political": false,
-  "evidence": {
-   "topic_terms": [
-    "canicule",
-    "inondations"
-   ],
-   "climate_terms": [],
-   "political_terms": [
-    "négligence",
-    "responsabilité"
-   ],
-   "excerpt": "…lié le : Avec notre correspondante à Tunis, Lilia Blaise Ce dimanche, en pleine canicule, les touristes se pressent dès le matin dans les ruelles pavées et entre les maisons bleues et blanches qui font le charme du village de Sidi Bou Saïd, situé à une vingtaine de kilomètres au nord-est de la capitale de Tunisie. Beji…"
-  },
-  "fetched_at": "20260727T152151Z"
  },
  {
   "id": "192f8890537e",
@@ -13731,38 +13239,6 @@
   "fetched_at": "20260727T152151Z"
  },
  {
-  "id": "cff17879a8ed",
-  "url": "https://oglobo.globo.com/rio/noticia/2026/07/27/tiroteios-e-mortes-guerra-entre-chefoes-do-cv-e-do-tcp-aterroriza-bairros-da-zona-norte-as-margens-da-av-brasil.ghtml",
-  "title": "Tiroteios e mortes: guerra entre chefões do CV e do TCP aterroriza bairros da Zona Norte às margens da Av. Brasil",
-  "domain": "oglobo.globo.com",
-  "source_country": "",
-  "source_name": "O Globo (BR)",
-  "language": "Portuguese",
-  "topic": "wildfire",
-  "topics": [
-   "wildfire"
-  ],
-  "seendate": "20260727T090012Z",
-  "socialimage": "",
-  "text_available": true,
-  "low_confidence": false,
-  "mentions_climate": false,
-  "mentions_political_responsibility": true,
-  "omits_climate": true,
-  "omits_political": false,
-  "evidence": {
-   "topic_terms": [
-    "fogos"
-   ],
-   "climate_terms": [],
-   "political_terms": [
-    "governo"
-   ],
-   "excerpt": "… mostram um local a céu aberto lotado, com um palco cercado de painéis de led e fogos de artifício com efeito cascata. No domingo, o CV revidou. Alvos do ataque, Cidade Alta e Cinco Bocas são fortalezas de Peixão. De Costa Barros à Tijuca Conflitos entre o Comando Vermelho e o Terceiro Comando Puro afetam ainda outras…"
-  },
-  "fetched_at": "20260727T134007Z"
- },
- {
   "id": "8d9edaaa612f",
   "url": "https://www.20minutos.es/internacional/francia-alcanza-las-115-000-hectareas-quemadas-con-30-incendios-diarios-macron-modo-crisis_7019256_0.html",
   "title": "Francia alcanza 115.000 hectáreas quemadas, con casi 30 incendios diarios y Macron en 'modo crisis'",
@@ -13820,7 +13296,6 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "calor extremo",
     "incendios",
     "incendios forestales"
    ],
@@ -13859,11 +13334,9 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "fogos",
     "incêndio",
     "incêndios",
-    "incêndios florestais",
-    "onda de calor"
+    "incêndios florestais"
    ],
    "climate_terms": [
     "alterações climáticas"
@@ -14035,7 +13508,6 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "fortes chaleurs",
     "incendie",
     "incendies"
    ],
@@ -14295,11 +13767,9 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "canicule",
     "feux de forêt",
     "incendie",
-    "incendies",
-    "inondations"
+    "incendies"
    ],
    "climate_terms": [
     "réchauffement climatique",
@@ -14340,8 +13810,7 @@
    "topic_terms": [
     "incêndio",
     "incêndio florestal",
-    "incêndios",
-    "onda de calor"
+    "incêndios"
    ],
    "climate_terms": [],
    "political_terms": [
@@ -14630,8 +14099,6 @@
   "omits_political": true,
   "evidence": {
    "topic_terms": [
-    "incendie",
-    "incendies",
     "vague de chaleur"
    ],
    "climate_terms": [],
@@ -14725,8 +14192,6 @@
   "evidence": {
    "topic_terms": [
     "blaze",
-    "flooding",
-    "heatwave",
     "wildfires"
    ],
    "climate_terms": [],
@@ -14838,8 +14303,7 @@
     "incendio",
     "incendio forestal",
     "incendios",
-    "incendios forestales",
-    "ola de calor"
+    "incendios forestales"
    ],
    "climate_terms": [
     "cambio climático",
@@ -14987,11 +14451,9 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "canicule",
     "feux de forêt",
     "incendie",
-    "incendies",
-    "inondations"
+    "incendies"
    ],
    "climate_terms": [
     "réchauffement climatique",
@@ -15255,8 +14717,7 @@
    "topic_terms": [
     "feux de forêt",
     "incendie",
-    "incendies",
-    "inondations"
+    "incendies"
    ],
    "climate_terms": [],
    "political_terms": [
@@ -15322,7 +14783,6 @@
   "evidence": {
    "topic_terms": [
     "fogo florestal",
-    "fogos",
     "incêndio",
     "incêndio florestal",
     "incêndios",
@@ -15363,11 +14823,9 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "canicule",
     "feux de forêt",
     "incendie",
-    "incendies",
-    "inondations"
+    "incendies"
    ],
    "climate_terms": [
     "réchauffement climatique",
@@ -15481,8 +14939,7 @@
     "incendio",
     "incendio forestal",
     "incendios",
-    "incendios forestales",
-    "ola de calor"
+    "incendios forestales"
    ],
    "climate_terms": [
     "cambio climático",
@@ -15683,11 +15140,9 @@
   "evidence": {
    "topic_terms": [
     "feu de forêt",
-    "fortes chaleurs",
     "incendie",
     "incendies",
-    "mégafeux",
-    "vague de chaleur"
+    "mégafeux"
    ],
    "climate_terms": [
     "réchauffement climatique"
@@ -15725,7 +15180,6 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "fogos",
     "incêndio",
     "incêndios"
    ],
@@ -15763,8 +15217,7 @@
    "topic_terms": [
     "feux de forêt",
     "incendie",
-    "incendies",
-    "vague de chaleur"
+    "incendies"
    ],
    "climate_terms": [
     "changement climatique"
@@ -16464,7 +15917,6 @@
   "evidence": {
    "topic_terms": [
     "extreme heat",
-    "flooding",
     "heat dome",
     "heatwave",
     "scorching"
@@ -16520,8 +15972,7 @@
   "language": "Spanish",
   "topic": "wildfire",
   "topics": [
-   "wildfire",
-   "floods"
+   "wildfire"
   ],
   "seendate": "20260726T232214Z",
   "socialimage": "",
@@ -16533,7 +15984,6 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "DANA",
     "incendios"
    ],
    "climate_terms": [],
@@ -16567,7 +16017,6 @@
   "evidence": {
    "topic_terms": [
     "cúpula de calor",
-    "incendios",
     "olas de calor"
    ],
    "climate_terms": [
@@ -16606,8 +16055,7 @@
     "incendio",
     "incendio forestal",
     "incendios",
-    "incendios forestales",
-    "ola de calor"
+    "incendios forestales"
    ],
    "climate_terms": [],
    "political_terms": [
@@ -16674,10 +16122,7 @@
     "incendio",
     "incendio forestal",
     "incendios",
-    "incendios forestales",
-    "inundaciones",
-    "ola de calor",
-    "olas de calor"
+    "incendios forestales"
    ],
    "climate_terms": [
     "cambio climático"
@@ -16849,8 +16294,7 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "incendios",
-    "ola de calor"
+    "incendios"
    ],
    "climate_terms": [
     "crisis climática"
@@ -16910,8 +16354,7 @@
   "language": "Spanish",
   "topic": "wildfire",
   "topics": [
-   "wildfire",
-   "floods"
+   "wildfire"
   ],
   "seendate": "20260726T210131Z",
   "socialimage": "",
@@ -16923,7 +16366,6 @@
   "omits_political": true,
   "evidence": {
    "topic_terms": [
-    "DANA",
     "incendios"
    ],
    "climate_terms": [],
@@ -17088,8 +16530,7 @@
   "language": "Spanish",
   "topic": "wildfire",
   "topics": [
-   "wildfire",
-   "floods"
+   "wildfire"
   ],
   "seendate": "20260726T210126Z",
   "socialimage": "",
@@ -17101,7 +16542,6 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "DANA",
     "incendio",
     "incendios"
    ],
@@ -17141,36 +16581,6 @@
    "climate_terms": [],
    "political_terms": [],
    "excerpt": "…m Espanha O primeiro dia de missão, da força conjunta portuguesa de combate aos incêndios em Ávila, ficou concluída com sucesso. Mais de 130 homens e 41 veículos prestam ajuda nas operações de extinção deste mega incêndio que já calcinou 50 mil hectares - o maior da história de Espanha.…"
-  },
-  "fetched_at": "20260728T075514Z"
- },
- {
-  "id": "988c8023de07",
-  "url": "https://www.rtp.pt/noticias/mundo/pilotos-portugueses-ajudam-no-combate-aos-fogos-em-franca_v1756021",
-  "title": "Pilotos portugueses ajudam no combate aos fogos em França",
-  "domain": "rtp.pt",
-  "source_country": "",
-  "source_name": "RTP (PT)",
-  "language": "Portuguese",
-  "topic": "wildfire",
-  "topics": [
-   "wildfire"
-  ],
-  "seendate": "20260726T203747Z",
-  "socialimage": "",
-  "text_available": true,
-  "low_confidence": false,
-  "mentions_climate": false,
-  "mentions_political_responsibility": false,
-  "omits_climate": true,
-  "omits_political": true,
-  "evidence": {
-   "topic_terms": [
-    "fogos"
-   ],
-   "climate_terms": [],
-   "political_terms": [],
-   "excerpt": "Mundo Pilotos portugueses ajudam no combate aos fogos em França Uma equipa de pilotos da Proteção Civil de Portugal está em França a ajudar no combate aos fogos. Uma equipa de pilotos da Proteção Civil de Portugal está em França a ajudar no combate aos fogos.…"
   },
   "fetched_at": "20260728T075514Z"
  },
@@ -17226,7 +16636,6 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "DANA",
     "inundaciones"
    ],
    "climate_terms": [],
@@ -17359,8 +16768,7 @@
   "evidence": {
    "topic_terms": [
     "inundação",
-    "inundações",
-    "onda de calor"
+    "inundações"
    ],
    "climate_terms": [],
    "political_terms": [
@@ -17458,12 +16866,9 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "calor extremo",
     "incêndio",
     "incêndios",
-    "incêndios florestais",
-    "onda de calor",
-    "ondas de calor"
+    "incêndios florestais"
    ],
    "climate_terms": [
     "mudança climática",
@@ -17504,12 +16909,9 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "calor extremo",
     "incêndio",
     "incêndios",
-    "incêndios florestais",
-    "onda de calor",
-    "ondas de calor"
+    "incêndios florestais"
    ],
    "climate_terms": [
     "mudança climática",
@@ -17767,7 +17169,6 @@
   "omits_political": true,
   "evidence": {
    "topic_terms": [
-    "fogos",
     "incêndio",
     "incêndio florestal",
     "incêndios",
@@ -17831,7 +17232,6 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "fogos",
     "incêndios"
    ],
    "climate_terms": [],
@@ -17864,7 +17264,6 @@
   "omits_political": true,
   "evidence": {
    "topic_terms": [
-    "fogos",
     "incêndios"
    ],
    "climate_terms": [],
@@ -17929,8 +17328,7 @@
    "topic_terms": [
     "incendio",
     "incendio forestal",
-    "incendios",
-    "ola de calor"
+    "incendios"
    ],
    "climate_terms": [],
    "political_terms": [
@@ -17965,8 +17363,6 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "incendio",
-    "incendios",
     "ola de calor",
     "olas de calor"
    ],
@@ -18095,9 +17491,7 @@
    "topic_terms": [
     "incêndio",
     "incêndios",
-    "incêndios florestais",
-    "onda de calor",
-    "ondas de calor"
+    "incêndios florestais"
    ],
    "climate_terms": [
     "mudança climática"
@@ -18198,7 +17592,6 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "fogos",
     "incêndio",
     "incêndios"
    ],
@@ -18394,14 +17787,10 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "DANA",
     "incendio",
     "incendio forestal",
     "incendios",
-    "incendios forestales",
-    "inundaciones",
-    "ola de calor",
-    "olas de calor"
+    "incendios forestales"
    ],
    "climate_terms": [
     "cambio climático",
@@ -18482,8 +17871,7 @@
    "topic_terms": [
     "incendio",
     "incendios",
-    "incendios forestales",
-    "ola de calor"
+    "incendios forestales"
    ],
    "climate_terms": [
     "cambio climático",
@@ -18522,8 +17910,7 @@
   "evidence": {
    "topic_terms": [
     "incendie",
-    "mégafeu",
-    "vague de chaleur"
+    "mégafeu"
    ],
    "climate_terms": [],
    "political_terms": [
@@ -18657,8 +18044,7 @@
     "incendio",
     "incendio forestal",
     "incendios",
-    "incendios forestales",
-    "olas de calor"
+    "incendios forestales"
    ],
    "climate_terms": [
     "crisis climática",
@@ -18766,7 +18152,6 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "fogos",
     "incêndio"
    ],
    "climate_terms": [],
@@ -18801,7 +18186,6 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "fogos",
     "incêndio",
     "incêndios",
     "incêndios florestais"
@@ -18828,8 +18212,7 @@
   "topic": "heatwave",
   "topics": [
    "heatwave",
-   "wildfire",
-   "floods"
+   "wildfire"
   ],
   "seendate": "20260726T070313Z",
   "socialimage": "",
@@ -18841,7 +18224,6 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "DANA",
     "incendio",
     "incendios",
     "incendios forestales",
@@ -18886,9 +18268,7 @@
   "evidence": {
    "topic_terms": [
     "incendio",
-    "incendios",
-    "ola de calor",
-    "olas de calor"
+    "incendios"
    ],
    "climate_terms": [],
    "political_terms": [
@@ -18962,7 +18342,6 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "incendios",
     "olas de calor"
    ],
    "climate_terms": [],
@@ -19000,8 +18379,7 @@
     "feu de forêt",
     "feux de forêt",
     "incendie",
-    "incendies",
-    "vague de chaleur"
+    "incendies"
    ],
    "climate_terms": [],
    "political_terms": [
@@ -19165,7 +18543,6 @@
    "topic_terms": [
     "blaze",
     "forest fire",
-    "heatwave",
     "wildfire",
     "wildfires"
    ],
@@ -19239,8 +18616,7 @@
     "incêndio",
     "incêndio florestal",
     "incêndios",
-    "incêndios florestais",
-    "ondas de calor"
+    "incêndios florestais"
    ],
    "climate_terms": [
     "mudanças climáticas"
@@ -19344,11 +18720,9 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "DANA",
     "incendio",
     "incendios",
-    "incendios forestales",
-    "olas de calor"
+    "incendios forestales"
    ],
    "climate_terms": [
     "cambio climático",
@@ -19465,12 +18839,10 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "calor extremo",
     "incêndio",
     "incêndio florestal",
     "incêndios",
-    "incêndios florestais",
-    "ondas de calor"
+    "incêndios florestais"
    ],
    "climate_terms": [
     "mudanças climáticas"
@@ -19542,8 +18914,7 @@
     "heat dome",
     "heat warning",
     "heatwave",
-    "scorching",
-    "wildfires"
+    "scorching"
    ],
    "climate_terms": [
     "climate change",
@@ -19870,8 +19241,7 @@
     "incendio",
     "incendio forestal",
     "incendios",
-    "incendios forestales",
-    "olas de calor"
+    "incendios forestales"
    ],
    "climate_terms": [
     "crisis climática",
@@ -20007,8 +19377,7 @@
   "evidence": {
    "topic_terms": [
     "incêndios",
-    "incêndios florestais",
-    "ondas de calor"
+    "incêndios florestais"
    ],
    "climate_terms": [
     "mudança climática"
@@ -20184,7 +19553,6 @@
   "evidence": {
    "topic_terms": [
     "blaze",
-    "extreme heat",
     "forest fire",
     "forest fires",
     "wildfire",
@@ -20228,8 +19596,7 @@
    "topic_terms": [
     "incêndio",
     "incêndios",
-    "incêndios florestais",
-    "ondas de calor"
+    "incêndios florestais"
    ],
    "climate_terms": [
     "mudança climática"
@@ -20430,7 +19797,6 @@
   "evidence": {
    "topic_terms": [
     "forest fires",
-    "heat dome",
     "wildfire",
     "wildfires"
    ],
@@ -20478,7 +19844,6 @@
    "topic_terms": [
     "alluvioni",
     "inondazioni",
-    "ondate di calore",
     "piogge torrenziali"
    ],
    "climate_terms": [],
@@ -20514,8 +19879,7 @@
     "incendio",
     "incendio forestal",
     "incendios",
-    "incendios forestales",
-    "olas de calor"
+    "incendios forestales"
    ],
    "climate_terms": [
     "crisis climática",
@@ -20697,9 +20061,7 @@
   "omits_political": true,
   "evidence": {
    "topic_terms": [
-    "canicule",
     "feux de forêt",
-    "fortes chaleurs",
     "incendie",
     "incendies"
    ],
@@ -20735,7 +20097,6 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "canicule",
     "feux de forêt",
     "incendie",
     "incendies"
@@ -20804,7 +20165,6 @@
   "evidence": {
    "topic_terms": [
     "calor extremo",
-    "inundación",
     "ola de calor",
     "olas de calor"
    ],
@@ -20937,7 +20297,6 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "canicule",
     "feux de forêt",
     "incendie",
     "incendies"
@@ -21006,9 +20365,7 @@
   "evidence": {
    "topic_terms": [
     "canicule",
-    "fortes chaleurs",
-    "incendie",
-    "incendies"
+    "fortes chaleurs"
    ],
    "climate_terms": [
     "réchauffement climatique"
@@ -21044,7 +20401,6 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "calor extremo",
     "incêndio",
     "incêndios",
     "incêndios florestais"
@@ -21212,8 +20568,7 @@
   "omits_political": true,
   "evidence": {
    "topic_terms": [
-    "chaleur extrême",
-    "feux de forêt"
+    "chaleur extrême"
    ],
    "climate_terms": [
     "changement climatique"
@@ -21372,8 +20727,6 @@
   "evidence": {
    "topic_terms": [
     "calor extremo",
-    "incêndios",
-    "incêndios florestais",
     "onda de calor",
     "ondas de calor"
    ],
@@ -21449,8 +20802,6 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "canicule",
-    "fortes chaleurs",
     "surmortalité"
    ],
    "climate_terms": [],
@@ -21555,9 +20906,7 @@
    "topic_terms": [
     "extreme heat",
     "heat warning",
-    "heat wave",
-    "wildfire",
-    "wildfires"
+    "heat wave"
    ],
    "climate_terms": [
     "climate change",
@@ -21653,8 +21002,7 @@
   "omits_political": true,
   "evidence": {
    "topic_terms": [
-    "Hitzewellen",
-    "Waldbränden"
+    "Hitzewellen"
    ],
    "climate_terms": [],
    "political_terms": [],
@@ -21684,9 +21032,6 @@
   "omits_political": true,
   "evidence": {
    "topic_terms": [
-    "flash floods",
-    "flooding",
-    "floods",
     "wildfire",
     "wildfires"
    ],
@@ -21756,8 +21101,7 @@
     "incendio",
     "incendio forestal",
     "incendios",
-    "incendios forestales",
-    "ola de calor"
+    "incendios forestales"
    ],
    "climate_terms": [
     "cambio climático",
@@ -21986,9 +21330,6 @@
   "evidence": {
    "topic_terms": [
     "calor extremo",
-    "incendio",
-    "incendio forestal",
-    "incendios",
     "ola de calor"
    ],
    "climate_terms": [],
@@ -22022,8 +21363,7 @@
     "incendio",
     "incendio forestal",
     "incendios",
-    "incendios forestales",
-    "ola de calor"
+    "incendios forestales"
    ],
    "climate_terms": [
     "cambio climático",
@@ -22264,36 +21604,6 @@
   "fetched_at": "20260728T075514Z"
  },
  {
-  "id": "300004e1b05e",
-  "url": "https://www.lavanguardia.com/vida/20260720/11596663/reconstruccion-invisible-dana-valencia-brl.html",
-  "title": "La reconstrucción invisible tras la DANA en Valencia",
-  "domain": "lavanguardia.com",
-  "source_country": "",
-  "source_name": "La Vanguardia",
-  "language": "Spanish",
-  "topic": "floods",
-  "topics": [
-   "floods"
-  ],
-  "seendate": "20260720T112907Z",
-  "socialimage": "",
-  "text_available": true,
-  "low_confidence": false,
-  "mentions_climate": false,
-  "mentions_political_responsibility": false,
-  "omits_climate": true,
-  "omits_political": true,
-  "evidence": {
-   "topic_terms": [
-    "DANA"
-   ],
-   "climate_terms": [],
-   "political_terms": [],
-   "excerpt": "Historias de reconstruccion tras la DANA La DANA dejó imágenes difíciles de olvidar. Con el paso del tiempo, comenzó otra etapa menos visible: la de reconstruir la vida cotidiana. A través de cuatro capítulos, este documental muestra las historias de quienes intentan recuperar la normalidad después de la catástrofe Cap…"
-  },
-  "fetched_at": "20260727T152151Z"
- },
- {
   "id": "eddb317ffa52",
   "url": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/07/incendio-florestal-queima-13-mil-hectares-a-100-km-ao-norte-de-madri.shtml",
   "title": "Incêndio florestal queima 13 mil hectares a 100 km ao norte de Madri",
@@ -22318,8 +21628,7 @@
     "incêndio",
     "incêndio florestal",
     "incêndios",
-    "incêndios florestais",
-    "onda de calor"
+    "incêndios florestais"
    ],
    "climate_terms": [],
    "political_terms": [
@@ -22443,8 +21752,7 @@
    "topic_terms": [
     "feu de forêt",
     "incendie",
-    "incendies",
-    "vague de chaleur"
+    "incendies"
    ],
    "climate_terms": [
     "changement climatique",
@@ -22550,7 +21858,6 @@
   "omits_political": true,
   "evidence": {
    "topic_terms": [
-    "extreme heat",
     "flash flood",
     "flood",
     "wildfire",
@@ -22881,13 +22188,10 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "alerta de calor",
     "incêndio",
     "incêndio florestal",
     "incêndios",
-    "incêndios florestais",
-    "onda de calor",
-    "ondas de calor"
+    "incêndios florestais"
    ],
    "climate_terms": [
     "mudanças climáticas"
@@ -23049,8 +22353,7 @@
    "topic_terms": [
     "incêndio",
     "incêndios",
-    "incêndios florestais",
-    "onda de calor"
+    "incêndios florestais"
    ],
    "climate_terms": [],
    "political_terms": [
@@ -23084,10 +22387,8 @@
   "omits_political": true,
   "evidence": {
    "topic_terms": [
-    "exceso de mortalidad",
     "ola de calor",
-    "olas de calor",
-    "sobremortalidad"
+    "olas de calor"
    ],
    "climate_terms": [
     "cambio climático"
@@ -23150,8 +22451,7 @@
   "evidence": {
    "topic_terms": [
     "incendio",
-    "incendios",
-    "olas de calor"
+    "incendios"
    ],
    "climate_terms": [],
    "political_terms": [
@@ -23316,10 +22616,8 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "calor extremo",
     "incendios",
-    "incendios forestales",
-    "ola de calor"
+    "incendios forestales"
    ],
    "climate_terms": [
     "cambio climático"
@@ -23385,11 +22683,8 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "calor extremo",
     "incendio",
-    "incendios",
-    "ola de calor",
-    "olas de calor"
+    "incendios"
    ],
    "climate_terms": [],
    "political_terms": [
@@ -23493,7 +22788,6 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "calor extremo",
     "incendio",
     "incendio forestal",
     "incendios"
@@ -23567,10 +22861,8 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "fogos",
     "incêndio",
-    "incêndios",
-    "onda de calor"
+    "incêndios"
    ],
    "climate_terms": [
     "alterações climáticas",
@@ -23670,7 +22962,6 @@
   "omits_political": true,
   "evidence": {
    "topic_terms": [
-    "canicule",
     "incendie",
     "incendies"
    ],
@@ -23705,8 +22996,7 @@
   "evidence": {
    "topic_terms": [
     "incendio",
-    "incendios",
-    "ola de calor"
+    "incendios"
    ],
    "climate_terms": [],
    "political_terms": [
@@ -23801,7 +23091,6 @@
   "evidence": {
    "topic_terms": [
     "calor extremo",
-    "excesso de mortalidade",
     "onda de calor",
     "ondas de calor"
    ],
@@ -24042,9 +23331,7 @@
    "topic_terms": [
     "incendio",
     "incendios",
-    "incendios forestales",
-    "ola de calor",
-    "olas de calor"
+    "incendios forestales"
    ],
    "climate_terms": [
     "cambio climático"
@@ -24079,8 +23366,6 @@
   "omits_political": true,
   "evidence": {
    "topic_terms": [
-    "incêndios",
-    "incêndios florestais",
     "onda de calor"
    ],
    "climate_terms": [
@@ -24116,8 +23401,7 @@
    "topic_terms": [
     "incêndio",
     "incêndios",
-    "incêndios florestais",
-    "onda de calor"
+    "incêndios florestais"
    ],
    "climate_terms": [
     "aquecimento global"
@@ -24150,9 +23434,6 @@
   "evidence": {
    "topic_terms": [
     "calor extremo",
-    "incendio",
-    "incendios",
-    "inundaciones",
     "ola de calor",
     "olas de calor"
    ],
@@ -24332,8 +23613,7 @@
     "incêndio",
     "incêndio florestal",
     "incêndios",
-    "incêndios florestais",
-    "ondas de calor"
+    "incêndios florestais"
    ],
    "climate_terms": [
     "mudança climática"
@@ -24401,8 +23681,7 @@
   "evidence": {
    "topic_terms": [
     "flash floods",
-    "floods",
-    "heat wave"
+    "floods"
    ],
    "climate_terms": [
     "climate change",
@@ -24436,8 +23715,7 @@
   "evidence": {
    "topic_terms": [
     "incêndios",
-    "incêndios florestais",
-    "ondas de calor"
+    "incêndios florestais"
    ],
    "climate_terms": [
     "mudanças climáticas"
@@ -24542,8 +23820,6 @@
   "omits_political": true,
   "evidence": {
    "topic_terms": [
-    "incêndios",
-    "incêndios florestais",
     "onda de calor",
     "ondas de calor"
    ],
@@ -24553,39 +23829,6 @@
    ],
    "political_terms": [],
    "excerpt": "…eralizada. Associada às altas temperaturas, a condição favorece a ocorrência de incêndios florestais em Portugal, Espanha e na França. Há uma sobreposição de fenômenos. A onda de calor de junho exacerbou a seca que já havia sido alimentada pela canícula de maio. O problema prejudica a navegação em diversos rios importa…"
-  },
-  "fetched_at": "20260728T075514Z"
- },
- {
-  "id": "ad639ff67907",
-  "url": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/07/show-de-fogos-de-artificio-de-trump-elevou-poluicao-do-ar-em-washington-a-niveis-prejudiciais-a-saude.shtml",
-  "title": "Show de fogos de artifício de Trump elevou poluição do ar em Washington a níveis prejudiciais à saúde",
-  "domain": "folha.uol.com.br",
-  "source_country": "",
-  "source_name": "Folha de S.Paulo (BR)",
-  "language": "Portuguese",
-  "topic": "wildfire",
-  "topics": [
-   "wildfire"
-  ],
-  "seendate": "20260708T224000Z",
-  "socialimage": "",
-  "text_available": true,
-  "low_confidence": false,
-  "mentions_climate": false,
-  "mentions_political_responsibility": true,
-  "omits_climate": true,
-  "omits_political": false,
-  "evidence": {
-   "topic_terms": [
-    "fogos"
-   ],
-   "climate_terms": [],
-   "political_terms": [
-    "governo",
-    "presidente"
-   ],
-   "excerpt": "O show de fogos de artifício em Washington que celebrou os 250 anos da independência americana também prejudicou o ar da capital do país, segundo uma empresa que fornece serviços de análise da qualidade do ar. A poluição na forma de material particulado fino —partículas minúsculas que podem contribuir para asma, doença…"
   },
   "fetched_at": "20260728T075514Z"
  },
@@ -24612,7 +23855,6 @@
   "evidence": {
    "topic_terms": [
     "calor extremo",
-    "mortes por calor",
     "onda de calor",
     "ondas de calor"
    ],
@@ -24650,9 +23892,7 @@
    "topic_terms": [
     "incêndio",
     "incêndios",
-    "incêndios florestais",
-    "onda de calor",
-    "ondas de calor"
+    "incêndios florestais"
    ],
    "climate_terms": [
     "mudanças climáticas"
@@ -24813,7 +24053,6 @@
   "omits_political": true,
   "evidence": {
    "topic_terms": [
-    "incendios",
     "ola de calor",
     "olas de calor"
    ],
@@ -24849,7 +24088,6 @@
    "topic_terms": [
     "alerta por calor",
     "calor extremo",
-    "incendios",
     "ola de calor"
    ],
    "climate_terms": [],
@@ -24983,8 +24221,7 @@
     "incêndio",
     "incêndio florestal",
     "incêndios",
-    "incêndios florestais",
-    "ondas de calor"
+    "incêndios florestais"
    ],
    "climate_terms": [
     "mudança climática"
@@ -25056,8 +24293,6 @@
   "evidence": {
    "topic_terms": [
     "calor extremo",
-    "incêndios",
-    "incêndios florestais",
     "onda de calor",
     "ondas de calor"
    ],
@@ -25130,9 +24365,7 @@
     "incêndio",
     "incêndio florestal",
     "incêndios",
-    "incêndios florestais",
-    "onda de calor",
-    "ondas de calor"
+    "incêndios florestais"
    ],
    "climate_terms": [
     "mudança climática",
@@ -25170,8 +24403,6 @@
   "omits_political": true,
   "evidence": {
    "topic_terms": [
-    "incendio",
-    "incendios",
     "ola de calor"
    ],
    "climate_terms": [],
@@ -25190,8 +24421,7 @@
   "language": "Portuguese",
   "topic": "heatwave",
   "topics": [
-   "heatwave",
-   "wildfire"
+   "heatwave"
   ],
   "seendate": "20260704T212400Z",
   "socialimage": "",
@@ -25205,7 +24435,6 @@
    "topic_terms": [
     "alerta de calor",
     "calor extremo",
-    "fogos",
     "onda de calor"
    ],
    "climate_terms": [
@@ -25314,8 +24543,6 @@
   "evidence": {
    "topic_terms": [
     "calor extremo",
-    "incêndio",
-    "incêndios",
     "onda de calor",
     "ondas de calor"
    ],
@@ -25353,7 +24580,6 @@
   "omits_political": true,
   "evidence": {
    "topic_terms": [
-    "DANA",
     "ola de calor",
     "olas de calor"
    ],
@@ -25385,13 +24611,8 @@
   "omits_political": false,
   "evidence": {
    "topic_terms": [
-    "excess deaths",
     "extreme heat",
-    "flooding",
-    "floods",
-    "heat deaths",
     "heat wave",
-    "heat-related deaths",
     "heatwave"
    ],
    "climate_terms": [
@@ -25605,7 +24826,6 @@
   "omits_political": true,
   "evidence": {
    "topic_terms": [
-    "inundações",
     "onda de calor",
     "ondas de calor",
     "recorde de calor"
@@ -25708,9 +24928,6 @@
   "evidence": {
    "topic_terms": [
     "calor extremo",
-    "enchentes",
-    "incêndios",
-    "inundações",
     "ondas de calor"
    ],
    "climate_terms": [
@@ -25746,8 +24963,6 @@
   "evidence": {
    "topic_terms": [
     "calor extremo",
-    "incêndio",
-    "incêndio florestal",
     "onda de calor",
     "ondas de calor"
    ],
@@ -25814,11 +25029,7 @@
   "evidence": {
    "topic_terms": [
     "calor extremo",
-    "exceso de mortalidad",
-    "incendios",
-    "incendios forestales",
-    "ola de calor",
-    "sobremortalidad"
+    "ola de calor"
    ],
    "climate_terms": [],
    "political_terms": [
@@ -25953,10 +25164,7 @@
   "evidence": {
    "topic_terms": [
     "extreme heat",
-    "flood",
-    "flooding",
-    "heatwave",
-    "wildfires"
+    "heatwave"
    ],
    "climate_terms": [
     "climate change",
@@ -26058,7 +25266,6 @@
   "omits_political": true,
   "evidence": {
    "topic_terms": [
-    "extreme heat",
     "heat-related deaths"
    ],
    "climate_terms": [
@@ -26163,36 +25370,6 @@
    "climate_terms": [],
    "political_terms": [],
    "excerpt": "The fourth heatwave of the summer will continue on Wednesday with temperatures expected to reach 34C across parts of England. An amber heat health alert was issued for the West Midlands, East Midlands, South East, London and the East of England on Tuesday and will stay in place until 6pm on Wednesday. Much of the rest…"
-  },
-  "fetched_at": "20260728T075514Z"
- },
- {
-  "id": "01ff4ac7cfab",
-  "url": "https://www.wsj.com/articles/kim-jong-un-is-doing-everything-he-can-to-keep-north-koreas-youth-in-line-0866a1de",
-  "title": "Kim Jong Un Is Doing Everything He Can to Keep North Korea's Youth in Line",
-  "domain": "wsj.com",
-  "source_country": "",
-  "source_name": "The Wall Street Journal",
-  "language": "English",
-  "topic": "floods",
-  "topics": [
-   "floods"
-  ],
-  "seendate": "20250127T060500Z",
-  "socialimage": "",
-  "text_available": false,
-  "low_confidence": true,
-  "mentions_climate": false,
-  "mentions_political_responsibility": false,
-  "omits_climate": true,
-  "omits_political": true,
-  "evidence": {
-   "topic_terms": [
-    "flood"
-   ],
-   "climate_terms": [],
-   "political_terms": [],
-   "excerpt": "…been exalting a “shock brigade” of 300,000 teens and 20-somethings drafted into flood reconstruction.…"
   },
   "fetched_at": "20260728T075514Z"
  },
