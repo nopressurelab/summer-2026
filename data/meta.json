@@ -1,9 +1,9 @@
 {
- "last_updated": "2026-08-16T05:52:34Z",
+ "last_updated": "2026-08-16T06:14:18Z",
  "window_days": 90,
  "pruned": false,
  "since": "2025-01-27",
- "last_source": "rss",
+ "last_source": "gdelt",
  "languages": [
   "de",
   "en",
