@@ -1,5 +1,891 @@
 [
  {
+  "id": "4bb45b95f904",
+  "url": "https://www.rtp.pt/noticias/pais/um-morto-e-um-ferido-grave-em-incendio-urbano-no-montijo_n1769874",
+  "title": "Um morto e um ferido grave em incêndio urbano no Montijo",
+  "domain": "rtp.pt",
+  "source_country": "",
+  "source_name": "RTP (PT)",
+  "language": "Portuguese",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261006T123044Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "incêndio"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "Um morto e um ferido grave em incêndio urbano no Montijo Uma pessoa morreu e outra sofreu ferimentos graves num incêndio urbano que deflagrou hoje de manhã no primeiro andar de um prédio na Rua José Joaquim Marques, no Montijo, distrito de Setúbal, informou a Proteção Civil. Segundo a Comando Sub-regional de Emergência…"
+  },
+  "fetched_at": "20261006T120958Z"
+ },
+ {
+  "id": "1ed784048623",
+  "url": "https://www.open.online/2026/10/06/crans-montana-jessica-moretti-indennita-incendio/",
+  "title": "Crans-Montana, Jessica Moretti risarcita per infortunio? La richiesta all’assicurazione per i mancati incassi: via libera dalla procura",
+  "domain": "open.online",
+  "source_country": "",
+  "source_name": "Corriere / Open",
+  "language": "Italian",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261006T120045Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "incendio",
+    "rogo"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "legge"
+   ],
+   "excerpt": "…esto ottenere un’indennità giornaliera per aver perso dei guadagni a causa dell’incendio che ha provocato 41 morti e 115 feriti, di cui sei giovanissimi italiani. La pratica, secondo la legge svizzera per gli infortuni sul lavoro, è al vaglio dell’assicurazione Zurich che, in una lettera riportata nel dossier dell’inda…"
+  },
+  "fetched_at": "20261006T120958Z"
+ },
+ {
+  "id": "17160c72957c",
+  "url": "https://milano.repubblica.it/cronaca/2026/10/06/news/crans_montana_jessica_moretti_indennita_infortunio_incendio_constellation-425629295/",
+  "title": "Crans-Montana, Jessica Moretti chiede un’indennità per l’infortunio nell’incendio al Constellation",
+  "domain": "repubblica.it",
+  "source_country": "",
+  "source_name": "la Repubblica",
+  "language": "Italian",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261006T114331Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "incendio",
+    "rogo"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "legge"
+   ],
+   "excerpt": "…liera per la “perdita di guadagno causata dai danni alla salute” conseguenti al rogo di Capodanno nel locale di Crans-Montana. La pratica, secondo la legge svizzera per gli infortuni sul lavoro, è al vaglio dell'assicurazione Zurich che, in una lettera riportata nelle nuove carte dell’indagine, ha chiesto alla ……"
+  },
+  "fetched_at": "20261006T120958Z"
+ },
+ {
+  "id": "00dba6b2e1ae",
+  "url": "https://www.theguardian.com/australia-news/2026/oct/06/agreement-to-transition-away-from-fossil-fuels-not-open-for-renegotiation-pacific-leader-tells-pre-cop",
+  "title": "Australia faces summer of extreme weather, Anthony Albanese warns at pre-Cop",
+  "domain": "theguardian.com",
+  "source_country": "",
+  "source_name": "The Guardian",
+  "language": "English",
+  "topic": "heatwave",
+  "topics": [
+   "heatwave",
+   "floods"
+  ],
+  "seendate": "20261006T113612Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": true,
+  "mentions_political_responsibility": true,
+  "omits_climate": false,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "extreme heat",
+    "flooding",
+    "floods"
+   ],
+   "climate_terms": [
+    "climate change",
+    "climate crisis"
+   ],
+   "political_terms": [
+    "government",
+    "minister",
+    "prime minister"
+   ],
+   "excerpt": "…arned Australia faces a hazardous summer, likely including floods, cyclones and extreme heat, due to the immediate threat of the climate change and a rising “super El Niño”. Speaker alongside national leaders at a climate summit in Fiji, the prime minister said the expected nasty summer and the demonstrated impact on P…"
+  },
+  "fetched_at": "20261006T120958Z"
+ },
+ {
+  "id": "21b544beb762",
+  "url": "https://www.lavanguardia.com/local/girona/20261006/11652332/platja-d-aro-pide-ampliar-dos-puentes-sobre-ridaura-evitar-nuevas-inundaciones.html",
+  "title": "Platja d’Aro pide ampliar dos puentes sobre el Ridaura para evitar nuevas inundaciones",
+  "domain": "lavanguardia.com",
+  "source_country": "",
+  "source_name": "La Vanguardia",
+  "language": "Spanish",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261006T113338Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "inundaciones",
+    "riada",
+    "riadas"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "Platja d’Aro pide ampliar dos puentes sobre el Ridaura para evitar nuevas inundaciones Temporal El alcalde Maurici Jiménez lo considera “una necesidad” teniendo en cuenta que las riadas se repiten cada vez más a menudo El desbordamiento del río Ridaura a su paso por Castell-Platja d’Aro este fin de semana ha puesto nue…"
+  },
+  "fetched_at": "20261006T120958Z"
+ },
+ {
+  "id": "fcfc8f1b676b",
+  "url": "https://www.eldiario.es/illes-balears/sociedad/mujer-desahuciada-fondo-buitre-presidenta-govern-balear-pp-han-abandonado_1_13566006.html",
+  "title": "Una mujer desahuciada por un fondo buitre irrumpe ante la presidenta del Govern balear del PP: \"Me han abandonado\"",
+  "domain": "eldiario.es",
+  "source_country": "",
+  "source_name": "elDiario.es",
+  "language": "Spanish",
+  "topic": "heatwave",
+  "topics": [
+   "heatwave"
+  ],
+  "seendate": "20261006T112908Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "ola de calor"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "ley",
+    "responsabilidad"
+   ],
+   "excerpt": "…n en un hostal y terminó durmiendo en su coche durante julio y agosto, en plena ola de calor. “Yo no he sido asistida por los servicios sociales ni ha habido preocupación de las administraciones”, ha denunciado. El caso de López se ha convertido estas semanas en uno de los rostros de la emergencia habitacional en Palma…"
+  },
+  "fetched_at": "20261006T120958Z"
+ },
+ {
+  "id": "744712644d7c",
+  "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/06/crans-montana-jessica-moretti-chiede-indennita-per-infortunio-nellincendio_6c8c1560-011c-4c3f-8986-3d998fab7192.html",
+  "title": "Crans-Montana, Jessica Moretti chiede indennità per infortunio nell'incendio",
+  "domain": "ansa.it",
+  "source_country": "",
+  "source_name": "ANSA",
+  "language": "Italian",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261006T111756Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "incendio",
+    "rogo"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "legge"
+   ],
+   "excerpt": "…liera per la \"perdita di guadagno causata dai danni alla salute\" conseguenti al rogo di Capodanno nel suo discobar di Crans-Montana. La pratica, secondo la legge svizzera per gli infortuni sul lavoro, è al vaglio dell'assicurazione Zurich che, in una lettera riportata nel dossier dell'indagine, ha chiesto alla procura…"
+  },
+  "fetched_at": "20261006T120958Z"
+ },
+ {
+  "id": "2b7745d8a4e9",
+  "url": "https://elpais.com/espana/comunidad-valenciana/2026-10-06/un-alcalde-asegura-a-la-jueza-de-la-dana-que-en-pleno-desconcierto-se-guardo-un-cadaver-en-el-maletero.html",
+  "title": "Un alcalde asegura a la jueza de la dana que en pleno desconcierto “se guardó un cadáver en el maletero”",
+  "domain": "elpais.com",
+  "source_country": "",
+  "source_name": "El País",
+  "language": "Spanish",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261006T111449Z",
+  "socialimage": "",
+  "text_available": false,
+  "low_confidence": true,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "inundación"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "… a la magistrada que la Generalitat Valenciana no le avisó de la magnitud de la inundación que dejó 233 muertos en 2024…"
+  },
+  "fetched_at": "20261006T120958Z"
+ },
+ {
+  "id": "2af2aca62ff7",
+  "url": "https://www.20minutos.es/madrid/juez-procesa-por-homicidio-5-investigados-por-incendio-mortal-restaurante-burro-canaglia-madrid_7045422_0.html",
+  "title": "El juez procesa por homicidio a los investigados por el incendio mortal del restaurante Burro Canaglia",
+  "domain": "20minutos.es",
+  "source_country": "",
+  "source_name": "20minutos",
+  "language": "Spanish",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261006T104926Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "incendio"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "responsabilidad"
+   ],
+   "excerpt": "El juez procesa por homicidio a seis investigados por el incendio mortal del restaurante Burro Canaglia en Madrid Basado en hechos observados y verificados directamente por nuestros periodistas o por fuentes informadas. Elígenos como tu fuente preferida en Google. El juez aprecia indicios de delitos contra los derechos…"
+  },
+  "fetched_at": "20261006T120958Z"
+ },
+ {
+  "id": "ef01ba0f7af1",
+  "url": "https://www.lavanguardia.com/local/barcelona/20261006/11652195/inundaciones-goteras-preocupacion-efectos-temporal-guarderias.html",
+  "title": "De inundaciones a goteras: preocupación por los efectos del temporal en las guarderías",
+  "domain": "lavanguardia.com",
+  "source_country": "",
+  "source_name": "La Vanguardia",
+  "language": "Spanish",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261006T100219Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "inundaciones",
+    "inundación",
+    "lluvias torrenciales"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "De inundaciones a goteras: preocupación por los efectos del temporal en las guarderías Barcelona Profesionales y familias de estos centros educativos reclaman medidas para hacer frente a unas lluvias cada vez más intensas El temporal vuelve a causar estragos en algunas guarderías de Barcelona. Uno de los centros afecta…"
+  },
+  "fetched_at": "20261006T120958Z"
+ },
+ {
+  "id": "5f73fd7a6f9b",
+  "url": "https://www.eldiario.es/madrid/juez-procesa-duenos-arquitectos-restaurante-burro-canaglia-incendio-2023-murieron-tres-personas_1_13565475.html",
+  "title": "El juez procesa a los dueños y arquitectos del restaurante Burro Canaglia por el incendio de 2023 con tres muertos",
+  "domain": "eldiario.es",
+  "source_country": "",
+  "source_name": "elDiario.es",
+  "language": "Spanish",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261006T094210Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "incendio",
+    "incendios"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "responsabilidad"
+   ],
+   "excerpt": "…l juez procesa a los dueños y arquitectos del restaurante Burro Canaglia por el incendio de 2023 con tres muertos 0 El juzgado que investiga la muerte de tres personas en un incendio en el restaurante Burro Canaglia en Madrid en 2023 ha decidido enviar al banquillo a seis personas: el administrador único, el gerente de…"
+  },
+  "fetched_at": "20261006T120958Z"
+ },
+ {
+  "id": "9d957fda0a47",
+  "url": "https://www.lemonde.fr/afrique/video/2026/10/06/dakar-les-images-des-inondations-qui-frappent-la-capitale-senegalaise_6788971_3212.html",
+  "title": "Dakar : les images des inondations qui frappent la capitale sénégalaise",
+  "domain": "lemonde.fr",
+  "source_country": "",
+  "source_name": "Le Monde",
+  "language": "French",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261006T093653Z",
+  "socialimage": "",
+  "text_available": false,
+  "low_confidence": true,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "inondation",
+    "inondations"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "président"
+   ],
+   "excerpt": "Une femme et son fils sont morts dans l’inondation de leur maison, selon un témoin. Le président, Bassirou Diomaye Faye, fait état de « pertes en vies humaines »."
+  },
+  "fetched_at": "20261006T120958Z"
+ },
+ {
+  "id": "4be59647685d",
+  "url": "https://www.washingtonpost.com/nation/2026/10/06/what-know-about-el-nios-impacts-california-this-fall-winter/",
+  "title": "How a record-breaking El Niño could supercharge California’s winter storms",
+  "domain": "washingtonpost.com",
+  "source_country": "",
+  "source_name": "The Washington Post",
+  "language": "English",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261006T090000Z",
+  "socialimage": "",
+  "text_available": false,
+  "low_confidence": true,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "flooding"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "The abnormally strong El Niño may boost extreme weather, flooding and erosion of the coast."
+  },
+  "fetched_at": "20261006T120958Z"
+ },
+ {
+  "id": "27a8a9ce009f",
+  "url": "https://www.latimes.com/environment/story/2026-10-06/restaurant-workers-face-hidden-dangers-from-gas-stoves-including-pollution-extreme-heat",
+  "title": "Restaurant workers face hidden dangers from gas stoves, including pollution and extreme heat",
+  "domain": "latimes.com",
+  "source_country": "",
+  "source_name": "Los Angeles Times",
+  "language": "English",
+  "topic": "heatwave",
+  "topics": [
+   "heatwave"
+  ],
+  "seendate": "20261006T090000Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "extreme heat"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "Restaurant workers face hidden dangers from gas stoves, including pollution and extreme heat - Click here to listen to this article - Share via See more from the L.A. Times in Google Search. Set us as preferred - A study of 27 commercial kitchens found gas appliances often exposed workers to nitrogen dioxide and extr…"
+  },
+  "fetched_at": "20261006T120958Z"
+ },
+ {
+  "id": "70e88cf9f870",
+  "url": "https://www.20minutos.es/cataluna/barcelona/detenidas-13-personas-por-los-disturbios-barcelona-tras-manifestacion-sobre-vivienda_7045270_0.html",
+  "title": "Detenidas 13 personas por los disturbios en Barcelona tras la manifestación sobre la vivienda",
+  "domain": "20minutos.es",
+  "source_country": "",
+  "source_name": "20minutos",
+  "language": "Spanish",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261006T063616Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "incendios"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "… en Google. Los altercados dejaron 30 agentes heridos leves, 28 barricadas y 22 incendios y se prolongaron hasta la medianoche en la plaza Catalunya. Los Mossos d'Esquadra han detenido a trece personas, entre ellas una menor de edad, por \"desórdenes públicos\" en el marco de los disturbios generados tras la manifestació…"
+  },
+  "fetched_at": "20261006T120958Z"
+ },
+ {
+  "id": "157becba5330",
+  "url": "https://milano.repubblica.it/cronaca/2026/10/06/news/crans_montana_oggetti_salvati_rogo-425628483/",
+  "title": "I mille oggetti dei ragazzi salvati dal rogo di Crans: “Il rossetto è di mia figlia, non buttatelo”",
+  "domain": "repubblica.it",
+  "source_country": "",
+  "source_name": "la Repubblica",
+  "language": "Italian",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261006T060137Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "rogo"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "Mille oggetti perduti. Mille piccole tracce di vita dei ragazzi di Crans: accendini e rossetti, sigarette e trucchi per quella sera che doveva essere di festa. E poi giacche e felpe, occhiali, mollette per i capelli e perfino — chissà perché — un mandarino. Vennero trovati durante i sopralluoghi al Constellation ormai…"
+  },
+  "fetched_at": "20261006T120958Z"
+ },
+ {
+  "id": "027705654c63",
+  "url": "https://www.eldiario.es/catalunya/trenes-rodalies-continuan-tramos-cortados-debido-temporal_1_13564908.html",
+  "title": "Los trenes de Rodalies continúan con varios tramos cortados debido al temporal",
+  "domain": "eldiario.es",
+  "source_country": "",
+  "source_name": "elDiario.es",
+  "language": "Spanish",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261006T055016Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "inundaciones"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "presidente"
+   ],
+   "excerpt": "…se ha saldado con dos muertos, un desaparecido y numerosos daños materiales por inundaciones. A la espera de más precipitaciones este martes, los trenes de Rodalies continúan sufriendo incidencias y presentan varios tramos cortados. La línea R1, una de las más golpeadas, finalmente funciona entre L’Hospitalet y Arenys…"
+  },
+  "fetched_at": "20261006T120958Z"
+ },
+ {
+  "id": "8d9bf72cd85d",
+  "url": "https://www.franceinfo.fr/environnement/meteo/le-gard-et-l-herault-places-en-vigilance-orange-pluie-inondation-et-orages-a-partir-de-22-heures_8224387.html#xtor=RSS-3-[lestitres]",
+  "title": "Le Gard et l'Hérault placés en vigilance orange \"pluie-inondation\" et \"orages\" à partir de 22 heures mardi",
+  "domain": "francetvinfo.fr",
+  "source_country": "",
+  "source_name": "France Info",
+  "language": "French",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261006T054405Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "inondation"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "…er Climat ∙Environnement Le Gard et l'Hérault placés en vigilance orange \"pluie-inondation\" et \"orages\" à partir de 22 heures mardi \"Un nouvel épisode méditerranéen\" va avoir lieu cette nuit sur le Languedoc, avec des pluies importantes et \"un risque d'orages stationnaires notable\", alerte Météo-France. lire plus tard…"
+  },
+  "fetched_at": "20261006T120958Z"
+ },
+ {
+  "id": "037a7c827002",
+  "url": "https://www.liberation.fr/environnement/climat/pluies-intenses-et-phenomenes-tourbillonnaires-le-gard-et-lherault-de-nouveau-en-vigilance-orange-inondation-ce-mardi-20261006_ST2H2SLKERBKPOVCQP7JTJAELQ/",
+  "title": "«Pluies intenses» et «phénomènes tourbillonnaires» : le Gard et l’Hérault de nouveau en vigilance orange inondation ce mardi",
+  "domain": "liberation.fr",
+  "source_country": "",
+  "source_name": "Libération",
+  "language": "French",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261006T050055Z",
+  "socialimage": "",
+  "text_available": false,
+  "low_confidence": true,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "inondation"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "autorités"
+   ],
+   "excerpt": "Les deux départements de l’Occitanie vont connaître un nouvel épisode méditerranéen à partir de 22 heures, prévient Météo France. La semaine dernière, les intempéries avaient conduit les autorités à fermer les établissements scolaires et à interrompre les transports publics, notamment à Montpellier."
+  },
+  "fetched_at": "20261006T120958Z"
+ },
+ {
+  "id": "10555e335fbf",
+  "url": "https://www.lemonde.fr/planete/article/2026/10/06/orages-pluie-et-inondations-le-gard-et-l-herault-seront-en-vigilance-orange-mardi-soir_6788902_3244.html",
+  "title": "Orages, pluie et inondations : le Gard et l’Hérault seront en vigilance orange mardi à partir de 22 heures",
+  "domain": "lemonde.fr",
+  "source_country": "",
+  "source_name": "Le Monde",
+  "language": "French",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261006T044704Z",
+  "socialimage": "",
+  "text_available": false,
+  "low_confidence": true,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "inondations"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "« Des rafales sous orages localement violentes, voire des phénomènes tourbillonnaires, de la grêle, avec une activité électrique soutenue, sont à attendre [au cours de] cet épisode », prévient Météo-France dans son bulletin matinal."
+  },
+  "fetched_at": "20261006T120958Z"
+ },
+ {
+  "id": "d0a10bdaa563",
+  "url": "https://www.lavanguardia.com/local/maresme/20261006/11651760/riadas-solidaridad-pineda-mar.html",
+  "title": "Riada de solidaridad en Pineda de Marcon una veintena de familias que lo han perdido todo",
+  "domain": "lavanguardia.com",
+  "source_country": "",
+  "source_name": "La Vanguardia",
+  "language": "Spanish",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261006T040000Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "inundaciones",
+    "inundación",
+    "riada",
+    "riadas"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "…cado con una veintena de familias que han perdido todas sus pertenencias en las inundaciones provocadas por el temporal La angustia provocada por el temporal del pasado domingo ha dado paso en Pineda de Mar a una extraordinaria oleada de solidaridad. Durante las horas más críticas, cuando el agua empezó a entrar en las…"
+  },
+  "fetched_at": "20261006T120958Z"
+ },
+ {
+  "id": "6bb4b25467ed",
+  "url": "https://www.eldiario.es/caballodenietzsche/informar-animales-deber-periodistico_132_13554400.html",
+  "title": "Informar sobre los animales es un deber periodístico",
+  "domain": "eldiario.es",
+  "source_country": "",
+  "source_name": "elDiario.es",
+  "language": "Spanish",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261005T211005Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": true,
+  "mentions_political_responsibility": true,
+  "omits_climate": false,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "incendio"
+   ],
+   "climate_terms": [
+    "cambio climático",
+    "gases de efecto invernadero"
+   ],
+   "political_terms": [
+    "política",
+    "ley"
+   ],
+   "excerpt": "…su publicación, Magaña propone un ejercicio sencillo: ante una noticia sobre un incendio o un conflicto bélico, preguntarse: “¿Esto afecta realmente solo a humanos?”. Hay temas con un impacto claro sobre los animales que rara vez aparece en la cobertura. “Si van a leer la prensa con esa pregunta en mente, ya me parecer…"
+  },
+  "fetched_at": "20261006T120958Z"
+ },
+ {
+  "id": "fc07807917f5",
+  "url": "https://www.eldiario.es/sociedad/decenas-leyes-aire-adelanto-electoral-financiacion-autonomica-reforma-blindar-sanidad-publica_1_13562853.html",
+  "title": "Decenas de leyes en el aire por el adelanto electoral: de la financiación autonómica a la reforma para blindar la sanidad pública",
+  "domain": "eldiario.es",
+  "source_country": "",
+  "source_name": "elDiario.es",
+  "language": "Spanish",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261005T210959Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": true,
+  "mentions_political_responsibility": true,
+  "omits_climate": false,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "incendios"
+   ],
+   "climate_terms": [
+    "emergencia climática"
+   ],
+   "political_terms": [
+    "gobierno",
+    "ministro",
+    "presidente",
+    "política",
+    "ley",
+    "parlamento",
+    "congreso",
+    "financiación"
+   ],
+   "excerpt": "…enas un mes después. La propuesta, lanzada en agosto de 2025 en plena oleada de incendios, ha sido una de las prioridades de la vicepresidenta Sara Aagesen y ha necesitado un proceso de consulta, análisis y redacción de muchos meses. A la negativa de base del PP y Vox, se habían unido las reticencias del PNV, BNG y tam…"
+  },
+  "fetched_at": "20261006T120958Z"
+ },
+ {
+  "id": "0defbe664629",
+  "url": "https://www.eldiario.es/blog/el-ojo-izquierdo/tiro-piscina-hay-agua_132_13564058.html",
+  "title": "Se tiró a la piscina. Lo mismo hay agua",
+  "domain": "eldiario.es",
+  "source_country": "",
+  "source_name": "elDiario.es",
+  "language": "Spanish",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261005T210950Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "incendios"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "gobierno",
+    "presidente",
+    "congreso",
+    "ultraderecha",
+    "extrema derecha",
+    "derecha"
+   ],
+   "excerpt": "…s de acontecimientos imprevisibles. El Covid, Filomena, La Palma, Valencia, los incendios, el apagón, Adamuz… y hasta un hantavirus que se nos coló por Canarias como un turista más de los cien millones que nos van a llegar este año. Y el Gobierno, digan lo que digan los demás, ha salido bastante airoso de todas y cada…"
+  },
+  "fetched_at": "20261006T120958Z"
+ },
+ {
+  "id": "6fe294aabfc6",
+  "url": "https://www.lavanguardia.com/natural/20261005/11651720/francia-cifra-16-000-millones-euros-costes-generados-olas-calor.html",
+  "title": "Francia cifra en 16.000 millones de euros los costes generados por las olas de calor",
+  "domain": "lavanguardia.com",
+  "source_country": "",
+  "source_name": "La Vanguardia",
+  "language": "Spanish",
+  "topic": "heatwave",
+  "topics": [
+   "heatwave"
+  ],
+  "seendate": "20261005T165411Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": true,
+  "mentions_political_responsibility": false,
+  "omits_climate": false,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "incendios",
+    "olas de calor"
+   ],
+   "climate_terms": [
+    "cambio climático",
+    "crisis climática"
+   ],
+   "political_terms": [],
+   "excerpt": "…l menos 16.000 millones de euros el coste de las olas de calor, la sequía y los incendios del verano de 2026 en el país galo. La cifra pretende servir de referencia para el debate del presupuesto de 2027 y reforzar la necesidad de aumentar el gasto público destinado a la adaptación al cambio climático. La estimación de…"
+  },
+  "fetched_at": "20261006T120958Z"
+ },
+ {
+  "id": "a29dfbbf241f",
+  "url": "https://www.eldiario.es/internacional/adolescente-pierde-mano-explosion-granada-policial-protestas-estudiantiles-francia_1_13563658.html",
+  "title": "Un adolescente pierde una mano tras la explosión de una granada policial en las protestas estudiantiles en Francia",
+  "domain": "eldiario.es",
+  "source_country": "",
+  "source_name": "elDiario.es",
+  "language": "Spanish",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261005T150421Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "incendios"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "gobierno",
+    "autoridades"
+   ],
+   "excerpt": "…mejora de las instalaciones. Las protestas han derivado en bloqueos de centros, incendios, daños materiales y enfrentamientos con las fuerzas de seguridad. Las autoridades han contabilizado 24 centros incendiados o dañados y 78 trabajadores de la enseñanza heridos desde el inicio de las movilizaciones. La actuación pol…"
+  },
+  "fetched_at": "20261006T120958Z"
+ },
+ {
+  "id": "168b935e7604",
+  "url": "https://www.lemonde.fr/politique/article/2026/10/05/le-cout-de-la-canicule-evalue-a-16-milliards-d-euros-par-une-mission-de-l-assemblee-nationale_6788537_823448.html",
+  "title": "Le coût de la canicule de l’été 2026 évalué à 16 milliards d’euros par une mission de l’Assemblée nationale",
+  "domain": "lemonde.fr",
+  "source_country": "",
+  "source_name": "Le Monde",
+  "language": "French",
+  "topic": "heatwave",
+  "topics": [
+   "heatwave"
+  ],
+  "seendate": "20261005T140723Z",
+  "socialimage": "",
+  "text_available": false,
+  "low_confidence": true,
+  "mentions_climate": true,
+  "mentions_political_responsibility": true,
+  "omits_climate": false,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "canicule"
+   ],
+   "climate_terms": [
+    "réchauffement climatique"
+   ],
+   "political_terms": [
+    "assemblée nationale"
+   ],
+   "excerpt": "A l’approche du débat budgétaire, le député (LFI) Eric Coquerel présente une évaluation très élevée des conséquences des fortes températures de l’été. Pour mieux justifier d’augmenter les crédits alloués à l’adaptation du pays au réchauffement climatique."
+  },
+  "fetched_at": "20261006T120958Z"
+ },
+ {
   "id": "65674afb16f6",
   "url": "https://g1.globo.com/ap/amapa/noticia/2026/10/05/ibama-registra-124-acionamentos-por-incendios-no-ap-e-alerta-para-extensao-da-seca-pelo-super-el-nino.ghtml",
   "title": "Ibama registra 124 acionamentos por incêndios no AP e alerta para extensão da seca pelo Super El Niño",
@@ -265,7 +1151,7 @@
    ],
    "excerpt": "The National Weather Service in the US has issued extreme heat warnings for parts of southern California, including Los Angeles, until Thursday, as temperatures are expected to hit the high 30s celsius. Burbank, a suburb north of Los Angeles, recorded 39C on Saturday, a few degrees shy of the October record for the reg…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "3d78e803c349",
@@ -385,7 +1271,7 @@
    "political_terms": [],
    "excerpt": "Hundreds lined up to call loved ones as the internet went down and the flames closed in on the Australian town of Narooma in 2019."
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "9c4bdafb1568",
@@ -415,7 +1301,7 @@
    "political_terms": [],
    "excerpt": "Extreme heat is raising risks for pregnant women, survey finds Save over 40% on Standard Digital was $540 now $299 for your first year. Save now on essential digital access to trusted FT journalism on any device. Savings based on annualised monthly price. Explore more offers. Trial Then $75 per month. Complete digital…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "bcb9f6226d9d",
@@ -477,7 +1363,7 @@
    "political_terms": [],
    "excerpt": "…teorología (Aemet) en su última predicción. Tras un fin de semana que ha dejado inundaciones, varios fallecidos y avisos rojos en ... Cataluña, Región de Murcia, Comunidad Valenciana y Extremadura, la formación de una dana en el oeste peninsular volverá a complicar este inicio de semana en muchos puntos. Tal y como ha…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "e3d901026cb7",
@@ -544,7 +1430,7 @@
    ],
    "excerpt": "…to the Epstein files. The former prince and Duke of York, who was detained in a blaze of publicity eight months ago, has asked a judge to determine whether the force’s action against him was lawful, London’s Telegraph reports. He has lodged a judicial review in connection with the search warrants that allowed police to…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "0c0fdac9a79f",
@@ -656,7 +1542,7 @@
    "political_terms": [],
    "excerpt": "El calor extremo complica cada vez más los embarazos, según los médicos Los efectos de la crisis climática Datos de una encuesta internacional realizada a 1.000 profesionales de la atención maternal en país de los cinco continentes El 73% de los profesionales de la atención materna han detectado los últimos cinco años…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "9982e1c38f79",
@@ -1011,7 +1897,7 @@
    "political_terms": [],
    "excerpt": "La tempête, qui a contraint samedi à annuler la manifestation pour le droit au logement à Barcelone, a débuté jeudi et devrait prendre fin ce dimanche. Au moins une autre personne est portée disparue."
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "9baaa578dc17",
@@ -1501,7 +2387,7 @@
    ],
    "excerpt": "…lle und Gewitter haben auf der bei Urlaubern beliebten griechischen Insel Kreta Überschwemmungen ausgelöst und Schäden verursacht. Menschen steckten in ihren Autos fest, einige Touristen mussten evakuiert werden, wie die Behörden am Samstag mitteilten. \"Eine Frau musste sicherheitshalber ins Krankenhaus gebracht werden…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "bf5cef73da7d",
@@ -2353,7 +3239,7 @@
    "political_terms": [],
    "excerpt": "…re there is no line where the garden ends and the bush begins. Working within a bushfire zone, on top of complex site conditions, meant that plant species were carefully chosen for their fire-resilient qualities and adaptability to the site’s varying soil types. Photograph: Bianca Kate Rewilded gardens have transformed…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "f643da526133",
@@ -2452,7 +3338,7 @@
    "political_terms": [],
    "excerpt": "…ione destinato ad accogliere circa 250mila beni artistici e a proteggerli dagli allagamenti. La tutela della cultura costa Tutelare il patrimonio richiederà investimenti economici, ma proprio in quel momento le risorse potrebbero essere più scarse. Secondo le stime riportate dai ricercatori, entro la fine di questo sec…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "766da2e253ef",
@@ -3135,7 +4021,7 @@
    "political_terms": [],
    "excerpt": "… la mer jusqu’à 30 centimètres. - Cette hausse pourrait accentuer les risques d’inondation et d’érosion des plages, notamment en cas de fortes houles, de marées importantes ou de tempêtes. - Le phénomène devrait atteindre San Diego la semaine prochaine avant de poursuivre sa progression vers le nord de la côte ouest am…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "3ffe7f244d62",
@@ -3165,7 +4051,7 @@
    "political_terms": [],
    "excerpt": "…ssteps leading up to the 2025 Palisades fire and in its initial response to the blaze, which killed 12 people and destroyed more than 6,800 structures. An investigation commissioned by Gov. Gavin Newsom found the Fire Department ignored multiple warnings that the Jan. 1 Lachman fire still was smoldering days before it…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "d2b1d69d34e9",
@@ -3441,7 +4327,7 @@
    ],
    "excerpt": "…eterminado no ha llegado a desbordarse pero sí que hemos tenido una subida, una crecida importante y por eso se activaba también la alerta roja», ha concluido Noelia Arroyo. Varias carreteras inundadas en Albacete Las inundaciones también se han sufrido en Albacete, especialmente en la localidad de Madrigueras, donde h…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "ab26df1a0eb4",
@@ -3537,7 +4423,7 @@
    "political_terms": [],
    "excerpt": "…éorologique samedi. Le département est placé en vigilance orange pour pluies et inondations par Météo-France, en raison d’un nouvel épisode pluvio-orageux attendu dans le secteur. Cette dégradation est liée à une « masse d’air humide et instable en Méditerranée avec l’organisation d’un système pluvio-orageux actif auto…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "57c2a81f8491",
@@ -3722,7 +4608,7 @@
    "political_terms": [],
    "excerpt": "20 Minutes avec AFP Difficile de butiner des fleurs flétries. En desséchant la végétation, les vagues de chaleur ont mis les abeilles au chômage technique dès le début de l’été, entraînant une chute de la récolte de miel. « C’est de plus en plus capricieux et ça se joue chaque année en fonction du climat. On a des réco…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "7dccce97b361",
@@ -4034,7 +4920,7 @@
    "political_terms": [],
    "excerpt": "Torrential rain and potentially damaging flooding are forecast in eastern Spain over the coming days, as cold upper air moves over the warm, humid surface air of the Mediterranean Sea, fuelling violent, slow-moving thunderstorms near Spain’s east coast. The weather pattern, known as a Dana, occurs most often in autumn.…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "1aa5aa2f686f",
@@ -4562,7 +5448,7 @@
    ],
    "excerpt": "…renze ancora maggiori”. Dove ha trascorso l'estate del 2026? Ha sperimentato le ondate di calore? “Sono stata in Grecia e a Montpellier, nel sud della Francia. Quindi sì, ho vissuto il caldo, come milioni di altri europei. Ma le condizioni in cui si sperimenta quel caldo contano enormemente. Essere in vacanza è molto d…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "a8ea0afeb425",
@@ -4605,7 +5491,7 @@
    ],
    "excerpt": "…ses tout en finançant l'adaptation? Les premiers chèques du plan gouvernemental Canicule, sécheresse, incendies (Casi) sont attendus par les agriculteurs français dans les prochains jours. Annoncé à plus d'un milliard d’euros, il est pourtant déconnecté des besoins réels, tandis que l'adaptation des fermes est très en…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "555d0b13a377",
@@ -4639,7 +5525,7 @@
    ],
    "excerpt": "Prince of Wales tells villagers 'holistic' approach is needed to tackle flooding - Published The Prince of Wales has said a \"holistic\" approach is needed to tackle severe flooding, as a small Welsh village prepares for the upcoming storm season. Residents in Skenfrith, Monmouthshire, have faced four major floods in the…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "61a75ff6453d",
@@ -4712,7 +5598,7 @@
    "political_terms": [],
    "excerpt": "…tri, fondamentali per proteggere gli abitanti delle vallate elvetiche da frane, alluvioni e colate di fango, sono infatti in declino. A rivelarlo è uno studio dell’Università di Berna, pubblicato sulla rivista Frontiers in Forests and Global Change. Uno scudo naturale I boschi d’alta quota sono una fonte di protezione…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "abd05333ae10",
@@ -4807,7 +5693,7 @@
    "political_terms": [],
    "excerpt": "…en vacances avec une idée assez nette du temps qu’il ferait. Aujourd’hui, entre canicule bretonne et crachin niçois, les prévisions s’affolent et les saisons se jouent de nous. Et même lorsque la météo est au rendez-vous, il arrive qu’elle ne produise pas l’effet espéré. Le soleil s’imposera sur une grande partie du pa…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "ff5888031386",
@@ -4839,7 +5725,7 @@
    "political_terms": [],
    "excerpt": "…récocité et une durée de ces épisodes inédites ». Les niveaux relevés durant la canicule de 2003 étaient cependant « nettement plus élevés » : la concentration maximale en ozone a atteint 240 µg/m3 le 27 juin 2026, contre 282 µg/m3 le 8 août 2003, détaille Airparif. Des concentrations supérieures à 300 µg/m3 avaient au…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "09b1d52066a1",
@@ -5802,7 +6688,7 @@
    "political_terms": [],
    "excerpt": "…róximo lunes en Catalunya, Comunidad Valenciana y Baleares Tiempo Hay riesgo de inundaciones súbitas, alerta la agencia meteorológica en un aviso especial La Agencia Estatal de Meteorología (Aemet) y Protección Civil han advertido este miércoles de un episodio marcado por la inestabilidad desde el jueves hasta, al meno…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "4c8347fe6279",
@@ -5897,7 +6783,7 @@
    ],
    "excerpt": "…inhalation. Others have been found with burns on their hands after touching the scorching ground, or are hungry and dehydrated. “It hasn’t rained in 80 days here, and everything is dried and burned,” says Sanchez. “[There are] no leaves and no fruits – nothing they can eat.” Animals that are evacuated are given sedativ…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "7f41e996516a",
@@ -6153,7 +7039,7 @@
    ],
    "excerpt": "… cuore delle politiche di prevenzione, si nota che per gli interventi contro le alluvioni risultano finanziati circa 1,138 miliardi, ma l’avanzamento si ferma al 38,62%. Per le frane, a fronte di quasi 788 milioni, la realizzazione finanziaria è intorno al 40,05%. Insieme, alluvioni e frane assorbono oltre il 60% delle…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "0254568b733b",
@@ -7070,7 +7956,7 @@
    "political_terms": [],
    "excerpt": "…ede traducirse en menos pesca, menor protección frente al oleaje, más riesgo de inundación y un golpe directo para el turismo y las economías locales. Karina von Schuckmann, directora del Ocean State Report, lo resume con una idea que atraviesa toda esta décima edición: el cambio del océano no es \"una cuestión ambienta…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "9a6cf188dd32",
@@ -7287,7 +8173,7 @@
    "political_terms": [],
    "excerpt": "Copernicus desgrana por primera vez la polución transfronteriza que recorre miles de kilómetros y está alimentada por las emisiones y el calor. El estudio ubica a España en la zona más problemática dentro de Europa"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "786acd7bef0e",
@@ -7391,7 +8277,7 @@
    "political_terms": [],
    "excerpt": "…% da população mundial está sendo submetida neste ano a uma mistura perigosa de calor extremo e poluição que resulta em ozônio. Não aquele conhecido por proteger a Terra dos raios UV, na estratosfera, mas o que está na troposfera, a atmosfera baixa onde vivemos. Nesse nível, o ozônio é um poluente secundário, menos dis…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "b665006ab9ea",
@@ -8098,7 +8984,7 @@
    ],
    "excerpt": "Warning more homes will be uninsurable due to flood risk - Published Homes are being built today that could become uninsurable in the future due to the risk of flooding, the boss of insurance giant Aviva has said. Amanda Blanc said the risk of flooding is \"absolutely increasing\", but based on current building patterns…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "60f288fc5e04",
@@ -9081,7 +9967,7 @@
    ],
    "excerpt": "A Indonésia combate, há semanas, incêndios florestais que devastaram vastas áreas de florestas e turfeiras, e que geraram uma densa nuvem de fumaça tóxica que também afeta Malásia e Singapura. O fogo afeta tanto a população quanto a vida selvagem e levou o governo indonésio a tomar ações judiciais, suspender licenças e…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "75128d0b1b7e",
@@ -9243,7 +10129,7 @@
    "political_terms": [],
    "excerpt": "…HEC Climate Institute. Les inondations menacent un tiers des sites français Les crues, les submersions, représentent le principal risque pour le patrimoine français. Un site sur trois classé à l'Unesco en France est menacé par des inondations à l'horizon 2050. C'est le cas par exemple d'Avignon, la cité des papes, au b…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "66f7c1eac396",
@@ -9766,7 +10652,7 @@
    ],
    "excerpt": "…udi, 12 personnes sont mortes dans des catastrophes liées aux pluies, comme des inondations et des glissements de terrain », a déclaré à l'AFP Shanti Mahat, porte-parole de l'autorité nationale de gestion des catastrophes, ajoutant que sept autres personnes étaient portées disparues. Le communiqué détaille le phénomène…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "e1ccf3442fe5",
@@ -9801,7 +10687,7 @@
    ],
    "excerpt": "Chuvas torrenciais acompanhadas de tempestades deixaram pelo menos 56 mortos em três dias no nordeste da Índia, no estado de Uttar Pradesh, o mais populoso do país, informou neste domingo (27) a agência governamental de gestão de desastres. Essas mortes foram registradas após \"chuvas excepcionalmente intensas que ating…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "5af3d52fe153",
@@ -10962,7 +11848,7 @@
    ],
    "excerpt": "…gées de seulement onze ans, racontent les conditions dans leur école durant les fortes chaleurs : « Dans mon école, on n'a pas du tout de climatisation dans une salle, donc on a. Il faisait très très chaud. Les adultes, ils pensent un peu plus à eux, mais ils pensent pas aux générations futures qui vont subir beaucoup…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "6965454589f0",
@@ -11131,7 +12017,7 @@
    ],
    "excerpt": "Os incêndios florestais que devastaram as vastas florestas tropicais da parte indonésia de Bornéu aumentaram a pressão sobre os orangotangos-de-Bornéu, espécie em perigo crítico de extinção, afirmou neste sábado a União Internacional para a Conservação da Natureza (IUCN, na sigla em inglês). Há semanas, a Indonésia com…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "40c467ef5d23",
@@ -11360,7 +12246,7 @@
    ],
    "excerpt": "…in 2023. On a 5,500-acre farm near Fresno, grower Don Cameron is prepared for a deluge. He manages Terranova Ranch and is a pioneer of the practice of flooding farmland to replenish groundwater, which he’s done every few years since 2011. He’s been called the godfather of farmland groundwater recharge. With a $5-millio…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "b1046d35f607",
@@ -11742,7 +12628,7 @@
    "political_terms": [],
    "excerpt": "…at organisées dans tout le pays, après un été caniculaire, marqué aussi par des incendies records et par une sécheresse qui perdure. Gabriel Mazzolini, porte-parole de l’association Les amis de la Terre, est notre grand invité international. Une extension de votre navigateur semble bloquer le chargement du lecteur vidé…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "53e1ea531abd",
@@ -12271,7 +13157,7 @@
    "political_terms": [],
    "excerpt": "…, menos mosquitos: así altera el clima extremo a las plagas urbanas Insectos El calor extremo de este verano atenta contra la supervivencia de los mosquitos, pero favorece la proliferación de las cucarachas, que sobreviven en los microclimas del subsuelo urbano y el alcantarillado Durante años, la relación entre el cam…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "fd09b0a83473",
@@ -12564,7 +13450,7 @@
    "political_terms": [],
    "excerpt": "…tre la montre pour sécuriser la zone et ses 120 kilomètres de sentiers, après l’incendie qui a ravagé durant l’été le massif forestier le plus fréquenté de France (15 millions de visiteurs par an). Le feu de juillet est officiellement éteint depuis un mois, mais la forêt de Fontainebleau, en Seine-et-Marne, est loin d’…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "b91fe3ee98b8",
@@ -12721,7 +13607,7 @@
    "political_terms": [],
    "excerpt": "Rebuilding LA, the Eames way Save over 40% on Standard Digital was $540 now $299 for your first year. Save now on essential digital access to trusted FT journalism on any device. Savings based on annualised monthly price. Explore more offers. Trial Then $75 per month. Complete digital access with exclusive insights and…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "b1b9f38ddd71",
@@ -13853,7 +14739,7 @@
    "political_terms": [],
    "excerpt": "For months, millions of people have been living under a stifling blanket of toxic haze, fueled by a punishing drought brought on by the El Niño weather pattern."
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "38ce488fc2f2",
@@ -14917,7 +15803,7 @@
    "political_terms": [],
    "excerpt": "…tical power. But concerns about his style are growing at home after devastating floods left thousands dead or missing.…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "5a5fe1156243",
@@ -14947,7 +15833,7 @@
    "political_terms": [],
    "excerpt": "Debemos incorporar las soluciones basadas en la naturaleza a nuestra estrategia frente al riesgo de los fuegos"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "3587057d80b2",
@@ -15287,7 +16173,7 @@
    "political_terms": [],
    "excerpt": "O El Niño atual pode causar 451 mil mortes em decorrência de dias de calor extremo —13,3 mil apenas no Brasil. A estimativa é do Laboratório de Impacto Climático da Universidade de Chicago e foi divulgada nesta quarta-feira (23). A projeção considera o período de setembro de 2026 a fevereiro de 2027, quando o fenômeno…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "94e736cb0f43",
@@ -15324,7 +16210,7 @@
    "political_terms": [],
    "excerpt": "Más de la mitad de los españoles no sabe cómo comportarse ante los incendios forestales Emergencia climática El Centro de Investigaciones Sociológicas (CIS) ha realizado una nueva encuesta de Protección Civil para conocer la opinión de los ciudadanos sobre la gestión de los incendios forestales Casi el 50% de los españ…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "6a07e434b993",
@@ -16462,7 +17348,7 @@
    "political_terms": [],
    "excerpt": "…ertou a Organização Mundial da Saúde (OMS) nesta terça-feira (22). Ao favorecer chuvas torrenciais e inundações, o El Niño também pode aumentar a disseminação de doenças transmitidas por mosquitos, como malária, dengue e chikungunya. Rua Tietê alagada após fortes chuvas, no Jardim Pantanal, zona leste de São Paulo - Al…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "3da9264be89d",
@@ -16624,7 +17510,7 @@
    "political_terms": [],
    "excerpt": "…es históricas han afectado a las olas de calor, los huracanes, las sequías, los incendios forestales y otros fenómenos meteorológicos extremos. Este nuevo estudio emplea la inteligencia artificial generativa —entrenada con modelos climáticos— para cuantificar si subconjuntos de las emisiones causadas por el ser humano…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "f656ec3e0f31",
@@ -16695,7 +17581,7 @@
    "political_terms": [],
    "excerpt": "…iene una gran masa de aire caliente sobre una región durante días o semanas. El calor extremo del verano de 2025 provocó la muerte de miles de personas en Europa, convirtiéndose en el verano más extremo hasta que 2026 lo ha superado. La ola de calor que afectó al continente europeo a finales de junio de este año es ya…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "616e02aec4da",
@@ -18116,7 +19002,7 @@
    ],
    "excerpt": "As eleições de 2026 ocorrem em um ano marcado por enchentes e ciclones no sul e sudeste do país, enquanto o risco de uma nova seca extrema ameaça o norte. No mundo, recordes de temperaturas foram registradas no hemisfério norte e desastres como a enchente no Nepal e no Tibete dão mais uma amostra da desregulação do cli…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "b371c1dd0292",
@@ -21503,24 +22389,28 @@
   ],
   "seendate": "20260918T033001Z",
   "socialimage": "",
-  "text_available": false,
-  "low_confidence": true,
+  "text_available": true,
+  "low_confidence": false,
   "mentions_climate": true,
-  "mentions_political_responsibility": false,
+  "mentions_political_responsibility": true,
   "omits_climate": false,
-  "omits_political": true,
+  "omits_political": false,
   "evidence": {
    "topic_terms": [
+    "incendio",
+    "incendios",
     "olas de calor"
    ],
    "climate_terms": [
     "cambio climático",
     "calentamiento global"
    ],
-   "political_terms": [],
-   "excerpt": "Conforme aumente el calentamiento global, las condiciones extremas de peligro se harán más frecuentes, intensas y extensas"
+   "political_terms": [
+    "negligencia"
+   ],
+   "excerpt": "El cambio climático, con sus olas de calor, favorece los megaincendios Conforme aumente el calentamiento global, las condiciones extremas de peligro se harán más frecuentes, intensas y extensas Para que haya un incendio se necesitan tres cosas: una fuente de ignición, combustible, esto es, vegetación, y condiciones atm…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "5f5fb7f72102",
@@ -22104,7 +22994,7 @@
    "political_terms": [],
    "excerpt": "…for a June fire and now sues a rooftop solar firm it says is responsible. - The blaze left more than 89 million pounds of rotting food, triggering over 4,900 odor complaints and 38 violation notices as Lineage missed the city’s 45-day cleanup deadline despite a $150-million effort. - Neighbors endure weeks of stench, p…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "568fe2d2d545",
@@ -23479,7 +24369,7 @@
    ],
    "excerpt": "…em e queimadas O continente também enfrentou uma seca generalizada. Mais de mil incêndios florestais queimaram cerca de 5.400 km² de terras em toda a União Europeia desde meados de junho —mais que o dobro da área de Luxemburgo. As chamas obrigaram centenas de milhares de pessoas a deixar suas casas, especialmente na Es…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "ec0bf9244b90",
@@ -24677,7 +25567,7 @@
    "political_terms": [],
    "excerpt": "El cambio climático añadió este verano 30 días adicionales de calor extremo en España Crisis climática Entre el 1 de junio y el 31 de agosto de 2026 Madrid y Barcelona padecieron respectivamente 41 y 19 jornadas extra de temperaturas extremas en comparación con un mundo sin cambio climático Las temperaturas registraron…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "fa65057a7cd8",
@@ -24880,7 +25770,7 @@
    ],
    "excerpt": "Newsom signs first-in-nation standards for homes damaged by wildfire smoke - Click here to listen to this article - Share via See more from the L.A. Times in Google Search. Set us as preferred Thousands of Los Angeles County homeowners faced a persistent problem long after the devastating wildfires in January 2025: A…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "9bf8a419bf9d",
@@ -27692,7 +28582,7 @@
    "political_terms": [],
    "excerpt": "…superfície do mar no dia dia 8 de setembro chegou a 21,23°C, um novo recorde. O calor extremo é resultado da soma de um forte El Niño, iniciado em junho, à mudança climática. O fenômeno é caracterizado pelo aquecimento acima do média da região tropical do Pacífico. Por sua vez, grande parte das emissões de gases de efe…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "d77ba09dba46",
@@ -29350,7 +30240,7 @@
    "political_terms": [],
    "excerpt": "…an este verano máximos históricos Crisis climática España también ha sufrido un calor extremo en tierra este año Las temperaturas del mar en las costas españolas alcanzaron máximos históricos este verano, y varias estaciones de seguimiento del Mediterráneo y de la costa atlántica española registraron sus valores más al…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "5b77e7c6e7eb",
@@ -30428,7 +31318,7 @@
    ],
    "excerpt": "…claims by policyholders impacted by last year’s devastating Eaton and Palisades wildfires, after a growing number of residents complained of delays, denials and underpayments. In a letter sent to Farmers on Wednesday, the county’s lawyers said if the company is engaging in any unlawful or unfair business practices, it…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "b9c967bab8dd",
@@ -30838,7 +31728,7 @@
    ],
    "excerpt": "…high-severity fires — which kill the vast majority of trees in their path — are scorching 30 times more land area than in the 1980s. State approves ‘Zone Zero’ fire-safe landscaping rules, reshaping yards for millions of Californians The California Board of Forestry approved ‘Zone Zero’ regulations outlining what resid…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "93a71c8d15b3",
@@ -32176,7 +33066,7 @@
    "political_terms": [],
    "excerpt": "Marcado por ondas de calor recorde, incêndios florestais, inundações e outros desastres em diversos continentes, agosto deste ano igualou julho de 2023 como o mês mais quente da história. Segundo o serviço Copernicus, da União Europeia, que monitora a mudança climática no planeta, a média global de temperatura no mês p…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "e1e9b7aaf0c6",
@@ -32314,7 +33204,7 @@
    ],
    "excerpt": "- Los expertos urgen a alcanzar un Pacto de Estado contra incendios: \"No es cuestión de ser de derechas o de izquierdas, nuestro futuro depende de ese acuerdo\" La Agencia Estatal de Meteorología (Aemet) ha constatado este miércoles con cifras lo que los españoles hemos sentido durante los últimos tres meses: el verano…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "526cbe2c5170",
@@ -33138,7 +34028,7 @@
    "political_terms": [],
    "excerpt": "O trecho da montanha cujo colapso desencadeou inundações mortais no Nepal e na China enfrentou um calor sem precedentes para essa época do ano, segundo Robert Rohde, cientista-chefe da organização independente Berkeley Earth, sediada na Califórnia. A partir da análise de dados meteorológicos, Rohde estima que a tempera…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "0707d1cd249f",
@@ -33893,7 +34783,7 @@
    ],
    "excerpt": "…The California fires erupted amid extremely dry conditions. UCLA scientists say extreme heat linked to climate change was a factor in the fires’ intensity. After his bill failed, Bennett said, he called for including those requirements in the other Senate bill. But Caballero opposed it. Another bill authored by Bennett…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "665e2dd91acc",
@@ -33924,7 +34814,7 @@
    "political_terms": [],
    "excerpt": "… With a powerful El Niño forecast for this winter — on top of an ongoing marine heat wave — center staff fear the months ahead could bring an influx of blubbery patients. “We can look at the past as the best predictor for the future,” said Dave Bader, chief operations and education officer at the center. “When we’ve se…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "a04790a2b974",
@@ -34703,7 +35593,7 @@
    "political_terms": [],
    "excerpt": "…ed tides will persist through Tuesday. Days of more intense weather are ahead — extreme heat and high humidity — after a dramatic weekend of coastal flooding, rain and dangerously high surf brought by remnants of Tropical Storm Marie. A big jump in temperature is expected by Tuesday, with heat “10 to 20 degrees above n…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "b145c9412512",
@@ -39546,7 +40436,7 @@
    ],
    "excerpt": "…hos lacrimejarem e a garganta arder. Mas os eventos climáticos extremos —calor, inundações, seca, além da imprevisibilidade e dos custos elevados que os acompanham— estão fazendo desaparecer lentamente um modo de vida que moldou gerações de agricultores. Em uma manhã recente, Ahsan Ali Dars caminhava por sua plantação…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "0112da83988c",
@@ -43676,7 +44566,7 @@
    "political_terms": [],
    "excerpt": "El Observatori Fabra supera el récord de calor en septiembre con 33,6 grados Crisis climática A principios de julio, la estación meteorológica registró su temperatura récord histórica al llegar a los 40,9ºC El Observatori Fabra de Barcelona ha batido el récord de su temperatura máxima en un mes de septiembre en 113 año…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "d227d6e62d29",
@@ -44447,7 +45337,7 @@
    "political_terms": [],
    "excerpt": "…a imponente cobertura verde de pinheiros-amarelos-do-oeste existiu por séculos, incêndios florestais transformaram cerca de 688 hectares em uma área descampada e coberta por arbustos marrons. Segundo os cientistas, essa floresta desapareceu para sempre. Arbustos espinhosos e de carvalho-venenoso substituíram as árvores…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "0eb67bf12b2b",
@@ -45752,7 +46642,7 @@
    "political_terms": [],
    "excerpt": "…atural, e a pressão resulta em um rompimento ou transbordamento que provoca uma enchente repentina rio abaixo. Esse tipo de ocorrência vem se multiplicando à medida que as mudanças climáticas aceleram o derretimento das geleiras. Além do impacto do aquecimento global, as montanhas do Himalaia são relativamente jovens.…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "7bb005601f5a",
@@ -46008,7 +46898,7 @@
    "political_terms": [],
    "excerpt": "Una cúpula de calor traerá temperaturas de hasta 43 ºC mañana y el viernes El tiempo Los indicadores más elevados azotarán el sur peninsular y, en otras zonas, se alcanzarán los 40°C El episodio de calor que afecta al país dejará temperaturas más típicas de pleno verano que de septiembre. El clímax se dará este jueves…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "5b71db29b891",
@@ -46140,7 +47030,7 @@
    ],
    "excerpt": "…American West, four-legged fire prevention crews are busy at work, helping keep wildfire risk under control. These cattle, goats and sheep stomp down tall grasses as they munch their way through plants that could otherwise burn, lowering the risk of catastrophic fires. When livestock are intentionally used for wildfire…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "29bca8c31bc2",
@@ -47558,7 +48448,7 @@
    ],
    "excerpt": "… Times in Google Search. Set us as preferred Legislation that would have helped wildfire victims receive compensation more quickly, but that utilities said didn’t do enough to reduce their financial risks, died in Sacramento on Tuesday after the Assembly declined to vote on it. The failure of Senate Bill 492 disappoint…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "c31a90363844",
@@ -48128,7 +49018,7 @@
    "political_terms": [],
    "excerpt": "…turas muy altas a partir del miércoles Máxima precaución El nivel de peligro de incendio se elevará hasta “valores extremos” debido a posibles tormentas vespertinas secas La Secretaría General de Protección Civil y Emergencias ha alertado este martes ante un episodio de temperaturas muy altas y persistentes desde mañan…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "a4f63814d48e",
@@ -48399,7 +49289,7 @@
    ],
    "excerpt": "…ões são importante para o ecossistema: reabastecem lençóis freáticos, aliviam o calor extremo e sustenta a vida selvagem, fazendo florescerem as plantas do deserto, acrescenta o serviço de parques e trilhas do Arizona. Ao mesmo tempo, resultam em riscos para as pessoas e para as paisagens. O que seria uma chuva forte d…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "058f569bd04d",
@@ -48694,7 +49584,7 @@
    "political_terms": [],
    "excerpt": "…uld there be heavy rainfall in the mountains, it would pose a serious threat of flash floods, landslides and debris flow, according to Swain. Another scenario involves a storm track similar to the one in 2023 that sent a post-tropical low from the remains of Hurricane Hilary over Southern California. The National Weath…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "7c364b8b7ee4",
@@ -50859,7 +51749,7 @@
    ],
    "excerpt": "…hat delayed, denied and underpaid claims for victims of the Palisades and Eaton wildfires. - County investigators say the insurer systematically underpaid and suppressed smoke-damage claims, leaving families unable to afford toxin testing or remediation and turning insurance into a barrier to long-term recovery. - Stat…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "26692c4a096c",
@@ -50893,7 +51783,7 @@
    "political_terms": [],
    "excerpt": "Flash flood in Grand Canyon left two dead. Extreme weather fueled the deluge - Click here to listen to this article - Share via See more from the L.A. Times in Google Search. Set us as preferred Epic flooding in the Grand Canyon that left at least two dead was fueled in part by extreme weather, including the Southwes…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "d7f24f3d9621",
@@ -50962,7 +51852,7 @@
    ],
    "excerpt": "…financiado por la Agencia Espacial Europea (ESA), advertía del grave peligro de inundaciones repentinas por desbordamiento de lagos glaciares, consecuencia del derretimiento de los glaciares situados sobre ellos, que \"pueden provocar una importante pérdida de vidas humanas\". El informe señala un aumento de estos lagos…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "6c71b16b3f53",
@@ -51397,7 +52287,7 @@
    ],
    "excerpt": "…limantan Ocidental, na ilha de Bornéu —a província mais afetada pelos violentos incêndios florestais—, estava a caminho de sua propriedade quando encontrou um orangotango se contorcendo no chão, debilitado, em uma plantação de dendê próxima ao local do incêndio. \"Ele estava muito fraco, então lhe dei água\", disse Jais,…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "5ed9b7aecd69",
@@ -52021,7 +52911,7 @@
    ],
    "excerpt": "… Phantom Ranch no sábado (29), obrigando dezenas de pessoas a sair do local. As enchentes também danificaram a única tubulação de água que abastece o parque, um dos mais visitados dos EUA. Vídeos feitos por turistas mostram uma torrente de água barrenta passando com força pelas trilhas e por baixo de passarelas, além d…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "7e0d753ab55d",
@@ -52057,7 +52947,7 @@
    "political_terms": [],
    "excerpt": "…\"Ele volta com força rapidamente, mas é inflamável\" e mais suscetível à próxima onda de calor. Soluções locais, como reduzir a poluição da água e proteger os ecossistemas costeiros, podem ajudar os recifes de coral. Porém, reduzir as emissões que aquecem o planeta é crucial, segundo Hughes. \"Tudo depende, de fato, de q…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "62a8094f95d7",
@@ -56487,7 +57377,7 @@
    "political_terms": [],
    "excerpt": "Bear family rescued from large water tank in La Verne during heat wave - Click here to listen to this article - Share via See more from the L.A. Times in Google Search. Set us as preferred A family of black bears are safe after being rescued from a large water tank in La Verne amid a dangerous heat wave in Los Angele…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "270173fdc170",
@@ -56731,7 +57621,7 @@
    "political_terms": [],
    "excerpt": "… Saturday — with only 1% contained. More than 600 firefighters are tackling the blaze from the air and ground, working in “incredibly steep and difficult terrain,” Beyer said. Portions of the area have not burned since the 1970s, “so it’s about a 55-year-old fuel bed, and that’s much more difficult to contain because i…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "1202fec4338c",
@@ -58448,7 +59338,7 @@
    ],
    "excerpt": "Fauna entre cenizas: polémica por la gestión cinegética en montes afectados por incendios Biodiversidad Organizaciones ambientales piden la prohibición de permitir la caza en terrenos colindantes con zona calcinadas por los incendios de este verano al ser áreas de refugio para la fauna silvestre desplazada Los campos n…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "b525473373a7",
@@ -59010,7 +59900,7 @@
    ],
    "excerpt": "…ush for legislation that would have shifted more of the cost of utility-sparked wildfires to property insurers, which could have sharply raised premiums across the state. - After weeks of closed door negotiations with lawmakers, the governor also backed away from a proposal that reduced amounts fire victims could recei…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "0381f7eac3b6",
@@ -61787,7 +62677,7 @@
    ],
    "excerpt": "…ión del agua provocada por el arrastre de las cenizas de los numerosos y graves incendios que se han producido este verano en España La extinción de un fuego no supone el cese del peligro en los territorios afectados. La posible llegada de lluvias y tormentas a los epicentros de los devastadores incendios que se han pr…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "7503fb07fdc8",
@@ -68142,7 +69032,7 @@
    ],
    "excerpt": "…s warned Gov. Gavin Newsom in a letter Wednesday that his plan to shift utility wildfire liability to property insurers would raise premiums across California. “The party whose equipment ignites a catastrophic fire should bear the economic consequence of that fire,” the 15 executives wrote. “Shifting those costs to pol…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "5b3ddca9842b",
@@ -68316,7 +69206,7 @@
    "political_terms": [],
    "excerpt": "… convertido España en un polvorín? El cóctel que ha propiciado los devastadores incendios forestales Agencias meteorológicas de todo el mundo confirman lo que hemos detectado durante todo el verano, con deleite e inquietud a partes iguales: el agua del mar está muy caliente. Concretamente, el Copernicus Marine Service,…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "0b0161618b24",
@@ -71070,7 +71960,7 @@
    "political_terms": [],
    "excerpt": "…-digit temperatures. A scheduled outage for maintenance in Huntington Park amid extreme heat also prompted frustration among neighbors Tuesday. Wednesday brought record-shattering temperatures across the Southland. Woodland Hills hit 111 degrees, breaking the record of 109 set in 1981, according to the weather service’…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "74475af5f3c7",
@@ -75194,7 +76084,7 @@
    "political_terms": [],
    "excerpt": "… registrado temperaturas superiores a 40°C y el 98% de su población estuvo bajo alerta por calor en una ocasión. En Reino Unido, su agencia de seguridad sanitaria señaló en julio que sus modelos sugerían que las olas de calor de mayo y junio habían provocado 2.877 muertes relacionadas con el calor en Inglaterra. Bélgic…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "c2b7026bfd3f",
@@ -82950,7 +83840,7 @@
    ],
    "excerpt": "Aragón da por controlado el incendio de Peñas de Riglos: los últimos evacuados vuelven a casa En Huesca El fuego, declarado el pasado 10 de agosto, ha calcinado una superficie de aproximadamente 14.500 hectáreas El incendio forestal de Riglos ha quedado controlado este viernes, cuando también se ha anunciado el regreso…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "e4c2b1536e45",
@@ -89485,7 +90375,7 @@
    "political_terms": [],
    "excerpt": "El incendio forestal en Aldea del Fresno (Madrid) está ya en fase de estabilización El fuego en España Las llamas han obligado a confinar esta localidad y el municipio próximo de Villamantilla El incendio forestal declarado este miércoles en Aldea del Fresno (Comunidad de Madrid), que ha obligado a confinar esta locali…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "64c37e0b5e34",
@@ -167645,7 +168535,7 @@
    ],
    "excerpt": "…conclusion that the heat island impact alone accounted for roughly half the 130 heat-related deaths. Jo Shields, head of sustainability for Mandy's housing association Walsall Housing Group, known as whg - which owns 23,000 homes across Walsall and the Midlands - hears the same complaint time and again. \"The heat gain…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "76881703c9dd",
@@ -201715,7 +202605,7 @@
    ],
    "excerpt": "Somewhere in the stormy waters off Greenland, a bright yellow robotic probe, known as an Argo float, is sinking silently beneath the waves. It is roughly the size of a person, with a tough metal body and an array of sensors packed inside. The float is part of a global effort to solve one of the great mysteries of the o…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "ee0fe914406a",
@@ -204391,7 +205281,7 @@
    ],
    "excerpt": "…nd it’s crucial this continues. “To avoid the swing between extreme drought and flooding and to secure water supplies for food production, we urgently need investment in water infrastructure and a more effective planning system.”…"
   },
-  "fetched_at": "20261005T122403Z"
+  "fetched_at": "20261006T120958Z"
  },
  {
   "id": "01ff4ac7cfab",
@@ -216411,5 +217301,125 @@
    "excerpt": "Bouches-du-Rhône : un lycée de Salon-de-Provence touché par un incendie, la piste criminelle privilégiée"
   },
   "fetched_at": "20261004T111213Z"
+ },
+ {
+  "id": "c031b88f753a",
+  "url": "https://www.leparisien.fr/seine-et-marne-77/trois-mineurs-deferes-apres-lincendie-du-lycee-henri-moissan-a-meaux-un-quatrieme-toujours-recherche-06-10-2026-ZPM5R7HFMVCJHA75S6ZI5SBJRY.php",
+  "title": "Trois mineurs déférés après l’incendie du lycée Henri-Moissan à Meaux, un quatrième toujours recherché",
+  "domain": "leparisien.fr",
+  "source_country": "",
+  "source_name": "Le Parisien",
+  "language": "French",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "",
+  "socialimage": "",
+  "text_available": false,
+  "low_confidence": true,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "incendie"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "Trois mineurs déférés après l’incendie du lycée Henri-Moissan à Meaux, un quatrième toujours recherché"
+  },
+  "fetched_at": "20261006T120958Z"
+ },
+ {
+  "id": "819b25fe585c",
+  "url": "https://www.leparisien.fr/defense/porte-avions-charles-de-gaulle-un-incendie-se-declare-a-bord-du-batiment-nucleaire-lors-de-travaux-de-decoupe-au-chalumeau-06-10-2026-465VH4QFLNDERAJOXSSCOB6CIY.php",
+  "title": "Porte-avions Charles de Gaulle : un incendie se déclare à bord du bâtiment nucléaire lors de « travaux de découpe au chalumeau »",
+  "domain": "leparisien.fr",
+  "source_country": "",
+  "source_name": "Le Parisien",
+  "language": "French",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "",
+  "socialimage": "",
+  "text_available": false,
+  "low_confidence": true,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "incendie"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "Porte-avions Charles de Gaulle : un incendie se déclare à bord du bâtiment nucléaire lors de « travaux de découpe au chalumeau »"
+  },
+  "fetched_at": "20261006T120958Z"
+ },
+ {
+  "id": "1aecc25c63d6",
+  "url": "https://www.leparisien.fr/gironde-33/les-pertes-sont-colossales-au-cap-ferret-des-commercants-au-bord-du-gouffre-apres-les-incendies-de-lete-06-10-2026-FWVT62QG5JE6LCMAIESSJWSV5U.php",
+  "title": "« Les pertes sont colossales » : au Cap-Ferret, des commerçants au bord du gouffre après les incendies de l’été",
+  "domain": "leparisien.fr",
+  "source_country": "",
+  "source_name": "Le Parisien",
+  "language": "French",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "",
+  "socialimage": "",
+  "text_available": false,
+  "low_confidence": true,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "incendies"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "…sont colossales » : au Cap-Ferret, des commerçants au bord du gouffre après les incendies de l’été…"
+  },
+  "fetched_at": "20261006T120958Z"
+ },
+ {
+  "id": "f4431d4369c9",
+  "url": "https://www.leparisien.fr/meteo/orages-pluie-et-inondations-vigilance-orange-dans-le-gard-et-lherault-en-raison-dun-nouvel-episode-mediterraneen-remarquable-06-10-2026-D2MQMR2KAJFR5CFXPHI3SMVHCI.php",
+  "title": "Orages, pluie et inondations : vigilance orange dans le Gard et l’Hérault en raison d’un nouvel épisode méditerranéen « remarquable »",
+  "domain": "leparisien.fr",
+  "source_country": "",
+  "source_name": "Le Parisien",
+  "language": "French",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "",
+  "socialimage": "",
+  "text_available": false,
+  "low_confidence": true,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "inondations"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "Orages, pluie et inondations : vigilance orange dans le Gard et l’Hérault en raison d’un nouvel épisode méditerranéen « remarquable »"
+  },
+  "fetched_at": "20261006T120958Z"
  }
 ]
