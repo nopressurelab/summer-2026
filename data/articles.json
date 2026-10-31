@@ -1,5 +1,800 @@
 [
  {
+  "id": "56a163bc9e19",
+  "url": "https://g1.globo.com/mundo/noticia/2026/10/31/franca-novo-dia-de-protestos.ghtml",
+  "title": "França vive novo dia de protestos em meio a temor de confrontos violentos e saques",
+  "domain": "g1.globo.com",
+  "source_country": "",
+  "source_name": "G1 (BR)",
+  "language": "Portuguese",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261031T104011Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "incêndios"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "governo",
+    "ministro",
+    "presidente",
+    "política",
+    "assembleia",
+    "autoridades",
+    "direita"
+   ],
+   "excerpt": "…s estudantis foram acompanhadas por confrontos com a polícia, saques de lojas e incêndios em prédios públicos. A mobilização de 24 de outubro, por sua vez, transcorreu de maneira muito mais tranquila: segundo o Ministério do Interior, 410 mil pessoas participaram dos protestos em todo o país, sendo 110 mil em Paris. Mo…"
+  },
+  "fetched_at": "20261031T110108Z"
+ },
+ {
+  "id": "9deb7c01b9e5",
+  "url": "https://www.lefigaro.fr/faits-divers/incendie-d-un-immeuble-a-clermont-ferrand-trois-corps-retrouves-dans-les-decombres-20261031",
+  "title": "Incendie d’un immeuble à Clermont-Ferrand : trois corps retrouvés dans les décombres",
+  "domain": "lefigaro.fr",
+  "source_country": "",
+  "source_name": "Le Figaro",
+  "language": "French",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261031T103347Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "incendie"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "Incendie d’un immeuble à Clermont-Ferrand : trois corps retrouvés dans les décombres Un homme a été placé en garde à vue vendredi matin dans le cadre de l’enquête sur l’origine de l’incendie, possiblement criminelle, avait indiqué le parquet. Passer la publicité Passer la publicité Trois corps ont été retrouvés dans la…"
+  },
+  "fetched_at": "20261031T110108Z"
+ },
+ {
+  "id": "73d2518da0d0",
+  "url": "https://oglobo.globo.com/mundo/epoca/noticia/2026/10/31/video-incendio-destroi-hotel-proximo-ao-everest-em-meio-a-nevasca-hospedes-sao-evacuados.ghtml",
+  "title": "Vídeo: Incêndio destrói hotel próximo ao Everest em meio a nevasca; hóspedes são evacuados",
+  "domain": "oglobo.globo.com",
+  "source_country": "",
+  "source_name": "O Globo (BR)",
+  "language": "Portuguese",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261031T102550Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "incêndio"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "Vídeo: Incêndio destrói hotel próximo ao Everest em meio a nevasca; hóspedes são evacuados Fogo começou na cozinha do Hotel Good Luck, no Nepal, e pode ter sido provocado pela explosão de um cilindro de gás; não há registro de vítimas Por O Globo com AFP — Califórnia Atualizado Um incêndio atingiu o Hotel Good Luck, em…"
+  },
+  "fetched_at": "20261031T110108Z"
+ },
+ {
+  "id": "69453ab27f03",
+  "url": "https://www.eldiario.es/illes-balears/sociedad/ven-disparame-noche-consignas-caos-persecuciones-racistas-tomaron-centro-palma_1_13628848.html",
+  "title": "\"Ven aquí y dispárame\": la noche en la que las consignas, el caos y las persecuciones racistas tomaron el centro de Palma",
+  "domain": "eldiario.es",
+  "source_country": "",
+  "source_name": "elDiario.es",
+  "language": "Spanish",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261031T102038Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "incendio"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "extrema derecha",
+    "derecha"
+   ],
+   "excerpt": "…ién había un vehículo de Bomberos ante la posibilidad de que se produjera algún incendio en una ciudad cuyos comercios reforzaron la seguridad, blindando escaparates, ante lo que pudiera ocurrir. Uno de los episodios más graves se produjo en las calles Olmos y Sant Miquel, donde jóvenes, supuestamente migrantes, fueron…"
+  },
+  "fetched_at": "20261031T110108Z"
+ },
+ {
+  "id": "55e6c966a9b5",
+  "url": "https://www.eldiario.es/spin/rodeado-enorme-foso-castillo-medieval-sorprende-obras-arte-jardines-armaduras-pm_1_13627680.html",
+  "title": "Rodeado de un enorme foso, este castillo medieval sorprende por sus obras de arte, sus jardines o sus armaduras",
+  "domain": "eldiario.es",
+  "source_country": "",
+  "source_name": "elDiario.es",
+  "language": "Spanish",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261031T100740Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "incendio"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "…los Ochenta Años, requiriendo restauraciones hacia 1600. Posteriormente un gran incendio consumió el edificio principal, obligando a instalar nuevos tejados y ventanas. El fuego volvió a azotar el castillo en 1939, destruyendo de nuevo el cuerpo central. En aquella ocasión, la valentía de los vecinos de 's-Heerenberg f…"
+  },
+  "fetched_at": "20261031T110108Z"
+ },
+ {
+  "id": "984cf7488e15",
+  "url": "https://www.franceinfo.fr/faits-divers/trois-corps-decouverts-dans-les-decombres-d-un-immeuble-a-clermont-ferrand-apres-un-incendie-une-personne-placee-en-garde-a-vue_8261585.html#xtor=RSS-3-[lestitres]",
+  "title": "\"Clermont-Ferrand est en deuil\" : trois corps découverts dans les décombres d'un immeuble après un incendie, une personne placée en garde à vue",
+  "domain": "francetvinfo.fr",
+  "source_country": "",
+  "source_name": "France Info",
+  "language": "French",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261031T100002Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "incendie"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "…st en deuil\" : trois corps découverts dans les décombres d'un immeuble après un incendie, une personne placée en garde à vue Le parquet évoque \"une origine criminelle possible\", un homme a été interpellé vendredi et placé en garde à vue. Trois corps ont été découverts, samedi 31 octobre au matin, dans les décombres d'u…"
+  },
+  "fetched_at": "20261031T110108Z"
+ },
+ {
+  "id": "e76368854e10",
+  "url": "https://observador.pt/2026/10/31/suspeito-de-quatro-incendios-em-coimbra-detido-pela-policia-judiciaria/",
+  "title": "Suspeito de quatro incêndios em Coimbra detido pela PJ",
+  "domain": "observador.pt",
+  "source_country": "",
+  "source_name": "Observador (PT)",
+  "language": "Portuguese",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261031T094521Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "incêndio",
+    "incêndios"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "Um homem de 37 anos, suspeito de, pelo menos, quatro incêndios nos últimos dois meses em Coimbra, foi detido pela Polícia Judiciária (PJ), revelou neste sábado aquela autoridade de investigação. Segundo a PJ, as últimas deflagrações ocorreram no passado fim de semana, na área florestal localizada entre a rotunda da Ave…"
+  },
+  "fetched_at": "20261031T110108Z"
+ },
+ {
+  "id": "00a6cc4fb766",
+  "url": "https://www.liberation.fr/societe/police-justice/clermont-trois-morts-dans-lincendie-dun-immeuble-un-homme-interpelle-20261031_UXQGZDYMMFB5LGJJ2XWBCKJUB4/",
+  "title": "Clermont : trois morts dans l’incendie d’un immeuble, un homme interpellé",
+  "domain": "liberation.fr",
+  "source_country": "",
+  "source_name": "Libération",
+  "language": "French",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261031T091122Z",
+  "socialimage": "",
+  "text_available": false,
+  "low_confidence": true,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "incendie"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "…davre, tard dans la nuit du vendredi 30 au samedi 31 octobre, au lendemain de l’incendie qui a ravagé un immeuble du centre-ville de la ville auvergnate.…"
+  },
+  "fetched_at": "20261031T110108Z"
+ },
+ {
+  "id": "8c8f4964a818",
+  "url": "https://g1.globo.com/mg/zona-da-mata/noticia/2026/10/31/apos-enchentes-comerciantes-de-juiz-de-fora-se-reinventam-para-recomecar.ghtml",
+  "title": "Após enchentes, comerciantes de Juiz de Fora se reinventam para recomeçar",
+  "domain": "g1.globo.com",
+  "source_country": "",
+  "source_name": "G1 (BR)",
+  "language": "Portuguese",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261031T090000Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "enchente",
+    "enchentes",
+    "inundação"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "presidente"
+   ],
+   "excerpt": "Mounira Haddad Rahme, de 88 anos, já enfrentou outras enchentes e usa conselho do avô para não desanimar — Foto: Mariana Souza/g1 “A enchente continua a produzir damnos incalculaveis.” A frase, publicada pelo jornal O Pharol, descreve o cenário vivido em Juiz de Fora, em 1906. No decorrer desses 120 anos, a cidade enfr…"
+  },
+  "fetched_at": "20261031T110108Z"
+ },
+ {
+  "id": "582d3adb1213",
+  "url": "https://www.eldiario.es/spin/mujer-acabo-horca-terrassa-1619-confesar-podia-provocar-tormentas-brujeria-pm_1_13625863.html",
+  "title": "La mujer que acabó en la horca en Terrassa en 1619 tras confesar que podía provocar tormentas con brujería",
+  "domain": "eldiario.es",
+  "source_country": "",
+  "source_name": "elDiario.es",
+  "language": "Spanish",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261031T083035Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "inundaciones"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "autoridades"
+   ],
+   "excerpt": "…s agrícolas podían desencadenar miedo y búsqueda de culpables. Catalunya sufrió inundaciones devastadoras en noviembre de 1617, recordadas popularmente como las del año del diluvio, en medio de otras penurias económicas. Las granizadas y las cosechas destruidas se interpretaban a veces como resultado de actos de brujer…"
+  },
+  "fetched_at": "20261031T110108Z"
+ },
+ {
+  "id": "ef3639cd556f",
+  "url": "https://www.rfi.fr/fr/culture/20261031-sweat-%C3%A0-capuche-un-m%C3%AAme-v%C3%AAtement-des-usages-et-des-regards-oppos%C3%A9s",
+  "title": "Sweat à capuche: un même vêtement, des usages et des regards opposés",
+  "domain": "rfi.fr",
+  "source_country": "",
+  "source_name": "RFI",
+  "language": "French",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261031T080024Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "incendies"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "…: un même vêtement, des usages et des regards opposés Les images de pillages, d’incendies et d’affrontements en France entre les forces de l’ordre et des groupes vêtus de noir, capuches rabattues et visages masqués, ont fait le tour du monde. Le 17 octobre 2026, ces violences éclataient en marge d’une vaste mobilisatio…"
+  },
+  "fetched_at": "20261031T110108Z"
+ },
+ {
+  "id": "eb5b48d3f790",
+  "url": "https://www.faz.net/aktuell/gesellschaft/gesundheit/wie-unsere-psyche-vom-wetter-beeinflusst-wird-gibt-es-wetterfuehligkeit-wirklich-accg-201607676.html",
+  "title": "Psychologie des Wetters: „Die Dunkelheit im Herbst wirkt sich auf unser Immunsystem aus“",
+  "domain": "faz.net",
+  "source_country": "",
+  "source_name": "Frankfurter Allgemeine",
+  "language": "German",
+  "topic": "heatwave",
+  "topics": [
+   "heatwave"
+  ],
+  "seendate": "20261031T072941Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "Rekordhitze"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "…e des Wetters : „Die Dunkelheit im Herbst wirkt sich auf unser Immunsystem aus“ Rekordhitze, nervige Winde, reinigende Regengüsse und magischer Schneefall: Wie sich das auf unser Seelenheil auswirkt, weiß der Psychologe Trevor Harley. Trevor Harley, 68, sitzt mit leicht zerzaustem Haar auf dem Sofa seines Hauses in ein…"
+  },
+  "fetched_at": "20261031T110108Z"
+ },
+ {
+  "id": "f1747736eb09",
+  "url": "https://www.20minutos.es/madrid/madrid-busca-reforzar-respuesta-grandes-emergencias-despliegue-territorial-los-bomberos-para-evitar-otro-gran-incendio_7055184_0.html",
+  "title": "Madrid busca reforzar la respuesta a emergencias y el despliegue de bomberos contra grandes incendios",
+  "domain": "20minutos.es",
+  "source_country": "",
+  "source_name": "20minutos",
+  "language": "Spanish",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261031T070328Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "incendio",
+    "incendios",
+    "incendios forestales"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "ley"
+   ],
+   "excerpt": "…s emergencias y el despliegue territorial de los bomberos para evitar otro gran incendio Basado en hechos observados y verificados directamente por nuestros periodistas o por fuentes informadas. Elígenos como tu fuente preferida en Google. El proyecto de Presupuestos para 2027 inyecta 55 millones al plan de prevención…"
+  },
+  "fetched_at": "20261031T110108Z"
+ },
+ {
+  "id": "f80700ffb30e",
+  "url": "https://www.theguardian.com/australia-news/2026/oct/31/weather-bom-storm-warnings-melbourne-canberra-sydney-brisbane",
+  "title": "Storm warnings for Melbourne, Canberra, Sydney and Brisbane as cold front ‘packs a punch’",
+  "domain": "theguardian.com",
+  "source_country": "",
+  "source_name": "The Guardian",
+  "language": "English",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261031T060520Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "flooding"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "… far as southern Queensland. The Bureau of Meteorology warned of possible flash flooding in some areas and potentially destructive winds of over 125km/h that could bring down large trees or damage property. Melbourne and parts of Victoria recorded moderate rainfall and some lightning on Saturday morning, with a more in…"
+  },
+  "fetched_at": "20261031T110108Z"
+ },
+ {
+  "id": "9accac09be2a",
+  "url": "https://elpais.com/espana/andalucia/2026-10-31/el-plan-contra-el-fuego-andaluz-cierra-el-ejercicio-con-el-mayor-gasto-historico-y-el-peor-balance-en-30-anos.html",
+  "title": "El plan contra el fuego andaluz cierra el ejercicio con el mayor gasto histórico y el peor balance en 30 años",
+  "domain": "elpais.com",
+  "source_country": "",
+  "source_name": "El País",
+  "language": "Spanish",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261031T043001Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": true,
+  "mentions_political_responsibility": true,
+  "omits_climate": false,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "incendio",
+    "incendio forestal",
+    "incendios",
+    "incendios forestales",
+    "inundaciones",
+    "olas de calor"
+   ],
+   "climate_terms": [
+    "cambio climático"
+   ],
+   "political_terms": [
+    "gobierno",
+    "presidente"
+   ],
+   "excerpt": "…ría Cádiz Córdoba Granada Huelva Jaén Málaga Sevilla El tiempo Últimas noticias Incendios forestales El plan contra el fuego andaluz cierra el ejercicio con el mayor gasto histórico y el peor balance en 30 años La época de mayor riesgo de incendios deja 15 fallecidos, 6.444 desalojados y 58.753 hectáreas quemadas tras…"
+  },
+  "fetched_at": "20261031T110108Z"
+ },
+ {
+  "id": "f9cfc08c05e3",
+  "url": "https://oglobo.globo.com/mundo/noticia/2026/10/31/pesqueiro-pega-fogo-na-costa-da-coreia-do-sul-22-sao-resgatados.ghtml",
+  "title": "Pesqueiro pega fogo na costa da Coreia do Sul; 22 são resgatados com vida",
+  "domain": "oglobo.globo.com",
+  "source_country": "",
+  "source_name": "O Globo (BR)",
+  "language": "Portuguese",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261031T040244Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "incêndio"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "…menos duas pessoas foram encaminhadas por um hospital após inalarem a fumaça do incêndio, de acordo com a Guarda Costeira do país. O incêndio começou por volta das 6h51 da manhã (18h51 no horário de Brasília), quando o pesqueiro de 9,77 toneladas estava a cerca de 1,66 km (0,9 milha náutica) do sul da ilha. Ao receber…"
+  },
+  "fetched_at": "20261031T110108Z"
+ },
+ {
+  "id": "32151c642ffb",
+  "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/colunas/igor-patrick/2026/10/risada-de-mbappe-e-novo-alvo-de-metodo-de-pequim-para-silenciar-criticas-externas.shtml",
+  "title": "Risada de Mbappé é novo alvo de método de Pequim para silenciar críticas externas",
+  "domain": "folha.uol.com.br",
+  "source_country": "",
+  "source_name": "Folha de S.Paulo (BR)",
+  "language": "Portuguese",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261031T020000Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "incêndio"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "presidente",
+    "política"
+   ],
+   "excerpt": "Kylian Mbappé passou a semana tentando apagar um incêndio que começou com uma risada. Num vídeo de bastidores gravado meses atrás para um programa francês e divulgado nesta semana, o atacante do Real Madrid comentava um meme feito com inteligência artificial que punha seu rosto no corpo de Mao Tsé-tung e chamava o retr…"
+  },
+  "fetched_at": "20261031T110108Z"
+ },
+ {
+  "id": "f767e6d96698",
+  "url": "https://www.lavanguardia.com/opinion/20261031/11672290/pais-cogido-alfileres.html",
+  "title": "Un país cogido con alfileres",
+  "domain": "lavanguardia.com",
+  "source_country": "",
+  "source_name": "La Vanguardia",
+  "language": "Spanish",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261030T233000Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": true,
+  "mentions_political_responsibility": true,
+  "omits_climate": false,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "incendios"
+   ],
+   "climate_terms": [
+    "cambio climático"
+   ],
+   "political_terms": [
+    "política",
+    "responsabilidad"
+   ],
+   "excerpt": "…egaban que fuera necesario, sino a quienes miraron a otro lado. En la dana, los incendios, las infraestructuras, la vivienda, Ceuta... la política ha ido a remolque de las tragedias El desenlace de todo ello nos ha llevado a que el país esté cogido con alfileres. Lo hemos visto en la dana, el apagón eléctrico, los ince…"
+  },
+  "fetched_at": "20261031T110108Z"
+ },
+ {
+  "id": "330c8a080e86",
+  "url": "https://www.eldiario.es/opinion/zona-critica/error-humano-error-ministro_129_13628372.html",
+  "title": "Error humano o error del ministro",
+  "domain": "eldiario.es",
+  "source_country": "",
+  "source_name": "elDiario.es",
+  "language": "Spanish",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261030T211718Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "incendio"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "ministro",
+    "negligencia",
+    "responsabilidad"
+   ],
+   "excerpt": "Error humano o error del ministro 38 ¿Por qué un sistema diseñado para que centenares de vidas que viajan en un tren no dependan de una sola persona acaba dependiendo de una sola persona? Desde 2008, la Comisión de Investigación de Accidentes Ferroviarios (CIAF) publica una memoria anual en la que solo recoge los suces…"
+  },
+  "fetched_at": "20261031T110108Z"
+ },
+ {
+  "id": "04b18fdb50be",
+  "url": "https://www.eldiario.es/sociedad/despliegues-policiales-detenidos-comercios-blindados-amenaza-blocus_1_13628006.html",
+  "title": "Despliegues policiales, detenidos y comercios blindados ante la amenaza de Blocus",
+  "domain": "eldiario.es",
+  "source_country": "",
+  "source_name": "elDiario.es",
+  "language": "Spanish",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261030T211713Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "incendios"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "responsabilidad"
+   ],
+   "excerpt": "…xtensible, piedras y gasolina”. Como en los otros detenidos, animaba a provocar incendios para, mientras tanto, ir a sus verdaderos objetivos, las áreas comerciales, donde realizarían los saqueos. Los arrestos han llegado incluso a las islas. En Tenerife, la Guardia Civil ha detenido este viernes a dos personas, una de…"
+  },
+  "fetched_at": "20261031T110108Z"
+ },
+ {
+  "id": "d3bf0dcc15c8",
+  "url": "https://www.smh.com.au/environment/climate-change/the-sydney-suburbs-left-exposed-as-government-fails-to-deliver-on-its-promised-24m-flood-levees-20261031-p619n7.html?ref=rss&utm_medium=rss&utm_source=rss_environment",
+  "title": "The Sydney suburbs left exposed as government fails to deliver on flood levees",
+  "domain": "smh.com.au",
+  "source_country": "",
+  "source_name": "The Sydney Morning Herald",
+  "language": "English",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261030T180000Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": true,
+  "mentions_political_responsibility": true,
+  "omits_climate": false,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "flood",
+    "flooding",
+    "floods"
+   ],
+   "climate_terms": [
+    "climate change"
+   ],
+   "political_terms": [
+    "government",
+    "minister",
+    "policy",
+    "funding"
+   ],
+   "excerpt": "The Sydney suburbs left exposed as government fails to deliver on flood levees Three flood levees in western Sydney promised by Premier Chris Minns before the last election are yet to be built, as the NSW government sits on a report on how to mitigate flood risk in the Hawkesbury-Nepean Basin. The then-opposition leade…"
+  },
+  "fetched_at": "20261031T110108Z"
+ },
+ {
+  "id": "3db4c6fc6198",
+  "url": "https://www.bbc.co.uk/news/articles/cqd09pv4l3k0o?at_medium=RSS&at_campaign=rss",
+  "title": "Fears for mature Scots Pines burned by huge Highland wildfire",
+  "domain": "bbc.co.uk",
+  "source_country": "",
+  "source_name": "BBC News",
+  "language": "English",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261030T151217Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "blaze",
+    "wildfire"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "government"
+   ],
+   "excerpt": "…hit by a huge summer wildfire, experts fear. Forestry and Land Scotland say the blaze around Glenmore in the Cairngorms may have led to the loss of many so-called \"granny pines\" which have matured over centuries. They say their loss removes important seed sources and makes it more difficult for the species to regenerat…"
+  },
+  "fetched_at": "20261031T110108Z"
+ },
+ {
+  "id": "c536c308599c",
+  "url": "https://www.spiegel.de/wissenschaft/natur/florida-king-tide-sorgt-fuer-flut-ohne-hurrikan-a-3070c89b-fdf2-4eb3-9f05-0172504e2b01#ref=rss",
+  "title": "Florida: »King Tide« sorgt für Flut ohne Hurrikan",
+  "domain": "spiegel.de",
+  "source_country": "",
+  "source_name": "Der Spiegel",
+  "language": "German",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261030T140400Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": true,
+  "mentions_political_responsibility": true,
+  "omits_climate": false,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "Hochwasser",
+    "Waldbrände",
+    "Überschwemmung",
+    "Überschwemmungen"
+   ],
+   "climate_terms": [
+    "Klimawandel",
+    "Klimakrise",
+    "Erderwärmung",
+    "Treibhausgase"
+   ],
+   "political_terms": [
+    "Präsident",
+    "Politik",
+    "Gesetz",
+    "Behörden"
+   ],
+   "excerpt": "…en Tagen hintereinander stieg die Flut mehr als 75 Zentimeter über die normale Hochwassermarke. In Städten wie Miami wurde die Alarmstufe einer schweren Überschwemmung ausgerufen – erstmals ohne den Einfluss eines Hurrikans. Tropische Wirbelstürme haben dem US-Staat schon oft verheerende Wassermassen per Flut und Regen…"
+  },
+  "fetched_at": "20261031T110108Z"
+ },
+ {
+  "id": "4dc66756276a",
+  "url": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/10/poluicao-por-incendios-matou-3560-na-indonesia-em-setembro-diz-estudo.shtml",
+  "title": "Poluição por incêndios matou 3.560 na Indonésia em setembro, diz estudo",
+  "domain": "folha.uol.com.br",
+  "source_country": "",
+  "source_name": "Folha de S.Paulo (BR)",
+  "language": "Portuguese",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261030T135200Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "incêndios",
+    "incêndios florestais"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "governo",
+    "negligência"
+   ],
+   "excerpt": "A poluição do ar provocada pela fumaça de meses de incêndios florestais em toda a Indonésia causou aproximadamente 3.560 mortes no país apenas em setembro, segundo um estudo científico. O relatório do Centro de Pesquisa em Energia e Ar Limpo, com sede em Helsinque, também afirma que 57,8 milhões de pessoas respiraram u…"
+  },
+  "fetched_at": "20261031T110108Z"
+ },
+ {
   "id": "2bb4bc5be874",
   "url": "https://g1.globo.com/am/amazonas/noticia/2026/10/30/ar-de-manaus-melhora-mas-capital-continua-sendo-a-mais-poluida-do-pais-aponta-monitoramento.ghtml",
   "title": "Ar de Manaus melhora, mas capital continua sendo a mais poluída do país, aponta monitoramento",
@@ -223,7 +1018,7 @@
    ],
    "excerpt": "… on Tuesday. Authorities in Greece and Turkey have released severe rainfall and flooding warnings, as a further 100-150mm (nearly 4-6in) of rain is expected this week in central Greece and western parts of Turkey, with locally higher totals possible. Travelling eastwards towards south Asia, strong winds and heavy rainf…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "465ed954353b",
@@ -253,7 +1048,7 @@
    "political_terms": [],
    "excerpt": "Waldbrände und Tierschutz : Eine Schutzstation für Orang-Utans Auf Borneo wüten die schlimmsten Waldbrände seit einem Jahrzehnt. Eine Schutzstation im Westen der Insel versucht, Orang-Utans zu retten. In diesem Jahr sind die Waldbrände auf Borneo heftiger als sonst. In der Provinz West-Kalimantan, die zu Indonesien geh…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "d63ed5b16579",
@@ -445,7 +1240,7 @@
    "political_terms": [],
    "excerpt": "…e par le phénomène climatique El Niño, le pays lutte depuis des mois contre des feux de forêt qui, selon l’organisme Nusantara Atlas, ont ravagé plus de 1,9 million d’hectares au cours des neuf premiers mois de l’année.…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "119ceb316602",
@@ -512,7 +1307,7 @@
    ],
    "excerpt": "…r le phénomène climatique El Niño, l’Indonésie lutte depuis des mois contre des feux de forêt qui, selon l’organisme de surveillance de la déforestation Nusantara Atlas, ont ravagé plus de 1,9 million d’hectares au cours des neuf premiers mois de l’année. Le gouvernement n’a ni confirmé ni infirmé ce chiffre. Le brouil…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "05dde146bcbe",
@@ -584,7 +1379,7 @@
    ],
    "excerpt": "…pos, os moradores da província de Kalimantan Ocidental, na Indonésia, enfrentam incêndios florestais devastadores. As chamas queimam os solos de turfeira, que liberam uma fumaça tóxica responsável por causar doenças, fechar escolas e sufocar a atividade econômica. Agora, eles chegaram ao limite. Advogados ajuizaram uma…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "912d7b495887",
@@ -928,9 +1723,9 @@
    ],
    "climate_terms": [],
    "political_terms": [],
-   "excerpt": "Firefighters celebrate rain during Indonesia wildfires To play this video you need to enable JavaScript in your browser. This video can not be played Firefighters celebrate rain during Indonesia wildfiresClose More on the wildfires. Subsection Asia Published 16 hours ago Share close panel Share page Copy link About sha…"
+   "excerpt": "Firefighters celebrate rain during Indonesia wildfires To play this video you need to enable JavaScript in your browser. This video can not be played Firefighters celebrate rain during Indonesia wildfiresClose More on the wildfires. Subsection Asia Published 1 day ago Share close panel Share page Copy link About sharin…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "18979a846cd4",
@@ -965,7 +1760,7 @@
    ],
    "excerpt": "Hong Kong’s leader has apologised for government shortcomings that contributed to a fire that killed 168 people in the city last year, a rare sign of public contrition that nevertheless failed to impress some victims’ families. The chief executive, John Lee, and seven other officials bowed in apology at the release of…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "0e34da4b44a3",
@@ -995,7 +1790,7 @@
    "political_terms": [],
    "excerpt": "…e pueblo manchego de algo menos de 2.500 habitantes. «Aunque hace unos días una riada echó a perder el trabajo de muchos de nuestros agricultores. No ha ... sido un mes nada fácil», explican a ABC un par de jubilados rodeados de cámaras de televisión en el centro del municipio toledano. A medida que avanzaba la mañana,…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "ee8a52ed7cf0",
@@ -1025,7 +1820,7 @@
    "political_terms": [],
    "excerpt": "An Estonian addict could barely keep pace with the new drugs flooding the market. His terrifying accounts of the cruel toll they took on his body held his country in its grip."
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "833dc9e30e7b",
@@ -1691,7 +2486,7 @@
    "political_terms": [],
    "excerpt": "España aglutina el 44% del terreno quemado por incendios este año en la UE Europa suma ya unas 680.000 hectáreas calcinadas, casi el doble del promedio registrado entre 2006 y 2025 La temporada de incendios ha sido excepcional en Europa este 2026, en parte debido a las altísimas cifras registradas en España y en parte…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "64eca107cdf8",
@@ -1796,7 +2591,7 @@
    "political_terms": [],
    "excerpt": "…g communities from San Diego to the San Francisco Bay Area, submerging streets, flooding homes and businesses, and jamming important transportation corridors and train routes. Kayakers and paddleboarders could be seen gliding through typically busy thoroughfares in Marin county, north of San Francisco, on Monday and Tu…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "d393cfc3947d",
@@ -1873,7 +2668,7 @@
    ],
    "excerpt": "…ônicas de saúde. Os prejuízos econômicos também estão aumentando. Trabalhar sob calor extremo expõe as pessoas ao risco de exaustão térmica, doenças ou lesões e, por fim, à perda de renda e meios de subsistência. O calor eliminou 573 bilhões de horas potenciais de trabalho em 2025, com os trabalhadores rurais sendo os…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "3ac7082745c2",
@@ -1938,7 +2733,7 @@
    "political_terms": [],
    "excerpt": "…momento in cui cresce l'attenzione sui possibili effetti di El Niño. Il Blob, l'ondata di calore marina del 2014-2016 Il nuovo studio si è focalizzato su un fenomeno che negli ultimi anni ha attirato l'attenzione della comunità scientifica: il cosiddetto Blob, l'ondata di calore marina che tra il 2014 e il 2016 ha inte…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "7746d963956e",
@@ -1978,7 +2773,7 @@
    ],
    "excerpt": "A summer of extreme heat, entire villages obliterated in Nepal, a super El Niño breaking records, Exxon publicly saying we may reach 3C by 2050 – could it possibly be any worse? How about throwing AI extinction in the mix? As climate activists and funders, we’ve spent years warning about a self-evident, imminent, avoid…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "6f6f778279ad",
@@ -2010,7 +2805,7 @@
    "political_terms": [],
    "excerpt": "…del unsere Wasserversorgung bedroht Sinkende Grundwasserstände, Dürren und Starkregen zeigen, wie dringend wir unser Wassermanagement anpassen und uns besser auf Klimaextreme vorbereiten müssen…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "92091c8cfda2",
@@ -2285,7 +3080,7 @@
    ],
    "excerpt": "Hitzewellen sind nicht nur eine gesundheitliche Belastung, sie können offenbar auch politische Folgen haben. Menschen, die außergewöhnlich hohe Temperaturen erleben, machen sich mehr Sorgen über den Klimawandel und wählen mit größerer Wahrscheinlichkeit grüne Parteien. Das zeigt eine umfangreiche europäische Studie, an…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "a48a7e2afab0",
@@ -2574,7 +3369,7 @@
    "political_terms": [],
    "excerpt": "0:53 Aerial video shows California flooding amid ‘record-breaking tides’ – video Coastal communities across California were preparing for days of flooding amid potentially 'record-breaking tides' this week, as water levels began rising on Monday Coastal California braces for flooding amid forecast of ‘record-breaking t…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "fb539ca51dc8",
@@ -2608,7 +3403,7 @@
    "political_terms": [],
    "excerpt": "… and the water pouring down the street and into the storm drains was far from a deluge. But the 37-year peninsula resident said he was worried about what was to come in the months ahead. Whether severe storms will materialize this winter remains an unanswered question. Despite the uncertainty, Sharp said one thing is c…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "b5ba8499623f",
@@ -2721,7 +3516,7 @@
    ],
    "excerpt": "…s municipais do Pará se reuniram em Santarém para discutir ações de combate aos incêndios. Desde o dia 1º de outubro, já foram registrados 10.372 focos no estado. Das dez cidades com mais focos de incêndio no mês no país, nove ficam no estado. Os maiores números são de São Félix do Xingu, com 838, e Uruará, com 821. De…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "a87fddc0154e",
@@ -3087,9 +3882,9 @@
     "Behörden",
     "Verantwortung"
    ],
-   "excerpt": "…atur Indonesien Sumatra und Borneo: Indonesien lässt Wolken impfen, damit Regen Waldbrände löscht Suche starten Suche öffnen Dieser Ausdruck wurde am 30.10.2026 erstellt und ist ausschließlich für den persönlichen Gebrauch lizenziert. Andere Nutzungen verletzen das Urheberrecht Feuer auf Sumatra und Borneo Indonesien l…"
+   "excerpt": "…atur Indonesien Sumatra und Borneo: Indonesien lässt Wolken impfen, damit Regen Waldbrände löscht Suche starten Suche öffnen Dieser Ausdruck wurde am 31.10.2026 erstellt und ist ausschließlich für den persönlichen Gebrauch lizenziert. Andere Nutzungen verletzen das Urheberrecht Feuer auf Sumatra und Borneo Indonesien l…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "828dd5adc020",
@@ -3427,7 +4222,7 @@
    "political_terms": [],
    "excerpt": "Climate commissioner says member states must take ownership of damage caused by floods, heatwaves and fires"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "509a1c1fe480",
@@ -3986,7 +4781,7 @@
    "political_terms": [],
    "excerpt": "La “paradoja de la seguridad” lleva a creerse a salvo de lluvias torrenciales que serán cada vez más frecuentes e intensas por el cambio climático"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "55da72b95312",
@@ -4301,7 +5096,7 @@
    ],
    "excerpt": "Mais de 2.000 pessoas tiveram de deixar suas casas devido às inundações associadas ao fenômeno climático El Niño que atingem o nordeste da Argentina, em uma emergência que deixou dois mortos no fim de semana passado e ameaça se prolongar pelos próximos meses. As chuvas registradas nas últimas semanas estão elevando per…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "b1b1d1f63343",
@@ -4617,7 +5412,7 @@
    "political_terms": [],
    "excerpt": "…own on the frontline of conflict, climate change and aid cuts, is preparing for flooding as international support evaporates…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "65d78514c70d",
@@ -5151,7 +5946,7 @@
    "political_terms": [],
    "excerpt": "…n los años con un evento del Niño más intensos en las últimas décadas: causaron incendios, malas cosechas por sequía, inundaciones costeras... La NASA ha publicado imágenes de satélite altimétrico que recogen el fenómeno meteorológico de El Niño en 1997, 2015 y 2026, tres de los años en los que este evento se han mostr…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "9f18e0a3b84a",
@@ -5254,7 +6049,7 @@
    ],
    "excerpt": "…e state’s already battered coast. The National Weather Service issued a coastal flood warning that goes into effect Sunday morning and lasts through Thursday afternoon, saying it expects “significant coastal flooding” in San Diego and Orange counties that will inundate low-lying homes, businesses and critical infrastru…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "5aa99f5646e2",
@@ -6124,7 +6919,7 @@
    "political_terms": [],
    "excerpt": "…fica el tipo de vegetación que se regenera, haciendo más difícil que se repitan incendios…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "8d7e11381a98",
@@ -6292,7 +7087,7 @@
    "political_terms": [],
    "excerpt": "…de Sulawesi, estão ameaçadas, já que o calor e a fumaça provocados pelos piores incêndios florestais no país em mais de uma década podem acelerar a deterioração das obras de arte, que têm mais de 67 mil anos, disseram pesquisadores. A Indonésia enfrenta seus incêndios florestais e rurais mais intensos desde 2015, enqua…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "bd49ffaad794",
@@ -6358,7 +7153,7 @@
    ],
    "excerpt": "…olent épisode méditerranéen a occasionné lundi et mardi de fortes pluies et des inondations, d’abord dans l’Hérault et le Gard, avant de s’étendre sur les régions Alpes-Provence-Côte d’Azur et sur la Corse, dont l’un des deux départements (la Haute-Corse) avait été placé en vigilance rouge. Selon Météo-France, cet épis…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "338270c12b7e",
@@ -6458,7 +7253,7 @@
    "political_terms": [],
    "excerpt": "… \"Parts Per Million\" trifft aus der nahen Zukunft mitten in die Gegenwart der Rekordhitze und Trockenheit…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "b03709c5d9dd",
@@ -7139,7 +7934,7 @@
    ],
    "excerpt": "…ef Pascal Barbot. Jean-Christophe MARMARA / Le Figaro DÉCRYPTAGE - L’impact des incendies et de la sécheresse hors norme de l’été sur les populations animales ne peut pas encore être mesuré. Est-il utile de s’abstenir de manger du gibier après les incendies, la sécheresse et les canicules de l’été ? La question est sou…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "5c2c8cbc61aa",
@@ -7171,7 +7966,7 @@
    "political_terms": [],
    "excerpt": "This year’s excess heat deaths were the worst this century"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "1c43b0dc6102",
@@ -7332,7 +8127,7 @@
    "political_terms": [],
    "excerpt": "…meteorólogos recuerdan que no hace falta una dana para que ocurran episodios de lluvias torrenciales, que son ahora más intensos y concentrados a causa de un Mediterráneo más cálido…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "8a5caaea8c81",
@@ -7573,7 +8368,7 @@
    "political_terms": [],
    "excerpt": "Una investigación calcula que el 65% de esas muertes estimadas en 854 áreas urbanas se deben al cambio climático causado por el ser humano"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "0b2de810432f",
@@ -7651,7 +8446,7 @@
    ],
    "excerpt": "…óbitos acima do valor esperado para o período em condições normais. Marcada por incêndios florestais sem precedentes em Espanha, França, Bélgica e Grécia e também por secas e níveis historicamente baixos de rios e reservatórios, a temporada foi a mais quente já registrada na Europa Ocidental, com 2,9°C acima da média d…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "537bcc36938c",
@@ -7959,7 +8754,7 @@
    ],
    "excerpt": "…os), está usando as redes sociais dele e do estado para politizar o combate aos incêndios florestais em curso na amazônia nas últimas semanas, com ataques ao PT e à esquerda, mirando o presidente Lula. A estratégia está sendo empregada em sintonia com o adversário do petista na disputa pela Presidência da República, Fl…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "81b68c77823b",
@@ -8159,7 +8954,7 @@
    "political_terms": [],
    "excerpt": "…nesday could help extinguish what chance remained of another large, destructive blaze taking off in Southern California anytime soon, said Matt Shameson, a meteorologist with the U.S. Forest Service. This week’s storm brought localized flooding to several freeways by Thursday morning, including parts of Highway 101 in…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "cec5564c7f25",
@@ -11226,7 +12021,7 @@
    ],
    "excerpt": "…o Ambiente e dos Recursos Naturais) aplicou R$ 2 milhões em multas em razões de incêndios florestais ilegais na Amazônia e que cobriram de fumaça a capital Manaus, no Amazonas, nas últimas semanas. Nos últimos sete dias de operações na região, agentes do instituto lavraram 19 autos de infração contra os responsáveis po…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "4cafae410c16",
@@ -12185,7 +12980,7 @@
    ],
    "excerpt": "As acusações nas redes sociais sobre as responsabilidades no combate aos incêndios na Amazônia estão incitando pessoas a colocarem fogo na floresta por motivos ideológicos, afirma o presidente do Ibama (Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis), Jair Schmitt. O chefe do órgão ambiental f…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "162d4183fd46",
@@ -12224,7 +13019,7 @@
    ],
    "excerpt": "…oridades priorizam a proteção de Bancoc e de outros centros empresariais contra enchentes, negligenciando as comunidades. A Tailândia enfrenta enchentes todos os anos durante a temporada de monções, e cientistas afirmam que a mudança climática provocada pela ação humana tornou as chuvas fortes e as inundações mais freq…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "1ea8da7b4689",
@@ -12616,7 +13411,7 @@
    ],
    "excerpt": "…wich. Some gasped for air in their final moments, desperate for the oxygen that heatwave conditions had depleted in the water. Investigators believe that the die-off was triggered by heavy rainfall that flushed through high concentrations of pollution at a time when wildlife were already struggling. The 45-mile (70km)…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "ea632e97924f",
@@ -13893,7 +14688,7 @@
    ],
    "excerpt": "…s que ficam ateando fogo no nosso estado\", disse. \"Grande parte desses focos de incêndio vem de homens que ficam ateando fogo no nosso estado.\" O governador não detalhou quais crimes os detidos são suspeitos de ter praticado. Neste domingo (18), uma comitiva do governo federal chegou a Manaus para avaliar a situação do…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "982583b6b7cc",
@@ -15218,7 +16013,7 @@
    "political_terms": [],
    "excerpt": "Las lluvias torrenciales, cada vez más intensas por el calentamiento del mar y la atmósfera: \"Estamos en un nuevo clima\" Basado en hechos observados y verificados directamente por nuestros periodistas o por fuentes informadas. Elígenos como tu fuente preferida en Google. Los meteorólogos señalan que \"estamos en una atm…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "28db82359279",
@@ -15895,7 +16690,7 @@
    ],
    "excerpt": "…u neste sábado (17) o envio de mais cinco aeronaves para reforçar o combate aos incêndios florestais no Amazonas, além da mobilização de militares e policiais federais. Com a ampliação, a frota disponível para as operações passará de 11 para 16 aeronaves. O número de agentes que serão enviados ainda não foi definido. O…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "fb7a9fcbdec5",
@@ -16263,7 +17058,7 @@
    ],
    "excerpt": "As aeronaves que atuam no combate aos incêndios florestais no Amazonas estão impedidas de voar neste sábado (17) em razão do excesso de fumaça na região. Segundo o Ibama (Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis), as condições de visibilidade impedem as operações nos dois aeroportos util…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "d270872bbb43",
@@ -17164,7 +17959,7 @@
    "political_terms": [],
    "excerpt": "The technology is being used to anticipate everything from forest fires to futures contracts. Some fear that’s a mistake"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "e7071d01b174",
@@ -17355,7 +18150,7 @@
    ],
    "excerpt": "… de temperaturas y la probable llegada de dos danas que previsiblemente traerán lluvias torrenciales, principalmente a la costa mediterránea y a Baleares. Una de ellas ha sido bautizada como Adam, pues es la primera dana con gran impacto de la temporada 2026-2027. Según señala a este diario José Ángel Núñez, portavoz d…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "e4a6000d08c2",
@@ -17936,7 +18731,7 @@
    "political_terms": [],
    "excerpt": "…ial, apontam a possibilidade de o bioma encarar uma longa e severa temporada de incêndios. De acordo com a Nasa, satélites começaram a detectar consideráveis aumentos em fumaça e fogo na região. A agência cita a situação em Manaus, onde a fumaça deixou a qualidade do ar péssima, levando à suspensão de aulas em escolas…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "739bbdd5f961",
@@ -19708,7 +20503,7 @@
    ],
    "excerpt": "…nmar também alertaram para \"chuvas e tempestades atípicas, secas provocadas por calor extremo e escassez de água potável\". Nas Filipinas, a ministra de Energia, Sharon Garin, declarou que o governo está se preparando para um aumento na demanda de energia e uma possível queda na produção hidrelétrica devido às condições…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "afa1422042d9",
@@ -20529,7 +21324,7 @@
    ],
    "excerpt": "…maça que sufoca a população de Manaus nas últimas semanas, o número de focos de incêndios no Amazonas mais do que dobrou neste ano. O estado teve 7.815 focos de 1º de janeiro a 12 de outubro, aumento de 116% em relação ao mesmo período de 2025, quando o índice foi de 3.611. Quase um terço (31%) dos focos registrados no…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "451d1af4a188",
@@ -20910,7 +21705,7 @@
    ],
    "excerpt": "Las cataratas del Iguazú cierran temporalmente por las inundaciones provocadas por el fenómeno de El Niño Argentina Esto sucede después de que el caudal del río superara los 12.000 metros cúbicos por segundo, más de seis veces su promedio habitual Las autoridades cerraron temporalmente el acceso turístico a las Catarat…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "b33812416d70",
@@ -21251,7 +22046,7 @@
    "political_terms": [],
    "excerpt": "…ente difícil prever desastres. Os possíveis fatores desencadeadores são muitos: chuvas torrenciais de monção, terremotos e avalanches que lançam grandes rochas em lagos formados pelo derretimento de geleiras. À medida que a água avança pelos vales, pode se misturar a sedimentos e detritos, formando uma massa de lama qu…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "c8ce2e02d8e7",
@@ -21669,7 +22464,7 @@
    ],
    "excerpt": "Após sobrevoar as áreas atingidas por incêndios florestais no Amazonas neste no domingo (11), o ministro do Meio Ambiente e Mudança do Clima, João Paulo Capobianco, disse que a situação no estado é mais grave do que imaginava e que os indícios apontam que as queimadas sejam criminosas. A região vive uma crise com aumen…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "0827e6183932",
@@ -22572,7 +23367,7 @@
    ],
    "excerpt": "Em julho, enquanto a fumaça dos incêndios florestais no Canadá avançava para o sul, autoridades de Nova York iniciaram medidas de emergência diante da previsão de uma qualidade do ar historicamente ruim. Agentes de assistência social percorreram toda a cidade. Policiais distribuíram máscaras. Durante parte do dia 16 de…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "dea3676ed07e",
@@ -22828,7 +23623,7 @@
    ],
    "excerpt": "…ndación repentina de un río que ha arrasado un pueblo en Nepal Vídeo del día La crecida del río arrasa alrededor de 40 casas, varios puentes de un pueblo y deja al menos 5 desaparecidos La crecida repentina de un río en el centro de Nepal arrasó alrededor de 40 casas y varios puentes de un pueblo, dejando al menos cinc…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "4ca684692fe6",
@@ -22924,7 +23719,7 @@
    "political_terms": [],
    "excerpt": "… rocks and mud hurtled down a mountain onto a highway south of Palm Desert, and flood water submerged the parking lot of a casino on the Las Vegas Strip. While the downgrading of Sunday’s storms brought some relief, risks continue across the California coast until Tuesday, and there is the longer-term concern of what i…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "e8f080592d2d",
@@ -22990,7 +23785,7 @@
    ],
    "excerpt": "… FAB (Força Aérea Brasileira) vai enviar dois aviões para ajudar no combate aos incêndios florestais que atingem as regiões de Manaus, Itacoatiara e Parintins, no estado do Amazonas. A previsão é que as aeronaves cheguem à Base Aérea de Manaus no final da tarde deste domingo (11) e iniciem a operação nesta segunda-feir…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "abc85cdcad83",
@@ -24124,7 +24919,7 @@
    ],
    "excerpt": "…ia See more from the L.A. Times in Google Search. Set us as preferred A coastal flood warning covered beaches from Malibu to San Diego on Saturday as Tropical Storm Rachel moved toward Southern California, while Long Beach kept some oceanfront residents under an evacuation order, and Newport Beach closed piers and temp…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "9da2b2920c6e",
@@ -24233,7 +25028,7 @@
    ],
    "excerpt": "…ado à AFP que \"não recebeu notificação oficial sobre o processo mencionado\". As chuvas torrenciais que caíram no sul do país entre abril e maio de 2024 provocaram inundações históricas. Cerca de 500 mil ficaram desalojadas. Os danos materiais atingiram níveis sem precedentes. Para o MPF, a responsabilidade da Shell Bra…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "637903d1154c",
@@ -24417,7 +25212,7 @@
    "political_terms": [],
    "excerpt": "…condido, Palm Springs and Twentynine Palms. A moderate risk means that numerous flash floods are likely, and that many streams may flood. There is a chance that the San Diego River near Fashion Valley could reach minor flood stage. There’s also a 15% chance of that occurring in Oceanside, San Clemente, Laguna Niguel, R…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "270dbf5ff757",
@@ -24738,7 +25533,7 @@
    "political_terms": [],
    "excerpt": "O Sudeste Asiático está tomado pela fumaça dos incêndios florestais que se espalharam pela Indonésia nos últimos meses. Moradores de ao menos quatro países vizinhos —Malásia, Singapura, Filipinas e Brunei— estão sofrendo há semanas com a neblina cinzenta que tomou a paisagem e provoca danos à saúde. A Malásia fechou es…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "4a6b6d28d20a",
@@ -25052,7 +25847,7 @@
    "political_terms": [],
    "excerpt": "Newport Beach, other coastal spots hit by flooding: ‘We’re preparing for more damage’ - Click here to listen to this article - Share via See more from the L.A. Times in Google Search. Set us as preferred Newport Beach expected intense surf Friday, but the high tide turned out to be much worse than the estimates. Wate…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "962b7c1fb935",
@@ -25114,7 +25909,7 @@
    "political_terms": [],
    "excerpt": "Um incêndio na Resex (Reserva Extrativista) Riozinho do Anfrísio, no Pará, teve início na quarta-feira (7) e ainda permanece ativo na região nesta sexta-feira (9). Devido à dificuldade de acesso, o ICMBio (Instituto Chico Mendes de Conservação da Biodiversidade) aponta que começou a atuar na área nesta sexta-feira (9).…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "16c4d0b54ebc",
@@ -27242,7 +28037,7 @@
    ],
    "excerpt": "… ha centrado su investigación en otra de las preocupaciones de la sociedad: los incendios forestales. El profesor titular del Departamento de Ingeniería Térmica y de Fluidos de la Universidad Carlos III de Madrid va a aplicar su disciplina para intentar comprender cómo se generan los grandes incendios, que en los últim…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "84d1f6ea9596",
@@ -28047,7 +28842,7 @@
    ],
    "excerpt": "… cada vez mayor con el territorio. Los residentes de antes sabían que había una crecida cuando escuchaban el agua en el cauce arrastrando cantos. Ese ruido atronador corresponde a una gran ola móvil que llega por ese cauce seco, que ha recogido agua rápidamente de todos los afluentes y va a gran velocidad porque salva…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "86e021e8ad34",
@@ -28363,7 +29158,7 @@
    ],
    "excerpt": "Quando um incêndio florestal ameaçou sua casa no norte do Canadá, há três anos, Kira Young fez as malas e fugiu levando o que pôde. No final deste mês, ela comparecerá a um tribunal para processar o governo federal canadense, o qual acusa de não responder adequadamente às mudanças climáticas. Ela é uma dos 15 jovens, c…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "4bb45b95f904",
@@ -28531,7 +29326,7 @@
    "political_terms": [],
    "excerpt": "Platja d’Aro pide ampliar dos puentes sobre el Ridaura para evitar nuevas inundaciones Temporal El alcalde Maurici Jiménez lo considera “una necesidad” teniendo en cuenta que las riadas se repiten cada vez más a menudo El desbordamiento del río Ridaura a su paso por Castell-Platja d’Aro este fin de semana ha puesto nue…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "fcfc8f1b676b",
@@ -28817,7 +29612,7 @@
    "political_terms": [],
    "excerpt": "Restaurant workers face hidden dangers from gas stoves, including pollution and extreme heat - Click here to listen to this article - Share via See more from the L.A. Times in Google Search. Set us as preferred - A study of 27 commercial kitchens found gas appliances often exposed workers to nitrogen dioxide and extr…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "70e88cf9f870",
@@ -29182,7 +29977,7 @@
    "political_terms": [],
    "excerpt": "…l menos 16.000 millones de euros el coste de las olas de calor, la sequía y los incendios del verano de 2026 en el país galo. La cifra pretende servir de referencia para el debate del presupuesto de 2027 y reforzar la necesidad de aumentar el gasto público destinado a la adaptación al cambio climático. La estimación de…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "a29dfbbf241f",
@@ -29908,7 +30703,7 @@
    "political_terms": [],
    "excerpt": "El calor extremo complica cada vez más los embarazos, según los médicos Los efectos de la crisis climática Datos de una encuesta internacional realizada a 1.000 profesionales de la atención maternal en país de los cinco continentes El 73% de los profesionales de la atención materna han detectado los últimos cinco años…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "9982e1c38f79",
@@ -32417,7 +33212,7 @@
    "political_terms": [],
    "excerpt": "…ssteps leading up to the 2025 Palisades fire and in its initial response to the blaze, which killed 12 people and destroyed more than 6,800 structures. An investigation commissioned by Gov. Gavin Newsom found the Fire Department ignored multiple warnings that the Jan. 1 Lachman fire still was smoldering days before it…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "d2b1d69d34e9",
@@ -35054,7 +35849,7 @@
    "political_terms": [],
    "excerpt": "…róximo lunes en Catalunya, Comunidad Valenciana y Baleares Tiempo Hay riesgo de inundaciones súbitas, alerta la agencia meteorológica en un aviso especial La Agencia Estatal de Meteorología (Aemet) y Protección Civil han advertido este miércoles de un episodio marcado por la inestabilidad desde el jueves hasta, al meno…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "4c8347fe6279",
@@ -36322,7 +37117,7 @@
    "political_terms": [],
    "excerpt": "…ede traducirse en menos pesca, menor protección frente al oleaje, más riesgo de inundación y un golpe directo para el turismo y las economías locales. Karina von Schuckmann, directora del Ocean State Report, lo resume con una idea que atraviesa toda esta décima edición: el cambio del océano no es \"una cuestión ambienta…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "9a6cf188dd32",
@@ -36539,7 +37334,7 @@
    "political_terms": [],
    "excerpt": "Copernicus desgrana por primera vez la polución transfronteriza que recorre miles de kilómetros y está alimentada por las emisiones y el calor. El estudio ubica a España en la zona más problemática dentro de Europa"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "786acd7bef0e",
@@ -36643,7 +37438,7 @@
    "political_terms": [],
    "excerpt": "…% da população mundial está sendo submetida neste ano a uma mistura perigosa de calor extremo e poluição que resulta em ozônio. Não aquele conhecido por proteger a Terra dos raios UV, na estratosfera, mas o que está na troposfera, a atmosfera baixa onde vivemos. Nesse nível, o ozônio é um poluente secundário, menos dis…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "b665006ab9ea",
@@ -40612,7 +41407,7 @@
    ],
    "excerpt": "…in 2023. On a 5,500-acre farm near Fresno, grower Don Cameron is prepared for a deluge. He manages Terranova Ranch and is a pioneer of the practice of flooding farmland to replenish groundwater, which he’s done every few years since 2011. He’s been called the godfather of farmland groundwater recharge. With a $5-millio…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "b1046d35f607",
@@ -41523,7 +42318,7 @@
    "political_terms": [],
    "excerpt": "…, menos mosquitos: así altera el clima extremo a las plagas urbanas Insectos El calor extremo de este verano atenta contra la supervivencia de los mosquitos, pero favorece la proliferación de las cucarachas, que sobreviven en los microclimas del subsuelo urbano y el alcantarillado Durante años, la relación entre el cam…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "fd09b0a83473",
@@ -44199,7 +44994,7 @@
    "political_terms": [],
    "excerpt": "Debemos incorporar las soluciones basadas en la naturaleza a nuestra estrategia frente al riesgo de los fuegos"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "3587057d80b2",
@@ -44407,7 +45202,7 @@
    ],
    "excerpt": "…nas noticias: los mismos investigadores proyectan más de 451.000 muertes por el calor extremo, además de las causadas por las sequías, los incendios forestales y las inundaciones asociadas a este fenómeno climático. Y es que el Super Niño en ciernes provocará un aumento de temperaturas de entre 1,2 y 2,1º C respecto a…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "1d6b921f58a1",
@@ -44576,7 +45371,7 @@
    "political_terms": [],
    "excerpt": "Más de la mitad de los españoles no sabe cómo comportarse ante los incendios forestales Emergencia climática El Centro de Investigaciones Sociológicas (CIS) ha realizado una nueva encuesta de Protección Civil para conocer la opinión de los ciudadanos sobre la gestión de los incendios forestales Casi el 50% de los españ…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "6a07e434b993",
@@ -45876,7 +46671,7 @@
    "political_terms": [],
    "excerpt": "…es históricas han afectado a las olas de calor, los huracanes, las sequías, los incendios forestales y otros fenómenos meteorológicos extremos. Este nuevo estudio emplea la inteligencia artificial generativa —entrenada con modelos climáticos— para cuantificar si subconjuntos de las emisiones causadas por el ser humano…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "f656ec3e0f31",
@@ -50772,7 +51567,7 @@
    "political_terms": [],
    "excerpt": "Conforme aumente el calentamiento global, las condiciones extremas de peligro se harán más frecuentes, intensas y extensas"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "5f5fb7f72102",
@@ -53929,7 +54724,7 @@
    "political_terms": [],
    "excerpt": "El cambio climático añadió este verano 30 días adicionales de calor extremo en España Crisis climática Entre el 1 de junio y el 31 de agosto de 2026 Madrid y Barcelona padecieron respectivamente 41 y 19 jornadas extra de temperaturas extremas en comparación con un mundo sin cambio climático Las temperaturas registraron…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "fa65057a7cd8",
@@ -58602,7 +59397,7 @@
    "political_terms": [],
    "excerpt": "…an este verano máximos históricos Crisis climática España también ha sufrido un calor extremo en tierra este año Las temperaturas del mar en las costas españolas alcanzaron máximos históricos este verano, y varias estaciones de seguimiento del Mediterráneo y de la costa atlántica española registraron sus valores más al…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "5b77e7c6e7eb",
@@ -196897,7 +197692,7 @@
    ],
    "excerpt": "…conclusion that the heat island impact alone accounted for roughly half the 130 heat-related deaths. Jo Shields, head of sustainability for Mandy's housing association Walsall Housing Group, known as whg - which owns 23,000 homes across Walsall and the Midlands - hears the same complaint time and again. \"The heat gain…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "76881703c9dd",
@@ -230967,7 +231762,7 @@
    ],
    "excerpt": "Somewhere in the stormy waters off Greenland, a bright yellow robotic probe, known as an Argo float, is sinking silently beneath the waves. It is roughly the size of a person, with a tough metal body and an array of sensors packed inside. The float is part of a global effort to solve one of the great mysteries of the o…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "ee0fe914406a",
@@ -233643,7 +234438,7 @@
    ],
    "excerpt": "…nd it’s crucial this continues. “To avoid the swing between extreme drought and flooding and to secure water supplies for food production, we urgently need investment in water infrastructure and a more effective planning system.”…"
   },
-  "fetched_at": "20261030T113001Z"
+  "fetched_at": "20261031T110108Z"
  },
  {
   "id": "01ff4ac7cfab",
@@ -246959,5 +247754,95 @@
    "excerpt": "Un air « dangereux » : 3 560 Indonésiens sont morts à cause de la pollution aux incendies en septembre"
   },
   "fetched_at": "20261030T113001Z"
+ },
+ {
+  "id": "ebefabde4c67",
+  "url": "https://www.leparisien.fr/faits-divers/incendie-dun-immeuble-a-clermont-ferrand-trois-morts-et-un-quatrieme-corps-recherche-un-homme-interpelle-31-10-2026-UXPWGY26KJC2LBDK2X5SJ6DJEM.php",
+  "title": "Incendie d’un immeuble à Clermont-Ferrand : trois morts et un quatrième corps recherché, un homme interpellé",
+  "domain": "leparisien.fr",
+  "source_country": "",
+  "source_name": "Le Parisien",
+  "language": "French",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "",
+  "socialimage": "",
+  "text_available": false,
+  "low_confidence": true,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "incendie"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "Incendie d’un immeuble à Clermont-Ferrand : trois morts et un quatrième corps recherché, un homme interpellé"
+  },
+  "fetched_at": "20261031T110108Z"
+ },
+ {
+  "id": "087dc72c366c",
+  "url": "https://www.leparisien.fr/faits-divers/un-espagnol-incendie-un-restaurant-parce-quil-ny-a-plus-de-mayonnaise-la-marque-hellmans-propose-son-aide-au-gerant-30-10-2026-GHR72Y3GDBCQLND6VG5XFZWHY4.php",
+  "title": "Un Espagnol incendie un restaurant parce qu’il n’y a plus de mayonnaise, la marque Hellman’s propose son aide au gérant",
+  "domain": "leparisien.fr",
+  "source_country": "",
+  "source_name": "Le Parisien",
+  "language": "French",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "",
+  "socialimage": "",
+  "text_available": false,
+  "low_confidence": true,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "incendie"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "Un Espagnol incendie un restaurant parce qu’il n’y a plus de mayonnaise, la marque Hellman’s propose son aide au gérant"
+  },
+  "fetched_at": "20261031T110108Z"
+ },
+ {
+  "id": "30148bc5c854",
+  "url": "https://www.leparisien.fr/oise-60/un-violent-incendie-ravage-lancien-magasin-de-meubles-pont-royal-a-nogent-sur-oise-100-pompiers-mobilises-30-10-2026-V25YDAMJM5DJ5A47YAYSIH6YKM.php",
+  "title": "Un violent incendie ravage l’ancien magasin de meubles Pont Royal à Nogent-sur-Oise, 100 pompiers mobilisés",
+  "domain": "leparisien.fr",
+  "source_country": "",
+  "source_name": "Le Parisien",
+  "language": "French",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "",
+  "socialimage": "",
+  "text_available": false,
+  "low_confidence": true,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "incendie"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "Un violent incendie ravage l’ancien magasin de meubles Pont Royal à Nogent-sur-Oise, 100 pompiers mobilisés"
+  },
+  "fetched_at": "20261031T110108Z"
  }
 ]
