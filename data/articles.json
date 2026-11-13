@@ -1,5 +1,964 @@
 [
  {
+  "id": "91bab5ccd943",
+  "url": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/11/13/veja-onde-buscar-atendimento-em-saude-mental-no-rio-grande-do-sul.ghtml",
+  "title": "Veja onde buscar atendimento em saúde mental no Rio Grande do Sul",
+  "domain": "g1.globo.com",
+  "source_country": "",
+  "source_name": "G1 (BR)",
+  "language": "Portuguese",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261113T123715Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "enchentes"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "…magem aérea mostra ruas alagadas em Canoas, uma das cidades mais afetadas pelas enchentes no Rio Grande do Sul. Série de fotos foi vencedora na categoria Histórias — Foto: Amanda Perobelli/Reuters via World Press Photo/Divulgação Pessoas afetadas pelas enchentes de 2024 no Rio Grande do Sul podem contar com serviços gr…"
+  },
+  "fetched_at": "20261113T131717Z"
+ },
+ {
+  "id": "5a691ad6cd60",
+  "url": "https://g1.globo.com/pb/paraiba/noticia/2026/11/13/suspeito-de-liderar-ataque-a-acampamento-do-mst-na-pb-nao-e-encontrado-durante-operacao.ghtml",
+  "title": "Suspeito de liderar ataque a acampamento do MST na PB não é encontrado durante operação",
+  "domain": "g1.globo.com",
+  "source_country": "",
+  "source_name": "G1 (BR)",
+  "language": "Portuguese",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261113T121340Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "incêndio",
+    "incêndios"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "…iu o acampamento, arrombou moradias, utilizou material inflamável para provocar incêndios e efetuou disparos. A investigação apura crimes como tentativa de homicídio, incêndio majorado, disparo de arma de fogo, violação de domicílio qualificada, constrangimento ilegal, ameaça e desobediência a decisão judicial. A Políc…"
+  },
+  "fetched_at": "20261113T131717Z"
+ },
+ {
+  "id": "e0c0413f0299",
+  "url": "https://www.bbc.co.uk/news/articles/cj1dv5q21wdxo?at_medium=RSS&at_campaign=rss",
+  "title": "Summer heatwave put bin crews lives at risk, says council worker",
+  "domain": "bbc.co.uk",
+  "source_country": "",
+  "source_name": "BBC News",
+  "language": "English",
+  "topic": "heatwave",
+  "topics": [
+   "heatwave"
+  ],
+  "seendate": "20261113T120304Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "heatwave",
+    "wildfires"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "government"
+   ],
+   "excerpt": "Summer heatwave put bin crews lives at risk, says council worker - Published Some bin collections were missed over the summer in a county partly because the heatwave became so serious it posed a risk to the lives of workers, a council worker has said. Flintshire County Council's Chris Goddard said crews faced a \"perfec…"
+  },
+  "fetched_at": "20261113T131717Z"
+ },
+ {
+  "id": "e131aa50aab9",
+  "url": "https://www.theguardian.com/global-development/2026/nov/13/el-nino-death-in-childbirth-millions-midwives-cop31-extreme-weather-maternal-newborn-death-rates",
+  "title": "El Niño will increase risk of death in childbirth for millions, say midwives",
+  "domain": "theguardian.com",
+  "source_country": "",
+  "source_name": "The Guardian",
+  "language": "English",
+  "topic": "heatwave",
+  "topics": [
+   "heatwave",
+   "floods"
+  ],
+  "seendate": "20261113T120018Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "extreme heat",
+    "flash floods",
+    "flood",
+    "floods",
+    "heatwave"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "…zones, midwives have warned. Converging waves of weather – floods, cyclones and extreme heat – forecast to peak in the coming months will prove fatal for many, especially pregnant women, who face being cut off from hospital when in labour. About 15 million babies are due to be born in November and December in countries…"
+  },
+  "fetched_at": "20261113T131717Z"
+ },
+ {
+  "id": "6dbbfe505b54",
+  "url": "https://g1.globo.com/ac/acre/noticia/2026/11/13/incendio-em-padrao-de-energia-deixa-escola-mais-de-uma-semana-sem-aulas-no-interior-do-acre.ghtml",
+  "title": "Incêndio em padrão de energia deixa escola mais de uma semana sem aulas no interior do Acre",
+  "domain": "g1.globo.com",
+  "source_country": "",
+  "source_name": "G1 (BR)",
+  "language": "Portuguese",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261113T120000Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "incêndio"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "governo"
+   ],
+   "excerpt": "… uma semana devido falta de energia elétrica após o medidor ser atingido por um incêndio na última quarta-feira (4). Imagens feitas por moradores mostram o Corpo de Bombeiros e técnicos da Energisa Acre em frente à escola, enquanto o equipamento que fica ao lado do portão da entrada da escola está em chamas. Em seguida…"
+  },
+  "fetched_at": "20261113T131717Z"
+ },
+ {
+  "id": "45c24de080a9",
+  "url": "https://oglobo.globo.com/conteudo-de-marca/bhp-brasil/noticia/2026/11/13/governo-do-para-decreta-emergencia-ambiental-e-climatica-por-120-dias-devido-a-seca-e-queimadas.ghtml",
+  "title": "Governo do Pará decreta emergência ambiental e climática por 120 dias devido à seca e queimadas",
+  "domain": "oglobo.globo.com",
+  "source_country": "",
+  "source_name": "O Globo (BR)",
+  "language": "Portuguese",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261113T115201Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "incêndio",
+    "incêndios",
+    "incêndios florestais"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "governo"
+   ],
+   "excerpt": "…Decreto também prevê envio de brigadistas voluntários para combater os focos de incêndio Atualizado O governo do Pará decretou, nesta quarta-feira, situação de emergência ambiental e climática por 120 dias em todo estado devido à estiagem severa e ao aumento do risco de incêndios florestais associados aos efeitos do El…"
+  },
+  "fetched_at": "20261113T131717Z"
+ },
+ {
+  "id": "2f3ee38febfe",
+  "url": "https://www.eldiario.es/spin/600-arcos-cuatro-kilometros-longitud-portico-italiano-considerado-mundo-pm_1_13660989.html",
+  "title": "Con 600 arcos y casi cuatro kilómetros de longitud, este pórtico italiano es considerado el más largo del mundo",
+  "domain": "eldiario.es",
+  "source_country": "",
+  "source_name": "elDiario.es",
+  "language": "Spanish",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261113T113323Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "lluvias torrenciales"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "…onumental camino está ligado a un prodigio ocurrido durante el siglo XV, cuando lluvias torrenciales amenazaban con arruinar las cosechas locales. Desesperados, los ciudadanos bajaron en procesión el sagrado icono mariano desde la colina hasta el centro urbano, momento en el cual las nubes se despejaron. Desde aquel ac…"
+  },
+  "fetched_at": "20261113T131717Z"
+ },
+ {
+  "id": "f36d5bb037f9",
+  "url": "https://g1.globo.com/ce/ceara/noticia/2026/11/13/bombeira-cantora-e-influenciadora-quem-e-a-mulher-presa-por-matar-homem-no-centro-das-tapioqueiras-em-fortaleza.ghtml",
+  "title": "Bombeira, cantora e influenciadora: quem é a mulher presa por matar homem no Centro das Tapioqueiras, em Fortaleza",
+  "domain": "g1.globo.com",
+  "source_country": "",
+  "source_name": "G1 (BR)",
+  "language": "Portuguese",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261113T113229Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "incêndio"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "…is que atuaram no resgate às vítimas do prédio que desabou. Ela também atuou no incêndio da sucata Chico Alves, em Fortaleza, em dezembro de 2025. O local era uma das sucatas mais famosas da capital, funcionando desde a década de 1970. Nataly Amaral como cantora, fantasiada de \"Bela\" e trabalhando como maquiadora. — Fo…"
+  },
+  "fetched_at": "20261113T131717Z"
+ },
+ {
+  "id": "91f44e245607",
+  "url": "https://g1.globo.com/mg/sul-de-minas/noticia/2026/11/13/chuva-forte-provoca-estragos-em-cidades-do-sul-de-minas.ghtml",
+  "title": "Chuva forte provoca estragos em cidades do Sul de Minas",
+  "domain": "g1.globo.com",
+  "source_country": "",
+  "source_name": "G1 (BR)",
+  "language": "Portuguese",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261113T113129Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "enchentes"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "…em desabrigados e nem feridos em nosso município. Houve somente essa questão de enchentes, alagamentos. Após o término da chuva, os sistemas de drenagem funcionaram perfeitamente, a água escoou e ficou a sujeira\", explicou. Segundo o coordenador, equipes da prefeitura começaram os trabalhos de limpeza ainda durante a m…"
+  },
+  "fetched_at": "20261113T131717Z"
+ },
+ {
+  "id": "fb31d567093b",
+  "url": "https://g1.globo.com/ma/maranhao/noticia/2026/11/13/incendio-empresa-borrachas-br-135-sao-luis.ghtml",
+  "title": "Incêndio atinge empresa de borrachas no MA e fogo segue ativo após mais de 16h",
+  "domain": "g1.globo.com",
+  "source_country": "",
+  "source_name": "G1 (BR)",
+  "language": "Portuguese",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261113T113049Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "incêndio"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "O incêndio de grandes proporções que atingiu uma empresa de borrachas na BR-135, em São Luís, no Maranhão, continua com focos ativos na manhã desta sexta-feira (13), após mais de 16 horas de combate. A fumaça densa prejudica a visibilidade na rodovia. Não houve feridos. O fogo atingiu a empresa Reci Borrachas, no km 6…"
+  },
+  "fetched_at": "20261113T131717Z"
+ },
+ {
+  "id": "15d1acb33908",
+  "url": "https://www.lavanguardia.com/local/canarias/20261113/11683415/mueren-dos-personas-incendio-vivienda-sur-gran-canaria.html",
+  "title": "Mueren dos personas en un incendio en una vivienda del sur de Gran Canaria",
+  "domain": "lavanguardia.com",
+  "source_country": "",
+  "source_name": "La Vanguardia",
+  "language": "Spanish",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261113T112308Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "incendio"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "Mueren dos personas en un incendio en una vivienda del sur de Gran Canaria En Playa del Inglés El personal del Servicio de Urgencias Canario confirmó su fallecimiento al llegar al lugar del siniestro Dos personas han fallecido y un hombre ha quedado herido con pronóstico moderado en un incendio declarado esta madrugada…"
+  },
+  "fetched_at": "20261113T131717Z"
+ },
+ {
+  "id": "f5b94ba34f4f",
+  "url": "https://g1.globo.com/se/sergipe/noticia/2026/11/13/incendio-destroi-lanchonete-na-zona-sul-de-aracaju.ghtml",
+  "title": "Incêndio destrói lanchonete e deixa uma pessoa ferida na Zona Sul de Aracaju",
+  "domain": "g1.globo.com",
+  "source_country": "",
+  "source_name": "G1 (BR)",
+  "language": "Portuguese",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261113T111512Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "incêndio"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "Incêndio destrói lanchonete e deixa uma pessoa ferida na Zona Sul de Aracaju Vítima com queimaduras foi levada ao hospital antes da chegada do Corpo de Bombeiros. Por g1 SE e TV Sergipe 13/11/2026 08h15 Atualizado 13/11/2026 Um incêndio destruiu uma lanchonete na noite desta quinta-feira (12) no bairro Grageru, em Arac…"
+  },
+  "fetched_at": "20261113T131717Z"
+ },
+ {
+  "id": "4a1f6f8f3415",
+  "url": "https://oglobo.globo.com/mundo/noticia/2026/11/13/russia-contradiz-enviados-dos-eua-e-nega-ter-aceito-participacao-de-europeus-em-negociacao-sobre-a-ucrania.ghtml",
+  "title": "Rússia contradiz enviados dos EUA sobre inclusão de europeus em mesa de negociação com a Ucrânia",
+  "domain": "oglobo.globo.com",
+  "source_country": "",
+  "source_name": "O Globo (BR)",
+  "language": "Portuguese",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261113T105006Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "incêndio",
+    "incêndios"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "presidente"
+   ],
+   "excerpt": "…z, relatou três mortos após outra noite de ataques russos que provocaram vários incêndios, incluindo um incidente em um hospital. \"[Durante a noite] os sistemas de defesa aérea interceptaram e destruíram 1.198 drones ucranianos sobre quase 20 regiões russas, entre elas Moscou\", informou a autoridade russa em um comunic…"
+  },
+  "fetched_at": "20261113T131717Z"
+ },
+ {
+  "id": "4c92ad88b8d4",
+  "url": "https://g1.globo.com/sp/sao-paulo/noticia/2026/11/13/chuvas-deixam-26-desalojados-e-um-ferido-no-estado-de-sp-na-capital-quatro-casas-sao-interditadas-apos-erosao.ghtml",
+  "title": "Chuvas deixam 26 desalojados e um ferido no estado de SP; na capital, quatro casas são interditadas após erosão",
+  "domain": "g1.globo.com",
+  "source_country": "",
+  "source_name": "G1 (BR)",
+  "language": "Portuguese",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261113T104122Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "enchente",
+    "inundação"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "…tropolitana de São Paulo nesta quinta-feira (12) provocou pontos de inundação e enchente e deixou veículos submersos em Mauá. Uma pessoa precisou ser resgatada de dentro de um carro que estava ilhado. Na capital, a Zona Leste entrou em estado de atenção para alagamentos às 16h23 desta quinta, segundo o Centro de Gerenc…"
+  },
+  "fetched_at": "20261113T131717Z"
+ },
+ {
+  "id": "755b95cd1be8",
+  "url": "https://oglobo.globo.com/blogs/clima-extremo/noticia/2026/11/13/quarta-mulher-morre-apos-passeio-de-quadriciclo-no-deserto-de-las-vegas-em-meio-a-calor-de-42c.ghtml",
+  "title": "Quarta mulher morre após passeio de quadriciclo no deserto de Las Vegas em meio a calor de 42°C",
+  "domain": "oglobo.globo.com",
+  "source_country": "",
+  "source_name": "O Globo (BR)",
+  "language": "Portuguese",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261113T102213Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": true,
+  "mentions_political_responsibility": true,
+  "omits_climate": false,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "enchente",
+    "enchentes"
+   ],
+   "climate_terms": [
+    "aquecimento global"
+   ],
+   "political_terms": [
+    "autoridades",
+    "negligência"
+   ],
+   "excerpt": "Quarta mulher morre após passeio de quadriciclo no deserto de Las Vegas em meio a calor de 42°C Familiares questionam a fiscalização das empresas responsáveis pelas excursões, após outras três mortes em circunstâncias semelhantes e denúncias de falhas nos protocolos de segurança Por O Globo — Nevada Atualizado A morte…"
+  },
+  "fetched_at": "20261113T131717Z"
+ },
+ {
+  "id": "5dc086c394cf",
+  "url": "https://www.liberation.fr/economie/les-pompiers-reclament-100-millions-deuros-au-constructeur-de-camions-scania-20261113_IYEVPPTZO5BFLLXLQC5HWACJKU/",
+  "title": "Les pompiers réclament 100 millions d’euros au constructeur de camions Scania",
+  "domain": "liberation.fr",
+  "source_country": "",
+  "source_name": "Libération",
+  "language": "French",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261113T100438Z",
+  "socialimage": "",
+  "text_available": false,
+  "low_confidence": true,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "incendie"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "Les services départementaux d’incendie estiment qu’ils ont payé trop cher leurs véhicules, du fait d’une entente entre fabricants de poids lourds, sanctionnée par l’Union européenne."
+  },
+  "fetched_at": "20261113T131717Z"
+ },
+ {
+  "id": "f6369b1af914",
+  "url": "https://www.20minutos.es/canarias/las-palmas/mueren-dos-personas-otra-resulta-afectada-moderada-incendio-una-casa-san-bartolome-tirajana-gran-canaria_7060636_0.html",
+  "title": "Mueren dos personas y otra resulta lesionada en el incendio de una casa en San Bartolomé de Tirajana",
+  "domain": "20minutos.es",
+  "source_country": "",
+  "source_name": "20minutos",
+  "language": "Spanish",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261113T094115Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "incendio",
+    "incendios"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "Mueren dos personas y otra resulta afectada moderada en el incendio de una casa en San Bartolomé de Tirajana (Gran Canaria) Basado en hechos observados y verificados directamente por nuestros periodistas o por fuentes informadas. Elígenos como tu fuente preferida en Google. El hombre afectado presentaba inhalación de h…"
+  },
+  "fetched_at": "20261113T131717Z"
+ },
+ {
+  "id": "f7724812b97d",
+  "url": "https://www.theguardian.com/environment/2026/nov/13/storm-charles-floods-flight-cancellations-southern-europe-weather",
+  "title": "Storm Charles causes floods and flight cancellations across southern Europe",
+  "domain": "theguardian.com",
+  "source_country": "",
+  "source_name": "The Guardian",
+  "language": "English",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261113T084919Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "flood",
+    "flooding",
+    "floods",
+    "torrential rain"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "…c, while Madrid Barajas airport had 155 cancellations. After causing widespread flooding in Spain and Portugal, the system moved on a north-easterly track through southern France and then towards northern Italy. This resulted in significant flooding in parts of Cannes, some of which caused rock falls and led to the clo…"
+  },
+  "fetched_at": "20261113T131717Z"
+ },
+ {
+  "id": "0e520d1853fd",
+  "url": "https://oglobo.globo.com/rio/noticia/2026/11/13/super-el-nino-rio-se-prepara-para-o-verao-com-obras-e-satelites-da-nasa.ghtml",
+  "title": "Super El Niño: Rio se prepara para o verão com obras e satélites da Nasa",
+  "domain": "oglobo.globo.com",
+  "source_country": "",
+  "source_name": "O Globo (BR)",
+  "language": "Portuguese",
+  "topic": "heatwave",
+  "topics": [
+   "heatwave",
+   "floods"
+  ],
+  "seendate": "20261113T073000Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "enchentes",
+    "ondas de calor"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "governo"
+   ],
+   "excerpt": "… permite receber avisos e recomendações de segurança sobre chuvas, alagamentos, enchentes, vendavais e ondas de calor. É preciso ter cadastro para receber avisos na tela do celular? Não. O cell broadcast, chamado de Defesa Civil Alerta, envia mensagens automaticamente aos aparelhos localizados em áreas de risco. Para r…"
+  },
+  "fetched_at": "20261113T131717Z"
+ },
+ {
+  "id": "7ee7bb0c534c",
+  "url": "https://www.lavanguardia.com/local/paisvasco/20261113/11683235/incendio-bilbao-deja-22-hospitalizados-grave.html",
+  "title": "Un incendio en Bilbao deja 24 hospitalizados, uno de ellos muy grave",
+  "domain": "lavanguardia.com",
+  "source_country": "",
+  "source_name": "La Vanguardia",
+  "language": "Spanish",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261113T071834Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "incendio"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "Un incendio en Bilbao deja 24 hospitalizados, uno de ellos muy grave De madrugada Medio centenar de personas han necesitado atención sanitaria y alrededor de 40 vecinos han sido desalojados Un incendio declarado esta madrugada en un edificio de viviendas del barrio bilbaíno de Uribarri ha dejado 24 personas hospitaliza…"
+  },
+  "fetched_at": "20261113T131717Z"
+ },
+ {
+  "id": "7835af407004",
+  "url": "https://www.eldiario.es/euskadi/medio-centenar-desalojados-22-ingresados-incendio-incendio-bloque-viviendas-bilbao_1_13660576.html",
+  "title": "Medio centenar de desalojados y 22 ingresados por un incendio en un bloque de viviendas en Bilbao",
+  "domain": "eldiario.es",
+  "source_country": "",
+  "source_name": "elDiario.es",
+  "language": "Spanish",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261113T070913Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "incendio"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "Medio centenar de desalojados y 22 ingresados por un incendio en un bloque de viviendas en Bilbao Casi medio centenar de personas han tenido que ser desalojadas —22 de las cuales han acabado hospitalizadas— como consecuencia de un incendio registrado a las 00.22 horas de este viernes en un inmueble de siete alturas en…"
+  },
+  "fetched_at": "20261113T131717Z"
+ },
+ {
+  "id": "2901e192bfc1",
+  "url": "https://www.franceinfo.fr/monde/europe/allemagne/faut-il-reconstruire-le-nid-d-aigle-cet-endroit-prise-d-adolf-hitler-et-des-nazis-apres-l-incendie-qui-l-a-ravage_8279987.html#xtor=RSS-3-%5Bmonde%5D",
+  "title": "Faut-il reconstruire le \"nid d'aigle\", cet endroit prisé d'Adolf Hitler et des nazis, après l'incendie qui l'a ravagé ?",
+  "domain": "francetvinfo.fr",
+  "source_country": "",
+  "source_name": "France Info",
+  "language": "French",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261113T061350Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "incendie"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "gouvernement",
+    "autorités",
+    "extrême droite",
+    "droite"
+   ],
+   "excerpt": "…truire le \"nid d'aigle\", cet endroit prisé d'Adolf Hitler et des nazis, après l'incendie qui l'a ravagé ? Faut-il détruire ou conserver les vestiges du nazisme ? Le débat agite une nouvelle fois la société allemande, après un incendie survenu fin octobre, qui a détruit le célèbre chalet, près de la frontière autrichien…"
+  },
+  "fetched_at": "20261113T131717Z"
+ },
+ {
+  "id": "7d2ccfe70be5",
+  "url": "https://www.mediapart.fr/journal/france/131126/incendie-de-la-mairie-de-limoges-les-premiers-elements-de-l-enquete-n-etayent-pas-la-these-d-une-action-co",
+  "title": "Incendie de la mairie de Limoges: les premiers éléments de l’enquête n’étayent pas la thèse d’une action concertée",
+  "domain": "mediapart.fr",
+  "source_country": "",
+  "source_name": "Mediapart",
+  "language": "French",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261113T061249Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "incendie"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "politique"
+   ],
+   "excerpt": "Les cookies et technologies similaires que nous utilisons sur Mediapart sont de différentes natures et nous permettent de poursuivre différentes finalités. Certains sont nécessaires au fonctionnement du site et de l’application mobile (vous ne pouvez pas les refuser). D’autres sont optionnels mais contribuent à facili…"
+  },
+  "fetched_at": "20261113T131717Z"
+ },
+ {
+  "id": "548258716d2c",
+  "url": "https://www.bbc.co.uk/news/articles/cqe8r8ngjepjo?at_medium=RSS&at_campaign=rss",
+  "title": "Flood victim, 95, lived in Wetherspoons until she died after her home was destroyed",
+  "domain": "bbc.co.uk",
+  "source_country": "",
+  "source_name": "BBC News",
+  "language": "English",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261113T060549Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": true,
+  "mentions_political_responsibility": true,
+  "omits_climate": false,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "deluge",
+    "flood",
+    "flooding",
+    "floods"
+   ],
+   "climate_terms": [
+    "climate change",
+    "global warming"
+   ],
+   "political_terms": [
+    "government",
+    "authorities",
+    "funding"
+   ],
+   "excerpt": "…ught 'oh well this has passed and we don't need to worry',\" she said. \"Then the deluge of water just appeared from nowhere. It just shows how quickly it can change.\" The official report recommended a review of the timing of severe flood warnings throughout the Monnow catchment \"to ensure adequate advance notice is prov…"
+  },
+  "fetched_at": "20261113T131717Z"
+ },
+ {
+  "id": "c83e500d8801",
+  "url": "https://www.smh.com.au/environment/adaptation-and-australia-s-climate-crisis-20260806-p60m3c.html?ref=rss&utm_medium=rss&utm_source=rss_environment",
+  "title": "Adaptation and Australia’s climate crisis",
+  "domain": "smh.com.au",
+  "source_country": "",
+  "source_name": "The Sydney Morning Herald",
+  "language": "English",
+  "topic": "heatwave",
+  "topics": [
+   "heatwave",
+   "floods"
+  ],
+  "seendate": "20261113T053330Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": true,
+  "mentions_political_responsibility": false,
+  "omits_climate": false,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "extreme heat",
+    "floods"
+   ],
+   "climate_terms": [
+    "climate crisis"
+   ],
+   "political_terms": [],
+   "excerpt": "From floods to extreme heat: The human cost of Australia’s changing climate Updated November 13, 2026 — 4:33pm,first published August 6, 2026 — 3:36pm You have reached your maximum number of saved items. Remove items from your saved list to add more. No gift articles left You've used all of your gift articles. 3 more w…"
+  },
+  "fetched_at": "20261113T131717Z"
+ },
+ {
+  "id": "13284e1a0fae",
+  "url": "https://www.eldiario.es/sociedad/el-tiempo/borrasca-charles-marcha-lluvias-persisten-viernes-comunidades-pm_1_13659022.html",
+  "title": "La borrasca Charles se marcha, aunque las lluvias persisten en este viernes en algunas comunidades",
+  "domain": "eldiario.es",
+  "source_country": "",
+  "source_name": "elDiario.es",
+  "language": "Spanish",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261113T053006Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "incendios",
+    "incendios forestales"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "La borrasca Charles se marcha, aunque las lluvias persisten en este viernes en algunas comunidades 0 El alejamiento de la borrasca Charles y el debilitamiento de la borrasca Bruna dejará este viernes una jornada “menos adversa” y más tranquila que los días previos en gran parte del país, de acuerdo con la previsión de…"
+  },
+  "fetched_at": "20261113T131717Z"
+ },
+ {
+  "id": "8de85b3d8a5d",
+  "url": "https://www.lemonde.fr/idees/article/2026/11/13/les-mobilisations-lyceennes-naissent-aussi-d-une-prise-de-conscience-de-la-crise-climatique_6809278_3232.html",
+  "title": "Les mobilisations lycéennes naissent aussi d’une prise de conscience de la crise climatique",
+  "domain": "lemonde.fr",
+  "source_country": "",
+  "source_name": "Le Monde",
+  "language": "French",
+  "topic": "heatwave",
+  "topics": [
+   "heatwave"
+  ],
+  "seendate": "20261113T050032Z",
+  "socialimage": "",
+  "text_available": false,
+  "low_confidence": true,
+  "mentions_climate": true,
+  "mentions_political_responsibility": false,
+  "omits_climate": false,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "canicule"
+   ],
+   "climate_terms": [
+    "crise climatique"
+   ],
+   "political_terms": [],
+   "excerpt": "…le, la mauvaise adaptation du bâti scolaire. Une revendication pour laquelle la canicule de juin a joué un rôle de catalyseur.…"
+  },
+  "fetched_at": "20261113T131717Z"
+ },
+ {
+  "id": "7ab223a7c3db",
+  "url": "https://www.lemonde.fr/planete/article/2026/11/13/crues-la-haute-corse-retrogradee-en-vigilance-jaune_6809126_3245.html",
+  "title": "Crues : la Haute-Corse rétrogradée en vigilance jaune",
+  "domain": "lemonde.fr",
+  "source_country": "",
+  "source_name": "Le Monde",
+  "language": "French",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261112T230005Z",
+  "socialimage": "",
+  "text_available": false,
+  "low_confidence": true,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "crues"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "Le département avait été placé par Météo-France en vigilance orange jeudi après-midi en raison de la dépression Charles, qui a donné lieu en Corse à des précipitations ayant « un caractère orageux intense » ayant « engendré une montée très rapide et importante sur l’amont du [fleuve] Tavignano » dans le « secteur de Co…"
+  },
+  "fetched_at": "20261113T131717Z"
+ },
+ {
+  "id": "54870133dd92",
+  "url": "https://www.nytimes.com/2026/11/12/world/asia/nvidia-ceo-huang-ai-memes.html",
+  "title": "Nvidia Scandal Unleashes a Flood of AI-Generated Memes",
+  "domain": "nytimes.com",
+  "source_country": "",
+  "source_name": "The New York Times",
+  "language": "English",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261112T225420Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "flood"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "government"
+   ],
+   "excerpt": "…lieves is a Chinese spy, the internet has taken ahold of his image to unleash a flood of memes. In many cases, they are being made by A.I. enthusiasts who revered Mr. Huang. Images of Mr. Huang have appeared in online parodies of music videos, Bollywood movies, American sitcoms and kiss-cams at Coldplay concerts — many…"
+  },
+  "fetched_at": "20261113T131717Z"
+ },
+ {
+  "id": "6c0039062c92",
+  "url": "https://www.eldiario.es/illes-balears/sociedad/escuela-espanola-acoge-843-alumnos-gaza-busca-donaciones-urgentes-no-cerrar-son-ninos_1_13641849.html",
+  "title": "La escuela española que acoge a 843 alumnos en Gaza y busca donaciones urgentes para no cerrar: \"Aquí son niños\"",
+  "domain": "eldiario.es",
+  "source_country": "",
+  "source_name": "elDiario.es",
+  "language": "Spanish",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261112T215752Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "incendios"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "… al que conocieron durante una campaña de ayuda a los pueblos afectados por los incendios del pasado verano. Después de comprar miel a varios productores que habían perdido parte de sus colmenas, el apicultor decidió reservar parte de su producción para la escuela de Gaza. La asociación ha vendido cientos de kilos y pr…"
+  },
+  "fetched_at": "20261113T131717Z"
+ },
+ {
   "id": "256e871956ed",
   "url": "https://www.washingtonpost.com/world/2026/11/12/palestinians-fear-floods-other-storm-risks-tent-cities-gazas-displaced/",
   "title": "As deadly storms flood Gaza’s tent cities, the displaced fear a worse winter",
@@ -11,7 +970,7 @@
   "topics": [
    "floods"
   ],
-  "seendate": "20261112T133916Z",
+  "seendate": "20261112T214636Z",
   "socialimage": "",
   "text_available": false,
   "low_confidence": true,
@@ -27,7 +986,80 @@
    "political_terms": [],
    "excerpt": "At least four people were killed when weekend storms triggered a landslide onto tent shelters, which are exposed to risks during severe weather."
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
+ },
+ {
+  "id": "727806e2ad13",
+  "url": "https://www.eldiario.es/cultura/arte/miguel-angel-rojas-artistas-censurados-colombia-expone-reina-sofia-obras-alto-voltaje-politico_1_13656938.html",
+  "title": "Miguel Ángel Rojas, uno de los artistas censurados en Colombia, expone en el Reina Sofía sus obras de alto voltaje político",
+  "domain": "eldiario.es",
+  "source_country": "",
+  "source_name": "elDiario.es",
+  "language": "Spanish",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261112T205840Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": true,
+  "mentions_political_responsibility": true,
+  "omits_climate": false,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "incendios"
+   ],
+   "climate_terms": [
+    "cambio climático"
+   ],
+   "political_terms": [
+    "gobierno",
+    "presidente",
+    "política",
+    "ley"
+   ],
+   "excerpt": "…éis módulos de frottage con carbón que dibujan un territorio erosionado por los incendios y la destrucción del Amazonas, pero del que brotan, en oro, especies vivas que garantizarán su supervivencia, como son las celdas de panal de la abeja meliponina, que es la encargada de polinizar todo el Amazonas, y que Rojas menc…"
+  },
+  "fetched_at": "20261113T131717Z"
+ },
+ {
+  "id": "651b442d8e70",
+  "url": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/11/para-decreta-emergencia-ambiental-e-climatica-devido-a-estiagem-e-incendios.shtml",
+  "title": "Pará decreta emergência ambiental e climática devido a estiagem e incêndios",
+  "domain": "folha.uol.com.br",
+  "source_country": "",
+  "source_name": "Folha de S.Paulo (BR)",
+  "language": "Portuguese",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261112T202700Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "incêndio",
+    "incêndio florestal",
+    "incêndios",
+    "incêndios florestais"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "governo",
+    "política"
+   ],
+   "excerpt": "…climática em todo o estado em razão da estiagem severa e do aumento do risco de incêndios florestais associados aos efeitos do El Niño. A medida vale por 120 dias. O decreto permite reforçar a atuação dos órgãos públicos na prevenção e no combate ao fogo. \"O decreto fortalece a capacidade do Estado de agir diante da es…"
+  },
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "66507cc82409",
@@ -224,7 +1256,7 @@
  {
   "id": "56fe92afed23",
   "url": "https://www.eldiario.es/viajes/estilo-gotico-romano-barroco-ve-rincon-ciudad-noruega-considerada-catedral-medieval-septentrional-mundo-pm_1_13657709.html",
-  "title": "De estilo gótico, romano y barroco, se ve desde cualquier rincón de esta ciudad noruega y es considerada la catedral medieval más septentrional del mundo",
+  "title": "De estilo gótico, románico y barroco, se ve desde cualquier rincón de esta ciudad noruega y es considerada la catedral medieval más septentrional del mundo",
   "domain": "eldiario.es",
   "source_country": "",
   "source_name": "elDiario.es",
@@ -253,7 +1285,7 @@
    ],
    "excerpt": "… y arcos apuntados, añadiendo más tarde retoques de influencia barroca tras los incendios. Durante la Edad Media, el templo acogió el suntuoso relicario de plata con los restos de San Olav, situado en el emblemático octógono del altar mayor para la veneración de la cristiandad. Esta presencia reliquiar impulsó a Nidaro…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "665660d4b5a7",
@@ -741,7 +1773,7 @@
    ],
    "excerpt": "…e Jakarta, Indonesia: After more than four months of living under the shroud of wildfire haze in Indonesian Borneo and keeping his young sons indoors, Kurniawan rues voting for President Prabowo Subianto. Far to the west, on the island of Sumatra, Rama has the same regret. He has developed chest pain and breathing diff…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "8e5c9a31a1db",
@@ -873,7 +1905,7 @@
    "political_terms": [],
    "excerpt": "…ortante por las lluvias y 23 municipos han registrado incidencias por lluvias e inundaciones. En Canarias, las primeras horas del paso de la borrasca 'Charles' por Tenerife ha dejado rachas de viento de hasta 180 kilómetros por hora en el entorno del Parque Nacional del Teide, así como diversas incidencias relacionadas…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "4449e8f9c3f0",
@@ -1973,7 +3005,7 @@
    ],
    "excerpt": "…eda convertirse en un desastre a finales de este año, si el próximo episodio de calor extremo asociado a El Niño comienza a matar a las manadas de animales salvajes, seca los abrevaderos o hace que algunas zonas de los parques sean demasiado calurosas para realizar safaris durante el día”, advierte. Alojamientos de alt…"
   },
-  "fetched_at": "20261111T125228Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "d7922def99f4",
@@ -2038,7 +3070,7 @@
    "political_terms": [],
    "excerpt": "…activarán avisos amarillos y naranjas y sin descartar que se produzcan posibles inundaciones. ⚠️ AVISO ESPECIAL | Lluvias fuertes y persistentes, rachas de viento muy fuertes y temporal marítimo.➡️ Las borrascas Bruna y Charles provocarán un episodio de tiempo muy adverso entre el martes y el jueves. Extrema las precau…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "30355e9f9243",
@@ -2108,9 +3140,9 @@
     "government",
     "president"
    ],
-   "excerpt": "…n record as climate talks begin - Published3 days ago - Kenya floods: What a deluge reveals about Nairobi's vulnerability - Published30 April 2024 - UN warns of 'supersized' El Niño as countries prepare for impact - Published3 September Go to BBCAfrica.com, external for more news from the African continent. Fo…"
+   "excerpt": "…n record as climate talks begin - Published4 days ago - Kenya floods: What a deluge reveals about Nairobi's vulnerability - Published30 April 2024 - UN warns of 'supersized' El Niño as countries prepare for impact - Published3 September Go to BBCAfrica.com, external for more news from the African continent. Fo…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "b5c519857b62",
@@ -2237,7 +3269,7 @@
    ],
    "excerpt": "…risques associés » a averti le premier ministre, Luis Montenegro, alors que des inondations pourraient avoir lieu.…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "49ec0cf49732",
@@ -2403,7 +3435,7 @@
    ],
    "excerpt": "Supported by Deadly Gaza Floods Reflect Shortfalls of U.S.-Backed Truce At least four people from one family died and thousands lost their shelters when a storm battered overcrowded tent camps. Israel says Gaza will not be rebuilt until Hamas disarms. Aid officials had warned for months that torrential rains in Gaza co…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "1b1f3c7df5b8",
@@ -2436,7 +3468,7 @@
    "political_terms": [],
    "excerpt": "…an the rest of the planet, the city is already suffering the consequences, with flash floods, droughts and violent storms that have felled thousands of trees, as well as this past summer’s prolonged siege of heat domes and 100-degree days. Architects and designers are proposing ways to transform Milan and other cities…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "7ab9a5daeb51",
@@ -2867,7 +3899,7 @@
    "political_terms": [],
    "excerpt": "…rascas podrían incluir en en Galicia, Extremadura y el oeste de Castilla y León inundaciones locales y crecidas de ríos y barrancos, así como posibles deslizamientos de tierra Las precipitaciones serán este martes, fuertes y persistentes en Galicia, el macizo Galaico-Leonés, Sistema Central, Extremadura, suroeste de Ca…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "181da08701fc",
@@ -3298,7 +4330,7 @@
    ],
    "excerpt": "…ciendan en 2026 un 0,4%. Sin embargo, ‘El Niño’ está disparando los gigantescos incendios, que agravan el calentamiento El freno al consumo de petróleo y gas ligado a la guerra contra Irán iniciada a finales de febrero por la Administración de Donald Trump puede suponer una muesca —aunque pequeña— en la trayectoria asc…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "a5ec773ded7d",
@@ -3615,7 +4647,7 @@
    ],
    "excerpt": "El Gobierno Vasco activa en plan de emergencias ante el incendio de Zaldibia, que quema 80 hectáreas Foco activo Uno de los flancos del incendio se habría descontrolado y podría poner en riesgo algunos bienes situados en las proximidades El Departamento de Seguridad del Gobierno Vasco ha declarado este lunes la Situaci…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "ec011165578a",
@@ -3654,7 +4686,7 @@
    ],
    "excerpt": "…l igual la enfermedades transmitas por la degradación de la calidad del agua en inundaciones y sequías. Según The Lancet Countdown, los fenómenos de clima extremo han dejado expuestas a la inseguridad alimentaria moderada o grave a 127 millones de personas más que las en las tres últimas décadas. La Organización Mundia…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "1516a742f9e0",
@@ -4695,7 +5727,7 @@
    ],
    "excerpt": "Wellcome chair and former Australian prime minister says greater research funding and political will are vital if healthcare services are to cope"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "f4a3ac0ddfd9",
@@ -4929,7 +5961,7 @@
    ],
    "excerpt": "…or stalling investments that help vulnerable places harden themselves to rising flood and fire threats. As the tide rose along the Florida coast before Hurricane Isaias made landfall last month, Pamela Sears got more and more anxious. She and her husband, J.T., have been living in a 35-foot R.V. ever since Hurricanes H…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "d1e6fe39cb29",
@@ -6548,7 +7580,7 @@
    "political_terms": [],
    "excerpt": "…s haben wir noch nie gesehen“ Lesezeit: 3 Min. Überschwemmungen in Kalifornien, Waldbrände auf Indonesien: Der stärkste je gemessene El Niño überschattet den Klimagipfel in der Türkei – und der Höhepunkt steht noch bevor.…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "3fdde52ac8b0",
@@ -7227,7 +8259,7 @@
    "political_terms": [],
    "excerpt": "Near 90 in November as Santa Anas bring fire risk plus heat, especially along the coast - Click here to listen to this article - Share via See more from the L.A. Times in Google Search. Set us as preferred With that cool, rainy Halloween now a memory, Santa Ana winds are moving into Southern California starting Thurs…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "b19ed1c562cc",
@@ -7684,7 +8716,7 @@
    ],
    "excerpt": "…containers, including tonnes of hazardous materials such as nitric acid. As the blaze intensified, containers fell overboard and billions of pellets known as nurdles, which are used to make most plastic items, spilled into the sea before the vessel sank. In the weeks that followed, hundreds of dead marine animals washe…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "cb0a2fdb196a",
@@ -9257,7 +10289,7 @@
    ],
    "excerpt": "…utilities are seeking a permanent cap on shareholder liability for catastrophic wildfires, as a criminal investigation into Southern California Edison’s role in the deadly Eaton fire continues. - Under the proposal, customers could be left paying more through their electric bills if a utility is found to have acted imp…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "f8208ec8f8f5",
@@ -10391,7 +11423,7 @@
    ],
    "excerpt": "…cândalo bilionário relacionado a desvios de dinheiro em projetos de controle de enchentes feitos com concreto de baixa qualidade —e, em alguns casos, inexistentes. O projeto é o o primeiro desse tipo no país. Inicialmente, enfrentou resistência de autoridades e moradores, mas Natividad explica que eles não tinham nada…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "7bfbd3219958",
@@ -10647,7 +11679,7 @@
    ],
    "excerpt": "…dígenas locais, da etnia borari, seguem atuando neste domingo (1º) no combate a incêndios na Área de Proteção Ambiental (APA) Alter do Chão, em Santarém (PA), e no entorno. No sábado (31), com apoio de aeronaves do governo federal, eles controlaram um incêndio de grandes proporções que atingiu cerca de 58 hectares de v…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "90f145c8a79b",
@@ -11546,7 +12578,7 @@
    ],
    "excerpt": "Um incêndio de grandes proporções atingiu a Área de Proteção Ambiental (APA) Alter do Chão, em Santarém (PA), na sexta (30). O Corpo de Bombeiros do Pará disse na tarde deste sábado (31) que extinguiu as chamas após o envio de quatro militares e oito brigadistas especializados. Segundo a Brigada de Incêndio Florestal d…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "56a163bc9e19",
@@ -12201,7 +13233,7 @@
    ],
    "excerpt": "The Sydney suburbs left exposed as government fails to deliver on flood levees Three flood levees in western Sydney promised by Premier Chris Minns before the last election are yet to be built, as the NSW government sits on a report on how to mitigate flood risk in the Hawkesbury-Nepean Basin. The then-opposition leade…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "3db4c6fc6198",
@@ -12311,7 +13343,7 @@
    ],
    "excerpt": "A poluição do ar provocada pela fumaça de meses de incêndios florestais em toda a Indonésia causou aproximadamente 3.560 mortes no país apenas em setembro, segundo um estudo científico. O relatório do Centro de Pesquisa em Energia e Ar Limpo, com sede em Helsinque, também afirma que 57,8 milhões de pessoas respiraram u…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "2bb4bc5be874",
@@ -12898,7 +13930,7 @@
    ],
    "excerpt": "…pos, os moradores da província de Kalimantan Ocidental, na Indonésia, enfrentam incêndios florestais devastadores. As chamas queimam os solos de turfeira, que liberam uma fumaça tóxica responsável por causar doenças, fechar escolas e sufocar a atividade econômica. Agora, eles chegaram ao limite. Advogados ajuizaram uma…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "912d7b495887",
@@ -14187,7 +15219,7 @@
    ],
    "excerpt": "…ônicas de saúde. Os prejuízos econômicos também estão aumentando. Trabalhar sob calor extremo expõe as pessoas ao risco de exaustão térmica, doenças ou lesões e, por fim, à perda de renda e meios de subsistência. O calor eliminou 573 bilhões de horas potenciais de trabalho em 2025, com os trabalhadores rurais sendo os…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "3ac7082745c2",
@@ -14922,7 +15954,7 @@
    "political_terms": [],
    "excerpt": "… and the water pouring down the street and into the storm drains was far from a deluge. But the 37-year peninsula resident said he was worried about what was to come in the months ahead. Whether severe storms will materialize this winter remains an unanswered question. Despite the uncertainty, Sharp said one thing is c…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "b5ba8499623f",
@@ -15035,7 +16067,7 @@
    ],
    "excerpt": "…s municipais do Pará se reuniram em Santarém para discutir ações de combate aos incêndios. Desde o dia 1º de outubro, já foram registrados 10.372 focos no estado. Das dez cidades com mais focos de incêndio no mês no país, nove ficam no estado. Os maiores números são de São Félix do Xingu, com 838, e Uruará, com 821. De…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "a87fddc0154e",
@@ -16620,7 +17652,7 @@
    ],
    "excerpt": "Mais de 2.000 pessoas tiveram de deixar suas casas devido às inundações associadas ao fenômeno climático El Niño que atingem o nordeste da Argentina, em uma emergência que deixou dois mortos no fim de semana passado e ameaça se prolongar pelos próximos meses. As chuvas registradas nas últimas semanas estão elevando per…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "b1b1d1f63343",
@@ -17573,7 +18605,7 @@
    ],
    "excerpt": "…e state’s already battered coast. The National Weather Service issued a coastal flood warning that goes into effect Sunday morning and lasts through Thursday afternoon, saying it expects “significant coastal flooding” in San Diego and Orange counties that will inundate low-lying homes, businesses and critical infrastru…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "5aa99f5646e2",
@@ -18445,7 +19477,7 @@
    "political_terms": [],
    "excerpt": "…fica el tipo de vegetación que se regenera, haciendo más difícil que se repitan incendios Ante los incendios forestales cada vez más intensos y peligrosos, quizá haya llegado el momento de mirar más allá de la extinción y replantearnos también cómo gestionamos el territorio una vez apagado el fuego. En los últimos tiem…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "8d7e11381a98",
@@ -18613,7 +19645,7 @@
    "political_terms": [],
    "excerpt": "…de Sulawesi, estão ameaçadas, já que o calor e a fumaça provocados pelos piores incêndios florestais no país em mais de uma década podem acelerar a deterioração das obras de arte, que têm mais de 67 mil anos, disseram pesquisadores. A Indonésia enfrenta seus incêndios florestais e rurais mais intensos desde 2015, enqua…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "bd49ffaad794",
@@ -19972,7 +21004,7 @@
    ],
    "excerpt": "…óbitos acima do valor esperado para o período em condições normais. Marcada por incêndios florestais sem precedentes em Espanha, França, Bélgica e Grécia e também por secas e níveis historicamente baixos de rios e reservatórios, a temporada foi a mais quente já registrada na Europa Ocidental, com 2,9°C acima da média d…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "537bcc36938c",
@@ -20280,7 +21312,7 @@
    ],
    "excerpt": "…os), está usando as redes sociais dele e do estado para politizar o combate aos incêndios florestais em curso na amazônia nas últimas semanas, com ataques ao PT e à esquerda, mirando o presidente Lula. A estratégia está sendo empregada em sintonia com o adversário do petista na disputa pela Presidência da República, Fl…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "81b68c77823b",
@@ -20480,7 +21512,7 @@
    "political_terms": [],
    "excerpt": "…nesday could help extinguish what chance remained of another large, destructive blaze taking off in Southern California anytime soon, said Matt Shameson, a meteorologist with the U.S. Forest Service. This week’s storm brought localized flooding to several freeways by Thursday morning, including parts of Highway 101 in…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "cec5564c7f25",
@@ -23547,7 +24579,7 @@
    ],
    "excerpt": "…o Ambiente e dos Recursos Naturais) aplicou R$ 2 milhões em multas em razões de incêndios florestais ilegais na Amazônia e que cobriram de fumaça a capital Manaus, no Amazonas, nas últimas semanas. Nos últimos sete dias de operações na região, agentes do instituto lavraram 19 autos de infração contra os responsáveis po…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "4cafae410c16",
@@ -24506,7 +25538,7 @@
    ],
    "excerpt": "As acusações nas redes sociais sobre as responsabilidades no combate aos incêndios na Amazônia estão incitando pessoas a colocarem fogo na floresta por motivos ideológicos, afirma o presidente do Ibama (Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis), Jair Schmitt. O chefe do órgão ambiental f…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "162d4183fd46",
@@ -24545,7 +25577,7 @@
    ],
    "excerpt": "…oridades priorizam a proteção de Bancoc e de outros centros empresariais contra enchentes, negligenciando as comunidades. A Tailândia enfrenta enchentes todos os anos durante a temporada de monções, e cientistas afirmam que a mudança climática provocada pela ação humana tornou as chuvas fortes e as inundações mais freq…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "1ea8da7b4689",
@@ -26214,7 +27246,7 @@
    ],
    "excerpt": "…s que ficam ateando fogo no nosso estado\", disse. \"Grande parte desses focos de incêndio vem de homens que ficam ateando fogo no nosso estado.\" O governador não detalhou quais crimes os detidos são suspeitos de ter praticado. Neste domingo (18), uma comitiva do governo federal chegou a Manaus para avaliar a situação do…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "982583b6b7cc",
@@ -28216,7 +29248,7 @@
    ],
    "excerpt": "…u neste sábado (17) o envio de mais cinco aeronaves para reforçar o combate aos incêndios florestais no Amazonas, além da mobilização de militares e policiais federais. Com a ampliação, a frota disponível para as operações passará de 11 para 16 aeronaves. O número de agentes que serão enviados ainda não foi definido. O…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "fb7a9fcbdec5",
@@ -28584,7 +29616,7 @@
    ],
    "excerpt": "As aeronaves que atuam no combate aos incêndios florestais no Amazonas estão impedidas de voar neste sábado (17) em razão do excesso de fumaça na região. Segundo o Ibama (Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis), as condições de visibilidade impedem as operações nos dois aeroportos util…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "d270872bbb43",
@@ -29676,7 +30708,7 @@
    ],
    "excerpt": "… de temperaturas y la probable llegada de dos danas que previsiblemente traerán lluvias torrenciales, principalmente a la costa mediterránea y a Baleares. Una de ellas ha sido bautizada como Adam, pues es la primera dana con gran impacto de la temporada 2026-2027. Según señala a este diario José Ángel Núñez, portavoz d…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "e4a6000d08c2",
@@ -30257,7 +31289,7 @@
    "political_terms": [],
    "excerpt": "…ial, apontam a possibilidade de o bioma encarar uma longa e severa temporada de incêndios. De acordo com a Nasa, satélites começaram a detectar consideráveis aumentos em fumaça e fogo na região. A agência cita a situação em Manaus, onde a fumaça deixou a qualidade do ar péssima, levando à suspensão de aulas em escolas…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "739bbdd5f961",
@@ -33231,7 +34263,7 @@
    ],
    "excerpt": "Las cataratas del Iguazú cierran temporalmente por las inundaciones provocadas por el fenómeno de El Niño Argentina Esto sucede después de que el caudal del río superara los 12.000 metros cúbicos por segundo, más de seis veces su promedio habitual Las autoridades cerraron temporalmente el acceso turístico a las Catarat…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "b33812416d70",
@@ -35149,7 +36181,7 @@
    ],
    "excerpt": "…ndación repentina de un río que ha arrasado un pueblo en Nepal Vídeo del día La crecida del río arrasa alrededor de 40 casas, varios puentes de un pueblo y deja al menos 5 desaparecidos La crecida repentina de un río en el centro de Nepal arrasó alrededor de 40 casas y varios puentes de un pueblo, dejando al menos cinc…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "4ca684692fe6",
@@ -36445,7 +37477,7 @@
    ],
    "excerpt": "…ia See more from the L.A. Times in Google Search. Set us as preferred A coastal flood warning covered beaches from Malibu to San Diego on Saturday as Tropical Storm Rachel moved toward Southern California, while Long Beach kept some oceanfront residents under an evacuation order, and Newport Beach closed piers and temp…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "9da2b2920c6e",
@@ -36738,7 +37770,7 @@
    "political_terms": [],
    "excerpt": "…condido, Palm Springs and Twentynine Palms. A moderate risk means that numerous flash floods are likely, and that many streams may flood. There is a chance that the San Diego River near Fashion Valley could reach minor flood stage. There’s also a 15% chance of that occurring in Oceanside, San Clemente, Laguna Niguel, R…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "270dbf5ff757",
@@ -37373,7 +38405,7 @@
    "political_terms": [],
    "excerpt": "Newport Beach, other coastal spots hit by flooding: ‘We’re preparing for more damage’ - Click here to listen to this article - Share via See more from the L.A. Times in Google Search. Set us as preferred Newport Beach expected intense surf Friday, but the high tide turned out to be much worse than the estimates. Wate…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "962b7c1fb935",
@@ -39563,7 +40595,7 @@
    ],
    "excerpt": "… ha centrado su investigación en otra de las preocupaciones de la sociedad: los incendios forestales. El profesor titular del Departamento de Ingeniería Térmica y de Fluidos de la Universidad Carlos III de Madrid va a aplicar su disciplina para intentar comprender cómo se generan los grandes incendios, que en los últim…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "84d1f6ea9596",
@@ -40368,7 +41400,7 @@
    ],
    "excerpt": "… cada vez mayor con el territorio. Los residentes de antes sabían que había una crecida cuando escuchaban el agua en el cauce arrastrando cantos. Ese ruido atronador corresponde a una gran ola móvil que llega por ese cauce seco, que ha recogido agua rápidamente de todos los afluentes y va a gran velocidad porque salva…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "86e021e8ad34",
@@ -40852,7 +41884,7 @@
    "political_terms": [],
    "excerpt": "Platja d’Aro pide ampliar dos puentes sobre el Ridaura para evitar nuevas inundaciones Temporal El alcalde Maurici Jiménez lo considera “una necesidad” teniendo en cuenta que las riadas se repiten cada vez más a menudo El desbordamiento del río Ridaura a su paso por Castell-Platja d’Aro este fin de semana ha puesto nue…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "fcfc8f1b676b",
@@ -41138,7 +42170,7 @@
    "political_terms": [],
    "excerpt": "Restaurant workers face hidden dangers from gas stoves, including pollution and extreme heat - Click here to listen to this article - Share via See more from the L.A. Times in Google Search. Set us as preferred - A study of 27 commercial kitchens found gas appliances often exposed workers to nitrogen dioxide and extr…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "70e88cf9f870",
@@ -41503,7 +42535,7 @@
    "political_terms": [],
    "excerpt": "…l menos 16.000 millones de euros el coste de las olas de calor, la sequía y los incendios del verano de 2026 en el país galo. La cifra pretende servir de referencia para el debate del presupuesto de 2027 y reforzar la necesidad de aumentar el gasto público destinado a la adaptación al cambio climático. La estimación de…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "a29dfbbf241f",
@@ -42229,7 +43261,7 @@
    "political_terms": [],
    "excerpt": "El calor extremo complica cada vez más los embarazos, según los médicos Los efectos de la crisis climática Datos de una encuesta internacional realizada a 1.000 profesionales de la atención maternal en país de los cinco continentes El 73% de los profesionales de la atención materna han detectado los últimos cinco años…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "9982e1c38f79",
@@ -44738,7 +45770,7 @@
    "political_terms": [],
    "excerpt": "…ssteps leading up to the 2025 Palisades fire and in its initial response to the blaze, which killed 12 people and destroyed more than 6,800 structures. An investigation commissioned by Gov. Gavin Newsom found the Fire Department ignored multiple warnings that the Jan. 1 Lachman fire still was smoldering days before it…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "d2b1d69d34e9",
@@ -47375,7 +48407,7 @@
    "political_terms": [],
    "excerpt": "…róximo lunes en Catalunya, Comunidad Valenciana y Baleares Tiempo Hay riesgo de inundaciones súbitas, alerta la agencia meteorológica en un aviso especial La Agencia Estatal de Meteorología (Aemet) y Protección Civil han advertido este miércoles de un episodio marcado por la inestabilidad desde el jueves hasta, al meno…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "4c8347fe6279",
@@ -48870,7 +49902,7 @@
    ],
    "excerpt": "…ción: así se saltan las fronteras el ozono, el polvo sahariano y el humo de los incendios Copernicus desgrana por primera vez la polución transfronteriza que recorre miles de kilómetros y está alimentada por las emisiones y el calor. El estudio ubica a España en la zona más problemática dentro de Europa La polución sal…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "786acd7bef0e",
@@ -53854,7 +54886,7 @@
    "political_terms": [],
    "excerpt": "…, menos mosquitos: así altera el clima extremo a las plagas urbanas Insectos El calor extremo de este verano atenta contra la supervivencia de los mosquitos, pero favorece la proliferación de las cucarachas, que sobreviven en los microclimas del subsuelo urbano y el alcantarillado Durante años, la relación entre el cam…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "fd09b0a83473",
@@ -56535,7 +57567,7 @@
    "political_terms": [],
    "excerpt": "Renaturalización: una herramienta frente a los grandes incendios Debemos incorporar las soluciones basadas en la naturaleza a nuestra estrategia frente al riesgo de los fuegos Hemos vivido otro verano impactados por la irrupción de grandes incendios catastróficos. Una vez más, hemos visto cómo el fuego arrasa paisajes,…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "3587057d80b2",
@@ -56912,7 +57944,7 @@
    "political_terms": [],
    "excerpt": "Más de la mitad de los españoles no sabe cómo comportarse ante los incendios forestales Emergencia climática El Centro de Investigaciones Sociológicas (CIS) ha realizado una nueva encuesta de Protección Civil para conocer la opinión de los ciudadanos sobre la gestión de los incendios forestales Casi el 50% de los españ…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "6a07e434b993",
@@ -58212,7 +59244,7 @@
    "political_terms": [],
    "excerpt": "…es históricas han afectado a las olas de calor, los huracanes, las sequías, los incendios forestales y otros fenómenos meteorológicos extremos. Este nuevo estudio emplea la inteligencia artificial generativa —entrenada con modelos climáticos— para cuantificar si subconjuntos de las emisiones causadas por el ser humano…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "f656ec3e0f31",
@@ -172957,40 +173989,6 @@
   "fetched_at": "20260809T060933Z"
  },
  {
-  "id": "c83e500d8801",
-  "url": "https://www.smh.com.au/environment/adaptation-and-australia-s-climate-crisis-20260806-p60m3c.html?ref=rss&utm_medium=rss&utm_source=rss_environment",
-  "title": "Adaptation and Australia’s climate crisis",
-  "domain": "smh.com.au",
-  "source_country": "",
-  "source_name": "The Sydney Morning Herald",
-  "language": "English",
-  "topic": "heatwave",
-  "topics": [
-   "heatwave",
-   "floods"
-  ],
-  "seendate": "20260807T190000Z",
-  "socialimage": "",
-  "text_available": true,
-  "low_confidence": false,
-  "mentions_climate": true,
-  "mentions_political_responsibility": false,
-  "omits_climate": false,
-  "omits_political": true,
-  "evidence": {
-   "topic_terms": [
-    "extreme heat",
-    "floods"
-   ],
-   "climate_terms": [
-    "climate crisis"
-   ],
-   "political_terms": [],
-   "excerpt": "From floods to extreme heat: The human cost of Australia’s changing climate Updated August 8, 2026 — 5:00am,first published August 6, 2026 — 3:36pm You have reached your maximum number of saved items. Remove items from your saved list to add more."
-  },
-  "fetched_at": "20260829T115109Z"
- },
- {
   "id": "6d68d6f37d5a",
   "url": "https://www.liberation.fr/environnement/climat/en-direct-incendies-le-feu-dans-laude-desormais-fixe-legere-reprise-dans-la-drome-20260807_DLBDW73KIBG2HBOCVJ7UFV2SBU/",
   "title": "Incendies : dans le Var, le feu du Gros Bessillon fixé après 18 jours de mobilisation",
@@ -209233,7 +210231,7 @@
    ],
    "excerpt": "…conclusion that the heat island impact alone accounted for roughly half the 130 heat-related deaths. Jo Shields, head of sustainability for Mandy's housing association Walsall Housing Group, known as whg - which owns 23,000 homes across Walsall and the Midlands - hears the same complaint time and again. \"The heat gain…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "76881703c9dd",
@@ -245979,7 +246977,7 @@
    ],
    "excerpt": "…nd it’s crucial this continues. “To avoid the swing between extreme drought and flooding and to secure water supplies for food production, we urgently need investment in water infrastructure and a more effective planning system.”…"
   },
-  "fetched_at": "20261112T135740Z"
+  "fetched_at": "20261113T131717Z"
  },
  {
   "id": "01ff4ac7cfab",
@@ -260015,5 +261013,65 @@
    "excerpt": "…d autant que pour le chaud » : la géothermie de surface, une solution contre la canicule…"
   },
   "fetched_at": "20261112T135740Z"
+ },
+ {
+  "id": "0a8285c09972",
+  "url": "https://www.leparisien.fr/meteo/inondations-eboulements-ecole-fermee-deux-personnes-emportees-la-depression-charles-a-fait-des-degats-dans-le-sud-est-13-11-2026-ZBZERHDXYFCBRNJ527NQTTEZKE.php",
+  "title": "Inondations, éboulements, école fermée, deux personnes emportées... la dépression Charles a fait des dégâts dans le Sud-Est",
+  "domain": "leparisien.fr",
+  "source_country": "",
+  "source_name": "Le Parisien",
+  "language": "French",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "",
+  "socialimage": "",
+  "text_available": false,
+  "low_confidence": true,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "inondations"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "Inondations, éboulements, école fermée, deux personnes emportées... la dépression Charles a fait des dégâts dans le Sud-Est"
+  },
+  "fetched_at": "20261113T131717Z"
+ },
+ {
+  "id": "ee7f055e655d",
+  "url": "https://www.leparisien.fr/yvelines-78/on-ne-se-sent-plus-en-securite-aux-clayes-sous-bois-lexasperation-face-aux-incendies-a-repetition-13-11-2026-JVWW5T3X6VAFFOUQR3OUPYBB74.php",
+  "title": "« On ne se sent plus en sécurité » : aux Clayes-sous-Bois, l’exaspération face aux incendies à répétition",
+  "domain": "leparisien.fr",
+  "source_country": "",
+  "source_name": "Le Parisien",
+  "language": "French",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "",
+  "socialimage": "",
+  "text_available": false,
+  "low_confidence": true,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "incendies"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "…n ne se sent plus en sécurité » : aux Clayes-sous-Bois, l’exaspération face aux incendies à répétition…"
+  },
+  "fetched_at": "20261113T131717Z"
  }
 ]
