@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-11-17T14:37:47Z",
+ "last_updated": "2026-11-18T14:14:29Z",
  "window_days": 90,
  "pruned": false,
  "since": "2025-01-27",
@@ -12,34 +12,34 @@
   "it",
   "pt"
  ],
- "total_articles": 7999,
- "total_omits_climate": 6477,
- "total_omits_political": 4146,
+ "total_articles": 8012,
+ "total_omits_climate": 6492,
+ "total_omits_political": 4156,
  "by_language": {
   "Portuguese": {
-   "total": 1878,
-   "omits_climate": 1577,
-   "omits_political": 825
+   "total": 1882,
+   "omits_climate": 1581,
+   "omits_political": 826
+  },
+  "Spanish": {
+   "total": 1992,
+   "omits_climate": 1600,
+   "omits_political": 832
+  },
+  "French": {
+   "total": 2200,
+   "omits_climate": 1923,
+   "omits_political": 1464
+  },
+  "English": {
+   "total": 1052,
+   "omits_climate": 732,
+   "omits_political": 541
   },
   "Italian": {
    "total": 238,
    "omits_climate": 187,
    "omits_political": 115
-  },
-  "Spanish": {
-   "total": 1990,
-   "omits_climate": 1596,
-   "omits_political": 830
-  },
-  "French": {
-   "total": 2194,
-   "omits_climate": 1917,
-   "omits_political": 1458
-  },
-  "English": {
-   "total": 1051,
-   "omits_climate": 731,
-   "omits_political": 540
   },
   "German": {
    "total": 648,
@@ -49,19 +49,19 @@
  },
  "by_topic": {
   "wildfire": {
-   "total": 4994,
-   "omits_climate": 4183,
-   "omits_political": 2416
+   "total": 5001,
+   "omits_climate": 4192,
+   "omits_political": 2421
   },
   "floods": {
-   "total": 1968,
-   "omits_climate": 1544,
-   "omits_political": 970
+   "total": 1973,
+   "omits_climate": 1549,
+   "omits_political": 974
   },
   "heatwave": {
-   "total": 1581,
-   "omits_climate": 1005,
-   "omits_political": 990
+   "total": 1582,
+   "omits_climate": 1006,
+   "omits_political": 991
   },
   "excess_deaths": {
    "total": 120,
@@ -72,27 +72,27 @@
  "top_sources": [
   {
    "domain": "eldiario.es",
-   "total": 768,
-   "omits_climate": 601,
+   "total": 770,
+   "omits_climate": 603,
    "omits_political": 219
   },
   {
    "domain": "g1.globo.com",
-   "total": 542,
-   "omits_climate": 473,
-   "omits_political": 286
+   "total": 546,
+   "omits_climate": 477,
+   "omits_political": 287
   },
   {
    "domain": "leparisien.fr",
-   "total": 471,
-   "omits_climate": 469,
-   "omits_political": 464
+   "total": 475,
+   "omits_climate": 473,
+   "omits_political": 468
   },
   {
    "domain": "lemonde.fr",
-   "total": 434,
-   "omits_climate": 400,
-   "omits_political": 350
+   "total": 436,
+   "omits_climate": 402,
+   "omits_political": 352
   },
   {
    "domain": "rtp.pt",
@@ -139,12 +139,12 @@
   {
    "domain": "elpais.com",
    "total": 231,
-   "omits_climate": 196,
-   "omits_political": 163
+   "omits_climate": 198,
+   "omits_political": 165
   },
   {
    "domain": "theguardian.com",
-   "total": 364,
+   "total": 365,
    "omits_climate": 187,
    "omits_political": 107
   },
@@ -157,8 +157,8 @@
   {
    "domain": "nytimes.com",
    "total": 163,
-   "omits_climate": 153,
-   "omits_political": 142
+   "omits_climate": 154,
+   "omits_political": 143
   },
   {
    "domain": "lefigaro.fr",
