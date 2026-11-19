@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-11-18T14:14:29Z",
+ "last_updated": "2026-11-19T14:36:15Z",
  "window_days": 90,
  "pruned": false,
  "since": "2025-01-27",
@@ -12,34 +12,34 @@
   "it",
   "pt"
  ],
- "total_articles": 8012,
- "total_omits_climate": 6492,
- "total_omits_political": 4156,
+ "total_articles": 8036,
+ "total_omits_climate": 6511,
+ "total_omits_political": 4173,
  "by_language": {
-  "Portuguese": {
-   "total": 1882,
-   "omits_climate": 1581,
-   "omits_political": 826
-  },
-  "Spanish": {
-   "total": 1992,
-   "omits_climate": 1600,
-   "omits_political": 832
-  },
   "French": {
-   "total": 2200,
-   "omits_climate": 1923,
-   "omits_political": 1464
+   "total": 2208,
+   "omits_climate": 1931,
+   "omits_political": 1471
   },
   "English": {
-   "total": 1052,
-   "omits_climate": 732,
-   "omits_political": 541
+   "total": 1057,
+   "omits_climate": 736,
+   "omits_political": 545
+  },
+  "Portuguese": {
+   "total": 1889,
+   "omits_climate": 1587,
+   "omits_political": 832
+  },
+  "Spanish": {
+   "total": 1995,
+   "omits_climate": 1601,
+   "omits_political": 831
   },
   "Italian": {
-   "total": 238,
+   "total": 239,
    "omits_climate": 187,
-   "omits_political": 115
+   "omits_political": 116
   },
   "German": {
    "total": 648,
@@ -48,20 +48,20 @@
   }
  },
  "by_topic": {
-  "wildfire": {
-   "total": 5001,
-   "omits_climate": 4192,
-   "omits_political": 2421
-  },
   "floods": {
-   "total": 1973,
-   "omits_climate": 1549,
-   "omits_political": 974
+   "total": 1986,
+   "omits_climate": 1562,
+   "omits_political": 984
   },
   "heatwave": {
-   "total": 1582,
+   "total": 1584,
    "omits_climate": 1006,
-   "omits_political": 991
+   "omits_political": 992
+  },
+  "wildfire": {
+   "total": 5011,
+   "omits_climate": 4199,
+   "omits_political": 2427
   },
   "excess_deaths": {
    "total": 120,
@@ -72,27 +72,27 @@
  "top_sources": [
   {
    "domain": "eldiario.es",
-   "total": 770,
-   "omits_climate": 603,
-   "omits_political": 219
+   "total": 773,
+   "omits_climate": 606,
+   "omits_political": 220
   },
   {
    "domain": "g1.globo.com",
-   "total": 546,
-   "omits_climate": 477,
-   "omits_political": 287
+   "total": 551,
+   "omits_climate": 481,
+   "omits_political": 292
   },
   {
    "domain": "leparisien.fr",
-   "total": 475,
-   "omits_climate": 473,
-   "omits_political": 468
+   "total": 476,
+   "omits_climate": 474,
+   "omits_political": 469
   },
   {
    "domain": "lemonde.fr",
-   "total": 436,
-   "omits_climate": 402,
-   "omits_political": 352
+   "total": 437,
+   "omits_climate": 403,
+   "omits_political": 353
   },
   {
    "domain": "rtp.pt",
@@ -102,9 +102,9 @@
   },
   {
    "domain": "francetvinfo.fr",
-   "total": 427,
-   "omits_climate": 339,
-   "omits_political": 178
+   "total": 430,
+   "omits_climate": 342,
+   "omits_political": 180
   },
   {
    "domain": "20minutos.es",
@@ -120,9 +120,9 @@
   },
   {
    "domain": "oglobo.globo.com",
-   "total": 295,
-   "omits_climate": 244,
-   "omits_political": 99
+   "total": 297,
+   "omits_climate": 246,
+   "omits_political": 100
   },
   {
    "domain": "lavanguardia.com",
@@ -139,26 +139,26 @@
   {
    "domain": "elpais.com",
    "total": 231,
-   "omits_climate": 198,
-   "omits_political": 165
+   "omits_climate": 196,
+   "omits_political": 163
   },
   {
    "domain": "theguardian.com",
-   "total": 365,
-   "omits_climate": 187,
+   "total": 366,
+   "omits_climate": 188,
    "omits_political": 107
   },
   {
    "domain": "20minutes.fr",
-   "total": 236,
-   "omits_climate": 183,
-   "omits_political": 113
+   "total": 239,
+   "omits_climate": 186,
+   "omits_political": 116
   },
   {
    "domain": "nytimes.com",
-   "total": 163,
+   "total": 164,
    "omits_climate": 154,
-   "omits_political": 143
+   "omits_political": 144
   },
   {
    "domain": "lefigaro.fr",
@@ -192,9 +192,9 @@
   },
   {
    "domain": "bbc.co.uk",
-   "total": 159,
-   "omits_climate": 101,
-   "omits_political": 72
+   "total": 160,
+   "omits_climate": 102,
+   "omits_political": 73
   },
   {
    "domain": "abc.es",
