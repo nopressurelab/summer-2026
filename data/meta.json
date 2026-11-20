@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-11-19T14:36:15Z",
+ "last_updated": "2026-11-20T14:13:56Z",
  "window_days": 90,
  "pruned": false,
  "since": "2025-01-27",
@@ -12,56 +12,56 @@
   "it",
   "pt"
  ],
- "total_articles": 8036,
- "total_omits_climate": 6511,
- "total_omits_political": 4173,
+ "total_articles": 8060,
+ "total_omits_climate": 6535,
+ "total_omits_political": 4189,
  "by_language": {
+  "Portuguese": {
+   "total": 1896,
+   "omits_climate": 1594,
+   "omits_political": 836
+  },
   "French": {
-   "total": 2208,
-   "omits_climate": 1931,
-   "omits_political": 1471
+   "total": 2218,
+   "omits_climate": 1941,
+   "omits_political": 1481
+  },
+  "Spanish": {
+   "total": 2001,
+   "omits_climate": 1607,
+   "omits_political": 833
+  },
+  "German": {
+   "total": 649,
+   "omits_climate": 470,
+   "omits_political": 378
   },
   "English": {
    "total": 1057,
    "omits_climate": 736,
    "omits_political": 545
   },
-  "Portuguese": {
-   "total": 1889,
-   "omits_climate": 1587,
-   "omits_political": 832
-  },
-  "Spanish": {
-   "total": 1995,
-   "omits_climate": 1601,
-   "omits_political": 831
-  },
   "Italian": {
    "total": 239,
    "omits_climate": 187,
    "omits_political": 116
-  },
-  "German": {
-   "total": 648,
-   "omits_climate": 469,
-   "omits_political": 378
   }
  },
  "by_topic": {
+  "wildfire": {
+   "total": 5020,
+   "omits_climate": 4208,
+   "omits_political": 2432
+  },
   "floods": {
-   "total": 1986,
-   "omits_climate": 1562,
-   "omits_political": 984
+   "total": 2000,
+   "omits_climate": 1576,
+   "omits_political": 994
   },
   "heatwave": {
-   "total": 1584,
-   "omits_climate": 1006,
-   "omits_political": 992
-  },
-  "wildfire": {
-   "total": 5011,
-   "omits_climate": 4199,
-   "omits_political": 2427
+   "total": 1585,
+   "omits_climate": 1007,
+   "omits_political": 993
   },
   "excess_deaths": {
    "total": 120,
@@ -72,27 +72,27 @@
  "top_sources": [
   {
    "domain": "eldiario.es",
-   "total": 773,
-   "omits_climate": 606,
-   "omits_political": 220
+   "total": 779,
+   "omits_climate": 612,
+   "omits_political": 222
   },
   {
    "domain": "g1.globo.com",
-   "total": 551,
-   "omits_climate": 481,
-   "omits_political": 292
+   "total": 554,
+   "omits_climate": 484,
+   "omits_political": 294
   },
   {
    "domain": "leparisien.fr",
-   "total": 476,
-   "omits_climate": 474,
-   "omits_political": 469
+   "total": 477,
+   "omits_climate": 475,
+   "omits_political": 470
   },
   {
    "domain": "lemonde.fr",
-   "total": 437,
-   "omits_climate": 403,
-   "omits_political": 353
+   "total": 440,
+   "omits_climate": 406,
+   "omits_political": 356
   },
   {
    "domain": "rtp.pt",
@@ -102,9 +102,9 @@
   },
   {
    "domain": "francetvinfo.fr",
-   "total": 430,
-   "omits_climate": 342,
-   "omits_political": 180
+   "total": 434,
+   "omits_climate": 346,
+   "omits_political": 184
   },
   {
    "domain": "20minutos.es",
@@ -120,9 +120,9 @@
   },
   {
    "domain": "oglobo.globo.com",
-   "total": 297,
-   "omits_climate": 246,
-   "omits_political": 100
+   "total": 300,
+   "omits_climate": 249,
+   "omits_political": 101
   },
   {
    "domain": "lavanguardia.com",
@@ -132,9 +132,9 @@
   },
   {
    "domain": "observador.pt",
-   "total": 234,
-   "omits_climate": 217,
-   "omits_political": 73
+   "total": 235,
+   "omits_climate": 218,
+   "omits_political": 74
   },
   {
    "domain": "elpais.com",
@@ -150,9 +150,9 @@
   },
   {
    "domain": "20minutes.fr",
-   "total": 239,
-   "omits_climate": 186,
-   "omits_political": 116
+   "total": 240,
+   "omits_climate": 187,
+   "omits_political": 117
   },
   {
    "domain": "nytimes.com",
@@ -186,8 +186,8 @@
   },
   {
    "domain": "derstandard.at",
-   "total": 124,
-   "omits_climate": 104,
+   "total": 125,
+   "omits_climate": 105,
    "omits_political": 103
   },
   {
@@ -210,9 +210,9 @@
   },
   {
    "domain": "rfi.fr",
-   "total": 137,
-   "omits_climate": 83,
-   "omits_political": 45
+   "total": 138,
+   "omits_climate": 84,
+   "omits_political": 46
   },
   {
    "domain": "elmundo.es",
