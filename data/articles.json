@@ -1,5 +1,958 @@
 [
  {
+  "id": "d1fdc25081e8",
+  "url": "https://www.zeit.de/news/2026-11/25/truthahn-soll-ueberschwemmung-verursacht-haben",
+  "title": "Tierischer Täter: Truthahn soll Überschwemmung verursacht haben",
+  "domain": "zeit.de",
+  "source_country": "",
+  "source_name": "Die Zeit",
+  "language": "German",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261125T152915Z",
+  "socialimage": "",
+  "text_available": false,
+  "low_confidence": true,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "Überschwemmung"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "Tierischer Täter: Truthahn soll Überschwemmung verursacht haben"
+  },
+  "fetched_at": "20261125T154641Z"
+ },
+ {
+  "id": "4dffd0dd2c34",
+  "url": "https://g1.globo.com/es/espirito-santo/noticia/2026/11/25/vitoria-registra-maior-temperatura-do-ano-veja-quanto-marcou-o-termometro-e-se-o-calorao-vai-continuar-no-es.ghtml",
+  "title": "Vitória registra maior temperatura do ano e sensação de 41ºC; veja se o calorão vai continuar no ES",
+  "domain": "g1.globo.com",
+  "source_country": "",
+  "source_name": "G1 (BR)",
+  "language": "Portuguese",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261125T152049Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "inundação"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "Vitória registrou a temperatura mais alta do ano de 2026 — Foto: TV Gazeta Adicione o g1 como Fonte Preferida no Google Adicionar O verão ainda nem começou, mas a cidade de Vitória já registrou a temperatura mais alta do ano. Na capital capixaba, a máxima foi de 38,5°C nesta terça-feira (24), conforme medição realizada…"
+  },
+  "fetched_at": "20261125T154641Z"
+ },
+ {
+  "id": "c18ac09018e2",
+  "url": "https://www.tagesschau.de/ausland/asien/unglueck-illegale-goldmine-indonesien-100.html",
+  "title": "Tote und Vermisste nach Überflutung in Goldmine",
+  "domain": "tagesschau.de",
+  "source_country": "",
+  "source_name": "Tagesschau (ARD)",
+  "language": "German",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261125T150103Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "Überflutung"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "Behörden"
+   ],
+   "excerpt": "Indonesien Tote und Vermisste nach Überflutung in Goldmine In einer illegal errichteten indonesischen Goldmine sind Bergleute von Wassermassen überrascht und eingeschlossen worden. Die Rettungsmaßnahmen laufen. Bisher wurden neun Tote geborgen. Nach heftigen Regenfällen ist Wasser in zwei Stollen einer illegalen Goldmi…"
+  },
+  "fetched_at": "20261125T154641Z"
+ },
+ {
+  "id": "7170bf132f3d",
+  "url": "https://g1.globo.com/pr/campos-gerais-sul/noticia/2026/11/25/mortes-temporais-parana-quem-eram-as-vitimas.ghtml",
+  "title": "6 mortes em 2 dias: quem eram as vítimas dos temporais no Paraná",
+  "domain": "g1.globo.com",
+  "source_country": "",
+  "source_name": "G1 (BR)",
+  "language": "Portuguese",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261125T144428Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "enchente"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "…de buscas. Mais de 40 cidades registraram desastres Cidade ficou destruída após enchente — Foto: Bruno Fernandes De acordo com boletim da Defesa Civil emitido no final da manhã desta quarta-feira (25), pelo menos 40 cidades paranaenses registraram desastres devido aos temporais. A estimativa é que mais de 14 mil pessoa…"
+  },
+  "fetched_at": "20261125T154641Z"
+ },
+ {
+  "id": "7f4d0302a8e3",
+  "url": "https://g1.globo.com/mg/grande-minas/noticia/2026/11/25/onibus-que-seguia-para-a-bahia-pega-fogo-na-br-251-em-grao-mogol.ghtml",
+  "title": "Ônibus que seguia para a Bahia pega fogo na BR-251 em Grão Mogol",
+  "domain": "g1.globo.com",
+  "source_country": "",
+  "source_name": "G1 (BR)",
+  "language": "Portuguese",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261125T144331Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "incêndio"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "…e socorro da Ecovias das Gerais chegou primeiro ao local e iniciou o combate ao incêndio com um caminhão-pipa. Após isolar a área, os bombeiros controlaram os focos remanescentes e realizaram o trabalho de rescaldo para evitar que o fogo recomeçasse. A ocorrência também mobilizou equipes da Polícia Rodoviária Federal (…"
+  },
+  "fetched_at": "20261125T154641Z"
+ },
+ {
+  "id": "37fc95625b31",
+  "url": "https://www.lemonde.fr/planete/article/2026/11/25/vigilance-orange-dans-le-var-et-les-alpes-maritimes-reprise-attendue-des-pluies-apres-une-accalmie_6815053_3245.html",
+  "title": "Vigilance orange dans le Var et les Alpes-Maritimes : reprise attendue des pluies après une accalmie",
+  "domain": "lemonde.fr",
+  "source_country": "",
+  "source_name": "Le Monde",
+  "language": "French",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261125T144030Z",
+  "socialimage": "",
+  "text_available": false,
+  "low_confidence": true,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "inondation",
+    "inondations"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "Si les deux départements du Sud-Est restent en vigilance orange pluie-inondation, les précipitations les plus importantes ont été relevées dans le Var, également en vigilance orange aux inondations."
+  },
+  "fetched_at": "20261125T154641Z"
+ },
+ {
+  "id": "827346494f7c",
+  "url": "https://g1.globo.com/mg/vales-mg/noticia/2026/11/25/motorista-sofre-queimadura-ao-tentar-apagar-incendio-em-carro-na-br-381-em-ipatinga.ghtml",
+  "title": "Motorista sofre queimadura ao tentar apagar incêndio em carro na BR-381, em Ipatinga",
+  "domain": "g1.globo.com",
+  "source_country": "",
+  "source_name": "G1 (BR)",
+  "language": "Portuguese",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261125T143537Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "incêndio"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "responsabilidade"
+   ],
+   "excerpt": "Motorista sofre queimadura ao tentar apagar incêndio em carro na BR-381, em Ipatinga — Foto: Marina Bhering/Inter TV dos Vales Adicione o g1 como Fonte Preferida no Google Adicionar Um carro pegou fogo na manhã desta quarta-feira (25), na BR-381, em Ipatinga, na região do bairro Veneza. Segundo o Corpo de Bombeiros, o…"
+  },
+  "fetched_at": "20261125T154641Z"
+ },
+ {
+  "id": "d8760b20875e",
+  "url": "https://oglobo.globo.com/mundo/noticia/2026/11/25/arabia-saudita-ataca-porto-no-iemen-e-houthis-retaliam-refinaria-e-distrito-financeiro-de-riad.ghtml",
+  "title": "Arábia Saudita ataca porto no Iêmen, e houthis retaliam alvejando refinaria e distrito financeiro de Riad",
+  "domain": "oglobo.globo.com",
+  "source_country": "",
+  "source_name": "O Globo (BR)",
+  "language": "Portuguese",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261125T143437Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "incêndios"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "governo"
+   ],
+   "excerpt": "…reveu o ataque à refinaria como “preciso e direto”, afirmando que ele “provocou incêndios nas instalações”. Segundo Saree, o ataque a Riad “foi realizado em três fases, com os bombardeios atingindo seus alvos com precisão”. A coalizão militar liderada pela Arábia Saudita, que havia solicitado aos civis que deixassem Ho…"
+  },
+  "fetched_at": "20261125T154641Z"
+ },
+ {
+  "id": "649077d77f03",
+  "url": "https://g1.globo.com/sp/piracicaba-regiao/noticia/2026/11/25/rio-piracicaba-entra-em-estado-de-emergencia-para-transbordamento-apos-atingir-460-metros-saiba-quando-manancial-extravasa.ghtml",
+  "title": "Rio Piracicaba entra em estado de emergência para transbordamento após atingir 4,60 metros; saiba quando manancial extravasa",
+  "domain": "g1.globo.com",
+  "source_country": "",
+  "source_name": "G1 (BR)",
+  "language": "Portuguese",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261125T143105Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "enchente"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "… Queiroz\" (Esalq/USP). Casas do Distrito de Tupi foram invadidas pelas águas da enchente. Veja aqui. Em nota nas redes sociais da administração municipale, a prefeitura informou que o Comitê de Emergências Climáticas de Piracicaba está mobilizado e \"acompanha permanentemente os volumes de chuva e os níveis dos rios no…"
+  },
+  "fetched_at": "20261125T154641Z"
+ },
+ {
+  "id": "96d60fdc37f0",
+  "url": "https://g1.globo.com/pr/parana/noticia/2026/11/25/video-dois-minutos-inundacao-casa-curitiba.ghtml",
+  "title": "VÍDEO: em dois minutos, água invade casa e sobe até a cintura dos moradores durante temporal em Curitiba",
+  "domain": "g1.globo.com",
+  "source_country": "",
+  "source_name": "G1 (BR)",
+  "language": "Portuguese",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261125T142445Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "enchente",
+    "inundação"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "…a aconteceu isso. Depois que subiu essa construção ali, veio bem pequenininha a enchente, mas agora devastou e acabou com tudo. A gente ficou desesperada mesmo, não tem roupa seca, não tem nada, tudo encharcado. Faz duas noites que dormimos com a cama molhada\", disse. Em dois minutos, água invade casa e sobe até a cint…"
+  },
+  "fetched_at": "20261125T154641Z"
+ },
+ {
+  "id": "66c1b1e8d31b",
+  "url": "https://oglobo.globo.com/rio/noticia/2026/11/25/temporal-no-rj-previsao-de-fortes-chuvas-poe-municipios-em-alerta-e-adia-programacoes-no-estado.ghtml",
+  "title": "Temporal no RJ: previsão de fortes chuvas põe municípios em alerta e adia  programações no estado",
+  "domain": "oglobo.globo.com",
+  "source_country": "",
+  "source_name": "O Globo (BR)",
+  "language": "Portuguese",
+  "topic": "heatwave",
+  "topics": [
+   "heatwave"
+  ],
+  "seendate": "20261125T142414Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "onda de calor"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "…er durante o temporal — explica o meteorologista César Soares, do Climatempo. - Onda de calor eleva água da piscina do Maracanã a 32°C: confederação tenta resfriar com gelo, mas suspende etapas de campeonato De acordo com a meteorologista Andrea Ramos, ex-integrante do Inmet, a combinação entre o calor, a elevada dispo…"
+  },
+  "fetched_at": "20261125T154641Z"
+ },
+ {
+  "id": "fc10476e03a9",
+  "url": "https://oglobo.globo.com/brasil/noticia/2026/11/25/apos-denuncias-de-moradores-mineradora-e-multada-em-r-169-milhoes-no-para-por-poluir-rio.ghtml",
+  "title": "Após denuncias de moradores, mineradora é multada em R$ 16,9 milhões no Pará por poluir rio",
+  "domain": "oglobo.globo.com",
+  "source_country": "",
+  "source_name": "O Globo (BR)",
+  "language": "Portuguese",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261125T135610Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "chuvas torrenciais"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "governo",
+    "lei"
+   ],
+   "excerpt": "…gências dentro do prazo estabelecido pela Semas”, e cita que, em duas ocasiões, chuvas torrenciais superaram a capacidade de bombeamento de um dos pontos de coleta da unidade. Parte dessa água teria saído da área operacional e, segundo a Eros, a empresa comunicou o ocorrido à Semas. A mineradora também destacou que a m…"
+  },
+  "fetched_at": "20261125T154641Z"
+ },
+ {
+  "id": "a8a8b7584b71",
+  "url": "https://www.theguardian.com/australia-news/2026/nov/25/large-bushfire-threatens-homes-and-properties-on-remote-island-off-tasmania",
+  "title": "Large bushfire threatens homes and properties on Flinders Island off Tasmania",
+  "domain": "theguardian.com",
+  "source_country": "",
+  "source_name": "The Guardian",
+  "language": "English",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261125T135542Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "blaze",
+    "bushfire"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "government",
+    "minister",
+    "authorities"
+   ],
+   "excerpt": "…n out-of-control bushfire that had sent smoke hundreds of kilometres south. The blaze on Flinders Island in Bass Strait spread significantly on Wednesday after being started by lightning strikes. As of Wednesday night, six emergency warnings were in place, including for the coastal settlement of Killiecrankie and nearb…"
+  },
+  "fetched_at": "20261125T154641Z"
+ },
+ {
+  "id": "96d819c720c5",
+  "url": "https://oglobo.globo.com/mundo/noticia/2026/11/25/dados-da-russia-indicam-quase-500-mil-soldados-mortos-durante-a-guerra-na-ucrania-diz-bbc.ghtml",
+  "title": "Dados da Rússia indicam que quase 500 mil soldados do país morreram durante a guerra na Ucrânia, diz BBC",
+  "domain": "oglobo.globo.com",
+  "source_country": "",
+  "source_name": "O Globo (BR)",
+  "language": "Portuguese",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261125T134320Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "incêndios"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "governo",
+    "ministro",
+    "presidente"
+   ],
+   "excerpt": "Dados da Rússia indicam que quase 500 mil soldados do país morreram durante a guerra na Ucrânia, diz BBC Análise de registros vazados da agência estatal Rosstat aponta 490.334 mortes; estimativas de veículos independentes chegam a 720 mil ao incluir militares desaparecidos Por O GLOBO, com agências internacionais — Mos…"
+  },
+  "fetched_at": "20261125T154641Z"
+ },
+ {
+  "id": "add87ee61c7a",
+  "url": "https://www.liberation.fr/international/europe/allemagne-trois-neonazis-ages-de-14-et-15-ans-arretes-soupconnes-davoir-voulu-incendier-un-foyer-de-refugies-20261125_ME7WCMZ4DFF7FNW535ZHPUPGRE/",
+  "title": "Allemagne : trois néonazis âgés de 14 et 15 ans arrêtés, soupçonnés d’avoir voulu incendier un foyer de réfugiés",
+  "domain": "liberation.fr",
+  "source_country": "",
+  "source_name": "Libération",
+  "language": "French",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261125T133819Z",
+  "socialimage": "",
+  "text_available": false,
+  "low_confidence": true,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "incendie"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "…ociation terroriste par le parquet général allemand. L’intervention a empêché l’incendie d’un foyer de réfugiés en Basse-Saxe.…"
+  },
+  "fetched_at": "20261125T154641Z"
+ },
+ {
+  "id": "874de9c676f3",
+  "url": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/inondations-et-crues/la-cote-d-azur-sous-les-eaux-des-sacs-de-sable-au-paddle-les-habitants-d-une-commune-du-var-tentent-de-faire-avec-les-inondations_8299611.html#xtor=RSS-3-[lestitres]",
+  "title": "\"J'espère que ça ne montera pas plus\" : la Côte d'Azur une nouvelle fois sous les eaux, les habitants d'une commune du Var tentent de faire avec les inondations",
+  "domain": "francetvinfo.fr",
+  "source_country": "",
+  "source_name": "France Info",
+  "language": "French",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261125T131720Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "crue",
+    "crue éclair",
+    "crues",
+    "inondation",
+    "inondations"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "… vidéo: Vidéo Episode méditerranéen dans le Var : Hyères frappée par une crue éclair mercredi matin - Le Var et les Alpes-Maritimes placés en vigilance orange mercredi pour \"pluie-inondation\" - vidéo Cargo échoué dans les Landes : comment va se dérouler l'opération de remise à flot ? - vidéo:…"
+  },
+  "fetched_at": "20261125T154641Z"
+ },
+ {
+  "id": "aa3e3f9fd4dc",
+  "url": "https://oglobo.globo.com/brasil/noticia/2026/11/25/em-meio-ao-el-nino-menos-de-1percent-das-cidades-brasileiras-tem-sistemas-de-protecao-contra-enchentes-mostra-o-ibge.ghtml",
+  "title": "Em meio ao El Niño, menos de 1% das cidades brasileiras têm sistemas de proteção contra enchentes, mostra o IBGE",
+  "domain": "oglobo.globo.com",
+  "source_country": "",
+  "source_name": "O Globo (BR)",
+  "language": "Portuguese",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261125T130001Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": true,
+  "mentions_political_responsibility": true,
+  "omits_climate": false,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "enchente",
+    "enchentes",
+    "inundação",
+    "inundações"
+   ],
+   "climate_terms": [
+    "mudanças climáticas"
+   ],
+   "political_terms": [
+    "política",
+    "lei"
+   ],
+   "excerpt": "…ao El Niño, menos de 1% das cidades brasileiras têm sistemas de proteção contra enchentes, mostra o IBGE Pesquisa Nacional de Saneamento Básico (PNSB) divulgada nesta quarta traz dados sobre 2024; Apenas 26,1% dos municípios disseram ter protocolo de contingência em caso de desastres Dados divulgados pelo Instituto Bra…"
+  },
+  "fetched_at": "20261125T154641Z"
+ },
+ {
+  "id": "0768b34f1640",
+  "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/cotidiano/2026/11/brasil-amplia-risco-de-enchentes-com-so-12-das-cidades-equipadas-com-piscinoes-mostra-ibge.shtml",
+  "title": "Brasil amplia risco de enchentes com só 12% das cidades equipadas com piscinões, mostra IBGE",
+  "domain": "folha.uol.com.br",
+  "source_country": "",
+  "source_name": "Folha de S.Paulo (BR)",
+  "language": "Portuguese",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261125T130000Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "enchente",
+    "enchentes",
+    "inundações"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "…ado do córrego Morro do S. A água subiu em três minutos. O piscinão para evitar enchentes naquela região só começou a operar parcialmente em setembro deste ano. A obra ficará totalmente pronta em dezembro, segundo a prefeitura da capital paulista. Os números da pesquisa do IBGE detalham o desequilíbrio entre as capacid…"
+  },
+  "fetched_at": "20261125T154641Z"
+ },
+ {
+  "id": "852660fa86f1",
+  "url": "https://oglobo.globo.com/rio/noticia/2026/11/25/inmet-emite-alerta-de-queda-de-granizo-e-ventania-para-todo-o-estado-do-rio-veja-as-cidades-mais-atingidas.ghtml",
+  "title": "Inmet emite alerta de queda de granizo e ventania para todo o estado do Rio; veja as cidades mais afetadas",
+  "domain": "oglobo.globo.com",
+  "source_country": "",
+  "source_name": "O Globo (BR)",
+  "language": "Portuguese",
+  "topic": "heatwave",
+  "topics": [
+   "heatwave"
+  ],
+  "seendate": "20261125T125522Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "onda de calor"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "… a de Angra adiou a inauguração de uma programação de Natal para sexta-feira. - Onda de calor eleva água da piscina do Maracanã a 32°C: confederação tenta resfriar com gelo, mas suspende etapas de campeonato A intensidade das chuvas também deve ser bastante forte no Sul Fluminense, que inclui municípios como Barra do P…"
+  },
+  "fetched_at": "20261125T154641Z"
+ },
+ {
+  "id": "a319fdc375aa",
+  "url": "https://www.theguardian.com/us-news/2026/nov/25/california-flooding-high-tides",
+  "title": "California beaches close as record-breaking tides and major flooding loom",
+  "domain": "theguardian.com",
+  "source_country": "",
+  "source_name": "The Guardian",
+  "language": "English",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261125T123025Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "flood",
+    "flooding"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "Major flooding is expected in California today as a second day of record-breaking high tides hits up and down the west coast. While forecasts suggest most of the state is on track to avoid the worst-case scenario – coastal flooding amplified by intense winter rainstorms – local officials have been preparing for weeks f…"
+  },
+  "fetched_at": "20261125T154641Z"
+ },
+ {
+  "id": "e8d45493f2e2",
+  "url": "https://oglobo.globo.com/brasil/sao-paulo/noticia/2026/11/25/chuvas-provocam-transtornos-em-sao-paulo.ghtml",
+  "title": "Chuva provoca alagamentos, derruba árvores e causa transtornos no trânsito e nos trens em São Paulo",
+  "domain": "oglobo.globo.com",
+  "source_country": "",
+  "source_name": "O Globo (BR)",
+  "language": "Portuguese",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261125T115204Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "enchentes",
+    "inundação",
+    "inundações"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "…s recebeu 36 chamados para quedas de árvores, quatro por desabamentos e dez por enchentes ou inundações na capital e na Região Metropolitana. De acordo com dados parciais do CGE, a cidade acumulou 32,8 milímetros de chuva até as 19h, o maior volume registrado na capital naquele mês até então. Temporal também atingiu ou…"
+  },
+  "fetched_at": "20261125T154641Z"
+ },
+ {
+  "id": "9eb736ce3ffc",
+  "url": "https://www.eldiario.es/navarra/upn-pp-vox-buscan-juzgado-investigue-ministra-socialista-elma-saiz-cuatro-dias-generales_1_13691337.html",
+  "title": "UPN, PP y Vox buscan que un juzgado investigue a la ministra socialista Elma Saiz a cuatro días de las generales",
+  "domain": "eldiario.es",
+  "source_country": "",
+  "source_name": "elDiario.es",
+  "language": "Spanish",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261125T114652Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "incendio"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "gobierno",
+    "presidente",
+    "responsabilidad"
+   ],
+   "excerpt": "… Adentro Construimos cuatro contratos para la reconstrucción del parque tras el incendio del verano de 2022. Las adjudicaciones, por un importe total de 792.703,51 euros, se tramitaron por separado, sin que ninguna superara los 200.000 euros. En un informe fechado el 23 de abril de 2026, la Intervención General del Gob…"
+  },
+  "fetched_at": "20261125T154641Z"
+ },
+ {
+  "id": "2dfeeefec725",
+  "url": "https://www.franceinfo.fr/monde/asie/en-indonesie-26-mineurs-pieges-dans-une-mine-apres-de-fortes-pluies_8298969.html#xtor=RSS-3-%5Bmonde%5D",
+  "title": "En Indonésie, l'inondation d'une mine d'or illégale fait trois morts, 23 mineurs toujours piégés",
+  "domain": "francetvinfo.fr",
+  "source_country": "",
+  "source_name": "France Info",
+  "language": "French",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261125T105256Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "inondation"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "En Indonésie, l'inondation d'une mine d'or illégale fait trois morts, 23 mineurs toujours piégés Les \"conditions météorologiques pluvieuses et l'étroitesse de l'accès\" compliquent les opérations de sauvetage. Après de fortes précipitations, 23 mineurs sont toujours piégés depuis lundi dans une mine d'or illégale inondé…"
+  },
+  "fetched_at": "20261125T154641Z"
+ },
+ {
+  "id": "86f71fc7103c",
+  "url": "https://www.theguardian.com/us-news/video/2026/nov/25/moment-dog-and-owner-get-swept-up-by-king-tide-on-oregon-beach-video",
+  "title": "Moment dog and owner get swept up by king tide on Oregon beach – video",
+  "domain": "theguardian.com",
+  "source_country": "",
+  "source_name": "The Guardian",
+  "language": "English",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261125T085704Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "flood",
+    "flooding",
+    "floods"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "…h El Niño and 'king tides' are putting the US west coast at high risk of record flooding…"
+  },
+  "fetched_at": "20261125T154641Z"
+ },
+ {
+  "id": "f40e585f05d0",
+  "url": "https://www.rtp.pt/noticias/mundo/dois-engenheiros-condenados-a-oito-anos-de-prisao-por-incendio-em-centro-de-formacao-do-flamengo_n1781445",
+  "title": "Dois engenheiros condenados a oito anos de prisão por incêndio em centro de formação do Flamengo",
+  "domain": "rtp.pt",
+  "source_country": "",
+  "source_name": "RTP (PT)",
+  "language": "Portuguese",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261125T075308Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "incêndio"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "Dois engenheiros condenados a oito anos de prisão por incêndio em centro de formação do Flamengo Dois engenheiros foram condenados esta terça-feira no Brasil a oito anos de prisão em regime semiaberto devido ao incêndio que causou a morte de 10 pessoas no centro de formação do clube de futebol Flamengo. O incêndio de 8…"
+  },
+  "fetched_at": "20261125T154641Z"
+ },
+ {
+  "id": "c1938c2a9c67",
+  "url": "https://www.nytimes.com/2026/11/24/weather/california-storm-king-tides-sf-la.html",
+  "title": "California King Tides Threaten ‘Extreme’ Coastal Flooding",
+  "domain": "nytimes.com",
+  "source_country": "",
+  "source_name": "The New York Times",
+  "language": "English",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261125T001758Z",
+  "socialimage": "",
+  "text_available": false,
+  "low_confidence": true,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "flooding"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "Tuesday’s tides flooded low-lying areas along the coast. High tides forecast for Wednesday and Thursday are expected to further threaten the state."
+  },
+  "fetched_at": "20261125T154641Z"
+ },
+ {
+  "id": "b8fed400bc9e",
+  "url": "https://www.theguardian.com/weather/2026/nov/24/california-coast-flooding-thanksgiving-travel",
+  "title": "California ‘king tides’ stress test San Francisco as low-lying areas flood",
+  "domain": "theguardian.com",
+  "source_country": "",
+  "source_name": "The Guardian",
+  "language": "English",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261124T232024Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "flood",
+    "flooding",
+    "floods",
+    "inundation"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "…gh or close to record-high November tides up and down the coast this week, with flooding of low-lying roadways in San Francisco and an evacuation of one community in northern California. Local residents and media outlets shared images of flood waters rushing over the bayfront Embarcadero at the center of San Francisco’…"
+  },
+  "fetched_at": "20261125T154641Z"
+ },
+ {
+  "id": "94ebe901b748",
+  "url": "https://www.eldiario.es/comunitat-valenciana/opinion/salome-pradas-dice-intrahistoria-audios-aemet-manipulados-filtro-equipo-carlos-mazon_129_13688994.html",
+  "title": "Salomé Pradas dice la verdad: la intrahistoria de los audios de Aemet manipulados que filtró el equipo de Carlos Mazón",
+  "domain": "eldiario.es",
+  "source_country": "",
+  "source_name": "elDiario.es",
+  "language": "Spanish",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261124T211301Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "crecida",
+    "inundaciones"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "gobierno",
+    "presidente"
+   ],
+   "excerpt": "…teléfono a la Generalitat, a las 13.26 horas del día de la dana, del inicio de “crecidas de ríos”, lo que hacía sospechar que la grabación difundida por Presidencia podía estar manipulada. De hecho, semanas antes, desde Presidencia ya habían difundido otro audio cortado, en este caso de una reunión interna de la Confed…"
+  },
+  "fetched_at": "20261125T154641Z"
+ },
+ {
+  "id": "351c1e7936f7",
+  "url": "https://www.eldiario.es/opinion/zona-critica/jugamos-29n_129_13689979.html",
+  "title": "Todo lo que todos nos jugamos el 29N",
+  "domain": "eldiario.es",
+  "source_country": "",
+  "source_name": "elDiario.es",
+  "language": "Spanish",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261124T211255Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "incendio"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "gobierno",
+    "derecha"
+   ],
+   "excerpt": "Todo lo que todos nos jugamos el 29N 26 Todos nos jugamos asuntos fundamentales en estas elecciones, sí. Los involucionistas su gran apuesta por cambiar el sistema español hacia un Estado ultraliberal con recortes drásticos de derechos y libertades. Han invertido mucho esfuerzo y creen tener ya el éxito en la mano. Los…"
+  },
+  "fetched_at": "20261125T154641Z"
+ },
+ {
+  "id": "3f16600badcb",
+  "url": "https://www.20minutes.fr/planete/4265443-20261124-intemperies-var-alpes-maritimes-alerte-orange-pluie-inondation-mercredi?at_medium=display&at_campaign=149",
+  "title": "Intempéries : Le Var et les Alpes-Maritimes en alerte orange pluie-inondation mercredi",
+  "domain": "20minutes.fr",
+  "source_country": "",
+  "source_name": "20 Minutes",
+  "language": "French",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261124T163403Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "inondation"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "…bles. Météo-France a déclenché ce mardi après-midi la vigilance orange pluie et inondation pour le Var et les Alpes-Maritimes. L’alerte entrera en vigueur dès minuit et restera active jusqu’à mercredi 22 heures. Ce nouvel épisode méditerranéen s’installe sur la région Provence-Alpes-Côte-d'Azur dans la soirée avant de…"
+  },
+  "fetched_at": "20261125T154641Z"
+ },
+ {
   "id": "88fb26125ffe",
   "url": "https://www.franceinfo.fr/environnement/meteo/le-var-et-les-alpes-maritimes-places-en-vigilance-orange-mercredi-pour-pluie-inondation_8297946.html#xtor=RSS-3-[lestitres]",
   "title": "Le Var et les Alpes-Maritimes placés en vigilance orange mercredi pour \"pluie-inondation\"",
@@ -160,7 +1113,7 @@
    ],
    "excerpt": "…e, à medida que o clima continuar a aquecer, podemos esperar que os períodos de calor extremo se tornem mais longos, mais frequentes e mais intensos\", afirmou Ross Thompson, cientista-chefe de saúde ambiental da UKHSA. \"É fundamental que indivíduos, comunidades, serviços de saúde e assistência e organizações locais est…"
   },
-  "fetched_at": "20261124T160005Z"
+  "fetched_at": "20261125T154641Z"
  },
  {
   "id": "907e90ebfddc",
@@ -192,7 +1145,7 @@
    ],
    "excerpt": "…e la noticia de los asesinatos en Cielo Drive se extendió por la ciudad como un incendio. De alguna manera es cierto: ese día la tensión estalló y la paranoia se cumplió”, escribió la autora. Tarantino realizó un ejercicio de revisionismo histórico divertido, irónico y brillante en Érase una vez… en Hollywood, filme qu…"
   },
-  "fetched_at": "20261124T160005Z"
+  "fetched_at": "20261125T154641Z"
  },
  {
   "id": "dc0043e7134c",
@@ -322,36 +1275,6 @@
   "fetched_at": "20261124T160005Z"
  },
  {
-  "id": "c1938c2a9c67",
-  "url": "https://www.nytimes.com/2026/11/24/weather/california-storm-king-tides-sf-la.html",
-  "title": "California King Tides Threaten ‘Extreme’ Coastal Flooding",
-  "domain": "nytimes.com",
-  "source_country": "",
-  "source_name": "The New York Times",
-  "language": "English",
-  "topic": "floods",
-  "topics": [
-   "floods"
-  ],
-  "seendate": "20261124T133641Z",
-  "socialimage": "",
-  "text_available": false,
-  "low_confidence": true,
-  "mentions_climate": false,
-  "mentions_political_responsibility": false,
-  "omits_climate": true,
-  "omits_political": true,
-  "evidence": {
-   "topic_terms": [
-    "flooding"
-   ],
-   "climate_terms": [],
-   "political_terms": [],
-   "excerpt": "A storm that threatened to make tidal flooding worse appeared on track to miss the state, forecasters said. But Tuesday’s tides will still bring dangers."
-  },
-  "fetched_at": "20261124T160005Z"
- },
- {
   "id": "90c76328a750",
   "url": "https://www.theguardian.com/environment/2026/nov/24/summer-heat-deaths-record-high-england",
   "title": "Summer heat deaths in 2026 reached record high of 5,258 in England",
@@ -418,7 +1341,7 @@
    "political_terms": [],
    "excerpt": "Estimate of 5,258 heat-associated fatalities prompts calls for urgent action to adapt to extreme temperatures"
   },
-  "fetched_at": "20261124T160005Z"
+  "fetched_at": "20261125T154641Z"
  },
  {
   "id": "f3638cdb2b5c",
@@ -584,7 +1507,7 @@
    ],
    "excerpt": "… heatwaves and wildfires in Australia, Canada, Indonesia, the UK and Europe, to floods in South America, Thailand and across Africa, along with the obliteration of communities in Nepal due to glacier collapse, we are reaping the whirlwind of our inaction. But what of the Cops? We can’t afford to twiddle our thumbs for…"
   },
-  "fetched_at": "20261124T160005Z"
+  "fetched_at": "20261125T154641Z"
  },
  {
   "id": "15b8c4deaa8d",
@@ -614,7 +1537,7 @@
    "political_terms": [],
    "excerpt": "Hundreds of people were at the compound when a blaze broke out on Saturday and then raged for hours."
   },
-  "fetched_at": "20261124T160005Z"
+  "fetched_at": "20261125T154641Z"
  },
  {
   "id": "1fe4d9a06e48",
@@ -678,7 +1601,7 @@
    "political_terms": [],
    "excerpt": "California coast faces historic flooding threat this week: Here’s what you need to know - Click here to listen to this article - Share via See more from the L.A. Times in Google Search. Set us as preferred SAN FRANCISCO — Extreme flooding on the California coast from rising seawater is possible from the San Francisco…"
   },
-  "fetched_at": "20261124T160005Z"
+  "fetched_at": "20261125T154641Z"
  },
  {
   "id": "15ae29f5f60e",
@@ -715,7 +1638,7 @@
    ],
    "excerpt": "…nécessité de débroussailler en hiver. L’année 2026 empile les records. Jours de canicule, sécheresse, températures extrêmes ou encore incendies. Défigurés par des mégafeux longtemps incontrôlables, de nombreux territoires tentent aujourd’hui de mieux se préparer afin de limiter le risque de départs de feu l’été prochai…"
   },
-  "fetched_at": "20261124T160005Z"
+  "fetched_at": "20261125T154641Z"
  },
  {
   "id": "2ff77be5ec0f",
@@ -782,7 +1705,7 @@
    "political_terms": [],
    "excerpt": "It has already been a rough year for coastal Californians – who have endured flooding, extreme waves and beach erosion during the super El Niño season. Now experts are warning that Thanksgiving week could see more havoc, as a winter high tide event brings potentially record-breaking floods on the coast and farther inla…"
   },
-  "fetched_at": "20261124T160005Z"
+  "fetched_at": "20261125T154641Z"
  },
  {
   "id": "d232214c6a13",
@@ -2311,7 +3234,7 @@
    "political_terms": [],
    "excerpt": "AR Après les crues de ces derniers jours dans le Nord, c’est maintenant l’est du pays qui doit se préparer à de fortes pluies. Météo-France a placé l’Ain en vigilance orange « pluie-inondation » à partir de 16 heures ce dimanche, tout comme le Jura, qui reste aussi sous surveillance étroite. Dans le Pas-de-Calais, l’al…"
   },
-  "fetched_at": "20261124T160005Z"
+  "fetched_at": "20261125T154641Z"
  },
  {
   "id": "8e1247f2a138",
@@ -3431,7 +4354,7 @@
    "political_terms": [],
    "excerpt": "…dult males now outnumber snow crabs. The phenomenon was triggered by an extreme heatwave in 2018 and 2019, when the Bering Sea became nearly ice-free by early spring. The heatwave led to mass starvation and a collapse in the snow crab population, causing the death of about 10 billion crabs. Early signs of the devastati…"
   },
-  "fetched_at": "20261124T160005Z"
+  "fetched_at": "20261125T154641Z"
  },
  {
   "id": "71ec1e413d8c",
@@ -3863,7 +4786,7 @@
    ],
    "excerpt": "O Pará tem 66 dos seus 144 municípios em emergência devido aos incêndios florestais e à estiagem, em meio aos efeitos do El Niño. O reconhecimento dessa situação saiu no Diário Oficial da União da última quarta-feira (18). Com isso, as cidades podem solicitar recursos para ações de defesa civil ao Ministério da Integra…"
   },
-  "fetched_at": "20261124T160005Z"
+  "fetched_at": "20261125T154641Z"
  },
  {
   "id": "64a3ceeb6580",
@@ -4213,7 +5136,7 @@
    "political_terms": [],
    "excerpt": "…s », notamment sur la Canche, fleuve côtier débouchant au Touquet, prévient Vigicrues qui a classé ce bassin en vigilance orange jusqu’à 14 heures. L’observatoire officiel juge cette crue « importante pour la saison ». « On va surveiller jusqu’au moins ce soir, voire même dans la nuit, la redescente du niveau des cours…"
   },
-  "fetched_at": "20261124T160005Z"
+  "fetched_at": "20261125T154641Z"
  },
  {
   "id": "ab680ebd9042",
@@ -4304,7 +5227,7 @@
    "political_terms": [],
    "excerpt": "…ez le découvrir, selon nos invités, presque toutes les terres le sont. La terre crue est partout, gratuite, et n'appartient à aucune grande firme. Pendant des millénaires, l'humanité a bâti avec elle. Elle n'a pas attendu les fours à chaux, à briques ou à ciment, chauffés de 900 à 1 450 degrés, pour se protéger de la p…"
   },
-  "fetched_at": "20261124T160005Z"
+  "fetched_at": "20261125T154641Z"
  },
  {
   "id": "82717aeae907",
@@ -4872,7 +5795,7 @@
    "political_terms": [],
    "excerpt": "From the Arctic to the tropics, unusual weather and extreme heat is sparking worry about how quickly humans are reshaping the Earth’s natural processes."
   },
-  "fetched_at": "20261124T160005Z"
+  "fetched_at": "20261125T154641Z"
  },
  {
   "id": "cdf962ccf60f",
@@ -5372,7 +6295,7 @@
    "political_terms": [],
    "excerpt": "…lioni ettari di foreste andati in fumo. E’ il bilancio, provvisorio, dei 45mila incendi boschivi che hanno colpito l’Indonesia nel 2026. E la particolare violenza dei roghi delle ultime settimane ha a che fare, ancora una volta, con la crisi climatica: “Il caldo intenso e la siccità, aggravati dai cambiamenti climatici…"
   },
-  "fetched_at": "20261124T160005Z"
+  "fetched_at": "20261125T154641Z"
  },
  {
   "id": "e50bb66a99e0",
@@ -8183,7 +9106,7 @@
    ],
    "excerpt": "…nas atingiram nesta semana nível péssimo de qualidade do ar em meio a fumaça de incêndios florestais, agravados pelo El Niño. Nos municípios de Barreirinha, Itapiranga, Parintins e São Sebastião do Uatumã, a concentração de partículas finas (MP2,5) ultrapassou 125 microgramas por metro cúbico, segundo o Centro de Monit…"
   },
-  "fetched_at": "20261124T160005Z"
+  "fetched_at": "20261125T154641Z"
  },
  {
   "id": "31a2f15564d7",
@@ -9873,7 +10796,7 @@
    "political_terms": [],
    "excerpt": "From floods to extreme heat: The human cost of Australia’s changing climate Updated November 13, 2026 — 4:33pm,first published August 6, 2026 — 3:36pm You have reached your maximum number of saved items. Remove items from your saved list to add more. No gift articles left You've used all of your gift articles. 3 more w…"
   },
-  "fetched_at": "20261124T160005Z"
+  "fetched_at": "20261125T154641Z"
  },
  {
   "id": "13284e1a0fae",
@@ -10099,7 +11022,7 @@
    ],
    "excerpt": "…climática em todo o estado em razão da estiagem severa e do aumento do risco de incêndios florestais associados aos efeitos do El Niño. A medida vale por 120 dias. O decreto permite reforçar a atuação dos órgãos públicos na prevenção e no combate ao fogo. \"O decreto fortalece a capacidade do Estado de agir diante da es…"
   },
-  "fetched_at": "20261124T160005Z"
+  "fetched_at": "20261125T154641Z"
  },
  {
   "id": "66507cc82409",
@@ -12938,7 +13861,7 @@
    "political_terms": [],
    "excerpt": "…rascas podrían incluir en en Galicia, Extremadura y el oeste de Castilla y León inundaciones locales y crecidas de ríos y barrancos, así como posibles deslizamientos de tierra Las precipitaciones serán este martes, fuertes y persistentes en Galicia, el macizo Galaico-Leonés, Sistema Central, Extremadura, suroeste de Ca…"
   },
-  "fetched_at": "20261124T160005Z"
+  "fetched_at": "20261125T154641Z"
  },
  {
   "id": "181da08701fc",
@@ -13686,7 +14609,7 @@
    ],
    "excerpt": "El Gobierno Vasco activa en plan de emergencias ante el incendio de Zaldibia, que quema 80 hectáreas Foco activo Uno de los flancos del incendio se habría descontrolado y podría poner en riesgo algunos bienes situados en las proximidades El Departamento de Seguridad del Gobierno Vasco ha declarado este lunes la Situaci…"
   },
-  "fetched_at": "20261124T160005Z"
+  "fetched_at": "20261125T154641Z"
  },
  {
   "id": "ec011165578a",
@@ -17292,7 +18215,7 @@
    "political_terms": [],
    "excerpt": "Near 90 in November as Santa Anas bring fire risk plus heat, especially along the coast - Click here to listen to this article - Share via See more from the L.A. Times in Google Search. Set us as preferred With that cool, rainy Halloween now a memory, Santa Ana winds are moving into Southern California starting Thurs…"
   },
-  "fetched_at": "20261124T160005Z"
+  "fetched_at": "20261125T154641Z"
  },
  {
   "id": "b19ed1c562cc",
@@ -19358,7 +20281,7 @@
    ],
    "excerpt": "…utilities are seeking a permanent cap on shareholder liability for catastrophic wildfires, as a criminal investigation into Southern California Edison’s role in the deadly Eaton fire continues. - Under the proposal, customers could be left paying more through their electric bills if a utility is found to have acted imp…"
   },
-  "fetched_at": "20261124T160005Z"
+  "fetched_at": "20261125T154641Z"
  },
  {
   "id": "f8208ec8f8f5",
@@ -20492,7 +21415,7 @@
    ],
    "excerpt": "…cândalo bilionário relacionado a desvios de dinheiro em projetos de controle de enchentes feitos com concreto de baixa qualidade —e, em alguns casos, inexistentes. O projeto é o o primeiro desse tipo no país. Inicialmente, enfrentou resistência de autoridades e moradores, mas Natividad explica que eles não tinham nada…"
   },
-  "fetched_at": "20261124T160005Z"
+  "fetched_at": "20261125T154641Z"
  },
  {
   "id": "7bfbd3219958",
@@ -20748,7 +21671,7 @@
    ],
    "excerpt": "…dígenas locais, da etnia borari, seguem atuando neste domingo (1º) no combate a incêndios na Área de Proteção Ambiental (APA) Alter do Chão, em Santarém (PA), e no entorno. No sábado (31), com apoio de aeronaves do governo federal, eles controlaram um incêndio de grandes proporções que atingiu cerca de 58 hectares de v…"
   },
-  "fetched_at": "20261124T160005Z"
+  "fetched_at": "20261125T154641Z"
  },
  {
   "id": "90f145c8a79b",
@@ -21647,7 +22570,7 @@
    ],
    "excerpt": "Um incêndio de grandes proporções atingiu a Área de Proteção Ambiental (APA) Alter do Chão, em Santarém (PA), na sexta (30). O Corpo de Bombeiros do Pará disse na tarde deste sábado (31) que extinguiu as chamas após o envio de quatro militares e oito brigadistas especializados. Segundo a Brigada de Incêndio Florestal d…"
   },
-  "fetched_at": "20261124T160005Z"
+  "fetched_at": "20261125T154641Z"
  },
  {
   "id": "56a163bc9e19",
@@ -25023,7 +25946,7 @@
    "political_terms": [],
    "excerpt": "… and the water pouring down the street and into the storm drains was far from a deluge. But the 37-year peninsula resident said he was worried about what was to come in the months ahead. Whether severe storms will materialize this winter remains an unanswered question. Despite the uncertainty, Sharp said one thing is c…"
   },
-  "fetched_at": "20261124T160005Z"
+  "fetched_at": "20261125T154641Z"
  },
  {
   "id": "b5ba8499623f",
@@ -27674,7 +28597,7 @@
    ],
    "excerpt": "…e state’s already battered coast. The National Weather Service issued a coastal flood warning that goes into effect Sunday morning and lasts through Thursday afternoon, saying it expects “significant coastal flooding” in San Diego and Orange counties that will inundate low-lying homes, businesses and critical infrastru…"
   },
-  "fetched_at": "20261124T160005Z"
+  "fetched_at": "20261125T154641Z"
  },
  {
   "id": "5aa99f5646e2",
@@ -28546,7 +29469,7 @@
    "political_terms": [],
    "excerpt": "…fica el tipo de vegetación que se regenera, haciendo más difícil que se repitan incendios Ante los incendios forestales cada vez más intensos y peligrosos, quizá haya llegado el momento de mirar más allá de la extinción y replantearnos también cómo gestionamos el territorio una vez apagado el fuego. En los últimos tiem…"
   },
-  "fetched_at": "20261124T160005Z"
+  "fetched_at": "20261125T154641Z"
  },
  {
   "id": "8d7e11381a98",
@@ -30581,7 +31504,7 @@
    "political_terms": [],
    "excerpt": "…nesday could help extinguish what chance remained of another large, destructive blaze taking off in Southern California anytime soon, said Matt Shameson, a meteorologist with the U.S. Forest Service. This week’s storm brought localized flooding to several freeways by Thursday morning, including parts of Highway 101 in…"
   },
-  "fetched_at": "20261124T160005Z"
+  "fetched_at": "20261125T154641Z"
  },
  {
   "id": "cec5564c7f25",
@@ -43332,7 +44255,7 @@
    ],
    "excerpt": "Las cataratas del Iguazú cierran temporalmente por las inundaciones provocadas por el fenómeno de El Niño Argentina Esto sucede después de que el caudal del río superara los 12.000 metros cúbicos por segundo, más de seis veces su promedio habitual Las autoridades cerraron temporalmente el acceso turístico a las Catarat…"
   },
-  "fetched_at": "20261124T160005Z"
+  "fetched_at": "20261125T154641Z"
  },
  {
   "id": "b33812416d70",
@@ -45250,7 +46173,7 @@
    ],
    "excerpt": "…ndación repentina de un río que ha arrasado un pueblo en Nepal Vídeo del día La crecida del río arrasa alrededor de 40 casas, varios puentes de un pueblo y deja al menos 5 desaparecidos La crecida repentina de un río en el centro de Nepal arrasó alrededor de 40 casas y varios puentes de un pueblo, dejando al menos cinc…"
   },
-  "fetched_at": "20261124T160005Z"
+  "fetched_at": "20261125T154641Z"
  },
  {
   "id": "4ca684692fe6",
@@ -46546,7 +47469,7 @@
    ],
    "excerpt": "…ia See more from the L.A. Times in Google Search. Set us as preferred A coastal flood warning covered beaches from Malibu to San Diego on Saturday as Tropical Storm Rachel moved toward Southern California, while Long Beach kept some oceanfront residents under an evacuation order, and Newport Beach closed piers and temp…"
   },
-  "fetched_at": "20261124T160005Z"
+  "fetched_at": "20261125T154641Z"
  },
  {
   "id": "9da2b2920c6e",
@@ -46839,7 +47762,7 @@
    "political_terms": [],
    "excerpt": "…condido, Palm Springs and Twentynine Palms. A moderate risk means that numerous flash floods are likely, and that many streams may flood. There is a chance that the San Diego River near Fashion Valley could reach minor flood stage. There’s also a 15% chance of that occurring in Oceanside, San Clemente, Laguna Niguel, R…"
   },
-  "fetched_at": "20261124T160005Z"
+  "fetched_at": "20261125T154641Z"
  },
  {
   "id": "270dbf5ff757",
@@ -47474,7 +48397,7 @@
    "political_terms": [],
    "excerpt": "Newport Beach, other coastal spots hit by flooding: ‘We’re preparing for more damage’ - Click here to listen to this article - Share via See more from the L.A. Times in Google Search. Set us as preferred Newport Beach expected intense surf Friday, but the high tide turned out to be much worse than the estimates. Wate…"
   },
-  "fetched_at": "20261124T160005Z"
+  "fetched_at": "20261125T154641Z"
  },
  {
   "id": "962b7c1fb935",
@@ -51239,7 +52162,7 @@
    "political_terms": [],
    "excerpt": "Restaurant workers face hidden dangers from gas stoves, including pollution and extreme heat - Click here to listen to this article - Share via See more from the L.A. Times in Google Search. Set us as preferred - A study of 27 commercial kitchens found gas appliances often exposed workers to nitrogen dioxide and extr…"
   },
-  "fetched_at": "20261124T160005Z"
+  "fetched_at": "20261125T154641Z"
  },
  {
   "id": "70e88cf9f870",
@@ -54839,7 +55762,7 @@
    "political_terms": [],
    "excerpt": "…ssteps leading up to the 2025 Palisades fire and in its initial response to the blaze, which killed 12 people and destroyed more than 6,800 structures. An investigation commissioned by Gov. Gavin Newsom found the Fire Department ignored multiple warnings that the Jan. 1 Lachman fire still was smoldering days before it…"
   },
-  "fetched_at": "20261124T160005Z"
+  "fetched_at": "20261125T154641Z"
  },
  {
   "id": "d2b1d69d34e9",
@@ -219295,7 +220218,7 @@
    ],
    "excerpt": "…conclusion that the heat island impact alone accounted for roughly half the 130 heat-related deaths. Jo Shields, head of sustainability for Mandy's housing association Walsall Housing Group, known as whg - which owns 23,000 homes across Walsall and the Midlands - hears the same complaint time and again. \"The heat gain…"
   },
-  "fetched_at": "20261124T160005Z"
+  "fetched_at": "20261125T154641Z"
  },
  {
   "id": "76881703c9dd",
@@ -256041,7 +256964,7 @@
    ],
    "excerpt": "…nd it’s crucial this continues. “To avoid the swing between extreme drought and flooding and to secure water supplies for food production, we urgently need investment in water infrastructure and a more effective planning system.”…"
   },
-  "fetched_at": "20261124T160005Z"
+  "fetched_at": "20261125T154641Z"
  },
  {
   "id": "01ff4ac7cfab",
@@ -270588,5 +271511,95 @@
    "excerpt": "Face à la répétition des crues, la préfecture d’Eure-et-Loir lance un vaste plan de protection sur l’Eure"
   },
   "fetched_at": "20261124T160005Z"
+ },
+ {
+  "id": "35f6562a1eee",
+  "url": "https://www.leparisien.fr/faits-divers/incendie-dun-lycee-a-aix-en-provence-deux-jeunes-de-17-ans-dont-un-eleve-de-letablissement-en-garde-a-vue-25-11-2026-23FGLL6HYVEQPJ5CGK3KJOGELM.php",
+  "title": "Incendie d’un lycée à Aix-en-Provence : deux jeunes de 17 ans, dont un élève de l’établissement, en garde à vue",
+  "domain": "leparisien.fr",
+  "source_country": "",
+  "source_name": "Le Parisien",
+  "language": "French",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "",
+  "socialimage": "",
+  "text_available": false,
+  "low_confidence": true,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "incendie"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "Incendie d’un lycée à Aix-en-Provence : deux jeunes de 17 ans, dont un élève de l’établissement, en garde à vue"
+  },
+  "fetched_at": "20261125T154641Z"
+ },
+ {
+  "id": "1a9dc1428311",
+  "url": "https://www.leparisien.fr/meteo/routes-et-hameaux-sous-leau-automobilistes-secourus-les-images-des-inondations-dans-le-var-en-vigilance-orange-25-11-2026-SFVAH35I3FDS5PQKVLLIVZFYIM.php",
+  "title": "Routes et hameaux sous l’eau, automobilistes secourus… Les images des inondations dans le Var, en vigilance orange",
+  "domain": "leparisien.fr",
+  "source_country": "",
+  "source_name": "Le Parisien",
+  "language": "French",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "",
+  "socialimage": "",
+  "text_available": false,
+  "low_confidence": true,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "inondations"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "Routes et hameaux sous l’eau, automobilistes secourus… Les images des inondations dans le Var, en vigilance orange"
+  },
+  "fetched_at": "20261125T154641Z"
+ },
+ {
+  "id": "95d8565f4207",
+  "url": "https://www.leparisien.fr/haute-vienne-87/incendie-de-la-mairie-de-limoges-les-travaux-prendront-au-minimum-trois-ans-et-demi-annonce-le-maire-25-11-2026-LHZZZLOD5BCDVHDKROD5HHJGZ4.php",
+  "title": "Incendie de la mairie de Limoges : les travaux prendront « au minimum trois ans et demi », annonce le maire",
+  "domain": "leparisien.fr",
+  "source_country": "",
+  "source_name": "Le Parisien",
+  "language": "French",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "",
+  "socialimage": "",
+  "text_available": false,
+  "low_confidence": true,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "incendie"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "Incendie de la mairie de Limoges : les travaux prendront « au minimum trois ans et demi », annonce le maire"
+  },
+  "fetched_at": "20261125T154641Z"
  }
 ]
