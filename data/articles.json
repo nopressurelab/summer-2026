@@ -1,5 +1,877 @@
 [
  {
+  "id": "620f328b8116",
+  "url": "https://veja.abril.com.br/mundo/forte-tempestade-provoca-inundacoes-e-deixa-quase-1-milhao-de-casas-sem-luz-nos-eua/",
+  "title": "Forte tempestade provoca inundações e deixa quase 1 milhão de casas sem luz nos EUA",
+  "domain": "veja.abril.com.br",
+  "source_country": "",
+  "source_name": "Veja (BR)",
+  "language": "Portuguese",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261127T150414Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "inundações"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "Forte tempestade provoca inundações e deixa quase 1 milhão de casas sem luz nos EUA Chuvas e ventos de até 112 km/h prejudicaram os deslocamentos pelo país e levaram ao adiamento do tradicional desfile de Ação de Graças em Nova York Uma forte tempestade atingiu o leste dos Estados Unidos nesta quinta-feira, 26, durante…"
+  },
+  "fetched_at": "20261127T151746Z"
+ },
+ {
+  "id": "3bc5eb73e017",
+  "url": "https://g1.globo.com/sp/vale-do-paraiba-regiao/noticia/2026/11/27/bombeiros-entram-no-5o-dia-de-buscas-por-argentina-que-desapareceu-apos-enxurrada-em-ubatuba-sp.ghtml",
+  "title": "Bombeiros entram no 5º dia de buscas por argentina que desapareceu após enxurrada em Ubatuba, SP",
+  "domain": "g1.globo.com",
+  "source_country": "",
+  "source_name": "G1 (BR)",
+  "language": "Portuguese",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261127T144519Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "enchente"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "…ra mais temporais - Homem morre ao tentar atravessar correnteza de moto durante enchente em Ubatuba; corpo foi encontrado em rio - Homem trans, funcionário de pizzaria e tio: saiba quem era o motociclista que morreu arrastado por enxurrada em Ubatuba na véspera do aniversário Já o GBMar concentra os trabalhos no mar e…"
+  },
+  "fetched_at": "20261127T151746Z"
+ },
+ {
+  "id": "34b75f06ea93",
+  "url": "https://g1.globo.com/es/espirito-santo/noticia/2026/11/27/chuva-no-es-50-pessoas-fora-de-casa-crianca-de-1-ano-ferida-e-estradas-bloqueadas-veja-onde-mais-choveu-nas-ultimas-24h.ghtml",
+  "title": "Chuva no ES: 50 pessoas fora de casa, criança de 1 ano ferida e estradas bloqueadas; veja onde mais choveu nas últimas 24h",
+  "domain": "g1.globo.com",
+  "source_country": "",
+  "source_name": "G1 (BR)",
+  "language": "Portuguese",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261127T144219Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "inundação"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "presidente"
+   ],
+   "excerpt": "…adas informações sobre o estado saúde. Na sede, o Rio Castelo atingiu a cota de inundação, provocando alagamentos em residências do bairro Aracuí. Também houve queda de barreira na Avenida Pedro Cola. Rodovia Pedro Cola ficou interditada por causa da chuva, em Castelo, Espírito Santo — Foto: Reprodução/Rede social Em I…"
+  },
+  "fetched_at": "20261127T151746Z"
+ },
+ {
+  "id": "ab77b46a45d6",
+  "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/tempestade-e-ventania-provocam-inundacoes-atrasam-voos-e-deixam-quase-1-milhao-sem-luz-nos-eua.shtml",
+  "title": "Tempestade e ventania provocam inundações, atrasam voos e deixam quase 1 milhão sem luz nos EUA",
+  "domain": "folha.uol.com.br",
+  "source_country": "",
+  "source_name": "Folha de S.Paulo (BR)",
+  "language": "Portuguese",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261127T141100Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": true,
+  "mentions_political_responsibility": true,
+  "omits_climate": false,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "inundações"
+   ],
+   "climate_terms": [
+    "mudanças climáticas"
+   ],
+   "political_terms": [
+    "presidente"
+   ],
+   "excerpt": "…de vento de até 112 km/h derrubaram árvores e linhas de transmissão, provocaram inundações e impactaram o tráfego aéreo. Milhares de voos tiveram de ser cancelados ou foram atrasados. Cerca de 900 mil clientes estavam sem eletricidade às 21h56 no horário local (23h56 em Brasília) de quinta-feira, segundo o site PowerOu…"
+  },
+  "fetched_at": "20261127T151746Z"
+ },
+ {
+  "id": "2cfbc7731d10",
+  "url": "https://g1.globo.com/pa/santarem-regiao/noticia/2026/11/27/tempo-seco-ate-fevereiro-e-falta-de-flagrantes-desafiam-combate-ao-fogo-no-saubal-em-santarem.ghtml",
+  "title": "Tempo seco até fevereiro e falta de flagrantes desafiam combate ao fogo no Saubal, em Santarém",
+  "domain": "g1.globo.com",
+  "source_country": "",
+  "source_name": "G1 (BR)",
+  "language": "Portuguese",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261127T141051Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "incêndios",
+    "incêndios florestais"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "governo"
+   ],
+   "excerpt": "Reunião discutiu problemas enfrentados para combater incêndios no Saubal, em Santarém — Foto: Prefeitura de Santarém Adicione o g1 como Fonte Preferida no Google Adicionar Defesa Civil, Santarém — Foto: Prefeitura de Santarém A dificuldade para flagrar os autores das queimadas e a previsão de seca prolongada até o iníc…"
+  },
+  "fetched_at": "20261127T151746Z"
+ },
+ {
+  "id": "c2f4a016576e",
+  "url": "https://g1.globo.com/mg/zona-da-mata/noticia/2026/11/27/tempo-abafado-marca-o-final-de-semana-na-zona-da-mata-mineira-confira-as-temperaturas.ghtml",
+  "title": "Tempo abafado marca o final de semana na Zona da Mata mineira; confira as temperaturas",
+  "domain": "g1.globo.com",
+  "source_country": "",
+  "source_name": "G1 (BR)",
+  "language": "Portuguese",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261127T135107Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "enchente"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "Fim de semana deve ser marcado por céu nublado e sensação de abafamento — Foto: Carol Delgado/g1 Adicione o g1 como Fonte Preferida no Google Adicionar A sensação deve ser de tempo abafado neste final de semana em Juiz de Fora. Segundo o meteorologista do Instituto Nacional de Meteorologia (Inmet), Lizandro Gemiacki, a…"
+  },
+  "fetched_at": "20261127T151746Z"
+ },
+ {
+  "id": "4cddecea9d35",
+  "url": "https://g1.globo.com/pi/piaui/noticia/2026/11/27/video-incendio-casa-queima-plantacao-cana-de-acucar-uniao.ghtml",
+  "title": "Vídeo: Incêndio destrói casa de família após queima de plantação de cana-de-açúcar se espalhar no Piauí",
+  "domain": "g1.globo.com",
+  "source_country": "",
+  "source_name": "G1 (BR)",
+  "language": "Portuguese",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261127T134357Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "incêndio"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "Adicione o g1 como Fonte Preferida no Google Adicionar Um incêndio destruiu a casa onde Ana Clea e as filhas de 5 e 12 anos moravam, na tarde de quinta-feira (26), na zona rural de União, no Centro-Norte do Piauí. Sem a residência, que era feita de taipa e coberta com palha, além de documentos, móveis e roupas destruíd…"
+  },
+  "fetched_at": "20261127T151746Z"
+ },
+ {
+  "id": "c2e7213132a8",
+  "url": "https://oglobo.globo.com/economia/noticia/2026/11/27/conflitos-e-el-nino-agravam-a-fome-no-mundo-alerta-onu.ghtml",
+  "title": "Conflitos e El Niño agravam a fome no mundo, alerta ONU",
+  "domain": "oglobo.globo.com",
+  "source_country": "",
+  "source_name": "O Globo (BR)",
+  "language": "Portuguese",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261127T130301Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": true,
+  "mentions_political_responsibility": true,
+  "omits_climate": false,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "inundações"
+   ],
+   "climate_terms": [
+    "crise climática"
+   ],
+   "political_terms": [
+    "financiamento"
+   ],
+   "excerpt": "…agrícola no sul da África\", explicam as agências da ONU. Além disso, o risco de inundações em áreas do leste africano também poderá aumentar. Na Faixa de Gaza, \"as chuvas de inverno e as inundações localizadas podem agravar as condições de vida das pessoas deslocadas, danificando abrigos precários e comprometendo ainda…"
+  },
+  "fetched_at": "20261127T151746Z"
+ },
+ {
+  "id": "b98338a3a850",
+  "url": "https://oglobo.globo.com/brasil/noticia/2026/11/27/quem-era-mariana-zorzo-professora-que-morreu-ao-tentar-salvar-alunos-de-afogamento-em-florianopolis.ghtml",
+  "title": "Quem era Mariana Zorzo, professora que morreu ao tentar salvar alunos de afogamento em Florianópolis",
+  "domain": "oglobo.globo.com",
+  "source_country": "",
+  "source_name": "O Globo (BR)",
+  "language": "Portuguese",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261127T120504Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "incêndio"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "Quem era Mariana Zorzo, professora que morreu ao tentar salvar alunos de afogamento em Florianópolis Educadora social de 31 anos era conhecida como “prof da horta” e dedicava a carreira à educação ambiental e ao trabalho com jovens em situação de vulnerabilidade Por O Globo — Rio de Janeiro Atualizado A professora Mari…"
+  },
+  "fetched_at": "20261127T151746Z"
+ },
+ {
+  "id": "8494d40c836d",
+  "url": "https://www.lemonde.fr/international/article/2026/11/27/a-hongkong-un-an-apres-l-incendie-meurtrier-les-autorites-pointent-une-serie-de-defaillances-et-refusent-une-ceremonie-officielle_6815852_3210.html",
+  "title": "A Hongkong, un an après l’incendie meurtrier, les autorités pointent une série de défaillances et refusent une cérémonie officielle",
+  "domain": "lemonde.fr",
+  "source_country": "",
+  "source_name": "Le Monde",
+  "language": "French",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261127T113003Z",
+  "socialimage": "",
+  "text_available": false,
+  "low_confidence": true,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "incendie"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "autorités",
+    "négligence"
+   ],
+   "excerpt": "…ieux de la catastrophe, qui avait fait 168 morts. Selon le rapport d’enquête, l’incendie des immeubles est le résultat d’un mélange de corruption et de fraude, assorti de négligence.…"
+  },
+  "fetched_at": "20261127T151746Z"
+ },
+ {
+  "id": "7a834e81d48a",
+  "url": "https://www.theguardian.com/us-news/2026/nov/27/king-tides-us-coasts-storms-threaten-thanksgiving-celebrations",
+  "title": "King tides batter US coasts as storms threaten Thanksgiving celebrations",
+  "domain": "theguardian.com",
+  "source_country": "",
+  "source_name": "The Guardian",
+  "language": "English",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261127T105048Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "flood",
+    "flooding"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "authorities"
+   ],
+   "excerpt": "… and sending debris into the ocean. The National Weather Service issued coastal flood warnings covering parts of the Pacific coastline and shorelines around San Francisco Bay and San Pablo Bay. Several beachfront properties in Pacifica have already experienced flooding, while authorities in Marin County temporarily iss…"
+  },
+  "fetched_at": "20261127T151746Z"
+ },
+ {
+  "id": "2d3bf27575d6",
+  "url": "https://www.liberation.fr/environnement/climat/tempete-sur-la-cote-est-inondations-en-californie-aux-etats-unis-thanksgiving-gache-par-les-fortes-pluies-20261127_WMN55WJ4VZGPTNLA7ZYND7FENU/",
+  "title": "Tempête sur la Côte Est, inondations en Californie… Aux Etats-Unis, Thanksgiving gâché par les fortes pluies",
+  "domain": "liberation.fr",
+  "source_country": "",
+  "source_name": "Libération",
+  "language": "French",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261127T103854Z",
+  "socialimage": "",
+  "text_available": false,
+  "low_confidence": true,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "inondations"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "D’importantes intempéries se sont abattues jeudi 26 novembre de part et d’autre du pays, privant d’électricité près d’un million de foyers et clouant au sol des milliers d’avions, en pleine fête nationale célèbre pour sa dinde farcie."
+  },
+  "fetched_at": "20261127T151746Z"
+ },
+ {
+  "id": "06f8444b357c",
+  "url": "https://www.rtp.pt/noticias/mundo/dois-anos-de-calor-extremo-encolheram-rios-e-lagos-do-mundo_n1782021",
+  "title": "Dois anos de calor extremo encolheram rios e lagos do mundo",
+  "domain": "rtp.pt",
+  "source_country": "",
+  "source_name": "RTP (PT)",
+  "language": "Portuguese",
+  "topic": "heatwave",
+  "topics": [
+   "heatwave"
+  ],
+  "seendate": "20261127T102209Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": true,
+  "mentions_political_responsibility": false,
+  "omits_climate": false,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "calor extremo",
+    "inundações",
+    "recorde de calor"
+   ],
+   "climate_terms": [
+    "mudanças climáticas",
+    "alterações climáticas",
+    "crise climática"
+   ],
+   "political_terms": [],
+   "excerpt": "Mundo Dois anos de calor extremo encolheram rios e lagos do mundo O calor extremo dos últimos anos está a provocar um declínio sem precedentes nos níveis de água dos rios, lagos e reservatórios em todo o mundo, de acordo com um novo estudo internacional. A análise dos sistemas hídricos, lid…"
+  },
+  "fetched_at": "20261127T151746Z"
+ },
+ {
+  "id": "bc3c99a02fd1",
+  "url": "https://www.lemonde.fr/international/article/2026/11/27/tempetes-aux-etats-unis-plus-de-900-000-foyers-sans-electricite-sur-la-cote-est-le-jour-de-thanksgiving_6815813_3210.html",
+  "title": "Tempêtes aux Etats-Unis : plus de 900 000 foyers sans électricité sur la Côte est le jour de Thanksgiving",
+  "domain": "lemonde.fr",
+  "source_country": "",
+  "source_name": "Le Monde",
+  "language": "French",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261127T072932Z",
+  "socialimage": "",
+  "text_available": false,
+  "low_confidence": true,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "inondations"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "De fortes pluies, du vent violent et des inondations côtières ont affecté l’est du pays en ce jour férié aux Etats-Unis."
+  },
+  "fetched_at": "20261127T151746Z"
+ },
+ {
+  "id": "0b5b8c530369",
+  "url": "https://www.tagesschau.de/ausland/amerika/usa-stuerme-thanksgiving-100.html",
+  "title": "Schwerer Sturm sorgt in den USA an Thanksgiving für massive Einschränkungen",
+  "domain": "tagesschau.de",
+  "source_country": "",
+  "source_name": "Tagesschau (ARD)",
+  "language": "German",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261127T065556Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "Starkregen",
+    "Überschwemmungen"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "Präsident",
+    "Behörden"
+   ],
+   "excerpt": "…e Flüge, Stromausfälle und Überschwemmungen: Ausgerechnet an Thanksgiving haben Starkregen und heftige Winde in vielen Teilen der USA für Chaos gesorgt. In einigen Bundesstaaten gilt der Notstand. Ein schwerer Sturm hat in den USA am Feiertag Thanksgiving massive Stromausfälle und Verkehrsbehinderungen verursacht. Star…"
+  },
+  "fetched_at": "20261127T151746Z"
+ },
+ {
+  "id": "94d2e60bc99c",
+  "url": "https://www.bbc.co.uk/news/articles/ckm2mz3prq77o?at_medium=RSS&at_campaign=rss",
+  "title": "Major Thanksgiving storm brings flooding, flight delays across US",
+  "domain": "bbc.co.uk",
+  "source_country": "",
+  "source_name": "BBC News",
+  "language": "English",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261127T051526Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "flooding",
+    "torrential rain"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "president",
+    "authorities"
+   ],
+   "excerpt": "Major Thanksgiving storm brings flooding, flight delays across US - Published A massive Thanksgiving storm hammering the Midwest and north-east with heavy rain and winds, along with high tides out west, is causing widespread disruptions across the US. More than 80 million Americans expected to be travelling this week.…"
+  },
+  "fetched_at": "20261127T151746Z"
+ },
+ {
+  "id": "cd3aba56a3a0",
+  "url": "https://www.clarin.com/mundo/fuerte-tormenta-eeuu-empano-festejos-accion-gracias-900000-usuarios-luz-miles-varados-aeropuertos-vuelos-cancelados_0_p6P8Q4WpbM.html",
+  "title": "Fuerte tormenta en EE.UU. empañó los festejos de Acción de Gracias: más de 900.000 usuarios sin luz y miles varados en aeropuertos por vuelos cancelados",
+  "domain": "clarin.com",
+  "source_country": "",
+  "source_name": "Clarín (AR)",
+  "language": "Spanish",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261127T044021Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "inundaciones",
+    "inundación"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "…ste provocó durante este jueves intensas lluvias, fuertes vientos e importantes inundaciones costeras en el sureste y a lo largo de la costa este. Según reportaron oficialmente, los efectos de la tormenta se extenderán hacia el oeste, hasta el valle medio del Misisipi, y se esperan nevadas hasta este viernes por la mañ…"
+  },
+  "fetched_at": "20261127T151746Z"
+ },
+ {
+  "id": "5a23ebe23ac1",
+  "url": "https://www.eltiempo.com/mundo/africa/fue-capturado-el-conductor-que-provoco-choque-contra-camion-cisterna-desato-incendio-y-dejo-31-muertos-en-egipto-manejaba-a-110-kilometros-por-hora-3604530",
+  "title": "Fue capturado el conductor que provocó choque contra camión cisterna, desató incendio y dejó 31 muertos en Egipto: manejaba a 110 kilómetros por hora",
+  "domain": "eltiempo.com",
+  "source_country": "",
+  "source_name": "El Tiempo (CO)",
+  "language": "Spanish",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261127T043633Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "incendio"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "presidente",
+    "autoridades",
+    "responsabilidad",
+    "derecha"
+   ],
+   "excerpt": "…ia Fue capturado el conductor que provocó choque contra camión cisterna, desató incendio y dejó 31 muertos en Egipto: manejaba a 110 kilómetros por hora El hombre habría perdido el control de su vehículo mientras intentaba adelantar. La colisión provocó una tragedia que consumió decenas de automotores. Conductor admiti…"
+  },
+  "fetched_at": "20261127T151746Z"
+ },
+ {
+  "id": "a47635c8398a",
+  "url": "https://www.20minutos.es/baleares/vuelco-buque-med-emre-ibiza-desconcierta-los-ingenieros-navales-es-una-situacion-muy-extrana_7066345_0.html",
+  "title": "El vuelco del buque Med Emre en Ibiza desconcierta a los ingenieros navales: \"Es una situación muy extraña\"",
+  "domain": "20minutos.es",
+  "source_country": "",
+  "source_name": "20minutos",
+  "language": "Spanish",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261127T040029Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "inundaciones",
+    "inundación"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "autoridades",
+    "responsabilidad"
+   ],
+   "excerpt": "…oogle. Los expertos analizan qué pudo fallar en un buque diseñado para resistir inundaciones, cómo recuperar las 7.000 toneladas de gasóleo que transporta y por qué descartan un escenario similar al del Prestige. El accidente del Med Emre frente a las costas de Ibiza ha puesto en alerta a las autoridades y desconcertad…"
+  },
+  "fetched_at": "20261127T151746Z"
+ },
+ {
+  "id": "57a819ea8706",
+  "url": "https://www.eldiario.es/era/no-son-experimentos-vivo-oscuro-mortifero-mundo-looksmaxxing_1_13696427.html",
+  "title": "“No son más que experimentos en vivo”: el oscuro y mortífero mundo del ‘looksmaxxing’",
+  "domain": "eldiario.es",
+  "source_country": "",
+  "source_name": "elDiario.es",
+  "language": "Spanish",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261127T004614Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "incendios"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "autoridades",
+    "derecha"
+   ],
+   "excerpt": "… circunstancias sospechosas desde 2018, en casos que van desde sobredosis hasta incendios domésticos o ahorcamientos. Y la cámara se aleja para mostrar el rodaje del propio documental, mientras Hughes, Elon Muscular y Murphy —cada uno de los cuales seguramente supera el límite diario de inyectables (Murphy afirma tomar…"
+  },
+  "fetched_at": "20261127T151746Z"
+ },
+ {
+  "id": "26e3b24b2669",
+  "url": "https://www.washingtonpost.com/nation/2026/11/26/powerful-thanksgiving-storm-threatens-east-coast-with-floods-damaging-winds/",
+  "title": "Flight delays, flooding and power outages grow as storm batters East Coast",
+  "domain": "washingtonpost.com",
+  "source_country": "",
+  "source_name": "The Washington Post",
+  "language": "English",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261127T001738Z",
+  "socialimage": "",
+  "text_available": false,
+  "low_confidence": true,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "flood",
+    "flooding"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "Region’s worst Thanksgiving Day storm in decades has prompted high-wind and flood warnings from Virginia Beach to New York City."
+  },
+  "fetched_at": "20261127T151746Z"
+ },
+ {
+  "id": "65691f07dd0d",
+  "url": "https://www.repubblica.it/esteri/2026/11/27/diretta/guerra_ucraina_russia_news_oggi-425753719/",
+  "title": "Guerra Ucraina-Russia. Zelensky: “L’attacco in Libia? Non agiamo mai senza coordinarci con partner”. In Italia scoppia il caso",
+  "domain": "repubblica.it",
+  "source_country": "",
+  "source_name": "la Repubblica",
+  "language": "Italian",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261126T231212Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "incendi",
+    "incendio"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "governo",
+    "ministro",
+    "presidente",
+    "politica",
+    "legge",
+    "parlamento",
+    "autorità"
+   ],
+   "excerpt": "…one di Mosca, raid anche nell’area di San Pietroburgo. Mentre a Zaporizhzhia un incendio è divampato in una fabbrica in seguito a un attacco russo. Lo riferisce l'agenzia Ukrinform. Intanto, il presidente ucraino Volodymyr Zelensky ha lamentato la scarsa attenzione di Trump sull’Ucraina: “Sono concentrati sul Mediorien…"
+  },
+  "fetched_at": "20261127T151746Z"
+ },
+ {
+  "id": "17958f2a10f6",
+  "url": "https://www.bbc.co.uk/news/videos/c6evr2y40v0jo?at_medium=RSS&at_campaign=rss",
+  "title": "My dad's watch stopped the moment he died - I found it in the ashes of Hong Kong tower fire",
+  "domain": "bbc.co.uk",
+  "source_country": "",
+  "source_name": "BBC News",
+  "language": "English",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261126T230316Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "blaze"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "…heir 80s, were among the 168 people killed in last year's Hong Kong tower-block blaze - the deadliest the city had seen in decades. Their building was the first of the Wang Fuk Court complex to catch fire, and their bodies were burned beyond recognition. In this video Mr So, who is only using his surname, visits his pa…"
+  },
+  "fetched_at": "20261127T151746Z"
+ },
+ {
+  "id": "9e635d9190a5",
+  "url": "https://www.latimes.com/california/story/2026-11-26/coastal-flood-warnings-extended-in-california-amid-high-tides",
+  "title": "One flood threat eases as another looms: Heavy rain takes aim at Southern California",
+  "domain": "latimes.com",
+  "source_country": "",
+  "source_name": "Los Angeles Times",
+  "language": "English",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261126T230105Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "flood",
+    "flooding"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "One flood threat eases as another looms: Heavy rain takes aim at Southern California - Click here to listen to this article - Share via See more from the L.A. Times in Google Search. Set us as preferred The worst of this week’s exceptionally high king tides is finally over, but weather officials spent Thanksgiving Da…"
+  },
+  "fetched_at": "20261127T151746Z"
+ },
+ {
+  "id": "d0330c913522",
+  "url": "https://www.eldiario.es/castilla-la-mancha/provincias/ciudad_real/ampliacion-tablas-daimiel-vuelve-fuera-guadiana-rio-explica-existencia_1_13691977.html",
+  "title": "La ampliación de las Tablas de Daimiel vuelve a \"dejar fuera\" al Guadiana, el río que \"explica su existencia\"",
+  "domain": "eldiario.es",
+  "source_country": "",
+  "source_name": "elDiario.es",
+  "language": "Spanish",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261126T185918Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "incendios",
+    "inundación"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "ley"
+   ],
+   "excerpt": "…spacio degradado y vulnerable donde la ausencia de agua multiplica el riesgo de incendios”. “No bastará con recuperar una lámina de agua en el interior del Parque. Es necesario restaurar las condiciones territoriales que permitan sostenerla: las conexiones entre aguas subterráneas y superficiales, la continuidad del ca…"
+  },
+  "fetched_at": "20261127T151746Z"
+ },
+ {
+  "id": "dc36a3d41c7d",
+  "url": "https://www.abc.es/sociedad/iberdrola-impulsa-igualdad-traves-deporte-ocho-nuevos-20261126190126-nt.html",
+  "title": "Iberdrola impulsa la igualdad a través del deporte con ocho nuevos proyectos por todo el territorio",
+  "domain": "abc.es",
+  "source_country": "",
+  "source_name": "ABC",
+  "language": "Spanish",
+  "topic": "wildfire",
+  "topics": [
+   "wildfire"
+  ],
+  "seendate": "20261126T180126Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": true,
+  "omits_climate": true,
+  "omits_political": false,
+  "evidence": {
+   "topic_terms": [
+    "incendio"
+   ],
+   "climate_terms": [],
+   "political_terms": [
+    "presidente"
+   ],
+   "excerpt": "…dar continuidad a su equipo de mujeres de entre 40 y 60 años, después de que un incendio destruyera las instalaciones y la flota en 2025. - Supera Inclusión: Club Deportivo Uninsu (Canarias), que destinará el premio a adquirir nuevas sillas de competición para su equipo de hockey en silla de ruedas eléctricas. - Supera…"
+  },
+  "fetched_at": "20261127T151746Z"
+ },
+ {
+  "id": "0417693ebf71",
+  "url": "https://www.eldiario.es/unrwa/madres-gaza-cargan-peso-durante-invierno_132_13695860.html",
+  "title": "Las madres de Gaza cargan otro peso durante el invierno",
+  "domain": "eldiario.es",
+  "source_country": "",
+  "source_name": "elDiario.es",
+  "language": "Spanish",
+  "topic": "floods",
+  "topics": [
+   "floods"
+  ],
+  "seendate": "20261126T161144Z",
+  "socialimage": "",
+  "text_available": true,
+  "low_confidence": false,
+  "mentions_climate": false,
+  "mentions_political_responsibility": false,
+  "omits_climate": true,
+  "omits_political": true,
+  "evidence": {
+   "topic_terms": [
+    "inundaciones"
+   ],
+   "climate_terms": [],
+   "political_terms": [],
+   "excerpt": "…00 personas y han dañado más de 40.000 refugios familiares. Tras estas primeras inundaciones, se estima que más de 5.000 personas se ven obligadas a dormir a la intemperie. Sin escapatoria ante las inundaciones En el aula contigua a la tienda de Jindiya se han refugiado dos familias, con un total de nueve personas. Una…"
+  },
+  "fetched_at": "20261127T151746Z"
+ },
+ {
   "id": "ef49af99a016",
   "url": "https://g1.globo.com/ap/amapa/noticia/2026/11/26/homem-carrega-botijao-de-gas-na-cabeca-para-fugir-de-fumaca-toxica-e-fogo-no-sul-do-ap-video.ghtml",
   "title": "Homem carrega botijão de gás na cabeça para fugir de fumaça tóxica e fogo no Sul do AP; VÍDEO",
@@ -137,7 +1009,7 @@
    ],
    "excerpt": "…spread harm to people in this country. It was one year ago that Storm Claudia’s floods swept through Monmouthshire, devastating hundreds of homes, businesses and livelihoods. I know, as flood season is upon us again, how sick residents feel every time it rains. This is why I, along with my colleagues on Labour’s backbe…"
   },
-  "fetched_at": "20261126T153025Z"
+  "fetched_at": "20261127T151746Z"
  },
  {
   "id": "64a2534ab0ad",
@@ -415,7 +1287,7 @@
    ],
    "excerpt": "Les incendies mettent professionnels et volontaires en présence de substances cancérogènes, dans l’air comme dans leurs équipements. Face à cette situation, les autorités continuent de faire preuve d’apathie, dénonce un collectif de sapeurs-pompiers et de chercheurs, dans une tribune au « Monde »."
   },
-  "fetched_at": "20261126T153025Z"
+  "fetched_at": "20261127T151746Z"
  },
  {
   "id": "b26dd0a237dc",
@@ -577,7 +1449,7 @@
    ],
    "excerpt": "Nepal declarará muertos a los más de 5.000 desaparecidos en las inundaciones de agosto 1.400 fallecidos La ausencia de certificados de defunción ha impedido a muchas familias reclamar indemnizaciones, formalizar la transmisión de propiedades o resolver otras cuestiones legales Nepal ha iniciado los trámites para declar…"
   },
-  "fetched_at": "20261126T153025Z"
+  "fetched_at": "20261127T151746Z"
  },
  {
   "id": "f83b3b0c1939",
@@ -923,7 +1795,7 @@
    "political_terms": [],
    "excerpt": "Au mois d’octobre, la législation népalaise avait été modifiée pour réduire de douze ans à environ six semaines le délai d’attente pour déclarer des disparus officiellement morts."
   },
-  "fetched_at": "20261126T153025Z"
+  "fetched_at": "20261127T151746Z"
  },
  {
   "id": "19b9a5ff423b",
@@ -956,36 +1828,6 @@
   "fetched_at": "20261126T153025Z"
  },
  {
-  "id": "26e3b24b2669",
-  "url": "https://www.washingtonpost.com/nation/2026/11/26/powerful-thanksgiving-storm-threatens-east-coast-with-floods-damaging-winds/",
-  "title": "Powerful Thanksgiving storm threatens East Coast with floods, damaging winds",
-  "domain": "washingtonpost.com",
-  "source_country": "",
-  "source_name": "The Washington Post",
-  "language": "English",
-  "topic": "floods",
-  "topics": [
-   "floods"
-  ],
-  "seendate": "20261126T100000Z",
-  "socialimage": "",
-  "text_available": false,
-  "low_confidence": true,
-  "mentions_climate": false,
-  "mentions_political_responsibility": false,
-  "omits_climate": true,
-  "omits_political": true,
-  "evidence": {
-   "topic_terms": [
-    "floods"
-   ],
-   "climate_terms": [],
-   "political_terms": [],
-   "excerpt": "Officials are warning of dangerous travel, widespread power outages and hurricane-force gusts."
-  },
-  "fetched_at": "20261126T153025Z"
- },
- {
   "id": "5dd097af2fde",
   "url": "https://www.washingtonpost.com/health/2026/11/26/number-excess-deaths-between-black-white-americans-shrank-sharply/",
   "title": "The mortality gap between Black and White Americans keeps shrinking",
@@ -1013,7 +1855,7 @@
    "political_terms": [],
    "excerpt": "The gap in the number of excess deaths between Black Americans and White Americans shrank significantly between 1993 and 2023, according to a new study."
   },
-  "fetched_at": "20261126T153025Z"
+  "fetched_at": "20261127T151746Z"
  },
  {
   "id": "a29efc4ef3e8",
@@ -1091,7 +1933,7 @@
   "topics": [
    "wildfire"
   ],
-  "seendate": "20261126T090603Z",
+  "seendate": "20261126T090604Z",
   "socialimage": "",
   "text_available": false,
   "low_confidence": true,
@@ -1109,7 +1951,7 @@
    ],
    "excerpt": "The city’s residents quietly mourned the 168 lives lost in a high-rise complex blaze a year ago, as officials warned against using the disaster to sow division."
   },
-  "fetched_at": "20261126T153025Z"
+  "fetched_at": "20261127T151746Z"
  },
  {
   "id": "a4b8f331adc4",
@@ -1332,7 +2174,7 @@
    "political_terms": [],
    "excerpt": "…ting the odds of not just swamped streets and high tides — but also a potential flood of poisonous mushrooms. And if foragers mistakenly consume the fungi, officials are worried of another surge of near-fatal illnesses. “With El Niño expected to bring increased rainfall to parts of California, we are concerned that the…"
   },
-  "fetched_at": "20261126T153025Z"
+  "fetched_at": "20261127T151746Z"
  },
  {
   "id": "dbf1f5ff4074",
@@ -1365,7 +2207,7 @@
    "political_terms": [],
    "excerpt": "California warns of flooding as King Tides peak over Thanksgiving - Published Coastal areas of California are bracing for potential flooding as king tides peak in the state during the US Thanksgiving holiday. Water levels across the US state's vast coastline could reach over 8ft (2.4 metres) in some areas on Wednesday…"
   },
-  "fetched_at": "20261126T153025Z"
+  "fetched_at": "20261127T151746Z"
  },
  {
   "id": "99cf73a730bc",
@@ -1395,7 +2237,7 @@
    "political_terms": [],
    "excerpt": "Several bodies have been recovered during a mammoth rescue operation at a flooded gold mine. November 26, 2026 — 12:06pm You have reached your maximum number of saved items. Remove items from your saved list to add more. No gift articles left You've used all of your gift articles. 3 more will become available on the 1s…"
   },
-  "fetched_at": "20261126T153025Z"
+  "fetched_at": "20261127T151746Z"
  },
  {
   "id": "4ea9865f2a26",
@@ -1429,7 +2271,7 @@
    ],
    "excerpt": "… Cairo on Wednesday, killing at least 31 people, Egyptian authorities said. The blaze on the ring road, a key artery that encircles the Egyptian capital, also injured at least 21 people and left more than two dozen cars and motorcycles charred, according to the latest figures released by the health ministry. State medi…"
   },
-  "fetched_at": "20261126T153025Z"
+  "fetched_at": "20261127T151746Z"
  },
  {
   "id": "c3e4608c53c9",
@@ -1524,7 +2366,7 @@
    "political_terms": [],
    "excerpt": "…nia coast on Wednesday, sending seawater rushing into beachside communities and flooding roads and businesses. As big waves battered the coast, the tip of a landmark pier in Pacifica, south of San Francisco, was slammed into the sea, local news outlets reported. The pier, which had once housed a favorite local cafe, ha…"
   },
-  "fetched_at": "20261126T153025Z"
+  "fetched_at": "20261127T151746Z"
  },
  {
   "id": "a83d7ce04cbd",
@@ -1554,7 +2396,7 @@
    "political_terms": [],
    "excerpt": "The blaze killed at least 31 and injured at least 21 near Giza, beside the Nile River, officials said."
   },
-  "fetched_at": "20261126T153025Z"
+  "fetched_at": "20261127T151746Z"
  },
  {
   "id": "51fd126ae767",
@@ -1584,7 +2426,7 @@
    "political_terms": [],
    "excerpt": "The blaze began after a truck carrying petrol products overturned and ignited. November 26, 2026 — 8:16am You have reached your maximum number of saved items. Remove items from your saved list to add more. No gift articles left You've used all of your gift articles. 3 more will become available on the 1st of every mont…"
   },
-  "fetched_at": "20261126T153025Z"
+  "fetched_at": "20261127T151746Z"
  },
  {
   "id": "d8edb647fbe6",
@@ -2478,7 +3320,7 @@
    "political_terms": [],
    "excerpt": "Tuesday’s tides flooded low-lying areas along the coast. High tides forecast for Wednesday and Thursday are expected to further threaten the state."
   },
-  "fetched_at": "20261126T153025Z"
+  "fetched_at": "20261127T151746Z"
  },
  {
   "id": "b8fed400bc9e",
@@ -2511,7 +3353,7 @@
    "political_terms": [],
    "excerpt": "…gh or close to record-high November tides up and down the coast this week, with flooding of low-lying roadways in San Francisco and an evacuation of one community in northern California. Local residents and media outlets shared images of floodwaters rushing over the bayfront Embarcadero at the center of San Francisco’s…"
   },
-  "fetched_at": "20261126T153025Z"
+  "fetched_at": "20261127T151746Z"
  },
  {
   "id": "94ebe901b748",
@@ -2608,7 +3450,7 @@
    "political_terms": [],
    "excerpt": "…bles. Météo-France a déclenché ce mardi après-midi la vigilance orange pluie et inondation pour le Var et les Alpes-Maritimes. L’alerte entrera en vigueur dès minuit et restera active jusqu’à mercredi 22 heures. Ce nouvel épisode méditerranéen s’installe sur la région Provence-Alpes-Côte-d'Azur dans la soirée avant de…"
   },
-  "fetched_at": "20261126T153025Z"
+  "fetched_at": "20261127T151746Z"
  },
  {
   "id": "88fb26125ffe",
@@ -2771,7 +3613,7 @@
    ],
    "excerpt": "…e, à medida que o clima continuar a aquecer, podemos esperar que os períodos de calor extremo se tornem mais longos, mais frequentes e mais intensos\", afirmou Ross Thompson, cientista-chefe de saúde ambiental da UKHSA. \"É fundamental que indivíduos, comunidades, serviços de saúde e assistência e organizações locais est…"
   },
-  "fetched_at": "20261126T153025Z"
+  "fetched_at": "20261127T151746Z"
  },
  {
   "id": "907e90ebfddc",
@@ -2999,7 +3841,7 @@
    "political_terms": [],
    "excerpt": "Estimate of 5,258 heat-associated fatalities prompts calls for urgent action to adapt to extreme temperatures"
   },
-  "fetched_at": "20261126T153025Z"
+  "fetched_at": "20261127T151746Z"
  },
  {
   "id": "f3638cdb2b5c",
@@ -3165,7 +4007,7 @@
    ],
    "excerpt": "… heatwaves and wildfires in Australia, Canada, Indonesia, the UK and Europe, to floods in South America, Thailand and across Africa, along with the obliteration of communities in Nepal due to glacier collapse, we are reaping the whirlwind of our inaction. But what of the Cops? We can’t afford to twiddle our thumbs for…"
   },
-  "fetched_at": "20261126T153025Z"
+  "fetched_at": "20261127T151746Z"
  },
  {
   "id": "15b8c4deaa8d",
@@ -3259,7 +4101,7 @@
    "political_terms": [],
    "excerpt": "California coast faces historic flooding threat this week: Here’s what you need to know - Click here to listen to this article - Share via See more from the L.A. Times in Google Search. Set us as preferred SAN FRANCISCO — Extreme flooding on the California coast from rising seawater is possible from the San Francisco…"
   },
-  "fetched_at": "20261126T153025Z"
+  "fetched_at": "20261127T151746Z"
  },
  {
   "id": "15ae29f5f60e",
@@ -3296,7 +4138,7 @@
    ],
    "excerpt": "…nécessité de débroussailler en hiver. L’année 2026 empile les records. Jours de canicule, sécheresse, températures extrêmes ou encore incendies. Défigurés par des mégafeux longtemps incontrôlables, de nombreux territoires tentent aujourd’hui de mieux se préparer afin de limiter le risque de départs de feu l’été prochai…"
   },
-  "fetched_at": "20261126T153025Z"
+  "fetched_at": "20261127T151746Z"
  },
  {
   "id": "2ff77be5ec0f",
@@ -4892,7 +5734,7 @@
    "political_terms": [],
    "excerpt": "AR Après les crues de ces derniers jours dans le Nord, c’est maintenant l’est du pays qui doit se préparer à de fortes pluies. Météo-France a placé l’Ain en vigilance orange « pluie-inondation » à partir de 16 heures ce dimanche, tout comme le Jura, qui reste aussi sous surveillance étroite. Dans le Pas-de-Calais, l’al…"
   },
-  "fetched_at": "20261126T153025Z"
+  "fetched_at": "20261127T151746Z"
  },
  {
   "id": "8e1247f2a138",
@@ -6012,7 +6854,7 @@
    "political_terms": [],
    "excerpt": "…dult males now outnumber snow crabs. The phenomenon was triggered by an extreme heatwave in 2018 and 2019, when the Bering Sea became nearly ice-free by early spring. The heatwave led to mass starvation and a collapse in the snow crab population, causing the death of about 10 billion crabs. Early signs of the devastati…"
   },
-  "fetched_at": "20261126T153025Z"
+  "fetched_at": "20261127T151746Z"
  },
  {
   "id": "71ec1e413d8c",
@@ -6444,7 +7286,7 @@
    ],
    "excerpt": "O Pará tem 66 dos seus 144 municípios em emergência devido aos incêndios florestais e à estiagem, em meio aos efeitos do El Niño. O reconhecimento dessa situação saiu no Diário Oficial da União da última quarta-feira (18). Com isso, as cidades podem solicitar recursos para ações de defesa civil ao Ministério da Integra…"
   },
-  "fetched_at": "20261126T153025Z"
+  "fetched_at": "20261127T151746Z"
  },
  {
   "id": "64a3ceeb6580",
@@ -6794,7 +7636,7 @@
    "political_terms": [],
    "excerpt": "…s », notamment sur la Canche, fleuve côtier débouchant au Touquet, prévient Vigicrues qui a classé ce bassin en vigilance orange jusqu’à 14 heures. L’observatoire officiel juge cette crue « importante pour la saison ». « On va surveiller jusqu’au moins ce soir, voire même dans la nuit, la redescente du niveau des cours…"
   },
-  "fetched_at": "20261126T153025Z"
+  "fetched_at": "20261127T151746Z"
  },
  {
   "id": "ab680ebd9042",
@@ -6885,7 +7727,7 @@
    "political_terms": [],
    "excerpt": "…ez le découvrir, selon nos invités, presque toutes les terres le sont. La terre crue est partout, gratuite, et n'appartient à aucune grande firme. Pendant des millénaires, l'humanité a bâti avec elle. Elle n'a pas attendu les fours à chaux, à briques ou à ciment, chauffés de 900 à 1 450 degrés, pour se protéger de la p…"
   },
-  "fetched_at": "20261126T153025Z"
+  "fetched_at": "20261127T151746Z"
  },
  {
   "id": "82717aeae907",
@@ -7453,7 +8295,7 @@
    "political_terms": [],
    "excerpt": "From the Arctic to the tropics, unusual weather and extreme heat is sparking worry about how quickly humans are reshaping the Earth’s natural processes."
   },
-  "fetched_at": "20261126T153025Z"
+  "fetched_at": "20261127T151746Z"
  },
  {
   "id": "cdf962ccf60f",
@@ -10764,7 +11606,7 @@
    ],
    "excerpt": "…nas atingiram nesta semana nível péssimo de qualidade do ar em meio a fumaça de incêndios florestais, agravados pelo El Niño. Nos municípios de Barreirinha, Itapiranga, Parintins e São Sebastião do Uatumã, a concentração de partículas finas (MP2,5) ultrapassou 125 microgramas por metro cúbico, segundo o Centro de Monit…"
   },
-  "fetched_at": "20261126T153025Z"
+  "fetched_at": "20261127T151746Z"
  },
  {
   "id": "31a2f15564d7",
@@ -12454,7 +13296,7 @@
    "political_terms": [],
    "excerpt": "From floods to extreme heat: The human cost of Australia’s changing climate Updated November 13, 2026 — 4:33pm,first published August 6, 2026 — 3:36pm You have reached your maximum number of saved items. Remove items from your saved list to add more. No gift articles left You've used all of your gift articles. 3 more w…"
   },
-  "fetched_at": "20261126T153025Z"
+  "fetched_at": "20261127T151746Z"
  },
  {
   "id": "13284e1a0fae",
@@ -12680,7 +13522,7 @@
    ],
    "excerpt": "…climática em todo o estado em razão da estiagem severa e do aumento do risco de incêndios florestais associados aos efeitos do El Niño. A medida vale por 120 dias. O decreto permite reforçar a atuação dos órgãos públicos na prevenção e no combate ao fogo. \"O decreto fortalece a capacidade do Estado de agir diante da es…"
   },
-  "fetched_at": "20261126T153025Z"
+  "fetched_at": "20261127T151746Z"
  },
  {
   "id": "66507cc82409",
@@ -15519,7 +16361,7 @@
    "political_terms": [],
    "excerpt": "…rascas podrían incluir en en Galicia, Extremadura y el oeste de Castilla y León inundaciones locales y crecidas de ríos y barrancos, así como posibles deslizamientos de tierra Las precipitaciones serán este martes, fuertes y persistentes en Galicia, el macizo Galaico-Leonés, Sistema Central, Extremadura, suroeste de Ca…"
   },
-  "fetched_at": "20261126T153025Z"
+  "fetched_at": "20261127T151746Z"
  },
  {
   "id": "181da08701fc",
@@ -16267,7 +17109,7 @@
    ],
    "excerpt": "El Gobierno Vasco activa en plan de emergencias ante el incendio de Zaldibia, que quema 80 hectáreas Foco activo Uno de los flancos del incendio se habría descontrolado y podría poner en riesgo algunos bienes situados en las proximidades El Departamento de Seguridad del Gobierno Vasco ha declarado este lunes la Situaci…"
   },
-  "fetched_at": "20261126T153025Z"
+  "fetched_at": "20261127T151746Z"
  },
  {
   "id": "ec011165578a",
@@ -19873,7 +20715,7 @@
    "political_terms": [],
    "excerpt": "Near 90 in November as Santa Anas bring fire risk plus heat, especially along the coast - Click here to listen to this article - Share via See more from the L.A. Times in Google Search. Set us as preferred With that cool, rainy Halloween now a memory, Santa Ana winds are moving into Southern California starting Thurs…"
   },
-  "fetched_at": "20261126T153025Z"
+  "fetched_at": "20261127T151746Z"
  },
  {
   "id": "b19ed1c562cc",
@@ -21939,7 +22781,7 @@
    ],
    "excerpt": "…utilities are seeking a permanent cap on shareholder liability for catastrophic wildfires, as a criminal investigation into Southern California Edison’s role in the deadly Eaton fire continues. - Under the proposal, customers could be left paying more through their electric bills if a utility is found to have acted imp…"
   },
-  "fetched_at": "20261126T153025Z"
+  "fetched_at": "20261127T151746Z"
  },
  {
   "id": "f8208ec8f8f5",
@@ -27604,7 +28446,7 @@
    "political_terms": [],
    "excerpt": "… and the water pouring down the street and into the storm drains was far from a deluge. But the 37-year peninsula resident said he was worried about what was to come in the months ahead. Whether severe storms will materialize this winter remains an unanswered question. Despite the uncertainty, Sharp said one thing is c…"
   },
-  "fetched_at": "20261126T153025Z"
+  "fetched_at": "20261127T151746Z"
  },
  {
   "id": "b5ba8499623f",
@@ -30255,7 +31097,7 @@
    ],
    "excerpt": "…e state’s already battered coast. The National Weather Service issued a coastal flood warning that goes into effect Sunday morning and lasts through Thursday afternoon, saying it expects “significant coastal flooding” in San Diego and Orange counties that will inundate low-lying homes, businesses and critical infrastru…"
   },
-  "fetched_at": "20261126T153025Z"
+  "fetched_at": "20261127T151746Z"
  },
  {
   "id": "5aa99f5646e2",
@@ -31111,23 +31953,21 @@
   ],
   "seendate": "20261024T033001Z",
   "socialimage": "",
-  "text_available": true,
-  "low_confidence": false,
+  "text_available": false,
+  "low_confidence": true,
   "mentions_climate": false,
   "mentions_political_responsibility": false,
   "omits_climate": true,
   "omits_political": true,
   "evidence": {
    "topic_terms": [
-    "incendio",
-    "incendios",
-    "incendios forestales"
+    "incendios"
    ],
    "climate_terms": [],
    "political_terms": [],
-   "excerpt": "…fica el tipo de vegetación que se regenera, haciendo más difícil que se repitan incendios Ante los incendios forestales cada vez más intensos y peligrosos, quizá haya llegado el momento de mirar más allá de la extinción y replantearnos también cómo gestionamos el territorio una vez apagado el fuego. En los últimos tiem…"
+   "excerpt": "…fica el tipo de vegetación que se regenera, haciendo más difícil que se repitan incendios…"
   },
-  "fetched_at": "20261126T153025Z"
+  "fetched_at": "20261127T151746Z"
  },
  {
   "id": "8d7e11381a98",
@@ -33162,7 +34002,7 @@
    "political_terms": [],
    "excerpt": "…nesday could help extinguish what chance remained of another large, destructive blaze taking off in Southern California anytime soon, said Matt Shameson, a meteorologist with the U.S. Forest Service. This week’s storm brought localized flooding to several freeways by Thursday morning, including parts of Highway 101 in…"
   },
-  "fetched_at": "20261126T153025Z"
+  "fetched_at": "20261127T151746Z"
  },
  {
   "id": "cec5564c7f25",
@@ -45913,7 +46753,7 @@
    ],
    "excerpt": "Las cataratas del Iguazú cierran temporalmente por las inundaciones provocadas por el fenómeno de El Niño Argentina Esto sucede después de que el caudal del río superara los 12.000 metros cúbicos por segundo, más de seis veces su promedio habitual Las autoridades cerraron temporalmente el acceso turístico a las Catarat…"
   },
-  "fetched_at": "20261126T153025Z"
+  "fetched_at": "20261127T151746Z"
  },
  {
   "id": "b33812416d70",
@@ -49127,7 +49967,7 @@
    ],
    "excerpt": "…ia See more from the L.A. Times in Google Search. Set us as preferred A coastal flood warning covered beaches from Malibu to San Diego on Saturday as Tropical Storm Rachel moved toward Southern California, while Long Beach kept some oceanfront residents under an evacuation order, and Newport Beach closed piers and temp…"
   },
-  "fetched_at": "20261126T153025Z"
+  "fetched_at": "20261127T151746Z"
  },
  {
   "id": "9da2b2920c6e",
@@ -49420,7 +50260,7 @@
    "political_terms": [],
    "excerpt": "…condido, Palm Springs and Twentynine Palms. A moderate risk means that numerous flash floods are likely, and that many streams may flood. There is a chance that the San Diego River near Fashion Valley could reach minor flood stage. There’s also a 15% chance of that occurring in Oceanside, San Clemente, Laguna Niguel, R…"
   },
-  "fetched_at": "20261126T153025Z"
+  "fetched_at": "20261127T151746Z"
  },
  {
   "id": "270dbf5ff757",
@@ -50055,7 +50895,7 @@
    "political_terms": [],
    "excerpt": "Newport Beach, other coastal spots hit by flooding: ‘We’re preparing for more damage’ - Click here to listen to this article - Share via See more from the L.A. Times in Google Search. Set us as preferred Newport Beach expected intense surf Friday, but the high tide turned out to be much worse than the estimates. Wate…"
   },
-  "fetched_at": "20261126T153025Z"
+  "fetched_at": "20261127T151746Z"
  },
  {
   "id": "962b7c1fb935",
@@ -53820,7 +54660,7 @@
    "political_terms": [],
    "excerpt": "Restaurant workers face hidden dangers from gas stoves, including pollution and extreme heat - Click here to listen to this article - Share via See more from the L.A. Times in Google Search. Set us as preferred - A study of 27 commercial kitchens found gas appliances often exposed workers to nitrogen dioxide and extr…"
   },
-  "fetched_at": "20261126T153025Z"
+  "fetched_at": "20261127T151746Z"
  },
  {
   "id": "70e88cf9f870",
@@ -221876,7 +222716,7 @@
    ],
    "excerpt": "…conclusion that the heat island impact alone accounted for roughly half the 130 heat-related deaths. Jo Shields, head of sustainability for Mandy's housing association Walsall Housing Group, known as whg - which owns 23,000 homes across Walsall and the Midlands - hears the same complaint time and again. \"The heat gain…"
   },
-  "fetched_at": "20261126T153025Z"
+  "fetched_at": "20261127T151746Z"
  },
  {
   "id": "76881703c9dd",
@@ -258604,25 +259444,21 @@
   ],
   "seendate": "20250813T044107Z",
   "socialimage": "",
-  "text_available": true,
-  "low_confidence": false,
+  "text_available": false,
+  "low_confidence": true,
   "mentions_climate": false,
-  "mentions_political_responsibility": true,
+  "mentions_political_responsibility": false,
   "omits_climate": true,
-  "omits_political": false,
+  "omits_political": true,
   "evidence": {
    "topic_terms": [
-    "flooding",
     "heatwave"
    ],
    "climate_terms": [],
-   "political_terms": [
-    "government",
-    "president"
-   ],
-   "excerpt": "…nd it’s crucial this continues. “To avoid the swing between extreme drought and flooding and to secure water supplies for food production, we urgently need investment in water infrastructure and a more effective planning system.”…"
+   "political_terms": [],
+   "excerpt": "Amber health alerts issued as officials warn England is suffering from ‘nationally significant’ water shortfalls"
   },
-  "fetched_at": "20261126T153025Z"
+  "fetched_at": "20261127T151746Z"
  },
  {
   "id": "01ff4ac7cfab",
